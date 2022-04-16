@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
+    <value>Creating column</value>
+  </data>
+  <data name="BusyStatusColumnEditorModifyingColumn" xml:space="preserve">
+    <value>Editing column</value>
+  </data>
+  <data name="BusyStatusSessionCancellingPendingDuplicatorsAndEditors" xml:space="preserve">
+    <value>Cancelling pending duplicators &amp; editors</value>
+  </data>
+  <data name="BusyStatusSessionCategorizingViews" xml:space="preserve">
+    <value>Categorizing views</value>
+  </data>
+  <data name="BusyStatusSessionConnectingToDatabase" xml:space="preserve">
+    <value>Connecting to database</value>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultData" xml:space="preserve">
+    <value>Creating default data</value>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultViews" xml:space="preserve">
+    <value>Creating default views</value>
+  </data>
+  <data name="BusyStatusSessionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Disconnecting from database</value>
+  </data>
+  <data name="BusyStatusSessionDisposingViewCategorizations" xml:space="preserve">
+    <value>Disposing view categorizations</value>
+  </data>
+  <data name="BusyStatusSessionFreeingMemory" xml:space="preserve">
+    <value>Freeing memory</value>
+  </data>
+  <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
+    <value>Initializing stopwatch</value>
+  </data>
+  <data name="BusyStatusSessionInitializingViews" xml:space="preserve">
+    <value>Inititalizing views</value>
+  </data>
+  <data name="BusyStatusSessionShuttingDownStopwatch" xml:space="preserve">
+    <value>Shutting down stopwatch</value>
+  </data>
+  <data name="BusyStatusSessionShuttingDownViews" xml:space="preserve">
+    <value>Shutting down views</value>
+  </data>
+  <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
+    <value>Duplicating view</value>
+  </data>
+  <data name="BusyStatusViewEditorCreatingView" xml:space="preserve">
+    <value>Creating view</value>
+  </data>
+  <data name="BusyStatusViewEditorModifyingView" xml:space="preserve">
+    <value>Editing view</value>
+  </data>
+  <data name="ColumnEditorCaptionCreating" xml:space="preserve">
+    <value>Creating column</value>
+  </data>
+  <data name="ColumnEditorCaptionDuplicating" xml:space="preserve">
+    <value>Duplicating {0}</value>
+  </data>
+  <data name="ColumnEditorCaptionModifying" xml:space="preserve">
+    <value>Modifying {0}</value>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
+    <value>I use this view to know how to automatcally select from a list of items when necessary.</value>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectViewFirstColumn" xml:space="preserve">
+    <value>I use this column to know what to call each item in a list when selecting one.</value>
+  </data>
+  <data name="CommandBlockedDeleteSelectionView" xml:space="preserve">
+    <value>I use this view to know how to show a list of items when you need to select one.</value>
+  </data>
+  <data name="CommandBlockedDeleteSelectionViewFirstColumn" xml:space="preserve">
+    <value>I use this column to know what to call each item in a list when you need to select one.</value>
+  </data>
+  <data name="CommandBlockedDeleteSelf" xml:space="preserve">
+    <value>I could not work properly if you were to delete yourself.</value>
+  </data>
+  <data name="CommandBlockedDeleteTraitView" xml:space="preserve">
+    <value>I use this view to know how to show the fields on forms for you when you are editing something.</value>
+  </data>
+  <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
+    <value>I use this column to know the names of fields on forms for you when you are editing something.</value>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
+    <value>Latest end</value>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewName" xml:space="preserve">
+    <value>Assignment auto-select</value>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewWorkItemColumnName" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="DefaultAssignmentCompleteTraitName" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="DefaultAssignmentDueTraitName" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="DefaultAssignmentEstimateTraitName" xml:space="preserve">
+    <value>Estimate</value>
+  </data>
+  <data name="DefaultAssignmentNotesTraitName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DefaultAssignmentSelectionViewName" xml:space="preserve">
+    <value>Assignment selection</value>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>{0}'s work on {1}</value>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultAssignmentTraitEnumerationViewName" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentPerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentWorkItem" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueTrait" xml:space="preserve">
+    <value>List value</value>
+  </data>
+  <data name="DefaultBuiltInTraitNamePersonId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceAssignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceEnd" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceRange" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitEntityTypeId" xml:space="preserve">
+    <value>Entity type</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DefaultBuiltInTraitNameWorkItemId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DefaultListValueNameTraitValue" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultPersonNameTraitName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultPersonNotesTraitName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DefaultPersonSelectionViewName" xml:space="preserve">
+    <value>Person selection</value>
+  </data>
+  <data name="DefaultPersonSelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultPersonTraitEnumerationViewName" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="DefaultTimeSliceNotesTraitName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewName" xml:space="preserve">
+    <value>Time slice selection</value>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>{0}'s work on {1} at {2:G} for {3}</value>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultTimeSliceTraitEnumerationViewName" xml:space="preserve">
+    <value>Time slice</value>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameFormat" xml:space="preserve">
+    <value>{0} traits</value>
+  </data>
+  <data name="DefaultTraitNameTraitName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultTraitNotesTraitName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DefaultTraitSelectionViewName" xml:space="preserve">
+    <value>Trait selection</value>
+  </data>
+  <data name="DefaultTraitSelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultTraitTraitEnumerationViewName" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="DefaultWorkItemNameTraitName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultWorkItemNotesTraitName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DefaultWorkItemPriorityNameTraitName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultWorkItemPrioritySelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitEnumerationViewName" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitName" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="DefaultWorkItemPrioritytSelectionViewName" xml:space="preserve">
+    <value>Priority selection</value>
+  </data>
+  <data name="DefaultWorkItemPriorityValueHighName" xml:space="preserve">
+    <value>1 - High</value>
+  </data>
+  <data name="DefaultWorkItemPriorityValueLowName" xml:space="preserve">
+    <value>3 - Low</value>
+  </data>
+  <data name="DefaultWorkItemPriorityValueMediumName" xml:space="preserve">
+    <value>2 - Medium</value>
+  </data>
+  <data name="DefaultWorkItemSelectionViewName" xml:space="preserve">
+    <value>Work item selection</value>
+  </data>
+  <data name="DefaultWorkItemSelectionViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DefaultWorkItemTraitEnumerationViewName" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="EditorOptionListValueNameFormat" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="EditorOptionTraitNameFormat" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="EntityEditorCaptionCreating" xml:space="preserve">
+    <value>Creating {0}</value>
+  </data>
+  <data name="EntityEditorCaptionModifying" xml:space="preserve">
+    <value>Modifying {0}</value>
+  </data>
+  <data name="EntityTypeNameAssignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="EntityTypeNameListValue" xml:space="preserve">
+    <value>List value</value>
+  </data>
+  <data name="EntityTypeNamePerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="EntityTypeNameTimeSlice" xml:space="preserve">
+    <value>Time slice</value>
+  </data>
+  <data name="EntityTypeNameTrait" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="EntityTypeNameWorkItem" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="ListValueSelectionViewNameFormat" xml:space="preserve">
+    <value>{0} selection</value>
+  </data>
+  <data name="ListValueTraitsViewNameFormat" xml:space="preserve">
+    <value>{0} traits</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionBoolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffset" xml:space="preserve">
+    <value>Instant</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffsetRange" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionDouble" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionGuid" xml:space="preserve">
+    <value>Unique identifier</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionListValue" xml:space="preserve">
+    <value>List value</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionObject" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionPerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionString" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSlice" xml:space="preserve">
+    <value>Time slice</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSpan" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionTrait" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionTraitType" xml:space="preserve">
+    <value>Trait type</value>
+  </data>
+  <data name="OperationEditorDefaultCaptionWorkItem" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="OperationEditorErrorFunctionOverloadNull" xml:space="preserve">
+    <value>Function not found</value>
+  </data>
+  <data name="OperationEditorErrorLiteralValueNull" xml:space="preserve">
+    <value>Value not found</value>
+  </data>
+  <data name="OperationEditorFunctionFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
+    <value>Type not found</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewDueColumnName" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewEstimateColumnName" xml:space="preserve">
+    <value>Estimate</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewIncompleteParameterName" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewName" xml:space="preserve">
+    <value>Assignments</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverdueParameterName" xml:space="preserve">
+    <value>Overdue</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverEstimateParameterName" xml:space="preserve">
+    <value>Over estimate</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonColumnName" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonParameterName" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityColumnName" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityParameterName" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewTimeColumnName" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemColumnName" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemParameterName" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="StandardDatabaseInitializerFirstTimedWorkItemName" xml:space="preserve">
+    <value>Using Grindstone</value>
+  </data>
+  <data name="StatusProviderNameColumnEditor" xml:space="preserve">
+    <value>Column editor</value>
+  </data>
+  <data name="StatusProviderNameSession" xml:space="preserve">
+    <value>Session controller</value>
+  </data>
+  <data name="StatusProviderNameViewDuplicator" xml:space="preserve">
+    <value>View duplicator</value>
+  </data>
+  <data name="StatusProviderNameViewEditor" xml:space="preserve">
+    <value>View editor</value>
+  </data>
+  <data name="TraitTypeNameAssignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="TraitTypeNameBoolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="TraitTypeNameDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="TraitTypeNameEntityTypeId" xml:space="preserve">
+    <value>Entity type</value>
+  </data>
+  <data name="TraitTypeNameId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="TraitTypeNameInstant" xml:space="preserve">
+    <value>Instant</value>
+  </data>
+  <data name="TraitTypeNameInstantRange" xml:space="preserve">
+    <value>Instant range</value>
+  </data>
+  <data name="TraitTypeNameListValue" xml:space="preserve">
+    <value>List value</value>
+  </data>
+  <data name="TraitTypeNameMultiLineText" xml:space="preserve">
+    <value>Multi-line text</value>
+  </data>
+  <data name="TraitTypeNameNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="TraitTypeNameNumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="TraitTypeNamePerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="TraitTypeNameSingleLineText" xml:space="preserve">
+    <value>Single-line text</value>
+  </data>
+  <data name="TraitTypeNameTimeSlice" xml:space="preserve">
+    <value>Time slice</value>
+  </data>
+  <data name="TraitTypeNameTrait" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="TraitTypeNameTraitType" xml:space="preserve">
+    <value>Trait type</value>
+  </data>
+  <data name="TraitTypeNameWorkItem" xml:space="preserve">
+    <value>Work item</value>
+  </data>
+  <data name="ViewDuplicatorCaption" xml:space="preserve">
+    <value>Duplicating {0}</value>
+  </data>
+  <data name="ViewEditorCaptionCreating" xml:space="preserve">
+    <value>Creating view</value>
+  </data>
+  <data name="ViewEditorCaptionModifying" xml:space="preserve">
+    <value>Modifying {0}</value>
+  </data>
+  <data name="ViewEditorErrorEntityTypeNull" xml:space="preserve">
+    <value>Entity type not found</value>
+  </data>
+  <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
+    <value>Owner not found</value>
+  </data>
+</root>

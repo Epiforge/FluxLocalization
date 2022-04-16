@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
+    <value>Создание колонна</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusColumnEditorModifyingColumn" xml:space="preserve">
+    <value>Редактирование колонны</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCancellingPendingDuplicatorsAndEditors" xml:space="preserve">
+    <value>Отмена ожидающих дубликаторов и редакторов</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCategorizingViews" xml:space="preserve">
+    <value>Классификация просмотров</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionConnectingToDatabase" xml:space="preserve">
+    <value>Подключение к базе данных</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultData" xml:space="preserve">
+    <value>Создание данных по умолчанию</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultViews" xml:space="preserve">
+    <value>Создание видов по умолчанию</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Отключение от базы данных</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionDisposingViewCategorizations" xml:space="preserve">
+    <value>Утилизация просмотра категоризаций</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionFreeingMemory" xml:space="preserve">
+    <value>Свободная память</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
+    <value>Инициализация секундомера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionInitializingViews" xml:space="preserve">
+    <value>Инициализация просмотров</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionShuttingDownStopwatch" xml:space="preserve">
+    <value>Выключение секундомера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionShuttingDownViews" xml:space="preserve">
+    <value>Выключение взглядов</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
+    <value>Дупликация зрения</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewEditorCreatingView" xml:space="preserve">
+    <value>Создание просмотра</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewEditorModifyingView" xml:space="preserve">
+    <value>Редактирование просмотра</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionCreating" xml:space="preserve">
+    <value>Создание колонна</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionDuplicating" xml:space="preserve">
+    <value>Дублирование {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionModifying" xml:space="preserve">
+    <value>Изменение {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
+    <value>Я использую этот взгляд, чтобы узнать, как автоматически выбирать из списка элементов при необходимости.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectViewFirstColumn" xml:space="preserve">
+    <value>Я использую этот столбец, чтобы узнать, что позвонить каждому элементу в списке при выборе одного.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelectionView" xml:space="preserve">
+    <value>Я использую этот взгляд, чтобы узнать, как показать список элементов, когда вам нужно выбрать один.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelectionViewFirstColumn" xml:space="preserve">
+    <value>Я использую этот столбец, чтобы узнать, что позвонить каждому элементу в списке, когда вам нужно выбрать один.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelf" xml:space="preserve">
+    <value>Я не мог работать должным образом, если вы должны были удалить себя.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteTraitView" xml:space="preserve">
+    <value>Я использую этот взгляд, чтобы узнать, как показать поля на формы для вас, когда вы что-то редактируете.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
+    <value>Я использую этот столбец, чтобы узнать имена полей на формах для вас, когда вы что-то редактируете.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
+    <value>Последний конец</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewName" xml:space="preserve">
+    <value>Назначение Авто-Выбор</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewWorkItemColumnName" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentCompleteTraitName" xml:space="preserve">
+    <value>Полный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentDueTraitName" xml:space="preserve">
+    <value>Должное</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentEstimateTraitName" xml:space="preserve">
+    <value>Оценивать</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentNotesTraitName" xml:space="preserve">
+    <value>Примечания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewName" xml:space="preserve">
+    <value>Выбор присваивания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>{0} Работа на {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentTraitEnumerationViewName" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentPerson" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentWorkItem" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueTrait" xml:space="preserve">
+    <value>Список значений</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNamePersonId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceAssignment" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceDuration" xml:space="preserve">
+    <value>Продолжительность</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceEnd" xml:space="preserve">
+    <value>Конец</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceRange" xml:space="preserve">
+    <value>Диапазон</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceStart" xml:space="preserve">
+    <value>Начинать</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitEntityTypeId" xml:space="preserve">
+    <value>Тип объекта</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitType" xml:space="preserve">
+    <value>Тип</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameWorkItemId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultListValueNameTraitValue" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonNameTraitName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonNotesTraitName" xml:space="preserve">
+    <value>Примечания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonSelectionViewName" xml:space="preserve">
+    <value>Выбор человека</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonSelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonTraitEnumerationViewName" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceNotesTraitName" xml:space="preserve">
+    <value>Примечания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewName" xml:space="preserve">
+    <value>Выбор ломтика времени</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>Работа {0} на {1} на {2:g} для {3}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceTraitEnumerationViewName" xml:space="preserve">
+    <value>Временной среза</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameFormat" xml:space="preserve">
+    <value>{0} Черты</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitNameTraitName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitNotesTraitName" xml:space="preserve">
+    <value>Примечания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitSelectionViewName" xml:space="preserve">
+    <value>Выбор чертов</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitSelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitTraitEnumerationViewName" xml:space="preserve">
+    <value>Черта характера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemNameTraitName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemNotesTraitName" xml:space="preserve">
+    <value>Примечания</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityNameTraitName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPrioritySelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitEnumerationViewName" xml:space="preserve">
+    <value>Приоритет</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitName" xml:space="preserve">
+    <value>Приоритет</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPrioritytSelectionViewName" xml:space="preserve">
+    <value>Приоритетный выбор</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueHighName" xml:space="preserve">
+    <value>1 - Высокое</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueLowName" xml:space="preserve">
+    <value>3 - Низкий</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueMediumName" xml:space="preserve">
+    <value>2 - Среда</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemSelectionViewName" xml:space="preserve">
+    <value>Выбор товара работы</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemSelectionViewNameColumnName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemTraitEnumerationViewName" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EditorOptionListValueNameFormat" xml:space="preserve">
+    <value>{0} ({1})</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EditorOptionTraitNameFormat" xml:space="preserve">
+    <value>{0} ({1})</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionCreating" xml:space="preserve">
+    <value>Создание {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionModifying" xml:space="preserve">
+    <value>Изменение {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameAssignment" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameListValue" xml:space="preserve">
+    <value>Список значений</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNamePerson" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameTimeSlice" xml:space="preserve">
+    <value>Временной среза</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameTrait" xml:space="preserve">
+    <value>Черта характера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameWorkItem" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ListValueSelectionViewNameFormat" xml:space="preserve">
+    <value>{0} Выбор</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ListValueTraitsViewNameFormat" xml:space="preserve">
+    <value>{0} Черты</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionBoolean" xml:space="preserve">
+    <value>Логический</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffset" xml:space="preserve">
+    <value>Мгновенный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffsetRange" xml:space="preserve">
+    <value>Диапазон</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDouble" xml:space="preserve">
+    <value>Количество</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionGuid" xml:space="preserve">
+    <value>Уникальный идентификатор</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionListValue" xml:space="preserve">
+    <value>Список значений</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionObject" xml:space="preserve">
+    <value>Ценность</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionPerson" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionString" xml:space="preserve">
+    <value>Текст</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSlice" xml:space="preserve">
+    <value>Временной среза</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSpan" xml:space="preserve">
+    <value>Продолжительность</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTrait" xml:space="preserve">
+    <value>Черта характера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTraitType" xml:space="preserve">
+    <value>Тип черта</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionWorkItem" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorErrorFunctionOverloadNull" xml:space="preserve">
+    <value>Функция не найдена</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorErrorLiteralValueNull" xml:space="preserve">
+    <value>Значение не найдено</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorFunctionFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
+    <value>Тип не найден</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
+    <value>Полный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewDueColumnName" xml:space="preserve">
+    <value>Должное</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewEstimateColumnName" xml:space="preserve">
+    <value>Оценивать</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewIncompleteParameterName" xml:space="preserve">
+    <value>Неполный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewName" xml:space="preserve">
+    <value>Назначения</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverdueParameterName" xml:space="preserve">
+    <value>Просроченный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverEstimateParameterName" xml:space="preserve">
+    <value>Переоценивать</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonColumnName" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonParameterName" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityColumnName" xml:space="preserve">
+    <value>Приоритет</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityParameterName" xml:space="preserve">
+    <value>Приоритет</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewTimeColumnName" xml:space="preserve">
+    <value>Время</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemColumnName" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemParameterName" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerFirstTimedWorkItemName" xml:space="preserve">
+    <value>Используя grindstone</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameColumnEditor" xml:space="preserve">
+    <value>Редактор колонна</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameSession" xml:space="preserve">
+    <value>Контроллер сеанса</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameViewDuplicator" xml:space="preserve">
+    <value>Просмотр дубликатора</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameViewEditor" xml:space="preserve">
+    <value>Просмотр редактора</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameAssignment" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameBoolean" xml:space="preserve">
+    <value>Логический</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameDuration" xml:space="preserve">
+    <value>Продолжительность</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameEntityTypeId" xml:space="preserve">
+    <value>Тип объекта</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameId" xml:space="preserve">
+    <value>Я БЫ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameInstant" xml:space="preserve">
+    <value>Мгновенный</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameInstantRange" xml:space="preserve">
+    <value>Мгновенный диапазон</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameListValue" xml:space="preserve">
+    <value>Список значений</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameMultiLineText" xml:space="preserve">
+    <value>Многострочный текст</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameNone" xml:space="preserve">
+    <value>Никто</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameNumber" xml:space="preserve">
+    <value>Количество</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNamePerson" xml:space="preserve">
+    <value>Человек</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameSingleLineText" xml:space="preserve">
+    <value>Однострочный текст</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTimeSlice" xml:space="preserve">
+    <value>Временной среза</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTrait" xml:space="preserve">
+    <value>Черта характера</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTraitType" xml:space="preserve">
+    <value>Тип черта</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameWorkItem" xml:space="preserve">
+    <value>Рабочий элемент</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewDuplicatorCaption" xml:space="preserve">
+    <value>Дублирование {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorCaptionCreating" xml:space="preserve">
+    <value>Создание просмотра</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorCaptionModifying" xml:space="preserve">
+    <value>Изменение {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorErrorEntityTypeNull" xml:space="preserve">
+    <value>Тип сущности не найден</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
+    <value>Владелец не найден</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

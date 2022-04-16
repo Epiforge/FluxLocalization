@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
+    <value>创建列</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusColumnEditorModifyingColumn" xml:space="preserve">
+    <value>编辑专栏</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCancellingPendingDuplicatorsAndEditors" xml:space="preserve">
+    <value>取消待处理的复制品和编辑</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCategorizingViews" xml:space="preserve">
+    <value>分类视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionConnectingToDatabase" xml:space="preserve">
+    <value>连接到数据库</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultData" xml:space="preserve">
+    <value>创建默认数据</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionCreatingDefaultViews" xml:space="preserve">
+    <value>创建默认视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionDisconnectingFromDatabase" xml:space="preserve">
+    <value>断开数据库</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionDisposingViewCategorizations" xml:space="preserve">
+    <value>处理视图分类</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionFreeingMemory" xml:space="preserve">
+    <value>释放内存</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
+    <value>初始化秒表</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionInitializingViews" xml:space="preserve">
+    <value>初始化视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionShuttingDownStopwatch" xml:space="preserve">
+    <value>关闭秒表</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSessionShuttingDownViews" xml:space="preserve">
+    <value>关闭视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
+    <value>复制视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewEditorCreatingView" xml:space="preserve">
+    <value>创建视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusViewEditorModifyingView" xml:space="preserve">
+    <value>编辑视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionCreating" xml:space="preserve">
+    <value>创建列</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionDuplicating" xml:space="preserve">
+    <value>复制{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorCaptionModifying" xml:space="preserve">
+    <value>修改{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
+    <value>我使用此视图知道如何在必要时自动从项目列表中进行选择。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteAutoSelectViewFirstColumn" xml:space="preserve">
+    <value>我使用此列知道选择一个时要在列表中调用的每个项目。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelectionView" xml:space="preserve">
+    <value>我使用此视图知道如何在需要选择一个时显示项目列表。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelectionViewFirstColumn" xml:space="preserve">
+    <value>当您需要选择一个时，我使用此列知道列表中的每个项目。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteSelf" xml:space="preserve">
+    <value>如果你删除自己，我无法正常工作。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteTraitView" xml:space="preserve">
+    <value>我使用此视图知道如何在编辑某些内容时向您展示表单上的字段。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
+    <value>在编辑某些内容时，我使用此列以了解您的表单上的字段名称。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
+    <value>最新结束</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewName" xml:space="preserve">
+    <value>分配自动选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentAutoSelectViewWorkItemColumnName" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentCompleteTraitName" xml:space="preserve">
+    <value>完全的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentDueTraitName" xml:space="preserve">
+    <value>到期的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentEstimateTraitName" xml:space="preserve">
+    <value>估计</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentNotesTraitName" xml:space="preserve">
+    <value>笔记</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewName" xml:space="preserve">
+    <value>分配选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>{0}在{1}上的工作</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentSelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultAssignmentTraitEnumerationViewName" xml:space="preserve">
+    <value>任务</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentPerson" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameAssignmentWorkItem" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameListValueTrait" xml:space="preserve">
+    <value>列出价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNamePersonId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceAssignment" xml:space="preserve">
+    <value>任务</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceDuration" xml:space="preserve">
+    <value>期间</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceEnd" xml:space="preserve">
+    <value>结尾</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceRange" xml:space="preserve">
+    <value>范围</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTimeSliceStart" xml:space="preserve">
+    <value>开始</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitEntityTypeId" xml:space="preserve">
+    <value>实体类型</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameTraitType" xml:space="preserve">
+    <value>类型</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultBuiltInTraitNameWorkItemId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultListValueNameTraitValue" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonNameTraitName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonNotesTraitName" xml:space="preserve">
+    <value>笔记</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonSelectionViewName" xml:space="preserve">
+    <value>人选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonSelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultPersonTraitEnumerationViewName" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceNotesTraitName" xml:space="preserve">
+    <value>笔记</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewName" xml:space="preserve">
+    <value>时间切片选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnFormat" xml:space="preserve">
+    <value>{0}在{2:g}的{1}的工作{3}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceSelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTimeSliceTraitEnumerationViewName" xml:space="preserve">
+    <value>时间片</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitEnumerationViewNameFormat" xml:space="preserve">
+    <value>{0}特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitNameTraitName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitNotesTraitName" xml:space="preserve">
+    <value>笔记</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitSelectionViewName" xml:space="preserve">
+    <value>特质选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitSelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultTraitTraitEnumerationViewName" xml:space="preserve">
+    <value>特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemNameTraitName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemNotesTraitName" xml:space="preserve">
+    <value>笔记</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityNameTraitName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPrioritySelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitEnumerationViewName" xml:space="preserve">
+    <value>优先事项</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityTraitName" xml:space="preserve">
+    <value>优先事项</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPrioritytSelectionViewName" xml:space="preserve">
+    <value>优先选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueHighName" xml:space="preserve">
+    <value>1  - 高</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueLowName" xml:space="preserve">
+    <value>3  - 低</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemPriorityValueMediumName" xml:space="preserve">
+    <value>2  - 中等</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemSelectionViewName" xml:space="preserve">
+    <value>工作项目选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemSelectionViewNameColumnName" xml:space="preserve">
+    <value>姓名</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultWorkItemTraitEnumerationViewName" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EditorOptionListValueNameFormat" xml:space="preserve">
+    <value>{0}（{1}）</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EditorOptionTraitNameFormat" xml:space="preserve">
+    <value>{0}（{1}）</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionCreating" xml:space="preserve">
+    <value>创建{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionModifying" xml:space="preserve">
+    <value>修改{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameAssignment" xml:space="preserve">
+    <value>任务</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameListValue" xml:space="preserve">
+    <value>列出价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNamePerson" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameTimeSlice" xml:space="preserve">
+    <value>时间片</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameTrait" xml:space="preserve">
+    <value>特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityTypeNameWorkItem" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ListValueSelectionViewNameFormat" xml:space="preserve">
+    <value>{0}选择</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ListValueTraitsViewNameFormat" xml:space="preserve">
+    <value>{0}特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
+    <value>任务</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionBoolean" xml:space="preserve">
+    <value>布尔</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffset" xml:space="preserve">
+    <value>立即的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDateTimeOffsetRange" xml:space="preserve">
+    <value>范围</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionDouble" xml:space="preserve">
+    <value>数字</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionGuid" xml:space="preserve">
+    <value>唯一标识符</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionListValue" xml:space="preserve">
+    <value>列出价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionObject" xml:space="preserve">
+    <value>价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionPerson" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionString" xml:space="preserve">
+    <value>文本</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSlice" xml:space="preserve">
+    <value>时间片</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTimeSpan" xml:space="preserve">
+    <value>期间</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTrait" xml:space="preserve">
+    <value>特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionTraitType" xml:space="preserve">
+    <value>特质</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorDefaultCaptionWorkItem" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorErrorFunctionOverloadNull" xml:space="preserve">
+    <value>找不到功能</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorErrorLiteralValueNull" xml:space="preserve">
+    <value>找不到价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorFunctionFormat" xml:space="preserve">
+    <value>{0}  -  {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
+    <value>键入未找到</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
+    <value>完全的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewDueColumnName" xml:space="preserve">
+    <value>到期的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewEstimateColumnName" xml:space="preserve">
+    <value>估计</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewIncompleteParameterName" xml:space="preserve">
+    <value>不完整</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewName" xml:space="preserve">
+    <value>分配</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverdueParameterName" xml:space="preserve">
+    <value>逾期</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewOverEstimateParameterName" xml:space="preserve">
+    <value>高估</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonColumnName" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPersonParameterName" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityColumnName" xml:space="preserve">
+    <value>优先事项</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewPriorityParameterName" xml:space="preserve">
+    <value>优先事项</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewTimeColumnName" xml:space="preserve">
+    <value>时间</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemColumnName" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerAssignmentViewWorkItemParameterName" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StandardDatabaseInitializerFirstTimedWorkItemName" xml:space="preserve">
+    <value>使用磨石</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameColumnEditor" xml:space="preserve">
+    <value>列编辑器</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameSession" xml:space="preserve">
+    <value>会话控制器</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameViewDuplicator" xml:space="preserve">
+    <value>查看复制器</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameViewEditor" xml:space="preserve">
+    <value>查看编辑器</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameAssignment" xml:space="preserve">
+    <value>任务</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameBoolean" xml:space="preserve">
+    <value>布尔</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameDuration" xml:space="preserve">
+    <value>期间</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameEntityTypeId" xml:space="preserve">
+    <value>实体类型</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameId" xml:space="preserve">
+    <value>ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameInstant" xml:space="preserve">
+    <value>立即的</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameInstantRange" xml:space="preserve">
+    <value>即时范围</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameListValue" xml:space="preserve">
+    <value>列出价值</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameMultiLineText" xml:space="preserve">
+    <value>多线文本</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameNone" xml:space="preserve">
+    <value>没有任何</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameNumber" xml:space="preserve">
+    <value>数字</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNamePerson" xml:space="preserve">
+    <value>人</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameSingleLineText" xml:space="preserve">
+    <value>单行文本</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTimeSlice" xml:space="preserve">
+    <value>时间片</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTrait" xml:space="preserve">
+    <value>特征</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameTraitType" xml:space="preserve">
+    <value>特质</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="TraitTypeNameWorkItem" xml:space="preserve">
+    <value>工作项目</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewDuplicatorCaption" xml:space="preserve">
+    <value>复制{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorCaptionCreating" xml:space="preserve">
+    <value>创建视图</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorCaptionModifying" xml:space="preserve">
+    <value>修改{0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorErrorEntityTypeNull" xml:space="preserve">
+    <value>找不到实体类型</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
+    <value>所有者找不到</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>
