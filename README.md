@@ -16,7 +16,7 @@ This GitHub repo contains the resource files Grindstone uses for localization in
 * Slovak (sk)
 * Swedish (sv)
 
-## Hey, I speak one of these language and some of these translations seem a little rough. What's up?
+## Hey, I speak one (or more) of these languages and some of these translations seem a little rough. What's up?
 The developers of Grindstone speak English.
 Many of Grindstone's users do not, primarily.
 The best that we can do on our own is pump all the English text in the app through a translation API to produce approximate translations.
