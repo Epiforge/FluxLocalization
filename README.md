@@ -53,5 +53,6 @@ Grindstone will display this list of contributors in its About dialog.
 
 ## My language isn't even here. May I add it?
 Yes!
-Just submit a PR like you would above, except with the addition of a whole new file.
-Just make sure you use the appropriate ISO 639-1 code of the language in its file name.
+Just submit a PR like you would above, except with the addition of brand new files.
+Just make sure you use the appropriate ISO 639-1 code of the language to whcih you are translating in your new file names.
+Look at the other languages for an example of the expected format.
