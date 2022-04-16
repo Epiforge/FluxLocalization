@@ -47,11 +47,11 @@ It will be automatically translated by machine, so you will be able to make futu
 
 ## What's the deal with these curly braces and numbers and letters?
 Occassionally, Grindstone needs to insert the name of something else into text. 
-When this happens, you will first see a `{`, followed by a number.
+When this happens, you will first see in the English version a `{`, followed by a number.
 Then there may be a `:` followed by letters, numbers, symbols, and spaces.
 Finally, a `}` will end the insertion marker.
-These markers need to be inserted as is into translated text, at the appropriate position.
-If there are any mistakes, this will prevent Grindstone from correctly displaying all the relevant information to the user.
+These markers need to be inserted as is into translated text at the appropriate position.
+If there are any mistakes Grindstone will not correctly display all the relevant information to the user.
 
 ## Do I get credit for my work?
 Absolutely!
