@@ -1,5 +1,5 @@
-# Grindstone Next Localization Repository
-This GitHub repo contains the resource files Grindstone Next uses for localization in the following languages:
+# Grindstone Localization Repository
+This GitHub repo contains the resource files Grindstone uses for localization in the following languages:
 * Chinese (zh-CN)
 * Czech (cs)
 * Danish (da)
@@ -29,9 +29,21 @@ First, you'll need some tools:
 
 Next, you need to [sign up for a GitHub account](https://github.com/signup) if you don't already have one.
 
-Then, fork this repository, clone your fork onto your computer, edit the resource files for your language in Visual Studio, and then submit a pull request back to us. For a tutorial on how to fork repos and submit PRs, see: https://youtu.be/nT8KGYVurIU
+Then...
+1. fork this repository
+2. clone your fork onto your computer
+3. edit the resource files for your language using Visual Studio
+4. commit your changes and push them back up to GitHub
+5. submit a pull request back to us
 
-Approved PRs will make their way into subsequent releases of Grindstone!
+For a tutorial on how to fork repos and submit PRs, see: https://youtu.be/nT8KGYVurIU
+
+Changes from approved PRs will make their way into subsequent releases of Grindstone!
+
+As you are translating, please feel free to clear or alter the comment field for entries which we have added, indicating that the entry was automatically translated.
+
+As we add new features (and new text) to Grindstone, we will also submit our own PRs to this repo to include the new text.
+It will be automatically translated by machine, so you will be able to make future contributions for native speakers of your language if you wish.
 
 ## Do I get credit for my work?
 Absolutely!
