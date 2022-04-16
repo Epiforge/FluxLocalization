@@ -45,6 +45,14 @@ As you are translating, please feel free to clear or alter the comment field for
 As we add new features (and new text) to Grindstone, we will also submit our own PRs to this repo to include the new text.
 It will be automatically translated by machine, so you will be able to make future contributions for native speakers of your language if you wish.
 
+## What's the deal with these curly braces and numbers and letters?
+Occassionally, Grindstone needs to insert the name of something else into text. 
+When this happens, you will first see a `{`, followed by a number.
+Then there may be a `:` followed by letters, numbers, symbols, and spaces.
+Finally, a `}` will end the insertion marker.
+These markers need to be inserted as is into translated text, at the appropriate position.
+If there are any mistakes, this will prevent Grindstone from correctly displaying all the relevant information to the user.
+
 ## Do I get credit for my work?
 Absolutely!
 Find the entry called "Contributors" in each resource file to which you have contributed and add your name to the list of folks that have contributed for that language.
