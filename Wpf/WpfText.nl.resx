@@ -1237,4 +1237,8 @@ Beledigende Formule-expressie:
     <value>Als u doorgaat, worden de momenteel weergegeven weergave en de kolommen permanent verwijderd.De door het getoonde vermelding wordt niet verwijderd.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopwatch-operaties Begin vanuit de context van het tijdslip dat u momenteel timing bent.Als u informatie (bijvoorbeeld tellen, max, min, som, enz.) Van de toewijzing, persoon, werkitem of een lijstwaarde die is gekoppeld aan de huidige tijdslijf, gebruikt u de juiste query in contextfunctie om debijbehorende entiteit om te aggregeren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

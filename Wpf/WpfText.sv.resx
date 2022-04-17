@@ -1237,4 +1237,8 @@ Förolämpande formeluttryck:
     <value>Om du fortsätter, kommer den aktuella visade vyn och dess kolumner att raderas permanent.De poster som visas av den kommer inte att raderas.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopwatch-operationer börjar från sammanhanget av den tidsskiva du för närvarande är timing.Om du vill samla information (t.ex. räkna, max, min, summa etc.) från uppdraget, person, arbetsobjekt eller ett listvärde som är kopplat till den aktuella tidskivan, använd lämplig fråga i kontextfunktionen för att indikeraassocierad enhet för att aggregera.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

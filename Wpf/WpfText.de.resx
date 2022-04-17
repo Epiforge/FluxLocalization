@@ -1237,4 +1237,8 @@ Beleidigende Formelausdruck:
     <value>Wenn Sie fortfahren, werden die aktuell angezeigte Ansicht und ihre Säulen dauerhaft gelöscht.Die von ihm angezeigten Eingaben werden nicht gelöscht.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stoppuhroperationen Starten Sie im Kontext der Zeitscheibe, die Sie gerade zeitlich timetieren.Wenn Sie Informationen zusammenfassen (z. B. Anzahl, MAX, MIN, MIN, SUM, SUM usw.) aus der Zuordnung, Person, des Arbeitspostens oder einem mit der aktuellen Zeitscheibe verknüpften Listenwert, verwenden Sie die entsprechende Abfrage in der Kontextfunktion, um das anzuzeigenassoziierte Entität, von der zu aggregieren ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

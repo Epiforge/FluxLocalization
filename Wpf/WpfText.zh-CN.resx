@@ -1237,4 +1237,8 @@
     <value>如果继续，将永久删除当前显示的视图及其列。它不会删除它显示的条目。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>秒表操作从您当前的时机的时机的上下文开始。如果您希望从分配，人员，工作项或与当前时间片关联的列表值聚合信息（例如，MAX，MIN等），则使用上下文函数中的相应查询来指示从中聚合的相关实体。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

@@ -1237,4 +1237,8 @@ Expresia vzorec:
     <value>Ak budete pokračovať, aktuálne zobrazené zobrazenie a jeho stĺpce budú trvalo odstránené.Záznamy zobrazené nebudú odstránené.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Operácie stopiek začínajú z kontextu časového rozlíšenia, ktoré práve načasujete.Ak by ste chceli agregovať informácie (napr. Počet, max, min, súčet atď.) Zo zadania, osoby, pracovnej položky alebo hodnoty zoznamu spojenej s aktuálnym časovým rezom, použite vhodný dotaz v kontextovej funkcii na označeniepridružený subjekt, z ktorého sa má agregovať.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

@@ -1237,4 +1237,8 @@ Obrażająca wyrażenie formuły:
     <value>Jeśli kontynuujesz, aktualnie wyświetlany widok i jego kolumny zostaną trwale usunięte.Wpisy wyświetlane przez nie zostaną usunięte.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Operacje Stopwatch zaczynają się od kontekstu przedziału czasu obecnie czas.Jeśli chcesz agregować informacje (np. Liczba, max, min, suma itp.) Z zadania, osoby, elementu roboczego lub wartości listy powiązanej z bieżącym plasterkiem czasu, użyj odpowiedniego zapytania w funkcji kontekstu, aby wskazaćpodmiot związany z tym, z którego do agregatu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>
