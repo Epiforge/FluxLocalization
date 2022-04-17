@@ -513,6 +513,51 @@
   <data name="StandardDatabaseInitializerFirstTimedWorkItemName" xml:space="preserve">
     <value>Using Grindstone</value>
   </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
+    <value>Latest end</value>
+  </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
+    <value>My assignments</value>
+  </data>
+  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
+    <value>My time slices</value>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
+    <value>Priorities</value>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
+    <value>Time slices</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
+    <value>Work items</value>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Column editor</value>
   </data>

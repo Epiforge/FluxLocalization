@@ -749,4 +749,64 @@
     <value>Bancos de dados de rebolo</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
+    <value>Último fim</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
+    <value>Minhas atribuições</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
+    <value>Minhas fatias de tempo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
+    <value>Pessoas</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
+    <value>Nome</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
+    <value>Prioridades</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
+    <value>Nome</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
+    <value>Duração</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
+    <value>Fim</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
+    <value>A partir de</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
+    <value>Fatias de tempo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
+    <value>Começar</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
+    <value>Para</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
+    <value>Itens de trabalho</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
+    <value>Nome</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>
