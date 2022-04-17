@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusClientGettingViewData" xml:space="preserve">
+    <value>Få visningsdata</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientIndexingViews" xml:space="preserve">
+    <value>Indeksere visninger</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingParameters" xml:space="preserve">
+    <value>Initialiserende parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingViews" xml:space="preserve">
+    <value>Initialiserer visninger</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionApplyingUserViewPreferences" xml:space="preserve">
+    <value>Bruk av brukervisningspreferanser</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Koble fra databasen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromEngine" xml:space="preserve">
+    <value>Slå av endringsovervåking</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromHost" xml:space="preserve">
+    <value>Slå avvisningskontroll</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionFlushingActionsQueue" xml:space="preserve">
+    <value>Spyling Actions Queue.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchema" xml:space="preserve">
+    <value>Initialiserende skjema</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchemaVersion" xml:space="preserve">
+    <value>Initialiserende skjemaversjon {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewData" xml:space="preserve">
+    <value>Initialiserer visningsdata</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewDataFormat" xml:space="preserve">
+    <value>Initialisering Vis data: {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload0" xml:space="preserve">
+    <value>Absolutt verdi av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload1" xml:space="preserve">
+    <value>Absolutt verdi av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcoshOverload0" xml:space="preserve">
+    <value>Hyperbolisk bue-cosinus av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcosOverload0" xml:space="preserve">
+    <value>Arc-cosine av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddDaysOverload0" xml:space="preserve">
+    <value>Legg til dager til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload0" xml:space="preserve">
+    <value>Legg til timer i en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload1" xml:space="preserve">
+    <value>Legg til timer på et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload0" xml:space="preserve">
+    <value>Legg til millisekunder i løpet av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload1" xml:space="preserve">
+    <value>Legg til millisekunder til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload0" xml:space="preserve">
+    <value>Legg til minutter til en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload1" xml:space="preserve">
+    <value>Legg til minutter til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMonthsOverload0" xml:space="preserve">
+    <value>Legg til måneder til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload0" xml:space="preserve">
+    <value>Legg til tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload1" xml:space="preserve">
+    <value>Legg til varigheter til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload2" xml:space="preserve">
+    <value>Legg til varigheter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload0" xml:space="preserve">
+    <value>Legg til sekunder i løpet av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload1" xml:space="preserve">
+    <value>Legg til sekunder til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddYearsOverload0" xml:space="preserve">
+    <value>Legg til år til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAndOverload0" xml:space="preserve">
+    <value>Logiske og boolere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinhOverload0" xml:space="preserve">
+    <value>Hyperbolisk bue-sinus av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinOverload0" xml:space="preserve">
+    <value>Arc-sinus av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtan2Overload0" xml:space="preserve">
+    <value>Vinkel hvis tangent er kvotienten på to tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanhOverload0" xml:space="preserve">
+    <value>Hyperbolisk bue-tangent av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanOverload0" xml:space="preserve">
+    <value>Bue-tangent av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload0" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload1" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload2" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload3" xml:space="preserve">
+    <value>Gjennomsnittlig verdi av et talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload4" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av varighetstrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload5" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av et øyeblikkelig trekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload6" xml:space="preserve">
+    <value>Gjennomsnittlige verdier av et øyeblikkelig rekkevidde som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload7" xml:space="preserve">
+    <value>Gjennomsnittlig verdi av et talltrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload0" xml:space="preserve">
+    <value>Runde et tall opp til nærmeste hele tallet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload1" xml:space="preserve">
+    <value>Rundt et øyeblikk opp til nærmeste hele varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload2" xml:space="preserve">
+    <value>Rundt et øyeblikk opp til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload3" xml:space="preserve">
+    <value>Rundt varigheten av et øyeblikkelig rekkevidde opp til nærmeste hele varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload4" xml:space="preserve">
+    <value>Rundt varigheten av øyeblikkelig rekkevidde opp til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload5" xml:space="preserve">
+    <value>Rundt en varighet opp til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload6" xml:space="preserve">
+    <value>Rundt en varighet opp til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoalesceOverload0" xml:space="preserve">
+    <value>Velg den første ikke-null-verdien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionConcatOverload0" xml:space="preserve">
+    <value>Sammenkoblet tekstverdier</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Hvorvidt et verdi tilfelle ufølsomt inneholder en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0" xml:space="preserve">
+    <value>Om en verdi inneholder en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0" xml:space="preserve">
+    <value>Hyperbolisk cosinus i en vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0" xml:space="preserve">
+    <value>Cosinus av en vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload0" xml:space="preserve">
+    <value>Telle antall verdier av en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload1" xml:space="preserve">
+    <value>Telle antall verdier av en egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDateOverload0" xml:space="preserve">
+    <value>Dato for et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOfWeekOverload0" xml:space="preserve">
+    <value>Dag i uken med et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOverload0" xml:space="preserve">
+    <value>Dag med et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload0" xml:space="preserve">
+    <value>Dager etter varigheten av et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload1" xml:space="preserve">
+    <value>Dager med en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultAssignmentOverload0" xml:space="preserve">
+    <value>Standardverdien for en oppdragstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultBooleanOverload0" xml:space="preserve">
+    <value>Standardverdien for en boolsk egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultDurationOverload0" xml:space="preserve">
+    <value>Standardverdien for en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultEntityTypeIdOverload0" xml:space="preserve">
+    <value>Standardverdien for en enhetstype ID-egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultIdOverload0" xml:space="preserve">
+    <value>Standardverdien for en ID-egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantOverload0" xml:space="preserve">
+    <value>Standardverdien for et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantRangeOverload0" xml:space="preserve">
+    <value>Standardverdien for et øyeblikkelig effekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultListValueOverload0" xml:space="preserve">
+    <value>Standardverdien for en listeverdientrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultMultiLineTextOverload0" xml:space="preserve">
+    <value>Standardverdien for en multi-line teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultNumberOverload0" xml:space="preserve">
+    <value>Standardverdien for et talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultPersonOverload0" xml:space="preserve">
+    <value>Standardverdien for en personkraft</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultSingleLineTextOverload0" xml:space="preserve">
+    <value>Standardverdien for en enkelt linje teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTimeSliceOverload0" xml:space="preserve">
+    <value>Standardverdien for en Time Slice Trait</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitOverload0" xml:space="preserve">
+    <value>Standardverdien for en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitTypeOverload0" xml:space="preserve">
+    <value>Standardverdien for en egenskapstype</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultWorkItemOverload0" xml:space="preserve">
+    <value>Standardverdien for et arbeidsgruppe</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload0" xml:space="preserve">
+    <value>Del et tall med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload1" xml:space="preserve">
+    <value>Del varigheten av et øyeblikk med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload2" xml:space="preserve">
+    <value>Del varigheten av et øyeblikkelig rekkevidde ved varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload3" xml:space="preserve">
+    <value>Del varigheten av et øyeblikkelig rekkevidde med en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload4" xml:space="preserve">
+    <value>Del en varighet med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload5" xml:space="preserve">
+    <value>Del en varighet ved varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload6" xml:space="preserve">
+    <value>Del en varighet med en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndOverload0" xml:space="preserve">
+    <value>Slutt øyeblikkelig av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Hvorvidt en verdi sak ufølende slutter med en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Sjekk verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For verdi på slutten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0" xml:space="preserve">
+    <value>Om en verdi ender med en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter0" xml:space="preserve">
+    <value>Sjekk verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter1" xml:space="preserve">
+    <value>For verdi på slutten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEOverload0" xml:space="preserve">
+    <value>Konstant E (naturlig logaritmisk base)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Hvorvidt to tekstverdier tilfelle ufølsomt lik hverandre</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualOverload0" xml:space="preserve">
+    <value>Om to verdier er lik hverandre</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionExpOverload0" xml:space="preserve">
+    <value>Heve e til en kraft</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload0" xml:space="preserve">
+    <value>Rundt et tall ned til nærmeste hele tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload1" xml:space="preserve">
+    <value>Rundt et øyeblikk ned til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload2" xml:space="preserve">
+    <value>Rundt et øyeblikk ned til en nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload3" xml:space="preserve">
+    <value>Rundt varigheten av et øyeblikkelig rekkevidde ned til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload4" xml:space="preserve">
+    <value>Rundt varigheten av et øyeblikkelig rekkevidde ned til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload5" xml:space="preserve">
+    <value>Rundt varigheten ned til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload6" xml:space="preserve">
+    <value>Rundt en varighet ned til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0" xml:space="preserve">
+    <value>Legg verdier i et format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0Parameter0" xml:space="preserve">
+    <value>Format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromHoursOverload0" xml:space="preserve">
+    <value>Varighet fra totalt antall timer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMillisecondsOverload0" xml:space="preserve">
+    <value>Varighet fra et totalt antall millisekunder</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMinutesOverload0" xml:space="preserve">
+    <value>Varighet fra et totalt antall minutter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromSecondsOverload0" xml:space="preserve">
+    <value>Varighet fra et totalt antall sekunder</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOrEqualOverload0" xml:space="preserve">
+    <value>Om den første verdien er større enn eller lik den andre verdien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOverload0" xml:space="preserve">
+    <value>Om den første verdien er større enn den andre verdien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHourOverload0" xml:space="preserve">
+    <value>Time på et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload0" xml:space="preserve">
+    <value>Timer visning av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload1" xml:space="preserve">
+    <value>Timer visning av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload0" xml:space="preserve">
+    <value>Timer etter varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload1" xml:space="preserve">
+    <value>Timer med en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeInstantRangePattern" xml:space="preserve">
+    <value>fra {0} til {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload0" xml:space="preserve">
+    <value>Oversett et øyeblikk til en omtrentlig menneskelig lesbar beskrivelse</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload1" xml:space="preserve">
+    <value>Oversett et øyeblikkelig rekkevidde til en omtrentlig menneskelig lesbar beskrivelse</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload2" xml:space="preserve">
+    <value>Oversett en varighet til en omtrentlig menneskelig lesbar beskrivelse</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0" xml:space="preserve">
+    <value>Utfør en test for å velge mellom to verdier</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter0" xml:space="preserve">
+    <value>Test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter1" xml:space="preserve">
+    <value>Verdi hvis testen er sant</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter2" xml:space="preserve">
+    <value>Verdi hvis testen er feil</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Nullbasert indeks for det første tilfellet ufølsomt utseende av en verdi i en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0" xml:space="preserve">
+    <value>Nullbasert indeks for det første utseendet på en verdi i en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0" xml:space="preserve">
+    <value>Sett inn en verdi i en verdi på nullbasert indeks</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter0" xml:space="preserve">
+    <value>Verdi til å sette inn</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter1" xml:space="preserve">
+    <value>Indeksen for å sette inn</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter2" xml:space="preserve">
+    <value>Verdi for å sette inn</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0" xml:space="preserve">
+    <value>Få om en verdi er standardverdien for sin type</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Verdi for å undersøke</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0" xml:space="preserve">
+    <value>Få om en verdi ikke er standardverdien for sin type</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Verdi for å undersøke</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload0" xml:space="preserve">
+    <value>Få om en verdi kan konverteres til en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1" xml:space="preserve">
+    <value>Få om tekst kan konverteres til en varighet ved hjelp av et spesifisert format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidIDOverload0" xml:space="preserve">
+    <value>Få om en verdi kan konverteres til en ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload0" xml:space="preserve">
+    <value>Få om en verdi kan konverteres til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1" xml:space="preserve">
+    <value>Få om tekst kan konverteres til et øyeblikk ved hjelp av et spesifisert format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidNumberOverload0" xml:space="preserve">
+    <value>Få om en verdi kan konverteres til et nummer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0" xml:space="preserve">
+    <value>Nullbasert indeks for det siste utseendet på en verdi i en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLengthOverload0" xml:space="preserve">
+    <value>Lengde på karakterer av en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOrEqualOverload0" xml:space="preserve">
+    <value>Om den første verdien er mindre enn eller lik den andre verdien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOverload0" xml:space="preserve">
+    <value>Om den første verdien er mindre enn den andre verdien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLog10Overload0" xml:space="preserve">
+    <value>Base 10 logaritme av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLogOverload0" xml:space="preserve">
+    <value>Logaritme av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload0" xml:space="preserve">
+    <value>Max (sant) verdi av en boolsk egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload1" xml:space="preserve">
+    <value>Max (lengste) verdi av en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload10" xml:space="preserve">
+    <value>Maks (lengste) varighet av verdien av et øyeblikkelig trekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload11" xml:space="preserve">
+    <value>Max (alfabetisk nyeste) verdi av en multi-line teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload12" xml:space="preserve">
+    <value>Maks (største) verdi av et talltrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload13" xml:space="preserve">
+    <value>Max (alfabetisk nyeste) verdi av en enkelt linje teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload2" xml:space="preserve">
+    <value>Maks (siste) verdi av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload3" xml:space="preserve">
+    <value>Maks (lengste) varighet av verdien av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload4" xml:space="preserve">
+    <value>Max (alfabetisk nyeste) verdi av en multi-line teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload5" xml:space="preserve">
+    <value>Maks (største) verdi av en talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload6" xml:space="preserve">
+    <value>Maks (alfabetisk nyeste) verdi av en enkelt linje teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload7" xml:space="preserve">
+    <value>Max (True) verdien av en boolsk egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload8" xml:space="preserve">
+    <value>Max (lengste) verdi av en varighetstrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload9" xml:space="preserve">
+    <value>Maks (siste) verdi av et øyeblikkelig trekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondOverload0" xml:space="preserve">
+    <value>Millisekund av et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload0" xml:space="preserve">
+    <value>Millisekunder av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload1" xml:space="preserve">
+    <value>Millisekunder av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload0" xml:space="preserve">
+    <value>Min (falsk) verdi av en boolsk egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload1" xml:space="preserve">
+    <value>Min (korteste) verdi av en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload10" xml:space="preserve">
+    <value>Min (korteste) varighet av verdien av et øyeblikkelig trekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload11" xml:space="preserve">
+    <value>Min (alfabetisk tidligste) verdi av en multi-line teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload12" xml:space="preserve">
+    <value>Min (minste) verdi av et talltrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload13" xml:space="preserve">
+    <value>Min (alfabetisk tidligste) verdi av en enkelt-linje teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload2" xml:space="preserve">
+    <value>Min (tidligste) verdi av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload3" xml:space="preserve">
+    <value>Min (korteste) varighet av verdien av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload4" xml:space="preserve">
+    <value>Min (alfabetisk tidligste) verdi av en multi-line teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload5" xml:space="preserve">
+    <value>Min (minste) verdi av et talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload6" xml:space="preserve">
+    <value>Min (alfabetisk tidligste) verdi av en enkelt linje teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload7" xml:space="preserve">
+    <value>Min (falsk) verdi av en boolsk egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload8" xml:space="preserve">
+    <value>Min (korteste) verdi av en varighetstrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload9" xml:space="preserve">
+    <value>Min (tidligste) verdi av et øyeblikkelig trekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinuteOverload0" xml:space="preserve">
+    <value>Minutt av et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload0" xml:space="preserve">
+    <value>Minutter av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload1" xml:space="preserve">
+    <value>Minutter av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload0" xml:space="preserve">
+    <value>Resten av å dele et tall med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload1" xml:space="preserve">
+    <value>Del varigheten av et øyeblikkelig rekkevidde ved varigheten av et øyeblikkelig rekkevidde og få resten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload2" xml:space="preserve">
+    <value>Del varigheten av et øyeblikkelig rekkevidde med en varighet og få resten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload3" xml:space="preserve">
+    <value>Del en varighet ved varigheten av et øyeblikk og få resten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload4" xml:space="preserve">
+    <value>Del en varighet med en varighet og få resten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMonthOverload0" xml:space="preserve">
+    <value>Måned med et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload0" xml:space="preserve">
+    <value>Multipliser tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload1" xml:space="preserve">
+    <value>Multipliser varigheten av et øyeblikk med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload2" xml:space="preserve">
+    <value>Multipliser et tall etter varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload3" xml:space="preserve">
+    <value>Multipliser en varighet med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload4" xml:space="preserve">
+    <value>Multipliser et tall med en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNandOverload0" xml:space="preserve">
+    <value>Logisk NAND BOOLEANS.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload0" xml:space="preserve">
+    <value>Negere et nummer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload1" xml:space="preserve">
+    <value>Negere varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload2" xml:space="preserve">
+    <value>Negere en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNorOverload0" xml:space="preserve">
+    <value>Logisk eller boolere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotEqualOverload0" xml:space="preserve">
+    <value>Om to verdier ikke er lik hverandre</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotOverload0" xml:space="preserve">
+    <value>Negere en boolsk.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowInUniversalTimeOverload0" xml:space="preserve">
+    <value>Nåværende dato og klokkeslett i Universal Time</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowOverload0" xml:space="preserve">
+    <value>Nåværende dato og klokkeslett i lokal tid</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOrOverload0" xml:space="preserve">
+    <value>Logiske eller boolere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOverlapOverload0" xml:space="preserve">
+    <value>Få øyeblikkelig rekkevidde som representerer overlappingen av to umiddelbare områder</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens oppdragsparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0" xml:space="preserve">
+    <value>Verdi av en av utsiktenes boolske parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens varighetsparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens enhetstype ID-parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens ID-parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens øyeblikkelige parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0" xml:space="preserve">
+    <value>Verdi av en av visningens øyeblikkelige parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0" xml:space="preserve">
+    <value>Verdi av en av visningens listeverdier parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens multi-line tekstparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens nummerparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0" xml:space="preserve">
+    <value>Verdien av en av utsiktenes personparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens single-line tekstparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens tidsskive parametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens egenskapsparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0" xml:space="preserve">
+    <value>Verdi av en av visningens egenskapsparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0" xml:space="preserve">
+    <value>Verdien av en av visningens arbeidsproduktsparametere</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPerspectiveOverload0" xml:space="preserve">
+    <value>Personen for hvem evaluering oppstår</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPiOverload0" xml:space="preserve">
+    <value>Konstant π (forholdet mellom omkretsen av en sirkel til sin diameter)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPowerOverload0" xml:space="preserve">
+    <value>Øk et nummer til kraften i et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload0" xml:space="preserve">
+    <value>Spørring for et oppdrag i sammenheng med en oppgave</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en oppgave i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om en oppgave i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om et oppdrag i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om et oppdrag i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload5" xml:space="preserve">
+    <value>Spørring for et oppdrag i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload0" xml:space="preserve">
+    <value>Spørring for en boolsk i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload1" xml:space="preserve">
+    <value>Spørring for en boolsk i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload2" xml:space="preserve">
+    <value>Spørring for en boolsk i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload3" xml:space="preserve">
+    <value>Spørring for en boolsk i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload4" xml:space="preserve">
+    <value>Spørring for en boolsk i sammenheng med en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en boolsk i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload0" xml:space="preserve">
+    <value>Spørre om en varighet i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload1" xml:space="preserve">
+    <value>Forespørsel i en varighet i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload2" xml:space="preserve">
+    <value>Spørre om en varighet i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload3" xml:space="preserve">
+    <value>Forespørsel i en varighet i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload4" xml:space="preserve">
+    <value>Spørre om en varighet i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload5" xml:space="preserve">
+    <value>Forespørsel i en varighet i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en enhetstype ID i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload0" xml:space="preserve">
+    <value>Spørring for en ID i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en ID i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload2" xml:space="preserve">
+    <value>Spørring for en ID i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload3" xml:space="preserve">
+    <value>Spørring for en ID i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload4" xml:space="preserve">
+    <value>Spørring for en ID i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en ID i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om et øyeblikk i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om et øyeblikk i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload2" xml:space="preserve">
+    <value>Spørre om et øyeblikk i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om et øyeblikk i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om et øyeblikk i konteksten til en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om et øyeblikk i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om et øyeblikkelig rekkevidde i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om et øyeblikkelig rekkevidde i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload2" xml:space="preserve">
+    <value>Spørring for et øyeblikkelig rekkevidde i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload3" xml:space="preserve">
+    <value>Spørring for et øyeblikkelig rekkevidde i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload4" xml:space="preserve">
+    <value>Spørring for et øyeblikkelig rekkevidde i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om et øyeblikkelig rekkevidde i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en listeverdi i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload0" xml:space="preserve">
+    <value>Spørring for multi-line tekst i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload1" xml:space="preserve">
+    <value>Spørring for multi-line tekst i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload2" xml:space="preserve">
+    <value>Spørring for multi-line tekst i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om multi-line tekst i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload4" xml:space="preserve">
+    <value>Spørring for multi-line tekst i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om multi-line tekst i sammenheng med et arbeidselement</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om et nummer i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om et nummer i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om et nummer i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om et nummer i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om et nummer i konteksten til en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om et nummer i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload0" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload1" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload2" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload3" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload4" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload5" xml:space="preserve">
+    <value>Spørring for en person i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om enkeltlinje tekst i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om enkeltlinje tekst i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload2" xml:space="preserve">
+    <value>Spørring for enkeltlinje tekst i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om enkeltlinjetekst i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om enkeltlinjetekst i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om enkeltlinjetekst i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload0" xml:space="preserve">
+    <value>Spørring for en tidsskive i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en tidsskive i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload2" xml:space="preserve">
+    <value>Spørring for en tidsskive i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload3" xml:space="preserve">
+    <value>Spørring for en tidsskive i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload4" xml:space="preserve">
+    <value>Spørring for en tidsskive i konteksten til en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en tidsskive i konteksten til et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om et trekk i konteksten til en oppgave</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en egenskap i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload2" xml:space="preserve">
+    <value>Spørring for et trekk i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om et trekk i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om et trekk i konteksten til en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om et trekk i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om en egenskapstype i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload0" xml:space="preserve">
+    <value>Forespørsel om et arbeidsobjekt i sammenheng med et oppdrag</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload1" xml:space="preserve">
+    <value>Forespørsel om et arbeidsobjekt i sammenheng med en listeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload2" xml:space="preserve">
+    <value>Forespørsel om et arbeidselement i sammenheng med en person</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload3" xml:space="preserve">
+    <value>Forespørsel om et arbeidselement i sammenheng med en tidsskive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload4" xml:space="preserve">
+    <value>Forespørsel om et arbeidsobjekt i sammenheng med et trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload5" xml:space="preserve">
+    <value>Forespørsel om et arbeidsobjekt i sammenheng med et arbeidsobjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0" xml:space="preserve">
+    <value>Få verdien av en vanlig uttrykksgruppe</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter0" xml:space="preserve">
+    <value>Input.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter1" xml:space="preserve">
+    <value>Vanlig uttrykk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter2" xml:space="preserve">
+    <value>Gruppenavn</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0" xml:space="preserve">
+    <value>Om en verdi samsvarer med et vanlig uttrykk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter0" xml:space="preserve">
+    <value>Input.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter1" xml:space="preserve">
+    <value>Vanlig uttrykk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0" xml:space="preserve">
+    <value>Erstatte utseende av en verdi med en verdi i en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter0" xml:space="preserve">
+    <value>Søkeverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter1" xml:space="preserve">
+    <value>For verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter2" xml:space="preserve">
+    <value>Bytt ut med verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload0" xml:space="preserve">
+    <value>Rundt et tall til nærmeste hele tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1" xml:space="preserve">
+    <value>Runde et tall til et nærmeste antall brøkdelte siffer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1Parameter1" xml:space="preserve">
+    <value>Antall fraksjonelle siffer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload2" xml:space="preserve">
+    <value>Rundt et øyeblikk til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload3" xml:space="preserve">
+    <value>Rundt et øyeblikk til en nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload4" xml:space="preserve">
+    <value>Rundt varigheten av et øyeblikkelig rekkevidde til nærmeste hele varighet av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload5" xml:space="preserve">
+    <value>Rundt varigheten av et øyeblikkelig rekkevidde til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload6" xml:space="preserve">
+    <value>Rundt varigheten til nærmeste hele varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload7" xml:space="preserve">
+    <value>Rundt varigheten til nærmeste hele varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondOverload0" xml:space="preserve">
+    <value>Andre av et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload0" xml:space="preserve">
+    <value>Sekunder av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload1" xml:space="preserve">
+    <value>Sekunder av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0" xml:space="preserve">
+    <value>Hyperbolisk sinus av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0" xml:space="preserve">
+    <value>Sinus av en vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSqrtOverload0" xml:space="preserve">
+    <value>Kvadratroten av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartOverload0" xml:space="preserve">
+    <value>Start øyeblikkelig av et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Hvorvidt et verdi sak ufølsomt starter med en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Sjekk verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For verdi i begynnelsen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0" xml:space="preserve">
+    <value>Om en verdi starter med en annen verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter0" xml:space="preserve">
+    <value>Sjekk verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter1" xml:space="preserve">
+    <value>For verdi i begynnelsen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0" xml:space="preserve">
+    <value>Tekst fra en verdi som starter på en nullbasert indeks</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0Parameter1" xml:space="preserve">
+    <value>Indeks</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1" xml:space="preserve">
+    <value>Tekst fra en verdi som starter ved en nullbasert indeks opp til en lengde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter1" xml:space="preserve">
+    <value>Indeks</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter2" xml:space="preserve">
+    <value>Lengde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload0" xml:space="preserve">
+    <value>Trekke et tall med et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload1" xml:space="preserve">
+    <value>Trekk varigheten av et øyeblikkelig rekkevidde fra et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload2" xml:space="preserve">
+    <value>Trekk en varighet fra et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload3" xml:space="preserve">
+    <value>Trekk varigheten av et øyeblikkelig rekkevidde fra varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload4" xml:space="preserve">
+    <value>Trekke en varighet fra varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload5" xml:space="preserve">
+    <value>Trekke varigheten av et øyeblikkelig rekkevidde fra en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload6" xml:space="preserve">
+    <value>Trekke en varighet fra en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload7" xml:space="preserve">
+    <value>Trekk et øyeblikk fra et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload0" xml:space="preserve">
+    <value>Sum varighetene i verdiene for et øyeblikkelig egenskap som faller etter en umiddelbar verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload1" xml:space="preserve">
+    <value>Summe varighetene i verdiene til et øyeblikkeligtrekk som faller etter en øyeblikkelig verdi som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload0" xml:space="preserve">
+    <value>Summe verdiene i en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload1" xml:space="preserve">
+    <value>Summe varighetene i verdiene til et øyeblikkelig egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload10" xml:space="preserve">
+    <value>Summe varighetene i verdiene til et øyeblikkeligtrekk som faller mellom to umiddelbare verdier</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload11" xml:space="preserve">
+    <value>Summe varighetene i verdiene til et øyeblikkelig egenskap som faller mellom to umiddelbare verdier som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload2" xml:space="preserve">
+    <value>Sammenkoble verdiene til en multi-line teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload3" xml:space="preserve">
+    <value>Summe verdiene til et talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload4" xml:space="preserve">
+    <value>Sammenkoble verdiene til en enkelt linje teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload5" xml:space="preserve">
+    <value>Sum verdiene til en varighetstrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload6" xml:space="preserve">
+    <value>Sum på varighetene i verdiene til et øyeblikkelig rekkefølge som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload7" xml:space="preserve">
+    <value>Sammenkoble verdiene til en multi-line teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload8" xml:space="preserve">
+    <value>Sum verdiene til et talltrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload9" xml:space="preserve">
+    <value>Sammenkoble verdiene til en enkelt-linje teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload0" xml:space="preserve">
+    <value>Summe varighetene i verdiene til et øyeblikkelig forhold som faller før en øyeblikkelig verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload1" xml:space="preserve">
+    <value>Summe varighetene i verdiene for et øyeblikkelig forhold som faller før en øyeblikkelig verdi som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0" xml:space="preserve">
+    <value>Velg verdien som følger den første testen som passerer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter0" xml:space="preserve">
+    <value>Test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter1" xml:space="preserve">
+    <value>Verdi hvis ovenfor testen er sant</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1" xml:space="preserve">
+    <value>Velg verdien som følger den første testen som passerer, eller standardverdien hvis ingen gjør</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter0" xml:space="preserve">
+    <value>Test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter1" xml:space="preserve">
+    <value>Verdi hvis ovenfor testen er sant</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter2" xml:space="preserve">
+    <value>Standardverdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0" xml:space="preserve">
+    <value>Hyperbolisk tangent av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0" xml:space="preserve">
+    <value>Tangent av en vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0Parameter0" xml:space="preserve">
+    <value>Vinkel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTimeOfDayOverload0" xml:space="preserve">
+    <value>Tid på dagen med et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToBooleanOverload0" xml:space="preserve">
+    <value>Konvertere en verdi til en boolsk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload0" xml:space="preserve">
+    <value>Konvertere en verdi til en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1" xml:space="preserve">
+    <value>Konverter tekst til en varighet ved hjelp av et spesifisert format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload0" xml:space="preserve">
+    <value>Totalt antall timer med varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload1" xml:space="preserve">
+    <value>Totalt antall timer på en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToIDOverload0" xml:space="preserve">
+    <value>Konverter en verdi til en ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload0" xml:space="preserve">
+    <value>Konverter en verdi til et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1" xml:space="preserve">
+    <value>Konverter tekst til et øyeblikk ved hjelp av et spesifisert format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload0" xml:space="preserve">
+    <value>Konverter et øyeblikk til lokal tid</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload1" xml:space="preserve">
+    <value>Konverter et øyeblikkelig rekkevidde til lokal tid</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLowerCaseOverload0" xml:space="preserve">
+    <value>Konverter en verdi til tekst i små bokstaver</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMetricNumeralOverload0" xml:space="preserve">
+    <value>Oversett et tall til et metrisk tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload0" xml:space="preserve">
+    <value>Totalt antall millisekunder av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload1" xml:space="preserve">
+    <value>Totalt antall millisekunder av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload0" xml:space="preserve">
+    <value>Totalt antall minutter av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload1" xml:space="preserve">
+    <value>Totalt antall minutter av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToNumberOverload0" xml:space="preserve">
+    <value>Konverter en verdi til et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0" xml:space="preserve">
+    <value>Oversett et tall til en ordinær streng som brukes til å betegne posisjonen i en bestilt sekvens</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0Parameter1" xml:space="preserve">
+    <value>Forkorte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToRomanNumeralOverload0" xml:space="preserve">
+    <value>Oversett et tall til et romersk tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload0" xml:space="preserve">
+    <value>Totalt antall sekunder av varigheten av et øyeblikkelig rekkevidde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload1" xml:space="preserve">
+    <value>Totalt antall sekunder av en varighet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToTextOverload0" xml:space="preserve">
+    <value>Konverter en verdi til tekst</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload0" xml:space="preserve">
+    <value>Konverter et øyeblikk til universell tid</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload1" xml:space="preserve">
+    <value>Konverter et øyeblikkelig rekkevidde til universell tid</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUpperCaseOverload0" xml:space="preserve">
+    <value>Konverter en verdi til tekst i store bokstaver</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0" xml:space="preserve">
+    <value>Oversett et tall i ord</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter1" xml:space="preserve">
+    <value>Legg til og til</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter2" xml:space="preserve">
+    <value>Forkorte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimEndOverload0" xml:space="preserve">
+    <value>Trim Trailing Whitespace fra en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimOverload0" xml:space="preserve">
+    <value>Trimledende og etterfølgende hvite plass fra en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimStartOverload0" xml:space="preserve">
+    <value>Trim ledende hvite rom fra en verdi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload0" xml:space="preserve">
+    <value>Beregn den integrerte delen av et tall</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1" xml:space="preserve">
+    <value>Tekst fra en verdi opp til en lengde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1Parameter1" xml:space="preserve">
+    <value>Lengde</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload0" xml:space="preserve">
+    <value>Verdien av en oppdragstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload1" xml:space="preserve">
+    <value>Verdi av en boolsk egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload10" xml:space="preserve">
+    <value>Verdien av en personstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload11" xml:space="preserve">
+    <value>Verdi av en enkelt linje teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload12" xml:space="preserve">
+    <value>Verdi av en tidsskive egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload13" xml:space="preserve">
+    <value>Verdien av en egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload14" xml:space="preserve">
+    <value>Verdi av en egenskapstype</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload15" xml:space="preserve">
+    <value>Verdien av et arbeidsprosjekt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload16" xml:space="preserve">
+    <value>Verdien av en oppdragstrekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload17" xml:space="preserve">
+    <value>Verdien av en boolsk egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload18" xml:space="preserve">
+    <value>Verdien av en varighetstrekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload19" xml:space="preserve">
+    <value>Verdien av en enhetstype ID-egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload2" xml:space="preserve">
+    <value>Verdi av en varighetstrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload20" xml:space="preserve">
+    <value>Verdien av en ID-egenskap som overfører en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload21" xml:space="preserve">
+    <value>Verdien av et øyeblikkelig trekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload22" xml:space="preserve">
+    <value>Verdien av et øyeblikkeligtrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload23" xml:space="preserve">
+    <value>Verdien av en listeverdiegenskap som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload24" xml:space="preserve">
+    <value>Verdien av en multi-line teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload25" xml:space="preserve">
+    <value>Verdien av et talltrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload26" xml:space="preserve">
+    <value>Verdien av en personstrekk som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload27" xml:space="preserve">
+    <value>Verdien av en enkelt-linje teksttrekk som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload28" xml:space="preserve">
+    <value>Verdien av en tidsskive-egenskap som sender en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload29" xml:space="preserve">
+    <value>Verdi av en egenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload3" xml:space="preserve">
+    <value>Verdien av en enhetstype ID-egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload30" xml:space="preserve">
+    <value>Verdien av en egenskapstypeegenskap som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload31" xml:space="preserve">
+    <value>Verdien av et arbeidsprosjekt som passerer en test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload4" xml:space="preserve">
+    <value>Verdien av en ID-egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload5" xml:space="preserve">
+    <value>Verdien av et øyeblikkelig trekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload6" xml:space="preserve">
+    <value>Verdi av et øyeblikkelig egenskap</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload7" xml:space="preserve">
+    <value>Verdi av en listeverdientrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload8" xml:space="preserve">
+    <value>Verdi av en multi-line teksttrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload9" xml:space="preserve">
+    <value>Verdi av et talltrekk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXnorOverload0" xml:space="preserve">
+    <value>Logisk Xnor Booleans</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXorOverload0" xml:space="preserve">
+    <value>Logisk XOR BOOLEANS.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionYearOverload0" xml:space="preserve">
+    <value>År med et øyeblikk</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameClient" xml:space="preserve">
+    <value>Se kontrolleren</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameSQLiteDatabaseConnection" xml:space="preserve">
+    <value>SQLITE DATABASE-tilkobling</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

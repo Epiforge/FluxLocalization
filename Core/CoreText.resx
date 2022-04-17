@@ -1,0 +1,1620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusClientGettingViewData" xml:space="preserve">
+    <value>Getting view data</value>
+  </data>
+  <data name="BusyStatusClientIndexingViews" xml:space="preserve">
+    <value>Indexing views</value>
+  </data>
+  <data name="BusyStatusClientInitializingParameters" xml:space="preserve">
+    <value>Initializing parameters</value>
+  </data>
+  <data name="BusyStatusClientInitializingViews" xml:space="preserve">
+    <value>Inititalizing views</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionApplyingUserViewPreferences" xml:space="preserve">
+    <value>Applying user view preferences</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Disconnecting from database</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromEngine" xml:space="preserve">
+    <value>Shutting down change monitoring</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromHost" xml:space="preserve">
+    <value>Shutting down view monitoring</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionFlushingActionsQueue" xml:space="preserve">
+    <value>Flushing actions queue</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchema" xml:space="preserve">
+    <value>Initializing schema</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchemaVersion" xml:space="preserve">
+    <value>Initializing schema version {0}</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewData" xml:space="preserve">
+    <value>Initializing view data</value>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewDataFormat" xml:space="preserve">
+    <value>Initializing view data: {0}</value>
+  </data>
+  <data name="FormulaFunctionAbsOverload0" xml:space="preserve">
+    <value>Absolute value of a number</value>
+  </data>
+  <data name="FormulaFunctionAbsOverload1" xml:space="preserve">
+    <value>Absolute value of a duration</value>
+  </data>
+  <data name="FormulaFunctionAcoshOverload0" xml:space="preserve">
+    <value>Hyperbolic arc-cosine of a number</value>
+  </data>
+  <data name="FormulaFunctionAcosOverload0" xml:space="preserve">
+    <value>Arc-cosine of a number</value>
+  </data>
+  <data name="FormulaFunctionAddDaysOverload0" xml:space="preserve">
+    <value>Add days to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload0" xml:space="preserve">
+    <value>Add hours to a duration</value>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload1" xml:space="preserve">
+    <value>Add hours to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload0" xml:space="preserve">
+    <value>Add milliseconds to a duration</value>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload1" xml:space="preserve">
+    <value>Add milliseconds to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload0" xml:space="preserve">
+    <value>Add minutes to a duration</value>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload1" xml:space="preserve">
+    <value>Add minutes to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddMonthsOverload0" xml:space="preserve">
+    <value>Add months to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddOverload0" xml:space="preserve">
+    <value>Add numbers</value>
+  </data>
+  <data name="FormulaFunctionAddOverload1" xml:space="preserve">
+    <value>Add durations to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddOverload2" xml:space="preserve">
+    <value>Add durations</value>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload0" xml:space="preserve">
+    <value>Add seconds to a duration</value>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload1" xml:space="preserve">
+    <value>Add seconds to an instant</value>
+  </data>
+  <data name="FormulaFunctionAddYearsOverload0" xml:space="preserve">
+    <value>Add years to an instant</value>
+  </data>
+  <data name="FormulaFunctionAndOverload0" xml:space="preserve">
+    <value>Logical and booleans</value>
+  </data>
+  <data name="FormulaFunctionAsinhOverload0" xml:space="preserve">
+    <value>Hyperbolic arc-sine of a number</value>
+  </data>
+  <data name="FormulaFunctionAsinOverload0" xml:space="preserve">
+    <value>Arc-sine of a number</value>
+  </data>
+  <data name="FormulaFunctionAtan2Overload0" xml:space="preserve">
+    <value>Angle whose tangent is the quotient of two numbers</value>
+  </data>
+  <data name="FormulaFunctionAtanhOverload0" xml:space="preserve">
+    <value>Hyperbolic arc-tangent of a number</value>
+  </data>
+  <data name="FormulaFunctionAtanOverload0" xml:space="preserve">
+    <value>Arc-tangent of a number</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload0" xml:space="preserve">
+    <value>Average values of a duration trait</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload1" xml:space="preserve">
+    <value>Average values of an instant trait</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload2" xml:space="preserve">
+    <value>Average values of an instant range</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload3" xml:space="preserve">
+    <value>Average value of a number trait</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload4" xml:space="preserve">
+    <value>Average values of duration trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload5" xml:space="preserve">
+    <value>Average values of an instant trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload6" xml:space="preserve">
+    <value>Average values of an instant range that pass a test</value>
+  </data>
+  <data name="FormulaFunctionAverageOverload7" xml:space="preserve">
+    <value>Average value of a number trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload0" xml:space="preserve">
+    <value>Round a number up to the nearest whole number</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload1" xml:space="preserve">
+    <value>Round an instant up to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload2" xml:space="preserve">
+    <value>Round an instant up to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload3" xml:space="preserve">
+    <value>Round the duration of an instant range up to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload4" xml:space="preserve">
+    <value>Round the duration of instant range up to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload5" xml:space="preserve">
+    <value>Round a duration up to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionCeilingOverload6" xml:space="preserve">
+    <value>Round a duration up to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionCoalesceOverload0" xml:space="preserve">
+    <value>Choose the first non-null value</value>
+  </data>
+  <data name="FormulaFunctionConcatOverload0" xml:space="preserve">
+    <value>Concatenate text values</value>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Whether a value case insensitively contains another value</value>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionContainsOverload0" xml:space="preserve">
+    <value>Whether a value contains another value</value>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionCoshOverload0" xml:space="preserve">
+    <value>Hyperbolic cosine of an angle</value>
+  </data>
+  <data name="FormulaFunctionCoshOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionCosOverload0" xml:space="preserve">
+    <value>Cosine of an angle</value>
+  </data>
+  <data name="FormulaFunctionCosOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionCountOverload0" xml:space="preserve">
+    <value>Count the number of values of a trait</value>
+  </data>
+  <data name="FormulaFunctionCountOverload1" xml:space="preserve">
+    <value>Count the number of values of a trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionDateOverload0" xml:space="preserve">
+    <value>Date of an instant</value>
+  </data>
+  <data name="FormulaFunctionDayOfWeekOverload0" xml:space="preserve">
+    <value>Day of week of an instant</value>
+  </data>
+  <data name="FormulaFunctionDayOverload0" xml:space="preserve">
+    <value>Day of an instant</value>
+  </data>
+  <data name="FormulaFunctionDaysOverload0" xml:space="preserve">
+    <value>Days of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionDaysOverload1" xml:space="preserve">
+    <value>Days of a duration</value>
+  </data>
+  <data name="FormulaFunctionDefaultAssignmentOverload0" xml:space="preserve">
+    <value>Default value for an assignment trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultBooleanOverload0" xml:space="preserve">
+    <value>Default value for a boolean trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultDurationOverload0" xml:space="preserve">
+    <value>Default value for a duration trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultEntityTypeIdOverload0" xml:space="preserve">
+    <value>Default value for an entity type ID trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultIdOverload0" xml:space="preserve">
+    <value>Default value for a ID trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultInstantOverload0" xml:space="preserve">
+    <value>Default value for an instant trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultInstantRangeOverload0" xml:space="preserve">
+    <value>Default value for an instant range trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultListValueOverload0" xml:space="preserve">
+    <value>Default value for a list value trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultMultiLineTextOverload0" xml:space="preserve">
+    <value>Default value for a multi-line text trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultNumberOverload0" xml:space="preserve">
+    <value>Default value for a number trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultPersonOverload0" xml:space="preserve">
+    <value>Default value for a person trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultSingleLineTextOverload0" xml:space="preserve">
+    <value>Default value for a single-line text trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultTimeSliceOverload0" xml:space="preserve">
+    <value>Default value for a time slice trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultTraitOverload0" xml:space="preserve">
+    <value>Default value for a trait trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultTraitTypeOverload0" xml:space="preserve">
+    <value>Default value for a trait type trait</value>
+  </data>
+  <data name="FormulaFunctionDefaultWorkItemOverload0" xml:space="preserve">
+    <value>Default value for a work item trait</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload0" xml:space="preserve">
+    <value>Divide a number by a number</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload1" xml:space="preserve">
+    <value>Divide the duration of an instant range by a number</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload2" xml:space="preserve">
+    <value>Divide the duration of an instant range by the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload3" xml:space="preserve">
+    <value>Divide the duration of an instant range by a duration</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload4" xml:space="preserve">
+    <value>Divide a duration by a number</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload5" xml:space="preserve">
+    <value>Divide a duration by the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionDivideOverload6" xml:space="preserve">
+    <value>Divide a duration by a duration</value>
+  </data>
+  <data name="FormulaFunctionEndOverload0" xml:space="preserve">
+    <value>End instant of an instant range</value>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Whether a value case insensitively ends with another value</value>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Check value</value>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For value at the end</value>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0" xml:space="preserve">
+    <value>Whether a value ends with another value</value>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter0" xml:space="preserve">
+    <value>Check value</value>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter1" xml:space="preserve">
+    <value>For value at the end</value>
+  </data>
+  <data name="FormulaFunctionEOverload0" xml:space="preserve">
+    <value>Constant e (natural logarithmic base)</value>
+  </data>
+  <data name="FormulaFunctionEqualCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Whether two text values case insensitively equal each other</value>
+  </data>
+  <data name="FormulaFunctionEqualOverload0" xml:space="preserve">
+    <value>Whether two values equal each other</value>
+  </data>
+  <data name="FormulaFunctionExpOverload0" xml:space="preserve">
+    <value>Raise e to a power</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload0" xml:space="preserve">
+    <value>Round a number down to the nearest whole number</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload1" xml:space="preserve">
+    <value>Round an instant down to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload2" xml:space="preserve">
+    <value>Round an instant down to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload3" xml:space="preserve">
+    <value>Round the duration of an instant range down to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload4" xml:space="preserve">
+    <value>Round the duration of an instant range down to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload5" xml:space="preserve">
+    <value>Round the duration down to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionFloorOverload6" xml:space="preserve">
+    <value>Round a duration down to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionFormatOverload0" xml:space="preserve">
+    <value>Place values into a format</value>
+  </data>
+  <data name="FormulaFunctionFormatOverload0Parameter0" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormulaFunctionFromHoursOverload0" xml:space="preserve">
+    <value>Duration from a total number of hours</value>
+  </data>
+  <data name="FormulaFunctionFromMillisecondsOverload0" xml:space="preserve">
+    <value>Duration from a total number of milliseconds</value>
+  </data>
+  <data name="FormulaFunctionFromMinutesOverload0" xml:space="preserve">
+    <value>Duration from a total number of minutes</value>
+  </data>
+  <data name="FormulaFunctionFromSecondsOverload0" xml:space="preserve">
+    <value>Duration from a total number of seconds</value>
+  </data>
+  <data name="FormulaFunctionGreaterThanOrEqualOverload0" xml:space="preserve">
+    <value>Whether the first value is greater than or equal to the second value</value>
+  </data>
+  <data name="FormulaFunctionGreaterThanOverload0" xml:space="preserve">
+    <value>Whether the first value is greater than the second value</value>
+  </data>
+  <data name="FormulaFunctionHourOverload0" xml:space="preserve">
+    <value>Hour of an instant</value>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload0" xml:space="preserve">
+    <value>Hours display of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload1" xml:space="preserve">
+    <value>Hours display of a duration</value>
+  </data>
+  <data name="FormulaFunctionHoursOverload0" xml:space="preserve">
+    <value>Hours of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionHoursOverload1" xml:space="preserve">
+    <value>Hours of a duration</value>
+  </data>
+  <data name="FormulaFunctionHumanizeInstantRangePattern" xml:space="preserve">
+    <value>from {0} to {1}</value>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload0" xml:space="preserve">
+    <value>Translate an instant into an approximate human-readable description</value>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload1" xml:space="preserve">
+    <value>Translate an instant range into an approximate human-readable description</value>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload2" xml:space="preserve">
+    <value>Translate a duration into an approximate human-readable description</value>
+  </data>
+  <data name="FormulaFunctionIfOverload0" xml:space="preserve">
+    <value>Perform a test to choose between two values</value>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter0" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter1" xml:space="preserve">
+    <value>Value if test is true</value>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter2" xml:space="preserve">
+    <value>Value if test is false</value>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Zero-based index of the first case insensitive appearance of a value in a value</value>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0" xml:space="preserve">
+    <value>Zero-based index of the first appearance of a value in a value</value>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionInsertOverload0" xml:space="preserve">
+    <value>Insert the a value into a value at the zero-based index</value>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter0" xml:space="preserve">
+    <value>Value into which to insert</value>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter1" xml:space="preserve">
+    <value>Index at which to insert</value>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter2" xml:space="preserve">
+    <value>Value to insert</value>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0" xml:space="preserve">
+    <value>Get whether a value is the default value for its type</value>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Value to examine</value>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0" xml:space="preserve">
+    <value>Get whether a value is not the default value for its type</value>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Value to examine</value>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload0" xml:space="preserve">
+    <value>Get whether a value can be converted to a duration</value>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1" xml:space="preserve">
+    <value>Get whether text can be converted to a duration using a specified format</value>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormulaFunctionIsValidIDOverload0" xml:space="preserve">
+    <value>Get whether a value can be converted to an ID</value>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload0" xml:space="preserve">
+    <value>Get whether a value can be converted to an instant</value>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1" xml:space="preserve">
+    <value>Get whether text can be converted to an instant using a specified format</value>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormulaFunctionIsValidNumberOverload0" xml:space="preserve">
+    <value>Get whether a value can be converted to a number</value>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0" xml:space="preserve">
+    <value>Zero-based index of the last appearance of a value in a value</value>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionLengthOverload0" xml:space="preserve">
+    <value>Length of characters of a value</value>
+  </data>
+  <data name="FormulaFunctionLessThanOrEqualOverload0" xml:space="preserve">
+    <value>Whether the first value is less than or equal to the second value</value>
+  </data>
+  <data name="FormulaFunctionLessThanOverload0" xml:space="preserve">
+    <value>Whether the first value is less than the second value</value>
+  </data>
+  <data name="FormulaFunctionLog10Overload0" xml:space="preserve">
+    <value>Base 10 logarithm of a number</value>
+  </data>
+  <data name="FormulaFunctionLogOverload0" xml:space="preserve">
+    <value>Logarithm of a number</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload0" xml:space="preserve">
+    <value>Max (true) value of a boolean trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload1" xml:space="preserve">
+    <value>Max (longest) value of a duration trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload10" xml:space="preserve">
+    <value>Max (longest) duration of the value of a instant trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload11" xml:space="preserve">
+    <value>Max (alphabetically latest) value of a multi-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload12" xml:space="preserve">
+    <value>Max (largest) value of a number trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload13" xml:space="preserve">
+    <value>Max (alphabetically latest) value of a single-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload2" xml:space="preserve">
+    <value>Max (latest) value of a instant trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload3" xml:space="preserve">
+    <value>Max (longest) duration of the value of a instant trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload4" xml:space="preserve">
+    <value>Max (alphabetically latest) value of a multi-line text trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload5" xml:space="preserve">
+    <value>Max (largest) value of a number trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload6" xml:space="preserve">
+    <value>Max (alphabetically latest) value of a single-line text trait</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload7" xml:space="preserve">
+    <value>Max (true) value of a boolean trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload8" xml:space="preserve">
+    <value>Max (longest) value of a duration trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMaxOverload9" xml:space="preserve">
+    <value>Max (latest) value of a instant trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMillisecondOverload0" xml:space="preserve">
+    <value>Millisecond of an instant</value>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload0" xml:space="preserve">
+    <value>Milliseconds of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload1" xml:space="preserve">
+    <value>Milliseconds of a duration</value>
+  </data>
+  <data name="FormulaFunctionMinOverload0" xml:space="preserve">
+    <value>Min (false) value of a boolean trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload1" xml:space="preserve">
+    <value>Min (shortest) value of a duration trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload10" xml:space="preserve">
+    <value>Min (shortest) duration of the value of a instant trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload11" xml:space="preserve">
+    <value>Min (alphabetically earliest) value of a multi-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload12" xml:space="preserve">
+    <value>Min (smallest) value of a number trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload13" xml:space="preserve">
+    <value>Min (alphabetically earliest) value of a single-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload2" xml:space="preserve">
+    <value>Min (earliest) value of a instant trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload3" xml:space="preserve">
+    <value>Min (shortest) duration of the value of a instant trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload4" xml:space="preserve">
+    <value>Min (alphabetically earliest) value of a multi-line text trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload5" xml:space="preserve">
+    <value>Min (smallest) value of a number trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload6" xml:space="preserve">
+    <value>Min (alphabetically earliest) value of a single-line text trait</value>
+  </data>
+  <data name="FormulaFunctionMinOverload7" xml:space="preserve">
+    <value>Min (false) value of a boolean trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload8" xml:space="preserve">
+    <value>Min (shortest) value of a duration trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinOverload9" xml:space="preserve">
+    <value>Min (earliest) value of a instant trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionMinuteOverload0" xml:space="preserve">
+    <value>Minute of an instant</value>
+  </data>
+  <data name="FormulaFunctionMinutesOverload0" xml:space="preserve">
+    <value>Minutes of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionMinutesOverload1" xml:space="preserve">
+    <value>Minutes of a duration</value>
+  </data>
+  <data name="FormulaFunctionModuloOverload0" xml:space="preserve">
+    <value>Remainder of dividing a number by a number</value>
+  </data>
+  <data name="FormulaFunctionModuloOverload1" xml:space="preserve">
+    <value>Divide the duration of an instant range by the duration of an instant range and get the remainder</value>
+  </data>
+  <data name="FormulaFunctionModuloOverload2" xml:space="preserve">
+    <value>Divide the duration of an instant range by a duration and get the remainder</value>
+  </data>
+  <data name="FormulaFunctionModuloOverload3" xml:space="preserve">
+    <value>Divide a duration by the duration af an instant range and get the remainder</value>
+  </data>
+  <data name="FormulaFunctionModuloOverload4" xml:space="preserve">
+    <value>Divide a duration by a duration and get the remainder</value>
+  </data>
+  <data name="FormulaFunctionMonthOverload0" xml:space="preserve">
+    <value>Month of an instant</value>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload0" xml:space="preserve">
+    <value>Multiply numbers</value>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload1" xml:space="preserve">
+    <value>Multiply the duration of an instant range by a number</value>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload2" xml:space="preserve">
+    <value>Multiply a number by the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload3" xml:space="preserve">
+    <value>Multiply a duration by a number</value>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload4" xml:space="preserve">
+    <value>Multiply a number by a duration</value>
+  </data>
+  <data name="FormulaFunctionNandOverload0" xml:space="preserve">
+    <value>Logical nand booleans</value>
+  </data>
+  <data name="FormulaFunctionNegateOverload0" xml:space="preserve">
+    <value>Negate a number</value>
+  </data>
+  <data name="FormulaFunctionNegateOverload1" xml:space="preserve">
+    <value>Negate the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionNegateOverload2" xml:space="preserve">
+    <value>Negate a duration</value>
+  </data>
+  <data name="FormulaFunctionNorOverload0" xml:space="preserve">
+    <value>Logical nor booleans</value>
+  </data>
+  <data name="FormulaFunctionNotEqualOverload0" xml:space="preserve">
+    <value>Whether two values do not equal each other</value>
+  </data>
+  <data name="FormulaFunctionNotOverload0" xml:space="preserve">
+    <value>Negate a boolean</value>
+  </data>
+  <data name="FormulaFunctionNowInUniversalTimeOverload0" xml:space="preserve">
+    <value>Current date and time in universal time</value>
+  </data>
+  <data name="FormulaFunctionNowOverload0" xml:space="preserve">
+    <value>Current date and time in local time</value>
+  </data>
+  <data name="FormulaFunctionOrOverload0" xml:space="preserve">
+    <value>Logical or booleans</value>
+  </data>
+  <data name="FormulaFunctionOverlapOverload0" xml:space="preserve">
+    <value>Get the instant range representing the overlap of two instant ranges</value>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0" xml:space="preserve">
+    <value>Value of one of the view's assignment parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0" xml:space="preserve">
+    <value>Value of one of the view's boolean parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0" xml:space="preserve">
+    <value>Value of one of the view's duration parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0" xml:space="preserve">
+    <value>Value of one of the view's entity type ID parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0" xml:space="preserve">
+    <value>Value of one of the view's ID parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0" xml:space="preserve">
+    <value>Value of one of the view's instant parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0" xml:space="preserve">
+    <value>Value of one of the view's instant range parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0" xml:space="preserve">
+    <value>Value of one of the view's list value parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0" xml:space="preserve">
+    <value>Value of one of the view's multi-line text parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0" xml:space="preserve">
+    <value>Value of one of the view's number parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0" xml:space="preserve">
+    <value>Value of one of the view's person parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0" xml:space="preserve">
+    <value>Value of one of the view's single-line text parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0" xml:space="preserve">
+    <value>Value of one of the view's time slice parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0" xml:space="preserve">
+    <value>Value of one of the view's trait parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0" xml:space="preserve">
+    <value>Value of one of the view's trait type parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0" xml:space="preserve">
+    <value>Value of one of the view's work item parameters</value>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="FormulaFunctionPerspectiveOverload0" xml:space="preserve">
+    <value>The person for whom evaluation is occuring</value>
+  </data>
+  <data name="FormulaFunctionPiOverload0" xml:space="preserve">
+    <value>Constant π (the ratio of the circumference of a circle to its diameter)</value>
+  </data>
+  <data name="FormulaFunctionPowerOverload0" xml:space="preserve">
+    <value>Raise a number to the power of a number</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload0" xml:space="preserve">
+    <value>Query for an assignment in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload1" xml:space="preserve">
+    <value>Query for an assignment in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload2" xml:space="preserve">
+    <value>Query for an assignment in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload3" xml:space="preserve">
+    <value>Query for an assignment in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload4" xml:space="preserve">
+    <value>Query for an assignment in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload5" xml:space="preserve">
+    <value>Query for an assignment in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload0" xml:space="preserve">
+    <value>Query for a boolean in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload1" xml:space="preserve">
+    <value>Query for a boolean in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload2" xml:space="preserve">
+    <value>Query for a boolean in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload3" xml:space="preserve">
+    <value>Query for a boolean in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload4" xml:space="preserve">
+    <value>Query for a boolean in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload5" xml:space="preserve">
+    <value>Query for a boolean in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload0" xml:space="preserve">
+    <value>Query for a duration in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload1" xml:space="preserve">
+    <value>Query for a duration in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload2" xml:space="preserve">
+    <value>Query for a duration in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload3" xml:space="preserve">
+    <value>Query for a duration in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload4" xml:space="preserve">
+    <value>Query for a duration in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload5" xml:space="preserve">
+    <value>Query for a duration in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload0" xml:space="preserve">
+    <value>Query for an entity type ID in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload1" xml:space="preserve">
+    <value>Query for an entity type ID in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload2" xml:space="preserve">
+    <value>Query for an entity type ID in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload3" xml:space="preserve">
+    <value>Query for an entity type ID in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload4" xml:space="preserve">
+    <value>Query for an entity type ID in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload5" xml:space="preserve">
+    <value>Query for an entity type ID in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload0" xml:space="preserve">
+    <value>Query for an ID in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload1" xml:space="preserve">
+    <value>Query for an ID in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload2" xml:space="preserve">
+    <value>Query for an ID in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload3" xml:space="preserve">
+    <value>Query for an ID in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload4" xml:space="preserve">
+    <value>Query for an ID in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload5" xml:space="preserve">
+    <value>Query for an ID in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload0" xml:space="preserve">
+    <value>Query for an instant in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload1" xml:space="preserve">
+    <value>Query for an instant in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload2" xml:space="preserve">
+    <value>Query for an instant in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload3" xml:space="preserve">
+    <value>Query for an instant in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload4" xml:space="preserve">
+    <value>Query for an instant in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload5" xml:space="preserve">
+    <value>Query for an instant in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload0" xml:space="preserve">
+    <value>Query for an instant range in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload1" xml:space="preserve">
+    <value>Query for an instant range in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload2" xml:space="preserve">
+    <value>Query for an instant range in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload3" xml:space="preserve">
+    <value>Query for an instant range in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload4" xml:space="preserve">
+    <value>Query for an instant range in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload5" xml:space="preserve">
+    <value>Query for an instant range in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload0" xml:space="preserve">
+    <value>Query for a list value in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload1" xml:space="preserve">
+    <value>Query for a list value in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload2" xml:space="preserve">
+    <value>Query for a list value in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload3" xml:space="preserve">
+    <value>Query for a list value in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload4" xml:space="preserve">
+    <value>Query for a list value in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload5" xml:space="preserve">
+    <value>Query for a list value in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload0" xml:space="preserve">
+    <value>Query for multi-line text in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload1" xml:space="preserve">
+    <value>Query for multi-line text in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload2" xml:space="preserve">
+    <value>Query for multi-line text in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload3" xml:space="preserve">
+    <value>Query for multi-line text in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload4" xml:space="preserve">
+    <value>Query for multi-line text in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload5" xml:space="preserve">
+    <value>Query for multi-line text in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload0" xml:space="preserve">
+    <value>Query for a number in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload1" xml:space="preserve">
+    <value>Query for a number in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload2" xml:space="preserve">
+    <value>Query for a number in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload3" xml:space="preserve">
+    <value>Query for a number in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload4" xml:space="preserve">
+    <value>Query for a number in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload5" xml:space="preserve">
+    <value>Query for a number in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload0" xml:space="preserve">
+    <value>Query for a person in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload1" xml:space="preserve">
+    <value>Query for a person in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload2" xml:space="preserve">
+    <value>Query for a person in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload3" xml:space="preserve">
+    <value>Query for a person in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload4" xml:space="preserve">
+    <value>Query for a person in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload5" xml:space="preserve">
+    <value>Query for a person in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload0" xml:space="preserve">
+    <value>Query for single-line text in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload1" xml:space="preserve">
+    <value>Query for single-line text in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload2" xml:space="preserve">
+    <value>Query for single-line text in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload3" xml:space="preserve">
+    <value>Query for single-line text in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload4" xml:space="preserve">
+    <value>Query for single-line text in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload5" xml:space="preserve">
+    <value>Query for single-line text in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload0" xml:space="preserve">
+    <value>Query for a time slice in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload1" xml:space="preserve">
+    <value>Query for a time slice in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload2" xml:space="preserve">
+    <value>Query for a time slice in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload3" xml:space="preserve">
+    <value>Query for a time slice in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload4" xml:space="preserve">
+    <value>Query for a time slice in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload5" xml:space="preserve">
+    <value>Query for a time slice in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload0" xml:space="preserve">
+    <value>Query for a trait in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload1" xml:space="preserve">
+    <value>Query for a trait in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload2" xml:space="preserve">
+    <value>Query for a trait in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload3" xml:space="preserve">
+    <value>Query for a trait in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload4" xml:space="preserve">
+    <value>Query for a trait in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload5" xml:space="preserve">
+    <value>Query for a trait in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload0" xml:space="preserve">
+    <value>Query for a trait type in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload1" xml:space="preserve">
+    <value>Query for a trait type in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload2" xml:space="preserve">
+    <value>Query for a trait type in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload3" xml:space="preserve">
+    <value>Query for a trait type in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload4" xml:space="preserve">
+    <value>Query for a trait type in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload5" xml:space="preserve">
+    <value>Query for a trait type in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload0" xml:space="preserve">
+    <value>Query for a work item in the context of an assignment</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload1" xml:space="preserve">
+    <value>Query for a work item in the context of a list value</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload2" xml:space="preserve">
+    <value>Query for a work item in the context of a person</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload3" xml:space="preserve">
+    <value>Query for a work item in the context of a time slice</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload4" xml:space="preserve">
+    <value>Query for a work item in the context of a trait</value>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload5" xml:space="preserve">
+    <value>Query for a work item in the context of a work item</value>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0" xml:space="preserve">
+    <value>Get the value of a regular expression group</value>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter0" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter1" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter2" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0" xml:space="preserve">
+    <value>Whether a value matches a regular expression</value>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter0" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter1" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0" xml:space="preserve">
+    <value>Replace appearances of a value with a value within a value</value>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter0" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter1" xml:space="preserve">
+    <value>For value</value>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter2" xml:space="preserve">
+    <value>Replace with value</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload0" xml:space="preserve">
+    <value>Round a number to the nearest whole number</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload1" xml:space="preserve">
+    <value>Round a number to a nearest number of fractional digits</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload1Parameter1" xml:space="preserve">
+    <value>Number of fractional digits</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload2" xml:space="preserve">
+    <value>Round an instant to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload3" xml:space="preserve">
+    <value>Round an instant to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload4" xml:space="preserve">
+    <value>Round the duration of an instant range to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload5" xml:space="preserve">
+    <value>Round the duration of an instant range to anearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload6" xml:space="preserve">
+    <value>Round the duration to the nearest whole duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionRoundOverload7" xml:space="preserve">
+    <value>Round the duration to a nearest whole duration</value>
+  </data>
+  <data name="FormulaFunctionSecondOverload0" xml:space="preserve">
+    <value>Second of an instant</value>
+  </data>
+  <data name="FormulaFunctionSecondsOverload0" xml:space="preserve">
+    <value>Seconds of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionSecondsOverload1" xml:space="preserve">
+    <value>Seconds of a duration</value>
+  </data>
+  <data name="FormulaFunctionSinhOverload0" xml:space="preserve">
+    <value>Hyperbolic sine of a number</value>
+  </data>
+  <data name="FormulaFunctionSinhOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionSinOverload0" xml:space="preserve">
+    <value>Sine of an angle</value>
+  </data>
+  <data name="FormulaFunctionSinOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionSqrtOverload0" xml:space="preserve">
+    <value>Square root of a number</value>
+  </data>
+  <data name="FormulaFunctionStartOverload0" xml:space="preserve">
+    <value>Start instant of an instant range</value>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Whether a value case insensitively starts with another value</value>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Check value</value>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>For value at the beginning</value>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0" xml:space="preserve">
+    <value>Whether a value starts with another value</value>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter0" xml:space="preserve">
+    <value>Check value</value>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter1" xml:space="preserve">
+    <value>For value at the beginning</value>
+  </data>
+  <data name="FormulaFunctionSubOverload0" xml:space="preserve">
+    <value>Text from a value starting at a zero-based index</value>
+  </data>
+  <data name="FormulaFunctionSubOverload0Parameter1" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="FormulaFunctionSubOverload1" xml:space="preserve">
+    <value>Text from a value starting at a zero-based index up to a length</value>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter1" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter2" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload0" xml:space="preserve">
+    <value>Subtract a number by a number</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload1" xml:space="preserve">
+    <value>Subtract the duration of an instant range from an instant</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload2" xml:space="preserve">
+    <value>Subtract a duration from an instant</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload3" xml:space="preserve">
+    <value>Subtract the duration of an instant range from the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload4" xml:space="preserve">
+    <value>Subtract a duration from the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload5" xml:space="preserve">
+    <value>Subtract the duration of an instant range from a duration</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload6" xml:space="preserve">
+    <value>Subtract a duration from a duration</value>
+  </data>
+  <data name="FormulaFunctionSubtractOverload7" xml:space="preserve">
+    <value>Subtract an instant from an instant</value>
+  </data>
+  <data name="FormulaFunctionSumFromOverload0" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall after an instant value</value>
+  </data>
+  <data name="FormulaFunctionSumFromOverload1" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall after an instant value that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload0" xml:space="preserve">
+    <value>Sum the values of a duration trait</value>
+  </data>
+  <data name="FormulaFunctionSumOverload1" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait</value>
+  </data>
+  <data name="FormulaFunctionSumOverload10" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall between two instant values</value>
+  </data>
+  <data name="FormulaFunctionSumOverload11" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall between two instant values that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload2" xml:space="preserve">
+    <value>Concatenate the values of a multi-line text trait</value>
+  </data>
+  <data name="FormulaFunctionSumOverload3" xml:space="preserve">
+    <value>Sum the values of a number trait</value>
+  </data>
+  <data name="FormulaFunctionSumOverload4" xml:space="preserve">
+    <value>Concatenate the values of a single-line text trait</value>
+  </data>
+  <data name="FormulaFunctionSumOverload5" xml:space="preserve">
+    <value>Sum the values of a duration trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload6" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload7" xml:space="preserve">
+    <value>Concatenate the values of a multi-line text trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload8" xml:space="preserve">
+    <value>Sum the values of a number trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumOverload9" xml:space="preserve">
+    <value>Concatenate the values of a single-line text trait that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSumToOverload0" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall before an instant value</value>
+  </data>
+  <data name="FormulaFunctionSumToOverload1" xml:space="preserve">
+    <value>Sum the durations of the values of an instant range trait that fall before an instant value that pass a test</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0" xml:space="preserve">
+    <value>Choose the value following the first test that passes</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter0" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter1" xml:space="preserve">
+    <value>Value if above test is true</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1" xml:space="preserve">
+    <value>Choose the value following the first test that passes, or the default value if none do</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter0" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter1" xml:space="preserve">
+    <value>Value if above test is true</value>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter2" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="FormulaFunctionTanhOverload0" xml:space="preserve">
+    <value>Hyperbolic tangent of a number</value>
+  </data>
+  <data name="FormulaFunctionTanhOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionTanOverload0" xml:space="preserve">
+    <value>Tangent of an angle</value>
+  </data>
+  <data name="FormulaFunctionTanOverload0Parameter0" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="FormulaFunctionTimeOfDayOverload0" xml:space="preserve">
+    <value>Time of day of an instant</value>
+  </data>
+  <data name="FormulaFunctionToBooleanOverload0" xml:space="preserve">
+    <value>Convert a value to a boolean</value>
+  </data>
+  <data name="FormulaFunctionToDurationOverload0" xml:space="preserve">
+    <value>Convert a value to a duration</value>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1" xml:space="preserve">
+    <value>Convert text to a duration using a specified format</value>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormulaFunctionToHoursOverload0" xml:space="preserve">
+    <value>Total number of hours of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionToHoursOverload1" xml:space="preserve">
+    <value>Total number of hours of a duration</value>
+  </data>
+  <data name="FormulaFunctionToIDOverload0" xml:space="preserve">
+    <value>Convert a value to an ID</value>
+  </data>
+  <data name="FormulaFunctionToInstantOverload0" xml:space="preserve">
+    <value>Convert a value to an instant</value>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1" xml:space="preserve">
+    <value>Convert text to an instant using a specified format</value>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1Parameter1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload0" xml:space="preserve">
+    <value>Convert an instant to local time</value>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload1" xml:space="preserve">
+    <value>Convert an instant range to local time</value>
+  </data>
+  <data name="FormulaFunctionToLowerCaseOverload0" xml:space="preserve">
+    <value>Convert a value to text in lower case</value>
+  </data>
+  <data name="FormulaFunctionToMetricNumeralOverload0" xml:space="preserve">
+    <value>Translate a number into a metric numeral</value>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload0" xml:space="preserve">
+    <value>Total number of milliseconds of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload1" xml:space="preserve">
+    <value>Total number of milliseconds of a duration</value>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload0" xml:space="preserve">
+    <value>Total number of minutes of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload1" xml:space="preserve">
+    <value>Total number of minutes of a duration</value>
+  </data>
+  <data name="FormulaFunctionToNumberOverload0" xml:space="preserve">
+    <value>Convert a value to a number</value>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0" xml:space="preserve">
+    <value>Translate a number into an ordinal string used to denote the position in an ordered sequence</value>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0Parameter1" xml:space="preserve">
+    <value>Abbreviate</value>
+  </data>
+  <data name="FormulaFunctionToRomanNumeralOverload0" xml:space="preserve">
+    <value>Translate a number into a roman numeral</value>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload0" xml:space="preserve">
+    <value>Total number of seconds of the duration of an instant range</value>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload1" xml:space="preserve">
+    <value>Total number of seconds of a duration</value>
+  </data>
+  <data name="FormulaFunctionToTextOverload0" xml:space="preserve">
+    <value>Convert a value to text</value>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload0" xml:space="preserve">
+    <value>Convert an instant to universal time</value>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload1" xml:space="preserve">
+    <value>Convert an instant range to universal time</value>
+  </data>
+  <data name="FormulaFunctionToUpperCaseOverload0" xml:space="preserve">
+    <value>Convert a value to text in upper case</value>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0" xml:space="preserve">
+    <value>Translate a number into words</value>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter1" xml:space="preserve">
+    <value>Add and</value>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter2" xml:space="preserve">
+    <value>Abbreviate</value>
+  </data>
+  <data name="FormulaFunctionTrimEndOverload0" xml:space="preserve">
+    <value>Trim trailing whitespace from a value</value>
+  </data>
+  <data name="FormulaFunctionTrimOverload0" xml:space="preserve">
+    <value>Trim leading and trailing whitespace from a value</value>
+  </data>
+  <data name="FormulaFunctionTrimStartOverload0" xml:space="preserve">
+    <value>Trim leading whitespace from a value</value>
+  </data>
+  <data name="FormulaFunctionTruncateOverload0" xml:space="preserve">
+    <value>Calculate the integral part of a number</value>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1" xml:space="preserve">
+    <value>Text from a value up to a length</value>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1Parameter1" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="FormulaFunctionValueOverload0" xml:space="preserve">
+    <value>Value of an assignment trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload1" xml:space="preserve">
+    <value>Value of a boolean trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload10" xml:space="preserve">
+    <value>Value of a person trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload11" xml:space="preserve">
+    <value>Value of a single-line text trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload12" xml:space="preserve">
+    <value>Value of a time slice trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload13" xml:space="preserve">
+    <value>Value of a trait trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload14" xml:space="preserve">
+    <value>Value of a trait type trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload15" xml:space="preserve">
+    <value>Value of a work item trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload16" xml:space="preserve">
+    <value>Value of an assignment trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload17" xml:space="preserve">
+    <value>Value of a boolean trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload18" xml:space="preserve">
+    <value>Value of a duration trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload19" xml:space="preserve">
+    <value>Value of an entity type ID trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload2" xml:space="preserve">
+    <value>Value of a duration trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload20" xml:space="preserve">
+    <value>Value of an ID trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload21" xml:space="preserve">
+    <value>Value of an instant trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload22" xml:space="preserve">
+    <value>Value of an instant range trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload23" xml:space="preserve">
+    <value>Value of a list value trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload24" xml:space="preserve">
+    <value>Value of a multi-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload25" xml:space="preserve">
+    <value>Value of a number trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload26" xml:space="preserve">
+    <value>Value of a person trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload27" xml:space="preserve">
+    <value>Value of a single-line text trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload28" xml:space="preserve">
+    <value>Value of a time slice trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload29" xml:space="preserve">
+    <value>Value of a trait trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload3" xml:space="preserve">
+    <value>Value of an entity type ID trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload30" xml:space="preserve">
+    <value>Value of a trait type trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload31" xml:space="preserve">
+    <value>Value of a work item trait that passes a test</value>
+  </data>
+  <data name="FormulaFunctionValueOverload4" xml:space="preserve">
+    <value>Value of an ID trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload5" xml:space="preserve">
+    <value>Value of an instant trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload6" xml:space="preserve">
+    <value>Value of an instant range trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload7" xml:space="preserve">
+    <value>Value of a list value trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload8" xml:space="preserve">
+    <value>Value of a multi-line text trait</value>
+  </data>
+  <data name="FormulaFunctionValueOverload9" xml:space="preserve">
+    <value>Value of a number trait</value>
+  </data>
+  <data name="FormulaFunctionXnorOverload0" xml:space="preserve">
+    <value>Logical xnor booleans</value>
+  </data>
+  <data name="FormulaFunctionXorOverload0" xml:space="preserve">
+    <value>Logical xor booleans</value>
+  </data>
+  <data name="FormulaFunctionYearOverload0" xml:space="preserve">
+    <value>Year of an instant</value>
+  </data>
+  <data name="StatusProviderNameClient" xml:space="preserve">
+    <value>View controller</value>
+  </data>
+  <data name="StatusProviderNameSQLiteDatabaseConnection" xml:space="preserve">
+    <value>SQLite database connection</value>
+  </data>
+</root>

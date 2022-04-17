@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusClientGettingViewData" xml:space="preserve">
+    <value>Obtendo dados de visualização</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientIndexingViews" xml:space="preserve">
+    <value>Visualizações de indexação</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingParameters" xml:space="preserve">
+    <value>Inicializando parâmetros</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingViews" xml:space="preserve">
+    <value>Inicializando exibições</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionApplyingUserViewPreferences" xml:space="preserve">
+    <value>Aplicando Preferências de visualização do usuário</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Desconectar do banco de dados</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromEngine" xml:space="preserve">
+    <value>Desligando o monitoramento de mudança</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromHost" xml:space="preserve">
+    <value>Desligando o monitoramento da visualização</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionFlushingActionsQueue" xml:space="preserve">
+    <value>Ações de descarga fila</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchema" xml:space="preserve">
+    <value>Inicializando o esquema</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchemaVersion" xml:space="preserve">
+    <value>Inicializando a versão do esquema {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewData" xml:space="preserve">
+    <value>Inicializando dados de exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewDataFormat" xml:space="preserve">
+    <value>Inicializando dados de exibição: {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload0" xml:space="preserve">
+    <value>Valor absoluto de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload1" xml:space="preserve">
+    <value>Valor absoluto de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcoshOverload0" xml:space="preserve">
+    <value>Arco-cosseno hiperbólico de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcosOverload0" xml:space="preserve">
+    <value>Arco-cosseno de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddDaysOverload0" xml:space="preserve">
+    <value>Adicionar dias a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload0" xml:space="preserve">
+    <value>Adicionar horas a uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload1" xml:space="preserve">
+    <value>Adicionar horas a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload0" xml:space="preserve">
+    <value>Adicionar milissegundos a uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload1" xml:space="preserve">
+    <value>Adicionar milissegundos a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload0" xml:space="preserve">
+    <value>Adicionar minutos a uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload1" xml:space="preserve">
+    <value>Adicionar minutos a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMonthsOverload0" xml:space="preserve">
+    <value>Adicione meses a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload0" xml:space="preserve">
+    <value>Adicione números</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload1" xml:space="preserve">
+    <value>Adicionar durações a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload2" xml:space="preserve">
+    <value>Adicione durações</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload0" xml:space="preserve">
+    <value>Adicionar segundos a uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload1" xml:space="preserve">
+    <value>Adicionar segundos a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddYearsOverload0" xml:space="preserve">
+    <value>Adicionar anos a um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAndOverload0" xml:space="preserve">
+    <value>Lógica e booleãs.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinhOverload0" xml:space="preserve">
+    <value>Arco hiperbólico de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinOverload0" xml:space="preserve">
+    <value>Arco-sine de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtan2Overload0" xml:space="preserve">
+    <value>Ângulo cuja tangente é o quociente de dois números</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanhOverload0" xml:space="preserve">
+    <value>Arco-tangente hiperbólico de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanOverload0" xml:space="preserve">
+    <value>Arco-tangente de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload0" xml:space="preserve">
+    <value>Valores médios de um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload1" xml:space="preserve">
+    <value>Valores médios de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload2" xml:space="preserve">
+    <value>Valores médios de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload3" xml:space="preserve">
+    <value>Valor médio de um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload4" xml:space="preserve">
+    <value>Valores médios de traço de duração que passam um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload5" xml:space="preserve">
+    <value>Valores médios de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload6" xml:space="preserve">
+    <value>Valores médios de um intervalo instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload7" xml:space="preserve">
+    <value>Valor médio de um traço numérico que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload0" xml:space="preserve">
+    <value>Arredondar um número até o número inteiro mais próximo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload1" xml:space="preserve">
+    <value>Rodada um instante até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload2" xml:space="preserve">
+    <value>Rodada um instante até uma duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload3" xml:space="preserve">
+    <value>Em volta da duração de um intervalo instantâneo até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload4" xml:space="preserve">
+    <value>Em volta da duração do intervalo instantâneo até uma duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload5" xml:space="preserve">
+    <value>Rodada uma duração até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload6" xml:space="preserve">
+    <value>Rodada uma duração até uma duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoalesceOverload0" xml:space="preserve">
+    <value>Escolha o primeiro valor não nulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionConcatOverload0" xml:space="preserve">
+    <value>Concatenar valores de texto</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Se um caso de valor contém insensitivamente outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0" xml:space="preserve">
+    <value>Se um valor contém outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0" xml:space="preserve">
+    <value>Cosseno hiperbólico de um ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0" xml:space="preserve">
+    <value>Cosseno de um ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload0" xml:space="preserve">
+    <value>Contar o número de valores de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload1" xml:space="preserve">
+    <value>Conte o número de valores de uma característica que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDateOverload0" xml:space="preserve">
+    <value>Data de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOfWeekOverload0" xml:space="preserve">
+    <value>Dia da semana de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOverload0" xml:space="preserve">
+    <value>Dia de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload0" xml:space="preserve">
+    <value>Dias da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload1" xml:space="preserve">
+    <value>Dias de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultAssignmentOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de atribuição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultBooleanOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultDurationOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultEntityTypeIdOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de ID do tipo de entidade</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultIdOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de identificação</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantRangeOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultListValueOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultMultiLineTextOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de texto multi-line</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultNumberOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultPersonOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultSingleLineTextOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de texto de linha única</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTimeSliceOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitTypeOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de tipo de traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultWorkItemOverload0" xml:space="preserve">
+    <value>Valor padrão para um traço de item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload0" xml:space="preserve">
+    <value>Divida um número por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload1" xml:space="preserve">
+    <value>Divida a duração de um intervalo instantâneo por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload2" xml:space="preserve">
+    <value>Divida a duração de um intervalo instantâneo pela duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload3" xml:space="preserve">
+    <value>Divida a duração de um intervalo instantâneo por uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload4" xml:space="preserve">
+    <value>Divida uma duração por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload5" xml:space="preserve">
+    <value>Divida uma duração pela duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload6" xml:space="preserve">
+    <value>Divida uma duração por uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndOverload0" xml:space="preserve">
+    <value>Fim instantâneo de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Se um caso de valor insensitivamente termina com outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Verifique o valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Por valor no final</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0" xml:space="preserve">
+    <value>Se um valor termina com outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter0" xml:space="preserve">
+    <value>Verifique o valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter1" xml:space="preserve">
+    <value>Por valor no final</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEOverload0" xml:space="preserve">
+    <value>Constante e (base logarítmica natural)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Se dois valores de texto caso insensitivamente igual um ao outro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualOverload0" xml:space="preserve">
+    <value>Se dois valores se igualam</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionExpOverload0" xml:space="preserve">
+    <value>Aumentar e para um poder</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload0" xml:space="preserve">
+    <value>Arredondar um número para o número inteiro mais próximo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload1" xml:space="preserve">
+    <value>Rodada um instante até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload2" xml:space="preserve">
+    <value>Em volta de um instante para baixo para uma duração total mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload3" xml:space="preserve">
+    <value>Em volta da duração de um intervalo instantâneo até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload4" xml:space="preserve">
+    <value>Em volta da duração de um intervalo instantâneo até uma duração total mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload5" xml:space="preserve">
+    <value>Em volta da duração até a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload6" xml:space="preserve">
+    <value>Rodada uma duração para uma duração total mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0" xml:space="preserve">
+    <value>Coloque os valores em um formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0Parameter0" xml:space="preserve">
+    <value>Formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromHoursOverload0" xml:space="preserve">
+    <value>Duração de um número total de horas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMillisecondsOverload0" xml:space="preserve">
+    <value>Duração de um número total de milissegundos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMinutesOverload0" xml:space="preserve">
+    <value>Duração de um número total de minutos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromSecondsOverload0" xml:space="preserve">
+    <value>Duração de um número total de segundos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOrEqualOverload0" xml:space="preserve">
+    <value>Se o primeiro valor é maior ou igual ao segundo valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOverload0" xml:space="preserve">
+    <value>Se o primeiro valor é maior que o segundo valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHourOverload0" xml:space="preserve">
+    <value>Hora de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload0" xml:space="preserve">
+    <value>Horas de exibição da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload1" xml:space="preserve">
+    <value>Exposição de horas de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload0" xml:space="preserve">
+    <value>Horas da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload1" xml:space="preserve">
+    <value>Horas de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeInstantRangePattern" xml:space="preserve">
+    <value>de {0} a {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload0" xml:space="preserve">
+    <value>Traduzir um instante em uma descrição legível por humanos aproximada</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload1" xml:space="preserve">
+    <value>Traduza um intervalo instantâneo em uma descrição aproximada e legível humana</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload2" xml:space="preserve">
+    <value>Traduzir uma duração em uma descrição legível por humanos aproximada</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0" xml:space="preserve">
+    <value>Realize um teste para escolher entre dois valores</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter0" xml:space="preserve">
+    <value>Teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter1" xml:space="preserve">
+    <value>Valor se o teste for verdadeiro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter2" xml:space="preserve">
+    <value>Valor se o teste for falso</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Índice baseado em zero da primeira aparência insensível de um valor em um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0" xml:space="preserve">
+    <value>Índice baseado em zero da primeira aparência de um valor em um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0" xml:space="preserve">
+    <value>Insira um valor em um valor no índice baseado em zero</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter0" xml:space="preserve">
+    <value>Valor para inserir</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter1" xml:space="preserve">
+    <value>Índice em que inserir</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter2" xml:space="preserve">
+    <value>Valor para inserir</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0" xml:space="preserve">
+    <value>Obter se um valor é o valor padrão para o seu tipo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Valor para examinar</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0" xml:space="preserve">
+    <value>Obter se um valor não é o valor padrão para o seu tipo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Valor para examinar</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload0" xml:space="preserve">
+    <value>Obter se um valor pode ser convertido em uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1" xml:space="preserve">
+    <value>Obter se o texto pode ser convertido em uma duração usando um formato especificado</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1Parameter1" xml:space="preserve">
+    <value>Formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidIDOverload0" xml:space="preserve">
+    <value>Obter se um valor pode ser convertido em um ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload0" xml:space="preserve">
+    <value>Obter se um valor pode ser convertido em um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1" xml:space="preserve">
+    <value>Obter se o texto pode ser convertido em um instante usando um formato especificado</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1Parameter1" xml:space="preserve">
+    <value>Formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidNumberOverload0" xml:space="preserve">
+    <value>Obter se um valor pode ser convertido em um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0" xml:space="preserve">
+    <value>Índice baseado em zero da última aparência de um valor em um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLengthOverload0" xml:space="preserve">
+    <value>Duração de caracteres de um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOrEqualOverload0" xml:space="preserve">
+    <value>Se o primeiro valor é menor ou igual ao segundo valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOverload0" xml:space="preserve">
+    <value>Se o primeiro valor é menor que o segundo valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLog10Overload0" xml:space="preserve">
+    <value>Base 10 logaritmo de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLogOverload0" xml:space="preserve">
+    <value>Logaritmo de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload0" xml:space="preserve">
+    <value>Valor máximo (verdadeiro) de um traço booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload1" xml:space="preserve">
+    <value>Valor máximo (mais longo) de um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload10" xml:space="preserve">
+    <value>Max (mais longo) duração do valor de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload11" xml:space="preserve">
+    <value>Valor máximo (alfabeticamente mais recente) de um traço de texto multi-line que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload12" xml:space="preserve">
+    <value>Valor máximo (maior) de uma característica numérica que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload13" xml:space="preserve">
+    <value>Valor máximo (alfabeticamente mais recente) de um traço de texto de linha única que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload2" xml:space="preserve">
+    <value>Valor máximo (mais recente) de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload3" xml:space="preserve">
+    <value>Duração máxima (mais longa) do valor de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload4" xml:space="preserve">
+    <value>Valor máximo (alfabeticamente mais recente) de um traço de texto multi-line</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload5" xml:space="preserve">
+    <value>Valor máximo (maior) de um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload6" xml:space="preserve">
+    <value>Valor máximo (alfabeticamente mais recente) de um traço de texto de linha única</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload7" xml:space="preserve">
+    <value>Valor máximo (verdadeiro) de um traço booleano que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload8" xml:space="preserve">
+    <value>Valor máximo (mais longo) de um traço de duração que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload9" xml:space="preserve">
+    <value>Valor máximo (mais recente) de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondOverload0" xml:space="preserve">
+    <value>Milissegundo de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload0" xml:space="preserve">
+    <value>Milissegundos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload1" xml:space="preserve">
+    <value>Milissegundos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload0" xml:space="preserve">
+    <value>Min (falso) valor de um traço booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload1" xml:space="preserve">
+    <value>Min (menor) valor de um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload10" xml:space="preserve">
+    <value>Min (menor) duração do valor de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload11" xml:space="preserve">
+    <value>Min (alfabeticamente mais antigo) valor de um traço de texto multi-line que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload12" xml:space="preserve">
+    <value>Min (menor) valor de uma característica numérica que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload13" xml:space="preserve">
+    <value>Min (alfabeticamente mais antigo) valor de um traço de texto de linha única que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload2" xml:space="preserve">
+    <value>Mínimo valor (primeiro) de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload3" xml:space="preserve">
+    <value>Min (menor) duração do valor de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload4" xml:space="preserve">
+    <value>Min (alfabeticamente mais antigo) valor de um traço de texto multi-line</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload5" xml:space="preserve">
+    <value>Min (menor) valor de um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload6" xml:space="preserve">
+    <value>Valor min (alfabeticamente mais antigo) de um traço de texto de linha única</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload7" xml:space="preserve">
+    <value>Min (falso) valor de uma característica booleana que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload8" xml:space="preserve">
+    <value>Min (menor) valor de um traço de duração que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload9" xml:space="preserve">
+    <value>Min (primeiro) valor de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinuteOverload0" xml:space="preserve">
+    <value>Minuto de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload0" xml:space="preserve">
+    <value>Minutos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload1" xml:space="preserve">
+    <value>Minutos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload0" xml:space="preserve">
+    <value>Restante de dividir um número por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload1" xml:space="preserve">
+    <value>Divida a duração de um intervalo instantâneo pela duração de um intervalo instantâneo e obtenha o restante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload2" xml:space="preserve">
+    <value>Divida a duração de um intervalo instantâneo por uma duração e obtenha o restante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload3" xml:space="preserve">
+    <value>Divida uma duração pela duração AF um intervalo instantâneo e obter o restante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload4" xml:space="preserve">
+    <value>Divida uma duração por uma duração e obtenha o restante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMonthOverload0" xml:space="preserve">
+    <value>Mês de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload0" xml:space="preserve">
+    <value>Multiplicar números</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload1" xml:space="preserve">
+    <value>Multiplique a duração de um intervalo instantâneo por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload2" xml:space="preserve">
+    <value>Multiplique um número pela duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload3" xml:space="preserve">
+    <value>Multiplique uma duração por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload4" xml:space="preserve">
+    <value>Multiplique um número por uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNandOverload0" xml:space="preserve">
+    <value>Booleans lógicos da NAND.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload0" xml:space="preserve">
+    <value>Negar um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload1" xml:space="preserve">
+    <value>Negar a duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload2" xml:space="preserve">
+    <value>Negar uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNorOverload0" xml:space="preserve">
+    <value>Lógico nem booleans.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotEqualOverload0" xml:space="preserve">
+    <value>Se dois valores não se igualam um ao outro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotOverload0" xml:space="preserve">
+    <value>Negar um booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowInUniversalTimeOverload0" xml:space="preserve">
+    <value>Data e hora atual no tempo universal</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowOverload0" xml:space="preserve">
+    <value>Data e hora atual na hora local</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOrOverload0" xml:space="preserve">
+    <value>Lógico ou booleans.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOverlapOverload0" xml:space="preserve">
+    <value>Obter o intervalo instantâneo que representa a sobreposição de dois intervalos instantâneos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de atribuição da vista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros booleanos da vista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de duração da vista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de ID do tipo de entidade da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de ID da Visualização</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros instantâneos da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de intervalo instantâneo da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de valor da lista de visualização</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de texto Multi-line da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros do número da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros da visão</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros de texto de linha única da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros da fatia de tempo da vista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros da característica da vista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros do tipo de traço de exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0" xml:space="preserve">
+    <value>Valor de um dos parâmetros do item de trabalho da exibição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0Parameter0" xml:space="preserve">
+    <value>Parâmetro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPerspectiveOverload0" xml:space="preserve">
+    <value>A pessoa para quem a avaliação está ocorrendo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPiOverload0" xml:space="preserve">
+    <value>Constante π (a proporção da circunferência de um círculo ao seu diâmetro)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPowerOverload0" xml:space="preserve">
+    <value>Levante um número para o poder de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload0" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload1" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload2" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload3" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload4" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload5" xml:space="preserve">
+    <value>Consulta para uma tarefa no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload0" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload1" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload2" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload3" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload4" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload5" xml:space="preserve">
+    <value>Consulta para um booleano no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload0" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload1" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload2" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload3" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload4" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload5" xml:space="preserve">
+    <value>Consulta por uma duração no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload0" xml:space="preserve">
+    <value>Consulta para um ID do tipo de entidade no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload1" xml:space="preserve">
+    <value>Consulta para um ID do tipo de entidade no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload2" xml:space="preserve">
+    <value>Consulta para um ID do tipo de entidade no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload3" xml:space="preserve">
+    <value>Consulta para uma ID do tipo entidade no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload4" xml:space="preserve">
+    <value>Consulta para uma ID do tipo de entidade no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload5" xml:space="preserve">
+    <value>Consulta para um ID do tipo de entidade no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload0" xml:space="preserve">
+    <value>Consulta para um ID no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload1" xml:space="preserve">
+    <value>Consulta para um ID no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload2" xml:space="preserve">
+    <value>Consulta para um id no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload3" xml:space="preserve">
+    <value>Consulta para um ID no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload4" xml:space="preserve">
+    <value>Consulta para um id no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload5" xml:space="preserve">
+    <value>Consulta para um ID no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload0" xml:space="preserve">
+    <value>Consulta para um instante no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload1" xml:space="preserve">
+    <value>Consulta para um instante no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload2" xml:space="preserve">
+    <value>Consulta por um instante no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload3" xml:space="preserve">
+    <value>Consulta por um instante no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload4" xml:space="preserve">
+    <value>Consulta para um instante no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload5" xml:space="preserve">
+    <value>Consulta para um instante no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload0" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload1" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload2" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload3" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload4" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload5" xml:space="preserve">
+    <value>Consulta para um intervalo instantâneo no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload0" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload1" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload2" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload3" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload4" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload5" xml:space="preserve">
+    <value>Consulta para um valor de lista no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload0" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload1" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload2" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload3" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload4" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload5" xml:space="preserve">
+    <value>Consulta para texto multi-line no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload0" xml:space="preserve">
+    <value>Consulta para um número no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload1" xml:space="preserve">
+    <value>Consulta para um número no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload2" xml:space="preserve">
+    <value>Consulta para um número no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload3" xml:space="preserve">
+    <value>Consulta para um número no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload4" xml:space="preserve">
+    <value>Consulta para um número no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload5" xml:space="preserve">
+    <value>Consulta para um número no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload0" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload1" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload2" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload3" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload4" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload5" xml:space="preserve">
+    <value>Consulta para uma pessoa no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload0" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload1" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload2" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload3" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload4" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload5" xml:space="preserve">
+    <value>Consulta para texto de linha única no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload0" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload1" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload2" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload3" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload4" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload5" xml:space="preserve">
+    <value>Consulta por uma fatia de tempo no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload0" xml:space="preserve">
+    <value>Consulta para uma característica no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload1" xml:space="preserve">
+    <value>Consulta para um traço no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload2" xml:space="preserve">
+    <value>Consulta para uma característica no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload3" xml:space="preserve">
+    <value>Consulta para uma característica no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload4" xml:space="preserve">
+    <value>Consulta para uma característica no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload5" xml:space="preserve">
+    <value>Consulta para um traço no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload0" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload1" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload2" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload3" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload4" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload5" xml:space="preserve">
+    <value>Consulta para um tipo de traço no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload0" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de uma tarefa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload1" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de um valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload2" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de uma pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload3" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de uma fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload4" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de um traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload5" xml:space="preserve">
+    <value>Consulta para um item de trabalho no contexto de um item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0" xml:space="preserve">
+    <value>Obtenha o valor de um grupo de expressão regular</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter0" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter1" xml:space="preserve">
+    <value>Expressão regular</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter2" xml:space="preserve">
+    <value>Nome do grupo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0" xml:space="preserve">
+    <value>Se um valor corresponde a uma expressão regular</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter0" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter1" xml:space="preserve">
+    <value>Expressão regular</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0" xml:space="preserve">
+    <value>Substitua as aparências de um valor com um valor dentro de um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter0" xml:space="preserve">
+    <value>Valor de pesquisa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter1" xml:space="preserve">
+    <value>Por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter2" xml:space="preserve">
+    <value>Substitua por valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload0" xml:space="preserve">
+    <value>Rodando um número para o número inteiro mais próximo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1" xml:space="preserve">
+    <value>Rodando um número para um número mais próximo de dígitos fracionários</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1Parameter1" xml:space="preserve">
+    <value>Número de dígitos fracionados</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload2" xml:space="preserve">
+    <value>Rodando um instante para a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload3" xml:space="preserve">
+    <value>Rodada um instante para uma duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload4" xml:space="preserve">
+    <value>Em volta da duração de um intervalo instantâneo para a duração total mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload5" xml:space="preserve">
+    <value>Em volta da duração de um intervalo instantâneo para a duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload6" xml:space="preserve">
+    <value>Em volta da duração para a duração inteira mais próxima de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload7" xml:space="preserve">
+    <value>Em volta da duração para uma duração inteira mais próxima</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondOverload0" xml:space="preserve">
+    <value>Segundo de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload0" xml:space="preserve">
+    <value>Segundos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload1" xml:space="preserve">
+    <value>Segundos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0" xml:space="preserve">
+    <value>Seno hiperbólico de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0" xml:space="preserve">
+    <value>Seno de um ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSqrtOverload0" xml:space="preserve">
+    <value>Raiz quadrada de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartOverload0" xml:space="preserve">
+    <value>Iniciar instantâneo de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Se um caso de valor insensitivamente começa com outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Verifique o valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Por valor no início</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0" xml:space="preserve">
+    <value>Se um valor começa com outro valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter0" xml:space="preserve">
+    <value>Verifique o valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter1" xml:space="preserve">
+    <value>Por valor no início</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0" xml:space="preserve">
+    <value>Texto de um valor a partir de um índice baseado em zero</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0Parameter1" xml:space="preserve">
+    <value>Índice</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1" xml:space="preserve">
+    <value>Texto de um valor a partir de um índice baseado em zero até um comprimento</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter1" xml:space="preserve">
+    <value>Índice</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter2" xml:space="preserve">
+    <value>Comprimento</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload0" xml:space="preserve">
+    <value>Subtrair um número por um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload1" xml:space="preserve">
+    <value>Subtrair a duração de um intervalo instantâneo de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload2" xml:space="preserve">
+    <value>Subtrair uma duração de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload3" xml:space="preserve">
+    <value>Subtrair a duração de um intervalo instantâneo a partir da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload4" xml:space="preserve">
+    <value>Subtrair uma duração a duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload5" xml:space="preserve">
+    <value>Subtrair a duração de um intervalo instantâneo de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload6" xml:space="preserve">
+    <value>Subtrair uma duração de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload7" xml:space="preserve">
+    <value>Subtrair um instante de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload0" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que cai após um valor instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload1" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que cai após um valor instantâneo que passe um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload0" xml:space="preserve">
+    <value>Soma os valores de um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload1" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload10" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que cai entre dois valores instantâneos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload11" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que caem entre dois valores instantâneos que passam em um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload2" xml:space="preserve">
+    <value>Concatenar os valores de um traço de texto multi-line</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload3" xml:space="preserve">
+    <value>Soma os valores de um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload4" xml:space="preserve">
+    <value>Concatenar os valores de um traço de texto de linha única</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload5" xml:space="preserve">
+    <value>Soma os valores de um traço de duração que passam um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload6" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload7" xml:space="preserve">
+    <value>Concatenar os valores de um traço de texto multi-line que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload8" xml:space="preserve">
+    <value>Soma os valores de um traço numérico que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload9" xml:space="preserve">
+    <value>Concatenar os valores de um traço de texto de linha única que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload0" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que cai antes de um valor instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload1" xml:space="preserve">
+    <value>Soma as durações dos valores de um traço de intervalo instantâneo que caem antes de um valor instantâneo que passe um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0" xml:space="preserve">
+    <value>Escolha o valor seguindo o primeiro teste que passa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter0" xml:space="preserve">
+    <value>Teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter1" xml:space="preserve">
+    <value>Valor se o teste acima for verdadeiro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1" xml:space="preserve">
+    <value>Escolha o valor seguindo o primeiro teste que passa ou o valor padrão se nenhum faça</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter0" xml:space="preserve">
+    <value>Teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter1" xml:space="preserve">
+    <value>Valor se o teste acima for verdadeiro</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter2" xml:space="preserve">
+    <value>Valor padrão</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0" xml:space="preserve">
+    <value>Tangente hiperbólica de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0" xml:space="preserve">
+    <value>Tangente de um ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0Parameter0" xml:space="preserve">
+    <value>Ângulo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTimeOfDayOverload0" xml:space="preserve">
+    <value>Hora do dia de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToBooleanOverload0" xml:space="preserve">
+    <value>Converter um valor para um booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload0" xml:space="preserve">
+    <value>Converta um valor para uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1" xml:space="preserve">
+    <value>Converter texto a uma duração usando um formato especificado</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1Parameter1" xml:space="preserve">
+    <value>Formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload0" xml:space="preserve">
+    <value>Número total de horas da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload1" xml:space="preserve">
+    <value>Número total de horas de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToIDOverload0" xml:space="preserve">
+    <value>Converta um valor para um ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload0" xml:space="preserve">
+    <value>Converter um valor para um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1" xml:space="preserve">
+    <value>Converter texto para um instante usando um formato especificado</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1Parameter1" xml:space="preserve">
+    <value>Formato</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload0" xml:space="preserve">
+    <value>Converta um instante na hora local</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload1" xml:space="preserve">
+    <value>Converta um intervalo instantâneo para a hora local</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLowerCaseOverload0" xml:space="preserve">
+    <value>Converter um valor para texto em minúsculas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMetricNumeralOverload0" xml:space="preserve">
+    <value>Traduzir um número em numeral métrico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload0" xml:space="preserve">
+    <value>Número total de milissegundos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload1" xml:space="preserve">
+    <value>Número total de milissegundos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload0" xml:space="preserve">
+    <value>Número total de minutos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload1" xml:space="preserve">
+    <value>Número total de minutos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToNumberOverload0" xml:space="preserve">
+    <value>Converta um valor para um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0" xml:space="preserve">
+    <value>Traduzir um número para uma cadeia ordinal usada para denotar a posição em uma sequência ordenada</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0Parameter1" xml:space="preserve">
+    <value>Abreviar</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToRomanNumeralOverload0" xml:space="preserve">
+    <value>Traduza um número para um numeral romano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload0" xml:space="preserve">
+    <value>Número total de segundos da duração de um intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload1" xml:space="preserve">
+    <value>Número total de segundos de uma duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToTextOverload0" xml:space="preserve">
+    <value>Converter um valor para texto</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload0" xml:space="preserve">
+    <value>Converter um instante ao tempo universal</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload1" xml:space="preserve">
+    <value>Converta um intervalo instantâneo para o tempo universal</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUpperCaseOverload0" xml:space="preserve">
+    <value>Converta um valor para texto em maiúsculas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0" xml:space="preserve">
+    <value>Traduza um número em palavras</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter1" xml:space="preserve">
+    <value>Adicionar e.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter2" xml:space="preserve">
+    <value>Abreviar</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimEndOverload0" xml:space="preserve">
+    <value>Apare o espaço em branco à direita de um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimOverload0" xml:space="preserve">
+    <value>Apare o espaço em branco líder e à direita de um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimStartOverload0" xml:space="preserve">
+    <value>Aparar espaço em branco líder de um valor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload0" xml:space="preserve">
+    <value>Calcule a parte integrante de um número</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1" xml:space="preserve">
+    <value>Texto de um valor até um comprimento</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1Parameter1" xml:space="preserve">
+    <value>Comprimento</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload0" xml:space="preserve">
+    <value>Valor de um traço de atribuição</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload1" xml:space="preserve">
+    <value>Valor de um traço booleano</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload10" xml:space="preserve">
+    <value>Valor de um traço de pessoa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload11" xml:space="preserve">
+    <value>Valor de um traço de texto de linha única</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload12" xml:space="preserve">
+    <value>Valor de um traço de fatia de tempo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload13" xml:space="preserve">
+    <value>Valor de um traço de traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload14" xml:space="preserve">
+    <value>Valor de um traço de tipo traço</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload15" xml:space="preserve">
+    <value>Valor de um traço de item de trabalho</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload16" xml:space="preserve">
+    <value>Valor de um traço de atribuição que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload17" xml:space="preserve">
+    <value>Valor de uma característica booleana que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload18" xml:space="preserve">
+    <value>Valor de um traço de duração que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload19" xml:space="preserve">
+    <value>Valor de uma característica de ID do tipo de entidade que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload2" xml:space="preserve">
+    <value>Valor de um traço de duração</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload20" xml:space="preserve">
+    <value>Valor de um traço de identificação que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload21" xml:space="preserve">
+    <value>Valor de um traço instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload22" xml:space="preserve">
+    <value>Valor de um traço de intervalo instantâneo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload23" xml:space="preserve">
+    <value>Valor de um traço de valor de lista que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload24" xml:space="preserve">
+    <value>Valor de um traço de texto multi-line que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload25" xml:space="preserve">
+    <value>Valor de uma característica numérica que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload26" xml:space="preserve">
+    <value>Valor de uma característica de pessoa que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload27" xml:space="preserve">
+    <value>Valor de um traço de texto de linha única que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload28" xml:space="preserve">
+    <value>Valor de um traço de fatia de tempo que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload29" xml:space="preserve">
+    <value>Valor de um traço de traço que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload3" xml:space="preserve">
+    <value>Valor de um traço de ID do tipo de entidade</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload30" xml:space="preserve">
+    <value>Valor de um traço de tipo de traço que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload31" xml:space="preserve">
+    <value>Valor de um traço de item de trabalho que passa um teste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload4" xml:space="preserve">
+    <value>Valor de um traço de identificação</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload5" xml:space="preserve">
+    <value>Valor de um traço instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload6" xml:space="preserve">
+    <value>Valor de um traço de intervalo instantâneo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload7" xml:space="preserve">
+    <value>Valor de um traço de valor de lista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload8" xml:space="preserve">
+    <value>Valor de um traço de texto multi-line</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload9" xml:space="preserve">
+    <value>Valor de um traço numérico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXnorOverload0" xml:space="preserve">
+    <value>Booleans xnor lógico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXorOverload0" xml:space="preserve">
+    <value>Booleans xor lógico</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionYearOverload0" xml:space="preserve">
+    <value>Ano de um instante</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameClient" xml:space="preserve">
+    <value>Ver controlador</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameSQLiteDatabaseConnection" xml:space="preserve">
+    <value>Conexão de banco de dados SQLite.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

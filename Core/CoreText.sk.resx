@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyStatusClientGettingViewData" xml:space="preserve">
+    <value>Zobrazenie údajov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientIndexingViews" xml:space="preserve">
+    <value>Zobrazenia indexovania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingParameters" xml:space="preserve">
+    <value>Inicializácia parametrov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusClientInitializingViews" xml:space="preserve">
+    <value>Inicializácia zobrazení</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionApplyingUserViewPreferences" xml:space="preserve">
+    <value>Použitie preferencií zobrazenia používateľa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromDatabase" xml:space="preserve">
+    <value>Odpojenie z databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromEngine" xml:space="preserve">
+    <value>Vypnutie zmeny zmien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionDisconnectingFromHost" xml:space="preserve">
+    <value>Vypnutie zobrazenia monitorovania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionFlushingActionsQueue" xml:space="preserve">
+    <value>Fronta preplachovania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchema" xml:space="preserve">
+    <value>Inicializácia schémy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingSchemaVersion" xml:space="preserve">
+    <value>Inicializácia verzie schémy {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewData" xml:space="preserve">
+    <value>Inicializácia zobrazených údajov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStatusSQLiteDatabaseConnectionInitializingViewDataFormat" xml:space="preserve">
+    <value>Inicializácia zobrazených údajov: {0}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload0" xml:space="preserve">
+    <value>Absolútna hodnota čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAbsOverload1" xml:space="preserve">
+    <value>Absolútna hodnota trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcoshOverload0" xml:space="preserve">
+    <value>Hyperbolický oblúk-Cosine čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAcosOverload0" xml:space="preserve">
+    <value>Oblúk-kosín čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddDaysOverload0" xml:space="preserve">
+    <value>Pridať dni do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload0" xml:space="preserve">
+    <value>Pridať hodiny do trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddHoursOverload1" xml:space="preserve">
+    <value>Pridať hodiny do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload0" xml:space="preserve">
+    <value>Pridajte Milliseconds do trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMillisecondsOverload1" xml:space="preserve">
+    <value>Pridajte Milliseconds do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload0" xml:space="preserve">
+    <value>Pridajte minúty do trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMinutesOverload1" xml:space="preserve">
+    <value>Pridajte minúty do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddMonthsOverload0" xml:space="preserve">
+    <value>Pridať mesiace do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload0" xml:space="preserve">
+    <value>Pridať čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload1" xml:space="preserve">
+    <value>Pridajte odobratie do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddOverload2" xml:space="preserve">
+    <value>Pridať trvanlivosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload0" xml:space="preserve">
+    <value>Pridajte sekundy do trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddSecondsOverload1" xml:space="preserve">
+    <value>Pridajte sekundy do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAddYearsOverload0" xml:space="preserve">
+    <value>Pridajte roky do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAndOverload0" xml:space="preserve">
+    <value>Logické a booleans</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinhOverload0" xml:space="preserve">
+    <value>Hyperbolický oblúk-sine čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAsinOverload0" xml:space="preserve">
+    <value>Oblúk-sine čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtan2Overload0" xml:space="preserve">
+    <value>Uhol, ktorého tangenta je kvocient dvoch čísel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanhOverload0" xml:space="preserve">
+    <value>Hyperbolický oblúk-tangenta čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAtanOverload0" xml:space="preserve">
+    <value>Oblúk-tangenta čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload0" xml:space="preserve">
+    <value>Priemerné hodnoty trvania vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload1" xml:space="preserve">
+    <value>Priemerné hodnoty okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload2" xml:space="preserve">
+    <value>Priemerné hodnoty okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload3" xml:space="preserve">
+    <value>Priemerná hodnota číselného znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload4" xml:space="preserve">
+    <value>Priemerné hodnoty trvania vlastnosti, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload5" xml:space="preserve">
+    <value>Priemerné hodnoty okamžitého znaku, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload6" xml:space="preserve">
+    <value>Priemerné hodnoty okamžitého rozsahu, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionAverageOverload7" xml:space="preserve">
+    <value>Priemerná hodnota čísla čísel, ktorá prejde test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload0" xml:space="preserve">
+    <value>Okolo čísla až do najbližšieho celého čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload1" xml:space="preserve">
+    <value>Okrúhlym okamihom až do najbližšieho trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload2" xml:space="preserve">
+    <value>Okrúhlym okamihom až do najbližšieho dobrého trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload3" xml:space="preserve">
+    <value>Okolo trvania instantného rozsahu až do najbližšieho trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload4" xml:space="preserve">
+    <value>Okolo trvania instantného rozsahu až do najbližšieho dobrého trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload5" xml:space="preserve">
+    <value>Okolo trvania až do najbližšieho trvania internetu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCeilingOverload6" xml:space="preserve">
+    <value>Okolo trvania až do najbližšieho dobrého trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoalesceOverload0" xml:space="preserve">
+    <value>Vyberte prvú hodnotu null</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionConcatOverload0" xml:space="preserve">
+    <value>Zhrnutie textových hodnôt</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Či hodnota v hodnote necitlivo obsahuje inú hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0" xml:space="preserve">
+    <value>Či hodnota obsahuje inú hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionContainsOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0" xml:space="preserve">
+    <value>Hyperbolická kosívanie uhla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCoshOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0" xml:space="preserve">
+    <value>Cosine z uhla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCosOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload0" xml:space="preserve">
+    <value>Spočítajte počet hodnôt znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionCountOverload1" xml:space="preserve">
+    <value>Spočítajte počet hodnôt vlastnosti, ktoré prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDateOverload0" xml:space="preserve">
+    <value>Dátum okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOfWeekOverload0" xml:space="preserve">
+    <value>Deň v týždni</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDayOverload0" xml:space="preserve">
+    <value>Deň okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload0" xml:space="preserve">
+    <value>Dní trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDaysOverload1" xml:space="preserve">
+    <value>Dni trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultAssignmentOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre priradenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultBooleanOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre booleovskú vlastnosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultDurationOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre dobu trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultEntityTypeIdOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre typ ID typu entity</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultIdOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre ID vlastnosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre okamžitú vlastnosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultInstantRangeOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre funkciu Instant Range</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultListValueOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre hodnotu zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultMultiLineTextOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre multi-line textový znak</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultNumberOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre číselné vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultPersonOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre osobnú vlastnosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultSingleLineTextOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre jedno-line textovú vlastnosť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTimeSliceOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre čas na čas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre znak z vlastností</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultTraitTypeOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre znak títu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDefaultWorkItemOverload0" xml:space="preserve">
+    <value>Predvolená hodnota pre pracovnú hodnotu pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload0" xml:space="preserve">
+    <value>Rozdeľte číslo podľa čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload1" xml:space="preserve">
+    <value>Rozdeľte trvanie instantného rozsahu podľa čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload2" xml:space="preserve">
+    <value>Rozdeľte trvanie okamžitého rozsahu podľa trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload3" xml:space="preserve">
+    <value>Rozdeľte trvanie okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload4" xml:space="preserve">
+    <value>Rozdeľte trvanie číslom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload5" xml:space="preserve">
+    <value>Rozdeľte trvanie trvaním instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionDivideOverload6" xml:space="preserve">
+    <value>Doba trvania rozdeľte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndOverload0" xml:space="preserve">
+    <value>Ukončenie okamihu instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Či hodnotu prípad necitlivo končí inou hodnotou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Skontrolovať hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu na konci</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0" xml:space="preserve">
+    <value>Či hodnota končí inou hodnotou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter0" xml:space="preserve">
+    <value>Skontrolovať hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEndsWithOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu na konci</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEOverload0" xml:space="preserve">
+    <value>Konštanta E (prírodná logaritmická základňa)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Či dva textové hodnoty v prípade necitlivo sa rovná</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionEqualOverload0" xml:space="preserve">
+    <value>Či sa dve hodnoty rovnajú</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionExpOverload0" xml:space="preserve">
+    <value>Zvýšiť e k moci</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload0" xml:space="preserve">
+    <value>Okolo čísla na najbližšie celé číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload1" xml:space="preserve">
+    <value>Okrúhle okrúhle až do najbližšieho trvania internetu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload2" xml:space="preserve">
+    <value>Okrúhlym okamihom nadol na najbližšie celé trvanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload3" xml:space="preserve">
+    <value>ROAD TRVANIE OBMEDZUJÚCEHO ROZSAHU DO NAJVYŠŠIEHO TROU</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload4" xml:space="preserve">
+    <value>Okolo trvania instantného rozsahu do najbližšieho dobrého trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload5" xml:space="preserve">
+    <value>Okolo trvania nadol na najbližšiu celú dobu trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFloorOverload6" xml:space="preserve">
+    <value>Trvanie na najbližšie dobu trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0" xml:space="preserve">
+    <value>Hodnoty umiestnite do formátu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFormatOverload0Parameter0" xml:space="preserve">
+    <value>Formát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromHoursOverload0" xml:space="preserve">
+    <value>Trvanie z celkového počtu hodín</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMillisecondsOverload0" xml:space="preserve">
+    <value>Trvanie z celkového počtu miliseconds</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromMinutesOverload0" xml:space="preserve">
+    <value>Trvanie z celkového počtu minút</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionFromSecondsOverload0" xml:space="preserve">
+    <value>Trvanie z celkového počtu sekúnd</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOrEqualOverload0" xml:space="preserve">
+    <value>Či je prvá hodnota väčšia alebo rovná druhej hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionGreaterThanOverload0" xml:space="preserve">
+    <value>Či je prvá hodnota väčšia ako druhá hodnota</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHourOverload0" xml:space="preserve">
+    <value>Hodinu okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload0" xml:space="preserve">
+    <value>Hodiny Zobrazenie dĺžky trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursDisplayOverload1" xml:space="preserve">
+    <value>Hodín zobrazenia trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload0" xml:space="preserve">
+    <value>Hodín trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHoursOverload1" xml:space="preserve">
+    <value>Hodín trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeInstantRangePattern" xml:space="preserve">
+    <value>z {0} do {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload0" xml:space="preserve">
+    <value>Preložiť okamžitý do aproximálneho ľudského čitateľného popisu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload1" xml:space="preserve">
+    <value>Preložiť instant sortiment do aproximálneho ľudského čitateľného popisu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionHumanizeOverload2" xml:space="preserve">
+    <value>Preložiť trvanie do aproximálneho ľudského čitateľného popisu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0" xml:space="preserve">
+    <value>Vykonajte test na výber medzi dvoma hodnotami</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter0" xml:space="preserve">
+    <value>Skúška</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter1" xml:space="preserve">
+    <value>Hodnota, ak je test pravdivý</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIfOverload0Parameter2" xml:space="preserve">
+    <value>Hodnota, ak je test false</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Nulový index prvého prípadu necitlivého vzhľadu hodnoty v hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0" xml:space="preserve">
+    <value>Nulový index prvého vzhľadu hodnoty v hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0" xml:space="preserve">
+    <value>Vložte hodnotu do hodnoty v indexe založenom na nulovom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota, do ktorej sa chcete vložiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter1" xml:space="preserve">
+    <value>Index, na ktorý sa má vložiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionInsertOverload0Parameter2" xml:space="preserve">
+    <value>Hodnota na vloženie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0" xml:space="preserve">
+    <value>Získajte, či je hodnota predvolenej hodnoty pre jeho typ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota na preskúmanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0" xml:space="preserve">
+    <value>Získajte, či hodnota nie je predvolená hodnota pre svoj typ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsNotDefaultOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota na preskúmanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload0" xml:space="preserve">
+    <value>Získajte, či je možné hodnotu previesť na dĺžku trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1" xml:space="preserve">
+    <value>Získajte, či je možné text previesť na trvania pomocou zadaného formátu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidDurationOverload1Parameter1" xml:space="preserve">
+    <value>Formát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidIDOverload0" xml:space="preserve">
+    <value>Získajte, či je hodnota môže byť prevedená na ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload0" xml:space="preserve">
+    <value>Získajte, či je hodnota môže byť prevedená na okamžitý</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1" xml:space="preserve">
+    <value>Získajte, či je možné text previesť na okamžitý pomocou zadaného formátu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidInstantOverload1Parameter1" xml:space="preserve">
+    <value>Formát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionIsValidNumberOverload0" xml:space="preserve">
+    <value>Získajte, či hodnota je možné konvertovať na číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0" xml:space="preserve">
+    <value>Nulový index posledného vzhľadu hodnoty v hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLastIndexOfOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLengthOverload0" xml:space="preserve">
+    <value>Dĺžka znakov hodnoty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOrEqualOverload0" xml:space="preserve">
+    <value>Či je prvá hodnota menšia alebo rovná druhej hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLessThanOverload0" xml:space="preserve">
+    <value>Či je prvá hodnota menšia ako druhá hodnota</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLog10Overload0" xml:space="preserve">
+    <value>Base 10 logaritmus čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionLogOverload0" xml:space="preserve">
+    <value>Logaritmus čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload0" xml:space="preserve">
+    <value>Max (TRUE) Hodnota booleovskej vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload1" xml:space="preserve">
+    <value>Max (najdlhšia) hodnota trvania vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload10" xml:space="preserve">
+    <value>Max (najdlhšie) Trvanie hodnoty okamžitého znaku, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload11" xml:space="preserve">
+    <value>Max (abecedne najnovšia) hodnota multi-line textového znaku, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload12" xml:space="preserve">
+    <value>Max (najväčšia) hodnota číselného znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload13" xml:space="preserve">
+    <value>Max (abecedne najnovšia) hodnota jednorazového textu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload2" xml:space="preserve">
+    <value>Max (najnovšia) hodnota okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload3" xml:space="preserve">
+    <value>Max (najdlhšie) Trvanie hodnoty okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload4" xml:space="preserve">
+    <value>Max (abecedne najnovšia) hodnota multi-line textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload5" xml:space="preserve">
+    <value>Max (najväčšia) hodnota čísla znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload6" xml:space="preserve">
+    <value>Max (abecedne najnovšia) hodnota jednostranného textu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload7" xml:space="preserve">
+    <value>Max (true) hodnota booleanového vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload8" xml:space="preserve">
+    <value>Max (najdlhšia) hodnota trvania vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMaxOverload9" xml:space="preserve">
+    <value>Max (najnovšia) hodnota okamžitého znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondOverload0" xml:space="preserve">
+    <value>Millisekunda</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload0" xml:space="preserve">
+    <value>Milliseconds trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMillisecondsOverload1" xml:space="preserve">
+    <value>Milliseconds trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload0" xml:space="preserve">
+    <value>Min (falošná) hodnota booleovskej vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload1" xml:space="preserve">
+    <value>Min (najkratšia) hodnota trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload10" xml:space="preserve">
+    <value>Min (najkratšie) Trvanie hodnoty okamžitého znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload11" xml:space="preserve">
+    <value>Min (abecedne najstaršia) hodnota multi-line textu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload12" xml:space="preserve">
+    <value>Min (najmenšia) hodnota číselného znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload13" xml:space="preserve">
+    <value>Min (abecedne najstaršia) hodnota jednorazového textu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload2" xml:space="preserve">
+    <value>Min (najskoršia) hodnota okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload3" xml:space="preserve">
+    <value>Min (najkratšie) Trvanie hodnoty okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload4" xml:space="preserve">
+    <value>Min (abecedne najstaršia) hodnota multi-line textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload5" xml:space="preserve">
+    <value>Min (najmenšia) hodnota čísla čísel</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload6" xml:space="preserve">
+    <value>Min (abecedne najskoršie) hodnoty jednorazového textu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload7" xml:space="preserve">
+    <value>Min (falošná) hodnota booleovskej vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload8" xml:space="preserve">
+    <value>Min (najkratšia) hodnota trvania, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinOverload9" xml:space="preserve">
+    <value>Min (najskoršia) hodnota okamžitého znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinuteOverload0" xml:space="preserve">
+    <value>Minút</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload0" xml:space="preserve">
+    <value>Minút trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMinutesOverload1" xml:space="preserve">
+    <value>Minút trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload0" xml:space="preserve">
+    <value>Zvyšok rozdelenia čísla číslom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload1" xml:space="preserve">
+    <value>Rozdeľte trvanie okamžitého rozsahu podľa trvania okamžitého rozsahu a získajte zvyšok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload2" xml:space="preserve">
+    <value>Rozdeľte trvanie okamžitého rozsahu dĺžkou a získajte zvyšok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload3" xml:space="preserve">
+    <value>Rozdeľte dĺžku trvania AF okamžitý rozsah a zvyšok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionModuloOverload4" xml:space="preserve">
+    <value>Rozdeľte trvanie trvaním a získajte zvyšok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMonthOverload0" xml:space="preserve">
+    <value>Mesiaca okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload0" xml:space="preserve">
+    <value>Množiteľné čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload1" xml:space="preserve">
+    <value>Vynásobte trvanie instantného rozsahu podľa čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload2" xml:space="preserve">
+    <value>Vynásobte číslo podľa trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload3" xml:space="preserve">
+    <value>Vynásobte trvanie číslom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionMultiplyOverload4" xml:space="preserve">
+    <value>Vynásobte číslo trvaním</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNandOverload0" xml:space="preserve">
+    <value>Logické NAND BOOLEANS</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload0" xml:space="preserve">
+    <value>Negovať číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload1" xml:space="preserve">
+    <value>Negovať trvanie okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNegateOverload2" xml:space="preserve">
+    <value>Negovať trvanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNorOverload0" xml:space="preserve">
+    <value>Logické ani booleans</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotEqualOverload0" xml:space="preserve">
+    <value>Či sa dve hodnoty nerovnú</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNotOverload0" xml:space="preserve">
+    <value>Negovať boolean</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowInUniversalTimeOverload0" xml:space="preserve">
+    <value>Aktuálny dátum a čas v univerzálnom čase</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionNowOverload0" xml:space="preserve">
+    <value>Aktuálny dátum a čas v miestnom čase</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOrOverload0" xml:space="preserve">
+    <value>Logické alebo booleans</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionOverlapOverload0" xml:space="preserve">
+    <value>Získajte okamžitý rozsah predstavujúci prekrytie dvoch okamžitých rozsahov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov priradenia zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterAssignmentOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0" xml:space="preserve">
+    <value>Hodnota jedného z booleovských parametrov zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterBooleanOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov trvania zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterDurationOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov ID ID ID ID zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterEntityTypeIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov ID zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterIdOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0" xml:space="preserve">
+    <value>Hodnota jedného z okamžitých parametrov zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov Instant Range Zobraziť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterInstantRangeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov zoznamu zoznamu zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterListValueOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0" xml:space="preserve">
+    <value>Hodnota jedného z multi-line textových parametrov zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterMultiLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov čísla zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterNumberOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterPersonOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0" xml:space="preserve">
+    <value>Hodnota jedného z jednorazových parametrov zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterSingleLineTextOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov čapu času zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTimeSliceOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov vlastností zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov Typ tabuľky zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterTraitTypeOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0" xml:space="preserve">
+    <value>Hodnota jedného z parametrov pracovného miesta pohľadu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionParameterWorkItemOverload0Parameter0" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPerspectiveOverload0" xml:space="preserve">
+    <value>Osoba, pre ktorú sa vyskytne hodnotenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPiOverload0" xml:space="preserve">
+    <value>Konštantný π (pomer obvodu kruhu k jeho priemeru)</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionPowerOverload0" xml:space="preserve">
+    <value>Zvýšte číslo na výkon čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload0" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload1" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload2" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload3" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte časového rozdielu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload4" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForAssignmentInContextOverload5" xml:space="preserve">
+    <value>Dotaz na priradenie v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre boolean v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre boolean v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre boolean v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload3" xml:space="preserve">
+    <value>Dotaz na boolean v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload4" xml:space="preserve">
+    <value>Dotaz na boolean v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForBooleanInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre boolean v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload0" xml:space="preserve">
+    <value>Dotaz na dobu trvania v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload1" xml:space="preserve">
+    <value>Dotaz na dobu trvania v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload2" xml:space="preserve">
+    <value>Dotaz na dobu trvania v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload3" xml:space="preserve">
+    <value>Dotaz na dobu trvania v kontexte časového rezu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload4" xml:space="preserve">
+    <value>Dotaz na dobu trvania v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForDurationInContextOverload5" xml:space="preserve">
+    <value>Dotaz na trvania v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre ID typu entity v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre ID typu entity v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre typ entity ID v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre ID typu entity v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload4" xml:space="preserve">
+    <value>Dotaz pre ID typu entity v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForEntityTypeIdInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre ID typu entity v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre ID v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre ID v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre ID v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre ID v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload4" xml:space="preserve">
+    <value>Dotaz na ID v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForIdInContextOverload5" xml:space="preserve">
+    <value>Dotaz na ID v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload0" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload1" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload2" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload3" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload4" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantInContextOverload5" xml:space="preserve">
+    <value>Dotaz na okamžitý v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload0" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload1" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload2" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload3" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload4" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForInstantRangeInContextOverload5" xml:space="preserve">
+    <value>Dotaz na okamžitý rozsah v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte časového rezu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload4" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForListValueInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre hodnotu zoznamu v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload4" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForMultiLineTextInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre multi-line text v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload0" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload1" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload2" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload3" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte časového rezu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload4" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForNumberInContextOverload5" xml:space="preserve">
+    <value>Dotaz na číslo v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte zadania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload4" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForPersonInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre osobu v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload0" xml:space="preserve">
+    <value>Dotaz na jedno-line text v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre jednorazový text v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre jedno-line text v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload3" xml:space="preserve">
+    <value>Dotaz na jednorazový text v kontexte časového rozdielu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload4" xml:space="preserve">
+    <value>Dotaz na jedno-line text v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForSingleLineTextInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre jedno-line text v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload0" xml:space="preserve">
+    <value>Dotaz na časový plátok v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload1" xml:space="preserve">
+    <value>Dotaz na časový rozdiel v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload2" xml:space="preserve">
+    <value>Dotaz na časový plátok v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload3" xml:space="preserve">
+    <value>Dotaz na časový plátok v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload4" xml:space="preserve">
+    <value>Dotaz na časový plátok v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTimeSliceInContextOverload5" xml:space="preserve">
+    <value>Dotaz na časový rez v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload0" xml:space="preserve">
+    <value>Dotaz na vlastnosť v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload1" xml:space="preserve">
+    <value>Dotaz na znak v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload2" xml:space="preserve">
+    <value>Dotaz na vlastnosť v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload3" xml:space="preserve">
+    <value>Dotaz na vlastnosť v kontexte časového plášťa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload4" xml:space="preserve">
+    <value>Dotaz na znak v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitInContextOverload5" xml:space="preserve">
+    <value>Dotaz na vlastnosť v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload0" xml:space="preserve">
+    <value>Dotaz pre typ znaku v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre typ znaku v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload2" xml:space="preserve">
+    <value>Dotaz pre typ znaku v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload3" xml:space="preserve">
+    <value>Dotaz pre typ vlastnosti v kontexte časového rozdielu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload4" xml:space="preserve">
+    <value>Dotaz na typ znaku v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForTraitTypeInContextOverload5" xml:space="preserve">
+    <value>Dotaz pre typ znaku v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload0" xml:space="preserve">
+    <value>Dotaz na pracovnú položku v kontexte priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload1" xml:space="preserve">
+    <value>Dotaz pre pracovnú položku v kontexte hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload2" xml:space="preserve">
+    <value>Dotaz na pracovnú položku v kontexte osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload3" xml:space="preserve">
+    <value>Dotaz na pracovnú položku v kontexte časového rozdielu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload4" xml:space="preserve">
+    <value>Dotaz na pracovnú položku v kontexte vlastného charakteru</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionQueryForWorkItemInContextOverload5" xml:space="preserve">
+    <value>Dotaz na pracovnú položku v kontexte pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0" xml:space="preserve">
+    <value>Získajte hodnotu pravidelnej skupiny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter0" xml:space="preserve">
+    <value>Zaviesť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter1" xml:space="preserve">
+    <value>Pravidelný výraz</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexGetGroupOverload0Parameter2" xml:space="preserve">
+    <value>Názov skupiny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0" xml:space="preserve">
+    <value>Či hodnota zodpovedá regulárnemu výrazu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter0" xml:space="preserve">
+    <value>Zaviesť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRegexTestOverload0Parameter1" xml:space="preserve">
+    <value>Pravidelný výraz</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0" xml:space="preserve">
+    <value>Vymeňte vystúpenie hodnoty s hodnotou v rámci hodnoty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter0" xml:space="preserve">
+    <value>Hodnota vyhľadávania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionReplaceOverload0Parameter2" xml:space="preserve">
+    <value>Nahradiť hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload0" xml:space="preserve">
+    <value>Okolo čísla na najbližšie celé číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1" xml:space="preserve">
+    <value>Okolo čísla na najbližší počet frakčných číslic</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload1Parameter1" xml:space="preserve">
+    <value>Počet frakčných číslic</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload2" xml:space="preserve">
+    <value>Okrúhly na najbližšiu celú dobu trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload3" xml:space="preserve">
+    <value>Okrúhly k najbližšiemu celému trvaniu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload4" xml:space="preserve">
+    <value>Okolo trvania instantného rozsahu na najbližšie celé trvanie okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload5" xml:space="preserve">
+    <value>Okolo trvania instantného rozsahu do najbližšieho dobrého trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload6" xml:space="preserve">
+    <value>Okolo trvania na najbližšie dobu trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionRoundOverload7" xml:space="preserve">
+    <value>Okolo trvania na najbližšie celé trvanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondOverload0" xml:space="preserve">
+    <value>Druhý z okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload0" xml:space="preserve">
+    <value>Sekúnd trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSecondsOverload1" xml:space="preserve">
+    <value>Sekúnd trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0" xml:space="preserve">
+    <value>Hyperbolická sine čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinhOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0" xml:space="preserve">
+    <value>Sine uhla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSinOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSqrtOverload0" xml:space="preserve">
+    <value>Druhý koreň čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartOverload0" xml:space="preserve">
+    <value>Spustite Instant of Instant Range</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0" xml:space="preserve">
+    <value>Či sa hodnotový prípad necitlivo začína inou hodnotou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter0" xml:space="preserve">
+    <value>Skontrolovať hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithCaseInsensitiveOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu na začiatku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0" xml:space="preserve">
+    <value>Či hodnota začína inou hodnotou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter0" xml:space="preserve">
+    <value>Skontrolovať hodnotu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionStartsWithOverload0Parameter1" xml:space="preserve">
+    <value>Pre hodnotu na začiatku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0" xml:space="preserve">
+    <value>Text z hodnoty, ktorá začína v indexe založenom na nulova</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload0Parameter1" xml:space="preserve">
+    <value>Index</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1" xml:space="preserve">
+    <value>Text z hodnoty, ktorá začína v indexe založenom na nulovom založenom na dĺžke</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter1" xml:space="preserve">
+    <value>Index</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubOverload1Parameter2" xml:space="preserve">
+    <value>Dĺžka</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload0" xml:space="preserve">
+    <value>Odpočítať číslo podľa čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload1" xml:space="preserve">
+    <value>Odpočítať dĺžku trvania instantného rozsahu od okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload2" xml:space="preserve">
+    <value>Odpočítať trvanie od okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload3" xml:space="preserve">
+    <value>Odčítajte trvanie instantného rozsahu od trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload4" xml:space="preserve">
+    <value>Odpočítať trvania od trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload5" xml:space="preserve">
+    <value>Odpočítať dĺžku trvania instantného rozsahu od trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload6" xml:space="preserve">
+    <value>Odčítajte trvanie z trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSubtractOverload7" xml:space="preserve">
+    <value>Odčítajte okamžitý od okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload0" xml:space="preserve">
+    <value>Súčet trvanlivosti hodnôt s okamžitým rozsahom, ktoré klesá po okamžitej hodnote</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumFromOverload1" xml:space="preserve">
+    <value>Súčet Trápania hodnôt funkcie okamžitého rozsahu, ktoré napadnú po okamžitej hodnote, ktorá prejde test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload0" xml:space="preserve">
+    <value>Súčet hodnôt trvania vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload1" xml:space="preserve">
+    <value>Súčet trvanlivými hodnotami hodnoty okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload10" xml:space="preserve">
+    <value>Súčet trvania hodnôt redakčného sortimentu, ktoré spadajú medzi dvoma okamžitými hodnotami</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload11" xml:space="preserve">
+    <value>Súčet trvanlivosti hodnôt funkcie okamžitého rozsahu, ktoré spadajú medzi dvoma okamžitými hodnotami, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload2" xml:space="preserve">
+    <value>Zkončite hodnoty multi-line textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload3" xml:space="preserve">
+    <value>Súčet hodnôt číselného znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload4" xml:space="preserve">
+    <value>Zkončite hodnoty jednorazového textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload5" xml:space="preserve">
+    <value>Súčet hodnoty trvania vlastnosti, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload6" xml:space="preserve">
+    <value>Súčet trvanlivosť hodnôt okamžitého rozsahu, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload7" xml:space="preserve">
+    <value>Zhromažďovať hodnoty multi-line textového znaku, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload8" xml:space="preserve">
+    <value>Súčet hodnôt číselného znaku, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumOverload9" xml:space="preserve">
+    <value>Zhromažďovať hodnoty jednorazového textu, ktoré prechádzajú testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload0" xml:space="preserve">
+    <value>Súčet trvania hodnôt okamžitého rozsahu, ktoré klesá pred okamžitou hodnotou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSumToOverload1" xml:space="preserve">
+    <value>Súčet Trápania hodnôt funkcie okamžitého rozsahu, ktorý je napadnutý pred okamžitou hodnotou, ktorá prejde skúškou</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0" xml:space="preserve">
+    <value>Vyberte si hodnotu podľa prvého testu, ktorý prechádza</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter0" xml:space="preserve">
+    <value>Skúška</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload0Parameter1" xml:space="preserve">
+    <value>Hodnota, ak je vyššie uvedený test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1" xml:space="preserve">
+    <value>Vyberte si hodnotu podľa prvého testu, ktorý prechádza, alebo predvolená hodnota, ak nie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter0" xml:space="preserve">
+    <value>Skúška</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter1" xml:space="preserve">
+    <value>Hodnota, ak je vyššie uvedený test</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionSwitchOverload1Parameter2" xml:space="preserve">
+    <value>Predvolená hodnota</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0" xml:space="preserve">
+    <value>Hyperbolický dotyčník čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanhOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0" xml:space="preserve">
+    <value>Dotyčnica uhla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTanOverload0Parameter0" xml:space="preserve">
+    <value>Uhol</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTimeOfDayOverload0" xml:space="preserve">
+    <value>Čas dňa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToBooleanOverload0" xml:space="preserve">
+    <value>Previesť hodnotu boolean</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload0" xml:space="preserve">
+    <value>Previesť hodnotu do trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1" xml:space="preserve">
+    <value>Prevod textu na trvania pomocou zadaného formátu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToDurationOverload1Parameter1" xml:space="preserve">
+    <value>Formát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload0" xml:space="preserve">
+    <value>Celkový počet hodín trvania okamžitého rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToHoursOverload1" xml:space="preserve">
+    <value>Celkový počet hodín trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToIDOverload0" xml:space="preserve">
+    <value>Previesť hodnotu na ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload0" xml:space="preserve">
+    <value>Previesť hodnotu do okamihu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1" xml:space="preserve">
+    <value>Prevod textu na okamžitý pomocou zadaného formátu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToInstantOverload1Parameter1" xml:space="preserve">
+    <value>Formát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload0" xml:space="preserve">
+    <value>Previesť okamžitý na miestny čas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLocalTimeOverload1" xml:space="preserve">
+    <value>Previesť okamžitý rozsah na miestny čas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToLowerCaseOverload0" xml:space="preserve">
+    <value>Previesť hodnotu na text v malých prípadoch</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMetricNumeralOverload0" xml:space="preserve">
+    <value>Preložte číslo do metrickej číslice</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload0" xml:space="preserve">
+    <value>Celkový počet milisekúnd trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMillisecondsOverload1" xml:space="preserve">
+    <value>Celkový počet milisekúnd trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload0" xml:space="preserve">
+    <value>Celkový počet minút trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToMinutesOverload1" xml:space="preserve">
+    <value>Celkový počet minút trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToNumberOverload0" xml:space="preserve">
+    <value>Previesť hodnotu na číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0" xml:space="preserve">
+    <value>Preložte číslo do ordinálneho reťazca, ktorý sa používa na označenie pozície v usporiadanej sekvencii</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToOrdinalWordsOverload0Parameter1" xml:space="preserve">
+    <value>Skrátiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToRomanNumeralOverload0" xml:space="preserve">
+    <value>Preložiť číslo do rímskej číslice</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload0" xml:space="preserve">
+    <value>Celkový počet sekúnd trvania instantného rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToSecondsOverload1" xml:space="preserve">
+    <value>Celkový počet sekúnd trvania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToTextOverload0" xml:space="preserve">
+    <value>Previesť hodnotu na text</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload0" xml:space="preserve">
+    <value>Previesť okamžitý na univerzálny čas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUniversalTimeOverload1" xml:space="preserve">
+    <value>Konvertovať okamžitý rozsah na univerzálny čas</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToUpperCaseOverload0" xml:space="preserve">
+    <value>Previesť hodnotu do textu v veľkých písmenách</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0" xml:space="preserve">
+    <value>Preložiť číslo do slov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter1" xml:space="preserve">
+    <value>Pridať a</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionToWordsOverload0Parameter2" xml:space="preserve">
+    <value>Skrátiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimEndOverload0" xml:space="preserve">
+    <value>Trim Training Whitespace z hodnoty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimOverload0" xml:space="preserve">
+    <value>Trim vedúci a koncový medzera z hodnoty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTrimStartOverload0" xml:space="preserve">
+    <value>Trim popredného medzerníka z hodnoty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload0" xml:space="preserve">
+    <value>Vypočítať integrálnu časť čísla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1" xml:space="preserve">
+    <value>Text z hodnoty do dĺžky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionTruncateOverload1Parameter1" xml:space="preserve">
+    <value>Dĺžka</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload0" xml:space="preserve">
+    <value>Hodnota priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload1" xml:space="preserve">
+    <value>Hodnota booleovskej vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload10" xml:space="preserve">
+    <value>Hodnota vlastnosti osoby</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload11" xml:space="preserve">
+    <value>Hodnota jedno-line textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload12" xml:space="preserve">
+    <value>Hodnota časového častia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload13" xml:space="preserve">
+    <value>Hodnota vlastnosti vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload14" xml:space="preserve">
+    <value>Hodnota vlastnosti traktu znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload15" xml:space="preserve">
+    <value>Hodnota vlastnosti pracovnej položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload16" xml:space="preserve">
+    <value>Hodnota priradenia znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload17" xml:space="preserve">
+    <value>Hodnota booleovskej vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload18" xml:space="preserve">
+    <value>Hodnota trvania vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload19" xml:space="preserve">
+    <value>Hodnota typového trestu typu entity, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload2" xml:space="preserve">
+    <value>Hodnota trvania vlastnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload20" xml:space="preserve">
+    <value>Hodnota ID vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload21" xml:space="preserve">
+    <value>Hodnota okamžitého znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload22" xml:space="preserve">
+    <value>Hodnota funkcie okamžitého rozsahu, ktorý prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload23" xml:space="preserve">
+    <value>Hodnota hodnoty zoznamu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload24" xml:space="preserve">
+    <value>Hodnota multi-line textu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload25" xml:space="preserve">
+    <value>Hodnota číselného znaku, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload26" xml:space="preserve">
+    <value>Hodnota vlastnosti osoby, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload27" xml:space="preserve">
+    <value>Hodnota jednorazového textu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload28" xml:space="preserve">
+    <value>Hodnota časového rezu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload29" xml:space="preserve">
+    <value>Hodnota vlastnosti, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload3" xml:space="preserve">
+    <value>Hodnota ID ID typu entity</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload30" xml:space="preserve">
+    <value>Hodnota vlastnosti traktu, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload31" xml:space="preserve">
+    <value>Hodnota vlastnosti pracovnej položky, ktorá prechádza testom</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload4" xml:space="preserve">
+    <value>Hodnota vlastnosti ID</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload5" xml:space="preserve">
+    <value>Hodnota okamžitého znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload6" xml:space="preserve">
+    <value>Hodnota neustáleho rozsahu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload7" xml:space="preserve">
+    <value>Hodnota hodnoty zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload8" xml:space="preserve">
+    <value>Hodnota multi-line textového znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionValueOverload9" xml:space="preserve">
+    <value>Hodnota číselného znaku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXnorOverload0" xml:space="preserve">
+    <value>LOGICKÉ XNOR BOOLEANS</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionXorOverload0" xml:space="preserve">
+    <value>LOGICKÉ XOR BOOLEANS</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FormulaFunctionYearOverload0" xml:space="preserve">
+    <value>Rok okamžite</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameClient" xml:space="preserve">
+    <value>Zobraziť kontrolér</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameSQLiteDatabaseConnection" xml:space="preserve">
+    <value>Pripojenie databázy SQLITE</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

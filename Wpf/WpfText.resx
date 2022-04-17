@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Device Signature:</value>
+  </data>
+  <data name="AboutDialogDeviceSignatureLoading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="AppLicenseCancelled" xml:space="preserve">
+    <value>This application cannot be started without a valid license.</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Grindstone</value>
+  </data>
+  <data name="BusyCheckingForUpdates" xml:space="preserve">
+    <value>Checking for updates</value>
+  </data>
+  <data name="BusyConvertingEntriesToText" xml:space="preserve">
+    <value>Converting entries to text</value>
+  </data>
+  <data name="BusyCreatingEntries" xml:space="preserve">
+    <value>Creating entries</value>
+  </data>
+  <data name="BusyCreatingNewDatabase" xml:space="preserve">
+    <value>Creating new database</value>
+  </data>
+  <data name="BusyDeletingColumn" xml:space="preserve">
+    <value>Deleting column</value>
+  </data>
+  <data name="BusyDeletingEntries" xml:space="preserve">
+    <value>Deleting entries</value>
+  </data>
+  <data name="BusyDeletingView" xml:space="preserve">
+    <value>Deleting view</value>
+  </data>
+  <data name="BusyDownloadingUpdate" xml:space="preserve">
+    <value>Downloading update</value>
+  </data>
+  <data name="BusyDuplicatingColumn" xml:space="preserve">
+    <value>Duplicating column</value>
+  </data>
+  <data name="BusyDuplicatingEntries" xml:space="preserve">
+    <value>Duplicating entries</value>
+  </data>
+  <data name="BusyEndingSession" xml:space="preserve">
+    <value>Ending session</value>
+  </data>
+  <data name="BusyEntriesCopiedToClipboard" xml:space="preserve">
+    <value>Entries copied to clipboard</value>
+  </data>
+  <data name="BusyEntriesExported" xml:space="preserve">
+    <value>Entries exported</value>
+  </data>
+  <data name="BusyExportingEntries" xml:space="preserve">
+    <value>Exporting entries</value>
+  </data>
+  <data name="BusyFinished" xml:space="preserve">
+    <value>All done, thanks!</value>
+  </data>
+  <data name="BusyInitializingInterface" xml:space="preserve">
+    <value>Initializing interface</value>
+  </data>
+  <data name="BusyLoadingConfiguration" xml:space="preserve">
+    <value>Loading configuration</value>
+  </data>
+  <data name="BusyLoadingDatabases" xml:space="preserve">
+    <value>Loading databases</value>
+  </data>
+  <data name="BusyModifyingEntries" xml:space="preserve">
+    <value>Editing entries</value>
+  </data>
+  <data name="BusyReplacingPreviousDatabase" xml:space="preserve">
+    <value>Replacing previous database</value>
+  </data>
+  <data name="BusyScanningLicenses" xml:space="preserve">
+    <value>Scanning licenses</value>
+  </data>
+  <data name="BusyStartingSession" xml:space="preserve">
+    <value>Starting session</value>
+  </data>
+  <data name="BusySubmittingReport" xml:space="preserve">
+    <value>Submitting report</value>
+  </data>
+  <data name="BusyUp" xml:space="preserve">
+    <value>Just a moment, please</value>
+  </data>
+  <data name="BusyVerifyingLicenses" xml:space="preserve">
+    <value>Verifying licenses</value>
+  </data>
+  <data name="BusyWaitingForUpdateDownloadToFinish" xml:space="preserve">
+    <value>Waiting for update download to finish</value>
+  </data>
+  <data name="ButtonAgree" xml:space="preserve">
+    <value>AGREE</value>
+  </data>
+  <data name="ButtonBack" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="ButtonCreateDatabase" xml:space="preserve">
+    <value>CREATE DATABASE</value>
+  </data>
+  <data name="ButtonDeleteDatabase" xml:space="preserve">
+    <value>DELETE DATABASE</value>
+  </data>
+  <data name="ButtonInstall" xml:space="preserve">
+    <value>INSTALL</value>
+  </data>
+  <data name="ButtonMultipleValues" xml:space="preserve">
+    <value>MULTIPLE VALUES — CLICK TO SET</value>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>NEXT</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonOpenDatabase" xml:space="preserve">
+    <value>OPEN DATABASE</value>
+  </data>
+  <data name="ButtonUninstall" xml:space="preserve">
+    <value>UNINSTALL</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="CheckForUpdatesInfoAlreadyUpdated" xml:space="preserve">
+    <value>You are already using the most recently released version of Grindstone.</value>
+  </data>
+  <data name="CheckForUpdatesQuestionDownload" xml:space="preserve">
+    <value>An update to Grindstone is available. Would you like to download it now? You can continue working while I do that.</value>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloaded" xml:space="preserve">
+    <value>An update is ready. Would you like to install it now?</value>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloading" xml:space="preserve">
+    <value>An update is already being prepared. I'll let you know what it's ready.</value>
+  </data>
+  <data name="CollectedPasswordFailed" xml:space="preserve">
+    <value>The password you gave was not correct.</value>
+  </data>
+  <data name="ColumnEditorDialogCompilationError" xml:space="preserve">
+    <value>I ran into a problem while compiling this column's display formula.
+
+Error: {0}
+
+Offending formula expression:
+{1}</value>
+  </data>
+  <data name="ColumnEditorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommandBlocked" xml:space="preserve">
+    <value>Sorry, but I can't do that</value>
+  </data>
+  <data name="CommandLineHelp" xml:space="preserve">
+    <value>GRINDSTONE [drive:][path][filename] [options]
+
+  [drive:][path][filename]
+    Specifies drive, directory, and name of a database file to open
+
+Options:
+
+  -i, --install
+    starts the install process
+
+  -u, --uninstall
+    starts the uninstall process
+
+  -s, --silent
+    causes the install/uninstall process to proceed silently with minimal options
+
+  --createDesktopShortcut
+    causes the install process to create a Desktop short-cut when silent
+
+  --leaveConfiguration
+    causes the uninstall process not to remove the configuration when silent
+
+  --removeDatabases
+    causes the uninstall process to remove databases when silent
+
+  --startWhenFinished
+    causes the install process to launch Grindstone after finishing when silent
+
+  --startWithWindows
+    causes the install process to set Grindstone to run at start-up when silent
+
+  --exportLocalization:path
+    saves all text for the current locale in the JSON runtime format in the directory located at path</value>
+  </data>
+  <data name="DatabaseCreationDialogEncrypt" xml:space="preserve">
+    <value>Encrypt this database</value>
+  </data>
+  <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
+    <value>The first time you open this database, you will be asked to set the password. On each subsequent time it is opened, the same password must be entered.</value>
+  </data>
+  <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
+    <value>Must not be empty</value>
+  </data>
+  <data name="DatabaseCreationDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DatabaseCreationDialogNameIllegalCharacters" xml:space="preserve">
+    <value>Must not contain invalid characters for file names</value>
+  </data>
+  <data name="DatabaseSelectionDialogCaption" xml:space="preserve">
+    <value>Database selection</value>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete the "{0}" database? This is not reversible!</value>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
+    <value>I was unable to delete the "{0}" database Could it currently be in use? If so, please switch to another database or close Grindstone before attempting to delete the "{0}" database.</value>
+  </data>
+  <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
+    <value>{0} End</value>
+  </data>
+  <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
+    <value>{0} Start</value>
+  </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Grindstone Databases</value>
+  </data>
+  <data name="EULAText" xml:space="preserve">
+    <value>SHORT DESCRIPTION
+
+You are granted a non-exclusive license to use Grindstone for any purposes for an unlimited period of time. Grindstone is provided free of charge.
+
+Even though a license fee is not paid for the use of Grindstone, it does not mean that there are no conditions for using it:
+
+1. You may install and use Grindstone for any legal purpose.
+
+2. You may install and use Grindstone on any number of systems.
+
+3. You may copy and distribute Grindstone under the condition that original copyright notice and disclaimer of warranty will stay intact, and you will not charge money or fees for Grindstone, except to cover distribution costs.
+
+4. You will not have any proprietary rights in and to Grindstone. You acknowledge and agree that Epiforge retains all copyrights and other proprietary rights in and to Grindstone.
+
+5. Use within the scope of this license is free of charge and you shall pay no royalty or licensing fees.
+
+FULL VERSION
+
+Please, read this carefully. By using all or any portion of the Software you accept all the terms and conditions of this Agreement. If you do not agree, do not use this Software.
+
+1. DEFINITIONS
+
+When used in this Agreement, the following terms shall have the respective meanings indicated, such meanings to be applicable to both the singular and plural forms of the terms defined:
+
+“Licensor” means Epiforge Software, LLC.
+
+“Licensee” means You or Your Company, unless otherwise indicated.
+
+“Software” means (a) all of the contents of the files, disk(s), CD-ROM(s) or other media with which this Agreement is provided, including but not limited to ((i) registration information, i.e. License key which is unique for a registration name of the Licensee; (ii) related explanatory written materials or files (“Documentation”); and (iii) Software setup files and code samples (if any); and (b) upgrades, modified versions, updates, additions, and copies of the Software, if any, licensed to you by Epiforge Software, LLC (collectively, “Updates”).
+
+“Use” or “Using” means to access, install, download, copy or otherwise benefit from using the functionality of the Software in accordance with the Documentation.
+
+“System” means Windows, GNU/Linux, macOS, Android, iOS, or any virtual machine.
+
+2. GENERAL USE 
+
+You are granted a non-exclusive License to Use the downloaded Software for any purposes for an unlimited period of time.
+
+The software product under this License is provided free of charge. Even though a license fee is not paid for the use of such software, it does not mean that there are no conditions for using such software.
+
+2.1. The Software may be installed and Used by the Licensee for any legal purpose.
+
+2.2. The Software may be installed and Used by the Licensee on any number of systems.
+
+2.3. The Software can be copied and distributed under the condition that original copyright notice and disclaimer of warranty will stay intact and the Licensee will not charge money or fees for the Software product, except to cover distribution costs.
+
+2.4. The Licensee will not have any proprietary rights in and to the Software. The Licensee acknowledges and agrees that the Licensor retains all copyrights and other proprietary rights in and to the Software.
+
+2.5 Use within the scope of this License is free of charge and no royalty or licensing fees shall be paid by the Licensee.
+
+3. INTELLECTUAL PROPERTY RIGHTS
+
+3.1 This License does not transmit any intellectual rights on the Software. The Software and any copies that the Licensee is authorized by the Licensor to make are the intellectual property of and are owned by the Licensor.
+
+3.2 The Software is protected by copyright, including without limitation by Copyright Law and international treaty provisions.
+
+3.3 Any copies that the Licensee is permitted to make pursuant to this Agreement must contain the same copyright and other proprietary notices that appear on or in the Software.
+
+3.4 The structure, organization and code of the Software are the valuable trade secrets and confidential information of the Licensor. The Licensee agrees not to decompile, disassemble or otherwise attempt to discover the source code of the Software.
+
+3.5 Any attempts to reverse-engineer, copy, clone, modify or alter in any way the installer program without the Licensor’s specific approval are strictly prohibited. The Licensee is not authorized to use any plug-in or enhancement that permits to save modifications to a file with software licensed and distributed by the Licensor.
+
+3.6 Trademarks shall be used in accordance with accepted trademark practice, including identification of trademarks owners’ names. Trademarks can only be used to identify printed output produced by the Software and such use of any trademark does not give the Licensee any rights of ownership in that trademark.
+
+4. WARRANTY
+
+4.1 The Licensor warrants that:
+
+4.1.1 The Licensor owns the Software and documentation and/or is in possession of valid and existing licenses that support the terms of this Agreement;
+
+4.1.2 the Software conforms to specifications and functionality as specified in Documentation;
+
+4.1.3 to the best of the Licensor’s knowledge, the Software does not infringe upon or violate any intellectual property right of any third party;
+
+4.1.4 the Software does not contain any routine, intentionally designed by the Licensor to disable a computer program, or computer instructions that may alter, destroy or inhibit the processing environment.
+
+4.2 Except those warranties specified in section 4.1 above, the Software is being delivered to the Licensee “AS IS” and the Licensor makes no warranty as to its use or performance.
+
+The Licensor does not and cannot warrant the performance or results the Licensee may obtain by using the Software. The entire risk arising out of use or performance of the Software remains with the Licensee.
+
+The Licensor gives no warranty, express or implied, that (i) the Software will be of satisfactory quality, suitable for any particular purpose or for any particular use under specified conditions, notwithstanding that such purpose, use, or conditions may be known to the Licensor; or (ii) that the Software will operate error free or without interruption or that any errors will be corrected.
+
+5. LIMITATION OF LIABILITY
+
+In no event will the Licensor be liable for any damages, claims or costs whatsoever or any consequential, indirect, incidental damages, or any lost profits or lost savings, even if the Licensor has been advised of the possibility of such loss, damages, claims or costs or for any claim by any third party.
+
+In no event will the Licensee be liable to the Licensor on condition that the Licensee complies with all terms and conditions stated in this License.
+
+6. NON-WAIVER
+
+If a portion of this agreement is held unenforceable, the remainder shall be valid. It means that if one section of the Agreement is not lawful, the rest of the Agreement is still in force. A party’s failure to exercise any right under this Agreement will not constitute a waiver of (a) any other terms or conditions of this Agreement, or (b) a right at any time thereafter to require exact and strict compliance with the terms of this Agreement.
+
+© 2021 Epiforge Software, LLC. All rights reserved.</value>
+  </data>
+  <data name="ExportEntriesDialogTitle" xml:space="preserve">
+    <value>Export entries</value>
+  </data>
+  <data name="FatalErrorWindowAllowResponse" xml:space="preserve">
+    <value>Include your contact information to allow a response</value>
+  </data>
+  <data name="FatalErrorWindowCheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="FatalErrorWindowClose" xml:space="preserve">
+    <value>Close Grindstone</value>
+  </data>
+  <data name="FatalErrorWindowCopy" xml:space="preserve">
+    <value>Copy critical techcnial details to clipboard</value>
+  </data>
+  <data name="FatalErrorWindowCriticalTechnicalDetails" xml:space="preserve">
+    <value>Critical technical details</value>
+  </data>
+  <data name="FatalErrorWindowNameEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FatalErrorWindowNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FatalErrorWindowReport" xml:space="preserve">
+    <value>Report critical technical details to Epiforge</value>
+  </data>
+  <data name="FatalErrorWindowRestart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="FatalErrorWindowText" xml:space="preserve">
+    <value>Our most humble apologies, but Grindstone has stumbled upon an error that it was not built to deal with. This error is not your fault. But, you can go beyond the call of duty and help us fix it!</value>
+  </data>
+  <data name="FatalErrorWindowWhatWereYouDoing" xml:space="preserve">
+    <value>This happened while I was trying to...</value>
+  </data>
+  <data name="FatalErrorWindowYourContactDetails" xml:space="preserve">
+    <value>Your contact details</value>
+  </data>
+  <data name="FileFilterNameAll" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="FileFilterNameCsv" xml:space="preserve">
+    <value>Comma-separated values</value>
+  </data>
+  <data name="FileFilterNameTsv" xml:space="preserve">
+    <value>Tab-separated values</value>
+  </data>
+  <data name="FileFilterNameZip" xml:space="preserve">
+    <value>Zip archives</value>
+  </data>
+  <data name="HeaderAssignmentViews" xml:space="preserve">
+    <value>Assignment Views</value>
+  </data>
+  <data name="HeaderListValueViews" xml:space="preserve">
+    <value>List Value Views</value>
+  </data>
+  <data name="HeaderMadeWith" xml:space="preserve">
+    <value>Made with</value>
+  </data>
+  <data name="HeaderMonitoredViews" xml:space="preserve">
+    <value>Monitored Views</value>
+  </data>
+  <data name="HeaderPersonViews" xml:space="preserve">
+    <value>Person Views</value>
+  </data>
+  <data name="HeaderStartup" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+  <data name="HeaderTimeSliceViews" xml:space="preserve">
+    <value>Time Slice Views</value>
+  </data>
+  <data name="HeaderTraitViews" xml:space="preserve">
+    <value>Trait Views</value>
+  </data>
+  <data name="HeaderWorkItemViews" xml:space="preserve">
+    <value>Work Item Views</value>
+  </data>
+  <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
+    <value>Create Desktop shortcut</value>
+  </data>
+  <data name="InstallerWindowCreateStartMenuShortcut" xml:space="preserve">
+    <value>Create Start Menu shortcut</value>
+  </data>
+  <data name="InstallerWindowEULACondition" xml:space="preserve">
+    <value>If you accept the terms of the agreement, click or tap Agree to continue. You must accept the agreement to install Grindstone.</value>
+  </data>
+  <data name="InstallerWindowEULAHeader" xml:space="preserve">
+    <value>License agreement</value>
+  </data>
+  <data name="InstallerWindowEULASubheader" xml:space="preserve">
+    <value>Please review the license terms before installing Grindstone.</value>
+  </data>
+  <data name="InstallerWindowFinishedHeader" xml:space="preserve">
+    <value>Installation complete</value>
+  </data>
+  <data name="InstallerWindowFinishedSubheader" xml:space="preserve">
+    <value>Setup was completed successfully.</value>
+  </data>
+  <data name="InstallerWindowInstallingHeader" xml:space="preserve">
+    <value>Installing</value>
+  </data>
+  <data name="InstallerWindowInstallingSubheader" xml:space="preserve">
+    <value>Please wait while Grindstone is being installed.</value>
+  </data>
+  <data name="InstallerWindowOptionsDirections" xml:space="preserve">
+    <value>Check the options you prefer and uncheck the ones you do not. Click or tap Install to continue.</value>
+  </data>
+  <data name="InstallerWindowOptionsHeader" xml:space="preserve">
+    <value>Setup options</value>
+  </data>
+  <data name="InstallerWindowOptionsSubheader" xml:space="preserve">
+    <value>Choose how you want Grindstone to be installed.</value>
+  </data>
+  <data name="InstallerWindowRemoveConfiguration" xml:space="preserve">
+    <value>Remove my preferences</value>
+  </data>
+  <data name="InstallerWindowRemoveData" xml:space="preserve">
+    <value>Remove my databases</value>
+  </data>
+  <data name="InstallerWindowStartWhenSetupFinishes" xml:space="preserve">
+    <value>Start Grindstone when Setup finishes</value>
+  </data>
+  <data name="InstallerWindowStartWithWindows" xml:space="preserve">
+    <value>Start Grindstone with Windows</value>
+  </data>
+  <data name="InstallerWindowUninstallFinishedHeader" xml:space="preserve">
+    <value>Uninstallation complete</value>
+  </data>
+  <data name="InstallerWindowUninstallFinishedSubheader" xml:space="preserve">
+    <value>Grindstone was removed successfully.</value>
+  </data>
+  <data name="InstallerWindowUninstallingHeader" xml:space="preserve">
+    <value>Uninstalling</value>
+  </data>
+  <data name="InstallerWindowUninstallingSubheader" xml:space="preserve">
+    <value>Please wait while Grindstone is being uninstalled.</value>
+  </data>
+  <data name="InstallerWindowUninstallOptionsDirections" xml:space="preserve">
+    <value>Check the options you prefer and uncheck the ones you do not. Click or tap Uninstall to continue.</value>
+  </data>
+  <data name="InstallerWindowUninstallOptionsHeader" xml:space="preserve">
+    <value>Uninstall options</value>
+  </data>
+  <data name="InstallerWindowUninstallOptionsSubheader" xml:space="preserve">
+    <value>Choose how you want Grindstone to be uninstalled.</value>
+  </data>
+  <data name="InstallerWindowUpdatingHeader" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="InstallerWindowUpdatingSubheader" xml:space="preserve">
+    <value>Please wait while Grindstone is being updated.</value>
+  </data>
+  <data name="InstallerWindowWelcomeHeader" xml:space="preserve">
+    <value>Welcome to Grindstone Setup</value>
+  </data>
+  <data name="InstallerWindowWelcomeText" xml:space="preserve">
+    <value>Setup will guide you through the installation of Grindstone.
+
+You do not need to close any other applications before starting Setup and you will not be asked to reboot your computer.
+
+Click or tap Next to continue.</value>
+  </data>
+  <data name="LabelAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="LabelChangeDatabasePassword" xml:space="preserve">
+    <value>Change Database Password</value>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="LabelCollectGarbage" xml:space="preserve">
+    <value>Collect Garbage</value>
+  </data>
+  <data name="LabelDecryptDatabase" xml:space="preserve">
+    <value>Decrypt Database</value>
+  </data>
+  <data name="LabelDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LabelDuplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="LabelEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabelEncryptDatabase" xml:space="preserve">
+    <value>Encrypt Database</value>
+  </data>
+  <data name="LabelGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="LabelOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="LabelSaveLoggedExceptions" xml:space="preserve">
+    <value>Save Logged Exceptions</value>
+  </data>
+  <data name="LabelSelectDatabase" xml:space="preserve">
+    <value>Select Database</value>
+  </data>
+  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Start Grindstone with Windows</value>
+  </data>
+  <data name="LabelThrowException" xml:space="preserve">
+    <value>Throw Exception</value>
+  </data>
+  <data name="LicenseInvalid" xml:space="preserve">
+    <value>The license you entered is not valid for feature {0}.</value>
+  </data>
+  <data name="LicenseRequiredDialogCodeHint" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="LicenseRequiredDialogCodeRequired" xml:space="preserve">
+    <value>The code for your license is required</value>
+  </data>
+  <data name="LicenseRequiredDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Device Signature:</value>
+  </data>
+  <data name="LicenseRequiredDialogEndHint" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="LicenseRequiredDialogInstructions" xml:space="preserve">
+    <value>In order to proceed, please enter the details of a valid license.</value>
+  </data>
+  <data name="LicenseRequiredDialogLicenseNameLabel" xml:space="preserve">
+    <value>License Name:</value>
+  </data>
+  <data name="LicenseRequiredDialogStartHint" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="LicenseValid" xml:space="preserve">
+    <value>The license you entered is valid and activates the feature {0}.</value>
+  </data>
+  <data name="MessageDialogDoNotAlert" xml:space="preserve">
+    <value>Do not alert me about this again</value>
+  </data>
+  <data name="MessageDialogDoNotAsk" xml:space="preserve">
+    <value>Do not ask me about this again</value>
+  </data>
+  <data name="MessageDialogDoNotInform" xml:space="preserve">
+    <value>Do not inform me about this again</value>
+  </data>
+  <data name="MessageDialogDoNotWarn" xml:space="preserve">
+    <value>Do not warn me about this again</value>
+  </data>
+  <data name="NoDatabaseSelectedPersistsText" xml:space="preserve">
+    <value>I have no choice but to quit now. If you change your mind, launch me again and I'll help you select a database.</value>
+  </data>
+  <data name="NoDatabaseSelectedText" xml:space="preserve">
+    <value>A database is required for Grindstone to do anything. Would you like to select one now?</value>
+  </data>
+  <data name="OperationEditorControlChoiceHint" xml:space="preserve">
+    <value>Choice</value>
+  </data>
+  <data name="OperationEditorControlDurationHint" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="OperationEditorControlFunctionHint" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="OperationEditorControlFunctionRequiresNoInput" xml:space="preserve">
+    <value>This function does not require any input.</value>
+  </data>
+  <data name="OperationEditorControlIdHint" xml:space="preserve">
+    <value>Unique identifier</value>
+  </data>
+  <data name="OperationEditorControlInstantHint" xml:space="preserve">
+    <value>Instant</value>
+  </data>
+  <data name="OperationEditorControlNumberHint" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OperationEditorControlRangeHint" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="OperationEditorControlValueHint" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
+    <value>This database is encrypted and requires a password</value>
+  </data>
+  <data name="PasswordCollectionDialogPasswordHint" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordCreationDialogConfirmEmpty" xml:space="preserve">
+    <value>Must not be empty</value>
+  </data>
+  <data name="PasswordCreationDialogConfirmHint" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="PasswordCreationDialogNoMatch" xml:space="preserve">
+    <value>The passwords you've entered don't match.</value>
+  </data>
+  <data name="PasswordCreationDialogPasswordEmpty" xml:space="preserve">
+    <value>Must not be empty</value>
+  </data>
+  <data name="PasswordCreationDialogPasswordHint" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RejectionReasonCannotCreateBuiltInValue" xml:space="preserve">
+    <value>A change creating a value for a built-in trait was attempted.</value>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInTrait" xml:space="preserve">
+    <value>A change deleting a built-in trait was attempted.</value>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInValue" xml:space="preserve">
+    <value>A change deleting a value for a built-in trait was attempted.</value>
+  </data>
+  <data name="RejectionReasonCannotUpdateReadOnlyBuiltInValue" xml:space="preserve">
+    <value>A change updating a read-only value for a built-in trait was attempted.</value>
+  </data>
+  <data name="RejectionReasonEntityCatalogFailed" xml:space="preserve">
+    <value>A change to create a piece of data succeeded, but the data could not be catalogued.</value>
+  </data>
+  <data name="RejectionReasonEntityCreationFailed" xml:space="preserve">
+    <value>A change to create a piece of data failed.</value>
+  </data>
+  <data name="RejectionReasonEntityCreationInvalidTraitEntityType" xml:space="preserve">
+    <value>A change creating a trait for a kind of data that could not be found was attempted.</value>
+  </data>
+  <data name="RejectionReasonEntityNotFound" xml:space="preserve">
+    <value>A change to a piece of data that could not be found was attempted.</value>
+  </data>
+  <data name="RejectionReasonEntityTypeIdNotFound" xml:space="preserve">
+    <value>A change to an unknown type of data was attempted.</value>
+  </data>
+  <data name="RejectionReasonEntityTypeNotSupported" xml:space="preserve">
+    <value>A change to an unsupported type of data was attempted.</value>
+  </data>
+  <data name="RejectionReasonPreviousTokenMismatch" xml:space="preserve">
+    <value>A change that modifies something with an intervening modification was attempted.</value>
+  </data>
+  <data name="RejectionReasonTraitNotFound" xml:space="preserve">
+    <value>A trait value change for a trait that could not be found was attempted.</value>
+  </data>
+  <data name="RejectionReasonTraitValueNotFound" xml:space="preserve">
+    <value>A change for a trait value that could not be found was attempted.</value>
+  </data>
+  <data name="RejectionReasonTraitValueNotProvided" xml:space="preserve">
+    <value>A change creating a piece of data failed because a required trait value was not provided.</value>
+  </data>
+  <data name="RejectionReasonTraitValueTypeResolutionFailed" xml:space="preserve">
+    <value>A change containing a a trait value that could not be understood was attempted.</value>
+  </data>
+  <data name="RejectionReasonUnknownChangeType" xml:space="preserve">
+    <value>An unintelligible change was attemped.</value>
+  </data>
+  <data name="SaveLoggedExceptionsNone" xml:space="preserve">
+    <value>There are no logged exceptions to save.</value>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Grindstone Setup</value>
+  </data>
+  <data name="ShortcutFileName" xml:space="preserve">
+    <value>Grindstone 5</value>
+  </data>
+  <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
+    <value>User interface</value>
+  </data>
+  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
+    <value>Modify Stopwatch Operations</value>
+  </data>
+  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+    <value>I ran into a problem while compiling the display formula.
+
+Error: {0}
+
+Offending formula expression:
+{1}</value>
+  </data>
+  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+    <value>I ran into a problem while compiling the duration formula.
+
+Error: {0}
+
+Offending formula expression:
+{1}</value>
+  </data>
+  <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
+    <value>The following entries now fall under {0}:{1}{1}{2}</value>
+  </data>
+  <data name="ToastUpdateAvailableDownloadAction" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ToastUpdateAvailableText" xml:space="preserve">
+    <value>An update for Grindstone is available.</value>
+  </data>
+  <data name="ToastUpdateReadyInstallAction" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="ToastUpdateReadyText" xml:space="preserve">
+    <value>An update for Grindstone is ready.</value>
+  </data>
+  <data name="ToolTipAbout" xml:space="preserve">
+    <value>Learn about Grindstone, the people who made it, and what they used to do so.</value>
+  </data>
+  <data name="ToolTipAddEntry" xml:space="preserve">
+    <value>Add a new entry in this view.</value>
+  </data>
+  <data name="ToolTipAssignmentViews" xml:space="preserve">
+    <value>Assignment Views</value>
+  </data>
+  <data name="ToolTipChangeDatabasePassword" xml:space="preserve">
+    <value>Change the encryption password for the database I'm currently using.</value>
+  </data>
+  <data name="ToolTipCheckForUpdates" xml:space="preserve">
+    <value>Immediately check for updates to Grindstone.</value>
+  </data>
+  <data name="ToolTipCloseMenu" xml:space="preserve">
+    <value>Close Menu</value>
+  </data>
+  <data name="ToolTipCollectGarbage" xml:space="preserve">
+    <value>Request that the .NET runtime invoke its garbage collector.</value>
+  </data>
+  <data name="ToolTipCopyEntries" xml:space="preserve">
+    <value>Copy the currently selected entries in this view to the clipboard, or all of them if none are selected.</value>
+  </data>
+  <data name="ToolTipCreateView" xml:space="preserve">
+    <value>Create View</value>
+  </data>
+  <data name="ToolTipDecryptDatabase" xml:space="preserve">
+    <value>Decrypt the database I'm currently using.</value>
+  </data>
+  <data name="ToolTipDeleteEntries" xml:space="preserve">
+    <value>Delete the currently selected entries in this view.</value>
+  </data>
+  <data name="ToolTipDeleteView" xml:space="preserve">
+    <value>Delete View</value>
+  </data>
+  <data name="ToolTipDuplicateEntries" xml:space="preserve">
+    <value>Duplicate the currently selected entries in this view.</value>
+  </data>
+  <data name="ToolTipDuplicateView" xml:space="preserve">
+    <value>Duplicate View</value>
+  </data>
+  <data name="ToolTipEditEntries" xml:space="preserve">
+    <value>Edit the currently selected entries in this view.</value>
+  </data>
+  <data name="ToolTipEncryptDatabase" xml:space="preserve">
+    <value>Encrypt the database I'm currently using.</value>
+  </data>
+  <data name="ToolTipExportEntries" xml:space="preserve">
+    <value>Export the currently selected entries in this view to a file, or all of them if none are selected.</value>
+  </data>
+  <data name="ToolTipIsConfiningOtherOperationTypes" xml:space="preserve">
+    <value>This selection may be confining the types of sibling parameters.</value>
+  </data>
+  <data name="ToolTipListValueViews" xml:space="preserve">
+    <value>List Value Views</value>
+  </data>
+  <data name="ToolTipMainMenu" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="ToolTipManageColumns" xml:space="preserve">
+    <value>Manage columns in this view.</value>
+  </data>
+  <data name="ToolTipModifyView" xml:space="preserve">
+    <value>Modify View</value>
+  </data>
+  <data name="ToolTipMonitoredViews" xml:space="preserve">
+    <value>Monitored Views</value>
+  </data>
+  <data name="ToolTipOptions" xml:space="preserve">
+    <value>Change Grindstone options.</value>
+  </data>
+  <data name="ToolTipPersonViews" xml:space="preserve">
+    <value>Person Views</value>
+  </data>
+  <data name="ToolTipSavedLoggedException" xml:space="preserve">
+    <value>Save all logged exceptions into a ZIP file.</value>
+  </data>
+  <data name="ToolTipSelectDatabase" xml:space="preserve">
+    <value>Select which database I'm currently using.</value>
+  </data>
+  <data name="ToolTipThrowException" xml:space="preserve">
+    <value>Deliberately throw an exception to test the diagnostic system.</value>
+  </data>
+  <data name="ToolTipTimeSliceViews" xml:space="preserve">
+    <value>Time Slice Views</value>
+  </data>
+  <data name="ToolTipTraitViews" xml:space="preserve">
+    <value>Trait Views</value>
+  </data>
+  <data name="ToolTipWorkItemViews" xml:space="preserve">
+    <value>Work Item Views</value>
+  </data>
+  <data name="ViewDuplicatorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ViewEditorDialogEntityTypeHint" xml:space="preserve">
+    <value>Entity type</value>
+  </data>
+  <data name="ViewEditorDialogFilterCompilationError" xml:space="preserve">
+    <value>I ran into a problem while compiling this view's filtering formula.
+
+Error: {0}
+
+Offending formula expression:
+{1}</value>
+  </data>
+  <data name="ViewEditorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ViewEditorDialogOwnerHint" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="ViewEditorDialogParameterListValueHint" xml:space="preserve">
+    <value>List value</value>
+  </data>
+  <data name="ViewEditorDialogParameterNameHint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ViewEditorDialogParametersHeader" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="ViewEditorDialogParameterTypeHint" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ViewEditorDialogSystemViewEUA" xml:space="preserve">
+    <value>This is a system view. Some of its characteristics may not be modified.</value>
+  </data>
+  <data name="ViewEditorFilterParameterAvailabilityEUA" xml:space="preserve">
+    <value>New view parameters are not available for use in the filter until the view has been saved at least once.</value>
+  </data>
+  <data name="ViewEntitiesCalculatingAndTabulating" xml:space="preserve">
+    <value>Calculating and tabulating</value>
+  </data>
+  <data name="ViewEntitiesDirectoryModeAutoSelectEUA" xml:space="preserve">
+    <value>This is a system view. I use it when I need to make a selection for you automatically. I will pick the first entry in the view that satisfies certain conditions. For example, if you start timing a work item, I will use a view like this to see if there is an already existing assignment to use for timing. If none of the entries match the conditions, I will make a new entry that does and use that one.</value>
+  </data>
+  <data name="ViewEntitiesDirectoryModeEntityEUA" xml:space="preserve">
+    <value>This is a system view. I use its first column when I need to show you a list of items. Any changes you make to the column's operation or to the order of entries in the view will be reflected in the lists.</value>
+  </data>
+  <data name="ViewEntitiesDirectoryModeTraitEUA" xml:space="preserve">
+    <value>This is a system view. I use its first column when I need to make the fields on a form when you're editing something. Any changes you make to the column's operation or the order of entries will be reflected in the forms. You can also use this view as a starting point for creating new traits; just click the Add Entry button above.</value>
+  </data>
+  <data name="WarningDecryptDatabase" xml:space="preserve">
+    <value>If you decrypt your database, anyone with access to your database file will be able to read it without entering a password.</value>
+  </data>
+  <data name="WarningDeleteColumn" xml:space="preserve">
+    <value>If you continue, this column will be permanently deleted and will no longer be displayed in the view.</value>
+  </data>
+  <data name="WarningDeleteEntries" xml:space="preserve">
+    <value>If you continue, the selected entries will be permanently deleted.</value>
+  </data>
+  <data name="WarningDeleteView" xml:space="preserve">
+    <value>If you continue, the currently displayed view and its columns will be permanently deleted. The entries displayed by it will not be deleted.</value>
+  </data>
+</root>

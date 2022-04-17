@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Laitteen allekirjoitus:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AboutDialogDeviceSignatureLoading" xml:space="preserve">
+    <value>Ladataan</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppLicenseCancelled" xml:space="preserve">
+    <value>Tätä sovellusta ei voi aloittaa ilman voimassa olevaa lisenssiä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Hiomakivi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCheckingForUpdates" xml:space="preserve">
+    <value>Päivitysten tarkistaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyConvertingEntriesToText" xml:space="preserve">
+    <value>Muuntaa merkintöjä tekstiin</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingEntries" xml:space="preserve">
+    <value>Merkintöjen luominen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingNewDatabase" xml:space="preserve">
+    <value>Uuden tietokannan luominen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingColumn" xml:space="preserve">
+    <value>Sarakkeen poistaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingEntries" xml:space="preserve">
+    <value>Merkintöjen poistaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingView" xml:space="preserve">
+    <value>Näkymän poistaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDownloadingUpdate" xml:space="preserve">
+    <value>Päivityksen lataaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingColumn" xml:space="preserve">
+    <value>Kopiointipylväs</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingEntries" xml:space="preserve">
+    <value>Duplicating-merkinnät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEndingSession" xml:space="preserve">
+    <value>Lopputulos</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesCopiedToClipboard" xml:space="preserve">
+    <value>Leikepöydälle kopioitu merkinnät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesExported" xml:space="preserve">
+    <value>Viejät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyExportingEntries" xml:space="preserve">
+    <value>Vienti merkinnät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyFinished" xml:space="preserve">
+    <value>Kaikki tehdään, kiitos!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyInitializingInterface" xml:space="preserve">
+    <value>Ohjelmointi käyttöliittymä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingConfiguration" xml:space="preserve">
+    <value>Konfigurointi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingDatabases" xml:space="preserve">
+    <value>Tietokantojen lataaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyModifyingEntries" xml:space="preserve">
+    <value>Merkintöjen muokkaaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyReplacingPreviousDatabase" xml:space="preserve">
+    <value>Korvataan edellinen tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyScanningLicenses" xml:space="preserve">
+    <value>Skannauslisenssit</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStartingSession" xml:space="preserve">
+    <value>Aloitusistunnon alku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusySubmittingReport" xml:space="preserve">
+    <value>Raportin lähettäminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyUp" xml:space="preserve">
+    <value>Pieni hetki</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyVerifyingLicenses" xml:space="preserve">
+    <value>Todistusten tarkistaminen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyWaitingForUpdateDownloadToFinish" xml:space="preserve">
+    <value>Odotetaan päivitys lataus loppuun</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonAgree" xml:space="preserve">
+    <value>OLLA SAMAA MIELTÄ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBack" xml:space="preserve">
+    <value>TAKAISIN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>PERUUTTAA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>KIINNI</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCreateDatabase" xml:space="preserve">
+    <value>Luo tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonDeleteDatabase" xml:space="preserve">
+    <value>Poista tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonInstall" xml:space="preserve">
+    <value>ASENTAA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonMultipleValues" xml:space="preserve">
+    <value>Useita arvoja - Klikkaa asettaaksesi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>SEURAAVA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>EI</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>Ok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOpenDatabase" xml:space="preserve">
+    <value>Avaa tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonUninstall" xml:space="preserve">
+    <value>Poistaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>JOO</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesInfoAlreadyUpdated" xml:space="preserve">
+    <value>Olet jo käyttänyt hiljattain julkaistua versiota Grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownload" xml:space="preserve">
+    <value>Grindstonin päivitys on käytettävissä.Haluatko ladata sen nyt?Voit jatkaa työskentelyä, kun teen sen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloaded" xml:space="preserve">
+    <value>Päivitys on valmis.Haluatko asentaa sen nyt?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloading" xml:space="preserve">
+    <value>Päivitys on jo valmis.Kerron sinulle, mitä se on valmis.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CollectedPasswordFailed" xml:space="preserve">
+    <value>Antamasi salasana ei ollut oikea.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogCompilationError" xml:space="preserve">
+    <value>Juoksin ongelmaan tämän sarakkeen näyttökannan kokoamisen aikana.
+
+Virhe: {0}
+
+Rikokas kaavan ilmaisu:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlocked" xml:space="preserve">
+    <value>Anteeksi, mutta en voi tehdä sitä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandLineHelp" xml:space="preserve">
+    <value>Grindstone [Drive:] [Path] [Tiedostonimi] [Valinnat]
+
+  [Aja:] [polku] [tiedostonimi]
+    Määritä tietokantatiedoston asema, hakemisto ja nimi
+
+Vaihtoehdot:
+
+  -i, - asentaja
+    Käynnistää asennusprosessin
+
+  -u, --uninstall
+    Käynnistää asennusprosessin
+
+  -s, --silent
+    Syy asennus / poistamisprosessin jatkavat hiljaa mahdollisimman vähän vaihtoehtoja
+
+  --luo pikakuvake työpöydälle
+    Syy asennusprosessin luoda työpöydän lyhyen leikkauksen hiljaisena
+
+  --Leaveconfiguration
+    Syy Poista asennusprosessin olla poistamalla kokoonpanoa hiljaiseksi
+
+  --Removedaatabaseja
+    Syy Poista poistettava prosessi tietokantojen poistamiseksi hiljaiseksi
+
+  - korjauswhenfinfinished
+    Syy asennusprosessin käynnistää hiomakivi viimeistelyn jälkeen hiljaa
+
+  --StartWithWindows
+    aiheuttaa asennusprosessin asettamaan hiomakiviä käynnissä käynnistyksen yhteydessä hiljaa
+
+  --ExportLocaliszation: polku
+    Tallentaa kaikki nykyisen sijainnin tekstin JSON Runtime-muodossa tiellä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncrypt" xml:space="preserve">
+    <value>Salaa tämä tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
+    <value>Kun avaat tämän tietokannan ensimmäistä kertaa, sinua pyydetään asettamaan salasana.Jokaisessa myöhemmässä vaiheessa se avataan, sama salasana on syötettävä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
+    <value>Ei saa olla tyhjä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameIllegalCharacters" xml:space="preserve">
+    <value>Ei saa sisältää virheellisiä merkkejä tiedostonimille</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogCaption" xml:space="preserve">
+    <value>Tietokannan valinta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteConfirmation" xml:space="preserve">
+    <value>Haluatko varmasti poistaa "{0}" tietokannan?Tämä ei ole palautuva!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
+    <value>En voinut poistaa "{0}" tietokantaa, voisiko se olla käytössä?Jos näin on, siirry toiseen tietokantaan tai sulje Grindstone ennen kuin yrität poistaa "{0}" tietokanta.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
+    <value>{0} loppu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
+    <value>{0} Aloita</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Grindstone-tietokannat</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EULAText" xml:space="preserve">
+    <value>LYHYT KUVAUS
+
+Sinulle myönnetään ei-yksinomainen lisenssi Grindstonen käyttämiseen mihin tahansa tarkoitukseen rajoittamattomaksi ajaksi. Grindstone on saatavilla ilmaiseksi.
+
+Vaikka Grindstonen käytöstä ei makseta lisenssimaksua, se ei tarkoita, että sen käytölle ei ole ehtoja:
+
+1. Voit asentaa Grindstonen ja käyttää sitä mihin tahansa lailliseen tarkoitukseen.
+
+2. Voit asentaa Grindstonen ja käyttää sitä missä tahansa järjestelmässä.
+
+3. Voit kopioida ja levittää Grindstonea sillä ehdolla, että alkuperäinen tekijänoikeusilmoitus ja takuun vastuuvapauslauseke pysyvät ennallaan, etkä veloita grindstonesta rahaa tai maksuja, paitsi jakelukustannusten kattamiseksi.
+
+4. Sinulla ei ole omistusoikeuksia Grindstoneen ja Grindstoneen. Ymmärrät ja hyväksyt, että Epiforge säilyttää kaikki tekijänoikeudet ja muut omistusoikeudet Grindstonessa ja Grindstonessa.
+
+5. Käyttö tämän lisenssin puitteissa on maksutonta, etkä saa maksaa rojalteja tai lisenssimaksuja.
+
+TÄYSVERSIO
+
+Lue tämä huolellisesti. Käyttämällä koko Ohjelmistoa tai mitä tahansa sen osaa hyväksyt kaikki tämän Sopimuksen ehdot. Jos et hyväksy sopimusta, älä käytä tätä Ohjelmistoa.
+
+1. MÄÄRITELMÄT
+
+Kun seuraavia termejä käytetään tässä sopimuksessa, niillä on oltava ilmoitetut merkitykset, joita sovelletaan sekä määriteltyjen termien yksittäisiin että monikkomuotoihin:
+
+"Lisenssinantaja" tarkoittaa Epiforge Software, LLC: tä.
+
+"Lisenssinsaaja" tarkoittaa sinua tai yritystäsi, ellei toisin mainita.
+
+"Ohjelmisto" tarkoittaa (a) niiden tiedostojen, levyjen, CD-ROM-levyjen tai muiden tietovälineiden koko sisältöä, joiden kanssa tämä Sopimus toimitetaan, mukaan lukien muun muassa (i) rekisteröintitiedot eli lisenssiavain, joka on lisenssinhaltijan rekisteröintinimelle yksilöllinen; ii) niihin liittyvät selittävät kirjalliset materiaalit tai asiakirjat ("Dokumentaatio"); ja (iii) ohjelmiston asennustiedostot ja koodinäytteet (jos sellaisia on); ja (b) Ohjelmiston päivitykset, muutetut versiot, päivitykset, lisäykset ja kopiot, jos sellaisia on, epiforge Software, LLC:n asiakkaalle lisensoimia (yhdessä "Päivitykset").
+
+"Käyttö" tai "käyttäminen" tarkoittaa ohjelmiston käyttöä, asentamista, lataamista, kopioimista tai muusta käytöstä hyötyä Dokumentaation mukaisesti.
+
+"Järjestelmä" tarkoittaa Windowsia, GNU / Linuxia, macOS: ää, Androidia, iOS: ää tai mitä tahansa virtuaalikonetta.
+
+2. YLEINEN KÄYTTÖ 
+
+Sinulle myönnetään ei-yksinomainen käyttöoikeus käyttää ladattua ohjelmistoa mihin tahansa tarkoitukseen rajoittamattoman ajan.
+
+Tämän Lisenssin mukainen ohjelmistotuote toimitetaan maksutta. Vaikka tällaisen ohjelmiston käytöstä ei makseta lisenssimaksua, se ei tarkoita, että tällaisen ohjelmiston käytölle ei ole ehtoja.
+
+2.1. Lisenssinhaltija voi asentaa ohjelmiston ja käyttää sitä mihin tahansa lailliseen tarkoitukseen.
+
+2.2. Lisenssinhaltija voi asentaa ohjelmiston ja käyttää sitä missä tahansa järjestelmässä.
+
+2.3. Ohjelmisto voidaan kopioida ja levittää sillä ehdolla, että alkuperäinen tekijänoikeusilmoitus ja takuun vastuuvapauslauseke pysyvät ennallaan ja Lisenssinhaltija ei veloita ohjelmistotuotteesta rahaa tai maksuja, paitsi jakelukustannusten kattamiseksi.
+
+2.4. Lisenssinhaltijalla ei ole omistusoikeuksia Ohjelmistoon ja ohjelmistoon. Lisenssinhaltija tunnustaa ja hyväksyy, että Lisenssinantaja pidättää itsellään kaikki ohjelmiston tekijänoikeudet ja muut omistusoikeudet.
+
+2.5 Käyttö tämän Lisenssin puitteissa on maksutonta, eikä Lisenssinsaaja maksa rojalti- tai lisenssimaksuja.
+
+3. IMMATERIAALIOIKEUDET
+
+3.1 Tämä Lisenssi ei lähetä mitään immateriaalioikeuksia Ohjelmistoon. Ohjelmisto ja kaikki kopiot, jotka Lisenssinantaja on valtuuttanut Lisenssinsaajan tekemään, ovat Lisenssinantajan immateriaaliomaisuutta ja lisenssinantajan omaisuutta.
+
+3.2 Ohjelmisto on suojattu tekijänoikeudella, mukaan lukien rajoituksetta tekijänoikeuslaki ja kansainväliset sopimusmääräykset.
+
+3.3 Kaikkien kopioiden, joita Lisenssinhaltijalla on oikeus tehdä tämän Sopimuksen nojalla, on sisällettävä samat tekijänoikeus- ja muut omistusoikeusilmoitukset, jotka näkyvät Ohjelmistossa tai ohjelmistossa.
+
+3.4 Ohjelmiston rakenne, organisaatio ja koodi ovat Lisenssinantajan arvokkaita liikesalaisuuksia ja luottamuksellisia tietoja. Lisenssinsaaja sitoutuu olemaan hajottamatta, purkamatta tai muuten yrittämättä löytää Ohjelmiston lähdekoodia.
+
+3.5 Kaikki yritykset takaisinmallintaa, kopioida, kloonata, muokata tai muuttaa asennusohjelmaa millään tavalla ilman Lisenssinantajan erityistä hyväksyntää ovat ehdottomasti kiellettyjä. Lisenssinsaajalla ei ole oikeutta käyttää mitään laajennusta tai parannusta, joka sallii muutosten tallentamisen tiedostoon, jossa on lisenssinantajan lisensoima ja jakama ohjelmisto.
+
+3.6 Tavaramerkkejä on käytettävä hyväksytyn tavaramerkkikäytännön mukaisesti, mukaan lukien tavaramerkkien omistajien nimien tunnistaminen. Tavaramerkkejä voidaan käyttää vain ohjelmiston tuottaman tulostetun tulosteen tunnistamiseen, eikä tällainen tavaramerkin käyttö anna Lisenssinsaajalle omistusoikeuksia kyseisessä tavaramerkissä.
+
+4. TAKUU
+
+4.1 Lisenssinantaja takaa, että:
+
+4.1.1 Lisenssinantaja omistaa Ohjelmiston ja dokumentaation ja/tai hänellä on voimassa olevat ja olemassa olevat lisenssit, jotka tukevat tämän Sopimuksen ehtoja;
+
+4.1.2 Ohjelmisto on Dokumentaatiossa määriteltyjen määritysten ja toimintojen mukainen;
+
+4.1.3 Lisenssinantajan parhaan tietämyksen mukaan Ohjelmisto ei loukkaa tai loukkaa kolmannen osapuolen immateriaalioikeuksia;
+
+4.1.4 Ohjelmisto ei sisällä mitään rutiinia, jonka Lisenssinantaja on tarkoituksellisesti suunnitellut tietokoneohjelman poistamiseksi käytöstä, tai tietokoneen ohjeita, jotka voivat muuttaa, tuhota tai estää käsittelyympäristöä.
+
+4.2 Edellä kohdassa 4.1 mainittuja takuita lukuun ottamatta Ohjelmisto toimitetaan Lisenssinsaajalle "SELLAISENAAN" eikä Lisenssinantaja anna takuita sen käytöstä tai suorituskyvystä.
+
+Lisenssinantaja ei takaa eikä voi taata suorituskykyä tai tuloksia, jotka Lisenssinsaaja voi saada Ohjelmiston avulla. Ohjelmiston käytöstä tai suorituskyvystä aiheutuva riski jää lisenssinsaajalle.
+
+Lisenssinantaja ei anna mitään nimenomaista tai oletettua takuuta siitä, että (i) Ohjelmisto on laadultaan tyydyttävä, soveltuu mihin tahansa tiettyyn tarkoitukseen tai mihinkään tiettyyn käyttöön tietyin edellytyksin, vaikka lisenssinantaja voi tietää tällaisen tarkoituksen, käytön tai ehdot; tai (ii) että Ohjelmisto toimii virheettömästi tai keskeytyksettä tai että mahdolliset virheet korjataan.
+
+5. VASTUUN RAJOITTAMINEN
+
+Lisenssinantaja ei ole missään tapauksessa vastuussa mistään vahingoista, vaatimuksista tai kustannuksista tai välillisistä, epäsuorista, satunnaisista vahingoista tai menetetyistä voitoista tai menetetyistä säästöistä, vaikka Lisenssinantajalle olisi ilmoitettu tällaisten menetysten, vahinkojen, vaatimusten tai kustannusten mahdollisuudesta tai kolmannen osapuolen vaateista.
+
+Lisenssinsaaja ei missään tapauksessa ole vastuussa Lisenssinantajalle sillä ehdolla, että Lisenssinsaaja noudattaa kaikkia tässä Lisenssissä mainittuja ehtoja.
+
+6. LUOPUMATTA JÄTTÄMINEN
+
+Jos osa tästä sopimuksesta katsotaan täytäntöönpanokelvottomaksi, loppuosa on voimassa. Se tarkoittaa, että jos jokin sopimuksen osa ei ole laillinen, sopimuksen loppuosa on edelleen voimassa. Se, että osapuoli ei käytä mitään tämän Sopimuksen mukaista oikeuttaan, ei tarkoita luopumista (a) mistään muista tämän Sopimuksen ehdoista tai (b) oikeudesta milloin tahansa sen jälkeen vaatia tämän Sopimuksen ehtojen tarkkaa ja tiukkaa noudattamista.
+
+© 2021 Epiforge-ohjelmisto, LLC. Kaikki oikeudet pidätetään.</value>
+    <comment>from MicrosoftTranslator</comment>
+  </data>
+  <data name="ExportEntriesDialogTitle" xml:space="preserve">
+    <value>Vie merkinnät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowAllowResponse" xml:space="preserve">
+    <value>Sisällytä yhteystietosi, jotta vastaus olisi mahdollista</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCheckForUpdates" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowClose" xml:space="preserve">
+    <value>Sulje Grindstone</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCopy" xml:space="preserve">
+    <value>Kopioi kriittiset tekniset tiedot leikepöydälle</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCriticalTechnicalDetails" xml:space="preserve">
+    <value>Kriittiset tekniset tiedot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameEmail" xml:space="preserve">
+    <value>Sähköposti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowReport" xml:space="preserve">
+    <value>Ilmoita kriittisistä teknisistä yksityiskohdista Epiforge</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowRestart" xml:space="preserve">
+    <value>Uudelleenkäynnistää</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowText" xml:space="preserve">
+    <value>Meidän nöyrä anteeksipyyntömme, mutta Grindstone on törmännyt virheestä, jota se ei rakennettu käsittelemään.Tämä virhe ei ole sinun vikasi.Mutta voit ylittää tehtävän ja auttaa meitä korjaamaan sen!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowWhatWereYouDoing" xml:space="preserve">
+    <value>Tämä tapahtui, kun yritin ...</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowYourContactDetails" xml:space="preserve">
+    <value>Yhteystiedot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameAll" xml:space="preserve">
+    <value>Kaikki tiedostot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameCsv" xml:space="preserve">
+    <value>Pilkulla erotetut arvot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameTsv" xml:space="preserve">
+    <value>TAB-erotetut arvot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameZip" xml:space="preserve">
+    <value>Zip Archives</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderAssignmentViews" xml:space="preserve">
+    <value>Tehtävänäkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderListValueViews" xml:space="preserve">
+    <value>List-arvon näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMadeWith" xml:space="preserve">
+    <value>Tehty</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMonitoredViews" xml:space="preserve">
+    <value>Seurasi näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderPersonViews" xml:space="preserve">
+    <value>Henkilönäkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderStartup" xml:space="preserve">
+    <value>Aloittaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTimeSliceViews" xml:space="preserve">
+    <value>Aikaviice Näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTraitViews" xml:space="preserve">
+    <value>Piirre näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderWorkItemViews" xml:space="preserve">
+    <value>Työskentelyn näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
+    <value>Luo pikakuvake työpöydälle</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateStartMenuShortcut" xml:space="preserve">
+    <value>Luo Käynnistä-valikon pikakuvake</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULACondition" xml:space="preserve">
+    <value>Jos hyväksyt sopimuksen ehdot, napsauta tai napauta Jatka.Sinun on hyväksyttävä sopimus Grindstonen asentamisesta.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULAHeader" xml:space="preserve">
+    <value>Lisenssisopimus</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULASubheader" xml:space="preserve">
+    <value>Tarkista käyttöoikeusehdot ennen Grindstonen asentamista.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedHeader" xml:space="preserve">
+    <value>Asennus valmis</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedSubheader" xml:space="preserve">
+    <value>Asennus onnistui onnistuneesti.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingHeader" xml:space="preserve">
+    <value>Asennus</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingSubheader" xml:space="preserve">
+    <value>Odota, kun Grindstone asennetaan.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsDirections" xml:space="preserve">
+    <value>Tarkista haluamasi vaihtoehdot ja poista ne et.Jatka napsauttamalla tai napauta Asenna.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsHeader" xml:space="preserve">
+    <value>Asetusvaihtoehdot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsSubheader" xml:space="preserve">
+    <value>Valitse, miten haluat, että hiomakivi asennetaan.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveConfiguration" xml:space="preserve">
+    <value>Poista mieltymykseni</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveData" xml:space="preserve">
+    <value>Poista tietokannat</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWhenSetupFinishes" xml:space="preserve">
+    <value>Aloita Grindstone, kun asennat viimeistely</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWithWindows" xml:space="preserve">
+    <value>Aloita hiomakivi ikkunoilla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedHeader" xml:space="preserve">
+    <value>Poistaminen täydellinen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedSubheader" xml:space="preserve">
+    <value>Grindstone poistettiin onnistuneesti.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingHeader" xml:space="preserve">
+    <value>Poista asennus</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingSubheader" xml:space="preserve">
+    <value>Odota, kun Grindstone poistetaan.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsDirections" xml:space="preserve">
+    <value>Tarkista haluamasi vaihtoehdot ja poista ne et.Jatka napsauttamalla tai napauttamalla Poista.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsHeader" xml:space="preserve">
+    <value>Poista vaihtoehdot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsSubheader" xml:space="preserve">
+    <value>Valitse, miten haluat hiomakiviä poistettavaksi.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingHeader" xml:space="preserve">
+    <value>Päivitys</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingSubheader" xml:space="preserve">
+    <value>Odota, kun Grindstone päivitetään.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeHeader" xml:space="preserve">
+    <value>Tervetuloa Grindstone-asetuksiin</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeText" xml:space="preserve">
+    <value>Setup ohjaa sinua Grindstonen asennuksen kautta.
+
+Sinun ei tarvitse sulkea muita sovelluksia ennen asennuksen aloittamista ja sinua ei pyydetä käynnistämään tietokonetta uudelleen.
+
+Jatka napsauttamalla tai napauta.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelAbout" xml:space="preserve">
+    <value>Noin</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelChangeDatabasePassword" xml:space="preserve">
+    <value>Vaihda tietokannan salasana</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCollectGarbage" xml:space="preserve">
+    <value>Kerätä roskat</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDecryptDatabase" xml:space="preserve">
+    <value>Decrypt tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDelete" xml:space="preserve">
+    <value>Poistaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDuplicate" xml:space="preserve">
+    <value>Kaksoiskappale</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEdit" xml:space="preserve">
+    <value>Muokata</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEncryptDatabase" xml:space="preserve">
+    <value>Salaa tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelGeneral" xml:space="preserve">
+    <value>Yleinen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelOptions" xml:space="preserve">
+    <value>Vaihtoehdot</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSaveLoggedExceptions" xml:space="preserve">
+    <value>Tallenna kirjatut poikkeukset</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSelectDatabase" xml:space="preserve">
+    <value>Valitse tietokanta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Aloita hiomakivi ikkunoilla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelThrowException" xml:space="preserve">
+    <value>Heittää poikkeus</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseInvalid" xml:space="preserve">
+    <value>Antamasi lisenssi ei kelpaa ominaisuus {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeHint" xml:space="preserve">
+    <value>Koodi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeRequired" xml:space="preserve">
+    <value>Lisenssin koodi on pakollinen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Laitteen allekirjoitus:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogEndHint" xml:space="preserve">
+    <value>Loppu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogInstructions" xml:space="preserve">
+    <value>Jotta voit jatkaa, kirjoita voimassa olevan lisenssin tiedot.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogLicenseNameLabel" xml:space="preserve">
+    <value>Lisenssin nimi:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogStartHint" xml:space="preserve">
+    <value>alkaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseValid" xml:space="preserve">
+    <value>Antamasi lisenssi on kelvollinen ja aktivoi ominaisuus {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAlert" xml:space="preserve">
+    <value>Älä varoita minua tästä uudestaan</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAsk" xml:space="preserve">
+    <value>Älä kysy minulta tästä uudestaan</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotInform" xml:space="preserve">
+    <value>Älä ilmoita minulle tästä uudelleen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotWarn" xml:space="preserve">
+    <value>Älä varoita minua uudelleen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedPersistsText" xml:space="preserve">
+    <value>Minulla ei ole muuta vaihtoehtoa kuin lopettaa nyt.Jos muutat mieltäsi, käynnistä minut uudelleen ja autan sinua valitsemaan tietokannan.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedText" xml:space="preserve">
+    <value>Hiomakivi vaaditaan tietokanta tehdä mitään.Haluatko valita yhden nyt?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlChoiceHint" xml:space="preserve">
+    <value>Valinta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlDurationHint" xml:space="preserve">
+    <value>Kesto</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionHint" xml:space="preserve">
+    <value>Toiminto</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionRequiresNoInput" xml:space="preserve">
+    <value>Tämä toiminto ei vaadi mitään tuloa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlIdHint" xml:space="preserve">
+    <value>Yksilöllinen tunniste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlInstantHint" xml:space="preserve">
+    <value>Välitön</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlNumberHint" xml:space="preserve">
+    <value>Määrä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlRangeHint" xml:space="preserve">
+    <value>Alue</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlValueHint" xml:space="preserve">
+    <value>Arvo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
+    <value>Tämä tietokanta salataan ja vaatii salasanan</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordHint" xml:space="preserve">
+    <value>Salasana</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmEmpty" xml:space="preserve">
+    <value>Ei saa olla tyhjä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmHint" xml:space="preserve">
+    <value>Vahvistaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogNoMatch" xml:space="preserve">
+    <value>Antamasi salasanat eivät vastaa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordEmpty" xml:space="preserve">
+    <value>Ei saa olla tyhjä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordHint" xml:space="preserve">
+    <value>Salasana</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotCreateBuiltInValue" xml:space="preserve">
+    <value>Muutos, joka luo arvon sisäänrakennetun piirteen arvoa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInTrait" xml:space="preserve">
+    <value>Muutos, joka poistaa sisäänrakennetun ominaisuuden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInValue" xml:space="preserve">
+    <value>Muutos, joka poistaa sisäänrakennetun ominaisuuden arvon.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotUpdateReadOnlyBuiltInValue" xml:space="preserve">
+    <value>Muutos päivitetään vain sisäänrakennetun ominaisuuden vain lukumäärän arvon.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCatalogFailed" xml:space="preserve">
+    <value>Muutos tietojen luomiseksi onnistui, mutta tietoja ei voitu luetteloida.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationFailed" xml:space="preserve">
+    <value>Muutos tietojen luomiseen epäonnistui.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationInvalidTraitEntityType" xml:space="preserve">
+    <value>Muutos, joka luo piirteen eräänlaisia tietoja, joita ei löytynyt, oli yritetty.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityNotFound" xml:space="preserve">
+    <value>Muutos tietoihin, joita ei löytynyt, oli yritetty.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeIdNotFound" xml:space="preserve">
+    <value>Muutos tuntemattomaan tietotyyppiin yritettiin.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeNotSupported" xml:space="preserve">
+    <value>Muutos tuettuun tietotyyppiin yritettiin.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonPreviousTokenMismatch" xml:space="preserve">
+    <value>Muutos, joka muuttaa jotain puuttuvan muutoksen kanssa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitNotFound" xml:space="preserve">
+    <value>Preitin arvo muuttuu piirrelle, jota ei löytynyt, oli yritetty.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotFound" xml:space="preserve">
+    <value>Muutos piirre-arvolle, jota ei löytynyt, oli yritetty.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotProvided" xml:space="preserve">
+    <value>Muutos, joka luo tietojen pala, epäonnistui, koska vaadittua piirre-arvoa ei toimitettu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueTypeResolutionFailed" xml:space="preserve">
+    <value>Muutos, joka sisältää ominaisuuden arvoa, jota ei voitu ymmärtää, oli yritetty.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonUnknownChangeType" xml:space="preserve">
+    <value>Unitteriottu muutos yritettiin.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SaveLoggedExceptionsNone" xml:space="preserve">
+    <value>Ei ole kirjautuneita poikkeuksia säästää.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Grindstone-asetukset</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ShortcutFileName" xml:space="preserve">
+    <value>Grindstone 5</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
+    <value>Käyttöliittymä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
+    <value>Muuta sekuntikellotoiminta</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
+    <value>Näyttö</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+    <value>Juoksin ongelmaan näytön kaavan kokoamisen aikana.
+
+Virhe: {0}
+
+Rikokas kaavan ilmaisu:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
+    <value>Kesto</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+    <value>Juoksin ongelmaan, kun koko on keston kaava.
+
+Virhe: {0}
+
+Rikokas kaavan ilmaisu:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
+    <value>Seuraavat merkinnät kuuluvat nyt {0}: {1} {1} {2} {2}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableDownloadAction" xml:space="preserve">
+    <value>ladata</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableText" xml:space="preserve">
+    <value>Grindstonin päivitys on käytettävissä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyInstallAction" xml:space="preserve">
+    <value>Asentaa</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyText" xml:space="preserve">
+    <value>Grindstonin päivitys on valmis.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAbout" xml:space="preserve">
+    <value>Opi hiomakivi, ihmiset, jotka tekivät sen ja mitä he tekivät niin.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAddEntry" xml:space="preserve">
+    <value>Lisää uusi merkintä tähän näkymään.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAssignmentViews" xml:space="preserve">
+    <value>Tehtävänäkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipChangeDatabasePassword" xml:space="preserve">
+    <value>Muuta tietokannan salaussalasana, jota käytän tällä hetkellä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCheckForUpdates" xml:space="preserve">
+    <value>Tarkista välittömästi Grindyston päivitykset.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseMenu" xml:space="preserve">
+    <value>Sulje valikko</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollectGarbage" xml:space="preserve">
+    <value>Pyydä, että .NET Runtime vei roskat keräilijänsä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCopyEntries" xml:space="preserve">
+    <value>Kopioi tällä hetkellä valitut merkinnät tässä näkymässä leikepöydälle tai kaikki niistä, jos mitään ei ole valittu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCreateView" xml:space="preserve">
+    <value>Luo näkymä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDecryptDatabase" xml:space="preserve">
+    <value>Decrypt tietokanta Käytän sitä tällä hetkellä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteEntries" xml:space="preserve">
+    <value>Poista tällä hetkellä valitut merkinnät tässä näkymässä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteView" xml:space="preserve">
+    <value>Poista näkymä</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateEntries" xml:space="preserve">
+    <value>Kopioi tällä näkymässä tällä hetkellä valitut merkinnät.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateView" xml:space="preserve">
+    <value>Duplicate View</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEditEntries" xml:space="preserve">
+    <value>Muokkaa tällä hetkellä valitut merkinnät tässä näkymässä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEncryptDatabase" xml:space="preserve">
+    <value>Salaa tietokanta, jota käytän tällä hetkellä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipExportEntries" xml:space="preserve">
+    <value>Vie tällä hetkellä valitut merkinnät tässä näkymässä tiedostoon tai kaikki niistä, jos mitään ei ole valittu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipIsConfiningOtherOperationTypes" xml:space="preserve">
+    <value>Tämä valinta voi rajoittaa sisarusparametrien tyypit.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipListValueViews" xml:space="preserve">
+    <value>List-arvon näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMainMenu" xml:space="preserve">
+    <value>Päävalikko</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipManageColumns" xml:space="preserve">
+    <value>Hallitse sarakkeita tässä näkymässä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipModifyView" xml:space="preserve">
+    <value>Muokkaa näkymää</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMonitoredViews" xml:space="preserve">
+    <value>Seurasi näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipOptions" xml:space="preserve">
+    <value>Vaihda hiomakivi vaihtoehtoja.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipPersonViews" xml:space="preserve">
+    <value>Henkilönäkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSavedLoggedException" xml:space="preserve">
+    <value>Tallenna kaikki kirjautuneet poikkeukset zip-tiedostoon.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectDatabase" xml:space="preserve">
+    <value>Valitse mikä tietokanta, jota käytän tällä hetkellä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipThrowException" xml:space="preserve">
+    <value>Heittää tarkoituksellisesti poikkeuksen diagnostiikkajärjestelmän testaamiseksi.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTimeSliceViews" xml:space="preserve">
+    <value>Aikaviice Näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTraitViews" xml:space="preserve">
+    <value>Piirre näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipWorkItemViews" xml:space="preserve">
+    <value>Työskentelyn näkymät</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewDuplicatorDialogNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogEntityTypeHint" xml:space="preserve">
+    <value>Yksikön tyyppi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogFilterCompilationError" xml:space="preserve">
+    <value>Juoksin ongelmaan samalla kun koostuu tämän näkymän suodatuskaavan.
+
+Virhe: {0}
+
+Rikokas kaavan ilmaisu:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogOwnerHint" xml:space="preserve">
+    <value>Omistaja</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterListValueHint" xml:space="preserve">
+    <value>List-arvo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterNameHint" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParametersHeader" xml:space="preserve">
+    <value>Parametrit</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterTypeHint" xml:space="preserve">
+    <value>Tyyppi</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogSystemViewEUA" xml:space="preserve">
+    <value>Tämä on järjestelmän näkymä.Osa sen ominaisuuksista ei saa muuttaa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterParameterAvailabilityEUA" xml:space="preserve">
+    <value>Uudet näkymäparametrit eivät ole käytettävissä suodattimessa, kunnes näkymä on tallennettu vähintään kerran.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesCalculatingAndTabulating" xml:space="preserve">
+    <value>Lasketaan ja taulukoita</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeAutoSelectEUA" xml:space="preserve">
+    <value>Tämä on järjestelmän näkymä.Käytän sitä, kun minun on tehtävä valinta sinulle automaattisesti.Aion valita ensimmäisen merkinnän, joka täyttää tiettyjä ehtoja.Jos mikään merkintöistä ei vastaa ehtoja, teen uuden merkinnän, joka tekee ja käyttää sitä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeEntityEUA" xml:space="preserve">
+    <value>Tämä on järjestelmän näkymä.Käytän ensimmäistä sarakettaan, kun minun täytyy näyttää sinulle luettelon kohteista.Kaikki muutokset, jotka teet sarakkeen toimintaan tai näkymän merkintöihin, heijastuu luetteloihin.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeTraitEUA" xml:space="preserve">
+    <value>Tämä on järjestelmän näkymä.Käytän ensimmäistä sarakettaan, kun tarvitsen kentät lomakkeella, kun muokkaat jotain.Kaikki muutokset, jotka teet sarakkeen toimintaan tai merkinnät, heijastuu lomakkeisiin.Voit myös käyttää tätä näkymää lähtökohtana uusien piirteiden luomiseksi;Napsauta vain Lisää Entry-painiketta.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDecryptDatabase" xml:space="preserve">
+    <value>Jos decrypt tietokantasi, kuka tahansa, jolla on pääsy tietokantatiedostoon, pystyy lukemaan sen syöttämättä salasanaa.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteColumn" xml:space="preserve">
+    <value>Jos jatkat, tämä sarake poistetaan pysyvästi ja sitä ei enää näytetä näkymässä.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteEntries" xml:space="preserve">
+    <value>Jos jatkat, valitut merkinnät poistetaan pysyvästi.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteView" xml:space="preserve">
+    <value>Jos jatkat, tällä hetkellä näkyvä näkymä ja sen sarakkeet poistetaan pysyvästi.Sitä näytettävät merkinnät eivät poisteta.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

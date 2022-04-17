@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Podpis zariadenia:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AboutDialogDeviceSignatureLoading" xml:space="preserve">
+    <value>Načítava</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppLicenseCancelled" xml:space="preserve">
+    <value>Táto aplikácia sa nedá spustiť bez platnej licencie.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Brúsny kameň</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCheckingForUpdates" xml:space="preserve">
+    <value>Kontrola aktualizácií</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyConvertingEntriesToText" xml:space="preserve">
+    <value>Konverzia záznamov do textu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingEntries" xml:space="preserve">
+    <value>Vytváranie položiek</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingNewDatabase" xml:space="preserve">
+    <value>Vytvorenie novej databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingColumn" xml:space="preserve">
+    <value>Vymazanie stĺpca</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingEntries" xml:space="preserve">
+    <value>Vymazanie záznamov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingView" xml:space="preserve">
+    <value>Vymazanie zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDownloadingUpdate" xml:space="preserve">
+    <value>Sťahovanie aktualizácie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingColumn" xml:space="preserve">
+    <value>Duplický stĺpec</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingEntries" xml:space="preserve">
+    <value>Duplicitné záznamy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEndingSession" xml:space="preserve">
+    <value>Koncovka</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesCopiedToClipboard" xml:space="preserve">
+    <value>Záznamy skopírované do schránky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesExported" xml:space="preserve">
+    <value>Záznamy exportované</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyExportingEntries" xml:space="preserve">
+    <value>Vyvážajúce položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyFinished" xml:space="preserve">
+    <value>Všetko urobené, vďaka!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyInitializingInterface" xml:space="preserve">
+    <value>Inicializácia rozhrania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingConfiguration" xml:space="preserve">
+    <value>Konfigurácia načítania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingDatabases" xml:space="preserve">
+    <value>Načítavacie databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyModifyingEntries" xml:space="preserve">
+    <value>Úprava záznamov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyReplacingPreviousDatabase" xml:space="preserve">
+    <value>Výmena predchádzajúcej databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyScanningLicenses" xml:space="preserve">
+    <value>Skenovacie licencie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStartingSession" xml:space="preserve">
+    <value>Spustenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusySubmittingReport" xml:space="preserve">
+    <value>Podanie správy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyUp" xml:space="preserve">
+    <value>Chvíľočku prosím</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyVerifyingLicenses" xml:space="preserve">
+    <value>Overovanie licencií</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyWaitingForUpdateDownloadToFinish" xml:space="preserve">
+    <value>Čakanie na aktualizáciu na stiahnutie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonAgree" xml:space="preserve">
+    <value>Súhlasiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBack" xml:space="preserve">
+    <value>SPÄŤ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>ZRUŠIŤ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>ZAVRIEŤ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCreateDatabase" xml:space="preserve">
+    <value>Vytvoriť databázu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonDeleteDatabase" xml:space="preserve">
+    <value>Vymazať databázu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonInstall" xml:space="preserve">
+    <value>INŠTALÁCIA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonMultipleValues" xml:space="preserve">
+    <value>Viacnásobné hodnoty - Kliknite pre nastavenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>ĎALŠIE</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>Nie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>V poriadku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOpenDatabase" xml:space="preserve">
+    <value>Otvorená databáza</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonUninstall" xml:space="preserve">
+    <value>Odinštalovať</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>ÁNO</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesInfoAlreadyUpdated" xml:space="preserve">
+    <value>Už používate naposledy vydanú verziu grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownload" xml:space="preserve">
+    <value>K dispozícii je aktualizácia na brúsny kameň.Chcete si ho teraz stiahnuť?Môžete pokračovať v práci, kým to robím.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloaded" xml:space="preserve">
+    <value>Aktualizácia je pripravená.Chcete ho teraz nainštalovať?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloading" xml:space="preserve">
+    <value>Aktualizácia sa už pripravuje.Dám vám vedieť, čo je pripravené.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CollectedPasswordFailed" xml:space="preserve">
+    <value>Heslo, ktoré ste dali, nebol správne.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogCompilationError" xml:space="preserve">
+    <value>Bežal som sa na problém pri zostavovaní tohto kolónového vzorca.
+
+Chyba: {0}
+
+Expresia vzorec:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlocked" xml:space="preserve">
+    <value>Prepáč, ale nemôžem to urobiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandLineHelp" xml:space="preserve">
+    <value>Grindstone [Drive:] [cesta] [názov súboru] [možnosti]
+
+  [Drive:] [cesta] [názov súboru]
+    Určuje jednotku, adresár a názov databázového súboru, ktorý sa má otvoriť
+
+Možnosti:
+
+  -i, -Install
+    Spustí proces inštalácie
+
+  -u, --Uninstall
+    Spustí proces odinštalovania
+
+  -s, --silent
+    spôsobí, že proces inštalácie / odinštalovania pokračuje ticho s minimálnymi možnosťami
+
+  --vytvoriť zástupcu na ploche
+    Spôsobuje proces inštalácie, aby vytvoril stolný skrat, keď ticho
+
+  --leaveconfiguration
+    Spôsobuje proces odinštalovania, ktorý nie je odstrániť konfiguráciu, keď ticho
+
+  --removedatabases
+    Spôsobí, že proces odinštalovania odstrániť databázy, keď ticho
+
+  --startwhenfinished
+    Spôsobuje proces inštalácie na spustenie brúsneho kameňa po dokončení, keď ticho
+
+  --startwhwindows
+    Spôsobí proces inštalácie nastaviť brúsny kameň na spustenie pri start-up, keď ticho
+
+  --exportlkalizácia: cesta
+    Uloží všetok text pre aktuálne miestne nastavenie vo formáte JSON RUntime v adresári, ktorý sa nachádza na ceste</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncrypt" xml:space="preserve">
+    <value>Šifrovať túto databázu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
+    <value>Pri prvom otvorení tejto databázy sa zobrazí výzva na nastavenie hesla.V každom nasledujúcom čase sa musí zadať rovnaké heslo.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
+    <value>Nesmie byť prázdny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameIllegalCharacters" xml:space="preserve">
+    <value>Nesmie obsahovať neplatné znaky pre názvy súborov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogCaption" xml:space="preserve">
+    <value>Výber databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteConfirmation" xml:space="preserve">
+    <value>Ste si istý, že chcete odstrániť databázu "{0}"?Toto nie je reverzibilné!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
+    <value>Nemohol som odstrániť databázu "{0}" by mohla byť v súčasnosti používaná?Ak áno, pred pokusom odstránite databázu "{0}".</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
+    <value>{0} koniec</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
+    <value>{0} Štart</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Brúsnym databázam</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EULAText" xml:space="preserve">
+    <value>KRÁTKY POPIS
+
+Získate nevýhradnú licenciu na používanie Grindstone na akékoľvek účely po neobmedzenú dobu. Grindstone je k dispozícii zdarma.
+
+Aj keď licenčný poplatok nie je platený za používanie Grindstone, neznamená to, že neexistujú žiadne podmienky na jeho používanie:
+
+1. Grindstone môžete nainštalovať a používať na akýkoľvek právny účel.
+
+2. Grindstone môžete nainštalovať a používať na ľubovoľnom počte systémov.
+
+3. Grindstone môžete kopírovať a distribuovať pod podmienkou, že pôvodné oznámenie o autorských právach a zrieknutie sa záruky zostanú nedotknuté a nebudete účtovať peniaze ani poplatky za Grindstone, s výnimkou pokrytia distribučných nákladov.
+
+4. Nebudete mať žiadne vlastnícke práva v Grindstone a na Grindstone. Beriete na vedomie a súhlasíte s tým, že spoločnosť Epiforge si ponecháva všetky autorské práva a iné vlastnícke práva v grindstone a na ne.
+
+5. Používanie v rámci tejto licencie je bezplatné a neplatíte žiadne licenčné poplatky ani licenčné poplatky.
+
+PLNÁ VERZIA
+
+Prosím, pozorne si to prečítajte. Používaním celého softvéru alebo akejkoľvek časti softvéru súhlasíte so všetkými podmienkami tejto zmluvy. Ak nesúhlasíte, nepoužívajte tento softvér.
+
+1. DEFINÍCIE
+
+Ak sa v tejto dohode používajú tieto pojmy, musia mať uvedené príslušné významy, pričom tieto významy sa vzťahujú na jednotné aj množné formy definovaných pojmov:
+
+"Poskytovateľ licencie" znamená spoločnosť Epiforge Software, LLC.
+
+"Nadobúdateľ licencie" znamená vás alebo vašu spoločnosť, pokiaľ nie je uvedené inak.
+
+"Softvér" znamená (a) všetok obsah súborov, diskov, diskov CD-ROM alebo iných médií, s ktorými je táto zmluva poskytovaná, vrátane, ale nie výlučne, (i) registračných informácií, t. j. licenčného kľúča, ktorý je jedinečný pre registračné meno nadobúdateľa licencie; ii) súvisiace vysvetľujúce písomné materiály alebo spisy ("Dokumentácia"); a (iii) súbory na nastavenie softvéru a vzorky kódov (ak existujú); a (b) aktualizácie, upravené verzie, aktualizácie, dodatky a kópie Softvéru, ak existujú, licencované spoločnosťou Epiforge Software, LLC (súhrnne "Aktualizácie").
+
+"Použitie" alebo "Používanie" znamená prístup, inštaláciu, sťahovanie, kopírovanie alebo iné využitie používania funkčnosti Softvéru v súlade s dokumentáciou.
+
+"Systém" znamená Windows, GNU/Linux, macOS, Android, iOS alebo akýkoľvek virtuálny počítač.
+
+2. VŠEOBECNÉ POUŽITIE 
+
+Získate nevýhradnú licenciu na používanie stiahnutého softvéru na akékoľvek účely na neobmedzenú dobu.
+
+Softvérový produkt na základe tejto licencie je poskytovaný bezplatne. Aj keď licenčný poplatok nie je zaplatený za používanie takéhoto softvéru, neznamená to, že neexistujú žiadne podmienky na používanie takéhoto softvéru.
+
+2.1. Softvér môže poskytovateľ licencie nainštalovať a používať na akýkoľvek právny účel.
+
+2.2. Softvér môže poskytovateľ licencie nainštalovať a používať na ľubovoľnom počte systémov.
+
+2.3. Softvér je možné kopírovať a distribuovať pod podmienkou, že pôvodné oznámenie o autorských právach a zrieknutie sa záruky zostanú nedotknuté a nadobúdateľ licencie nebude účtovať peniaze ani poplatky za softvérový produkt, s výnimkou pokrytia distribučných nákladov.
+
+2.4. Nadobúdateľ licencie nebude mať žiadne vlastnícke práva k Softvéru a k nemu. Nadobúdateľ licencie berie na vedomie a súhlasí s tým, že poskytovateľ licencie si ponecháva všetky autorské práva a iné vlastnícke práva k Softvéru a k softvéru.
+
+2.5 Používanie v rámci tejto Licencie je bezplatné a držiteľ licencie nezaplatí žiadne licenčné poplatky ani licenčné poplatky.
+
+3. PRÁVA DUŠEVNÉHO VLASTNÍCTVA
+
+3.1 Táto Licencia neprenáša žiadne intelektuálne práva na Softvér. Softvér a všetky kópie, ktoré je nadobúdateľ licencie oprávnené poskytovateľom licencie vytvoriť, sú duševným vlastníctvom poskytovateľa licencie a sú vo vlastníctve poskytovateľa licencie.
+
+3.2 Softvér je chránený autorskými právami, vrátane, bez obmedzenia, autorským právom a ustanoveniami medzinárodných zmlúv.
+
+3.3 Všetky kópie, ktoré je nadobúdateľovi licencie povolené podľa tejto zmluvy, musia obsahovať rovnaké autorské práva a iné vlastnícke oznámenia, ktoré sa objavujú na Softvéri alebo v ňom.
+
+3.4 Štruktúra, organizácia a kód Softvéru sú cenným obchodným tajomstvom a dôvernými informáciami poskytovateľa licencie. Nadobúdateľ licencie súhlasí s tým, že nebude dekompilovať, rozoberať ani sa inak pokúšať objaviť zdrojový kód Softvéru.
+
+3.5 Akékoľvek pokusy o reverzné inžinierstvo, kopírovanie, klonovanie, úpravu alebo zmenu inštalatérskeho programu akýmkoľvek spôsobom bez osobitného súhlasu poskytovateľa licencie sú prísne zakázané. Nadobúdateľ licencie nie je oprávnený používať žiadny doplnok alebo vylepšenie, ktoré umožňuje ukladať úpravy do súboru so softvérom licencovaným a distribuovaným poskytovateľom licencie.
+
+3.6 Ochranné známky sa používajú v súlade s akceptovanou praxou ochranných známok vrátane identifikácie mien vlastníkov ochranných známok. Ochranné známky môžu byť použité iba na identifikáciu tlačeného výstupu vytvoreného Softvérom a takéto použitie akejkoľvek ochrannej známky neposkytuje nadobúdateľovi licencie žiadne vlastnícke práva v tejto ochrannej známke.
+
+4. ZÁRUKA
+
+4.1 Poskytovateľ licencie zaručuje, že:
+
+4.1.1 Poskytovateľ licencie vlastní Softvér a dokumentáciu a/alebo je držiteľom platných a existujúcich licencií, ktoré podporujú podmienky tejto zmluvy;
+
+4.1.2 Softvér zodpovedá špecifikáciám a funkciám špecifikovaným v Dokumentácii;
+
+4.1.3 Podľa najlepšieho vedomia Poskytovateľa licencie Softvér neporušuje ani neporušuje žiadne právo duševného vlastníctva žiadnej tretej strany;
+
+4.1.4 Softvér neobsahuje žiadnu rutinu, zámerne navrhnutú poskytovateľom licencie na vypnutie počítačového programu, ani počítačové pokyny, ktoré môžu zmeniť, zničiť alebo inhibovať spracovateľské prostredie.
+
+4.2 S výnimkou záruk uvedených v časti 4.1 vyššie sa Softvér dodáva nadobúdateľovi licencie "TAK, AKO JE" a poskytovateľ licencie neposkytuje žiadnu záruku na jeho používanie alebo výkon.
+
+Poskytovateľ licencie nezaručuje a nemôže zaručiť výkon alebo výsledky, ktoré môže nadobúdateľ licencie získať používaním softvéru. Celé riziko vyplývajúce z používania alebo výkonu Softvéru zostáva na nadobúdateľovi licencie.
+
+Poskytovateľ licencie neposkytuje žiadnu výslovnú ani predpokladanú záruku, že (i) Softvér bude mať uspokojivú kvalitu, bude vhodný na akýkoľvek konkrétny účel alebo na akékoľvek konkrétne použitie za stanovených podmienok, bez ohľadu na to, že tento účel, použitie alebo podmienky môžu byť poskytovateľovi licencie známe; alebo (ii) že Softvér bude fungovať bezchybne alebo bez prerušenia alebo že akékoľvek chyby budú opravené.
+
+5. OBMEDZENIE ZODPOVEDNOSTI
+
+Poskytovateľ licencie nebude v žiadnom prípade zodpovedný za žiadne škody, nároky alebo náklady alebo akékoľvek následné, nepriame, náhodné škody alebo akékoľvek stratené zisky alebo stratené úspory, a to ani vtedy, ak bol poskytovateľ licencie informovaný o možnosti takejto straty, škôd, nárokov alebo nákladov alebo za akýkoľvek nárok akejkoľvek tretej strany.
+
+Držiteľ licencie v žiadnom prípade nebude zodpovedný poskytovateľovi licencie pod podmienkou, že držiteľ licencie splní všetky podmienky uvedené v tejto Licencii.
+
+6. NEVZDANIE SA
+
+Ak je časť tejto dohody nevymáhateľná, zvyšok je platný. Znamená to, že ak jedna časť dohody nie je zákonná, zvyšok dohody je stále v platnosti. Neuplatnenie akéhokoľvek práva zmluvnou stranou podľa tejto dohody nebude predstavovať zrieknutie sa (a) akýchkoľvek iných podmienok tejto dohody alebo (b) práva kedykoľvek potom požadovať presný a prísny súlad s podmienkami tejto dohody.
+
+© 2021 Epiforge Software, LLC. Všetky práva vyhradené.</value>
+    <comment>from MicrosoftTranslator</comment>
+  </data>
+  <data name="ExportEntriesDialogTitle" xml:space="preserve">
+    <value>Vývozné položky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowAllowResponse" xml:space="preserve">
+    <value>Zahrňte svoje kontaktné informácie, aby ste mohli odpovedať</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCheckForUpdates" xml:space="preserve">
+    <value>Skontroluj aktualizácie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowClose" xml:space="preserve">
+    <value>Zatvorte brúsny kameň</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCopy" xml:space="preserve">
+    <value>Kopírovanie kritických technických detailov do schránky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCriticalTechnicalDetails" xml:space="preserve">
+    <value>Kritické technické detaily</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameEmail" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowReport" xml:space="preserve">
+    <value>Hlásenie kritických technických detailov spoločnosti EVIFRAGRA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowRestart" xml:space="preserve">
+    <value>Reštart</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowText" xml:space="preserve">
+    <value>Naše najkomlepšie ospravedlnenie, ale Grindstone narazil na chybu, s ktorou nebol postavený.Táto chyba nie je vaša chyba.Ale môžete ísť nad rámec call call a pomôcť nám opraviť!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowWhatWereYouDoing" xml:space="preserve">
+    <value>Stalo sa to, keď som sa snažil ...</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowYourContactDetails" xml:space="preserve">
+    <value>Vaše kontaktné údaje</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameAll" xml:space="preserve">
+    <value>Všetky súbory</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameCsv" xml:space="preserve">
+    <value>Hodnoty oddelených čiarkami</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameTsv" xml:space="preserve">
+    <value>Hodnoty oddelené</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameZip" xml:space="preserve">
+    <value>Archívy ZIP</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderAssignmentViews" xml:space="preserve">
+    <value>Zobrazenia priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderListValueViews" xml:space="preserve">
+    <value>Zobrazenie hodnôt zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMadeWith" xml:space="preserve">
+    <value>S</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMonitoredViews" xml:space="preserve">
+    <value>Sledované zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderPersonViews" xml:space="preserve">
+    <value>Názory</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderStartup" xml:space="preserve">
+    <value>Začiatok</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTimeSliceViews" xml:space="preserve">
+    <value>Zobrazenie času</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTraitViews" xml:space="preserve">
+    <value>Výhľad na trápenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderWorkItemViews" xml:space="preserve">
+    <value>Zobrazenie pracovných položiek</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
+    <value>Vytvoriť zástupcu na ploche</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateStartMenuShortcut" xml:space="preserve">
+    <value>Vytvorte skratku ponuky Štart</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULACondition" xml:space="preserve">
+    <value>Ak akceptujete podmienky dohody, kliknite na tlačidlo ALEBO Klepnutím na tlačidlo Súčasťou pokračovania.Musíte prijať dohodu o inštalácii grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULAHeader" xml:space="preserve">
+    <value>Licenčná zmluva</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULASubheader" xml:space="preserve">
+    <value>Pred inštaláciou brúsneho kameňa si prečítajte licenčné podmienky.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedHeader" xml:space="preserve">
+    <value>Inštalácia dokončená</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedSubheader" xml:space="preserve">
+    <value>Nastavenie bolo úspešne dokončené.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingHeader" xml:space="preserve">
+    <value>Inštalácia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingSubheader" xml:space="preserve">
+    <value>Počkajte, kým je nainštalovaný brúsny kameň.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsDirections" xml:space="preserve">
+    <value>Skontrolujte možnosti, ktoré uprednostňujete a zrušte začiarknutie políčok, ktoré nie ste.Pokračujte kliknutím na tlačidlo Inštalovať.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsHeader" xml:space="preserve">
+    <value>Možnosti nastavenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsSubheader" xml:space="preserve">
+    <value>Vyberte, ako chcete byť nainštalovaný brúsny kameň.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveConfiguration" xml:space="preserve">
+    <value>Odstráňte moje preferencie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveData" xml:space="preserve">
+    <value>Odstráňte moje databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWhenSetupFinishes" xml:space="preserve">
+    <value>Spustite Grindstone pri dokončení nastavenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWithWindows" xml:space="preserve">
+    <value>Štart Grindstone s Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedHeader" xml:space="preserve">
+    <value>Dokončenie odinštalovania</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedSubheader" xml:space="preserve">
+    <value>Grindstone bol úspešne odstránený.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingHeader" xml:space="preserve">
+    <value>Odinštalovanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingSubheader" xml:space="preserve">
+    <value>Počkajte, kým je brúsny kameň odinštalovaný.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsDirections" xml:space="preserve">
+    <value>Skontrolujte možnosti, ktoré uprednostňujete a zrušte začiarknutie políčok, ktoré nie ste.Ak chcete pokračovať, kliknite na tlačidlo Odinštalovať.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsHeader" xml:space="preserve">
+    <value>Odinštalujte možnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsSubheader" xml:space="preserve">
+    <value>Vyberte, ako chcete, aby bol brúsny kameň odinštalovaný.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingHeader" xml:space="preserve">
+    <value>Aktualizácia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingSubheader" xml:space="preserve">
+    <value>Počkajte, kým sa aktualizuje Grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeHeader" xml:space="preserve">
+    <value>Vitajte v Grindstone Setup</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeText" xml:space="preserve">
+    <value>Nastavenie vás prevedie inštaláciou grindse.
+
+Pred spustením nastavenia nemusíte zatvoriť žiadne iné aplikácie a nebudete požiadaný o reštartovanie počítača.
+
+Pokračujte kliknutím na tlačidlo Ďalej.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelAbout" xml:space="preserve">
+    <value>O</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelChangeDatabasePassword" xml:space="preserve">
+    <value>Zmeniť heslo databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Skontroluj aktualizácie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCollectGarbage" xml:space="preserve">
+    <value>Zbierať odpadky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDecryptDatabase" xml:space="preserve">
+    <value>Dešifrovanie databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDelete" xml:space="preserve">
+    <value>Vymazať</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDuplicate" xml:space="preserve">
+    <value>Duplikát</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEdit" xml:space="preserve">
+    <value>Upraviť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEncryptDatabase" xml:space="preserve">
+    <value>Šifrovanie databázy</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelGeneral" xml:space="preserve">
+    <value>Všeobecný</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelOptions" xml:space="preserve">
+    <value>možnosti</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSaveLoggedExceptions" xml:space="preserve">
+    <value>Uložiť zaznamenané výnimky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSelectDatabase" xml:space="preserve">
+    <value>Vyberte databázu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Štart Grindstone s Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelThrowException" xml:space="preserve">
+    <value>Výnimku</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseInvalid" xml:space="preserve">
+    <value>Zadaná licencia nie je platná pre funkciu {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeHint" xml:space="preserve">
+    <value>Kód</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeRequired" xml:space="preserve">
+    <value>Vyžaduje sa kód pre vašu licenciu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Podpis zariadenia:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogEndHint" xml:space="preserve">
+    <value>Koniec</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogInstructions" xml:space="preserve">
+    <value>Ak chcete pokračovať, zadajte podrobnosti o platnej licencii.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogLicenseNameLabel" xml:space="preserve">
+    <value>Názov licencie:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogStartHint" xml:space="preserve">
+    <value>Spustiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseValid" xml:space="preserve">
+    <value>Zadaná licencia je platná a aktivuje funkciu {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAlert" xml:space="preserve">
+    <value>Opäť ma neohrozujte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAsk" xml:space="preserve">
+    <value>Nepýtajte sa ma o tom znova</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotInform" xml:space="preserve">
+    <value>Nepoznajte ma znova</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotWarn" xml:space="preserve">
+    <value>Nepoužívajte ma o tom znova</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedPersistsText" xml:space="preserve">
+    <value>Nemám na výber, ale teraz prestať.Ak zmeníte svoju myseľ, znova ma spustite a pomôžem vám vybrať databázu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedText" xml:space="preserve">
+    <value>Pre grindstone sa vyžaduje databáza.Chcete si vybrať jednu teraz?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlChoiceHint" xml:space="preserve">
+    <value>Voľba</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlDurationHint" xml:space="preserve">
+    <value>Trvanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionHint" xml:space="preserve">
+    <value>Funkcia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionRequiresNoInput" xml:space="preserve">
+    <value>Táto funkcia nevyžaduje žiadny vstup.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlIdHint" xml:space="preserve">
+    <value>Jedinečný identifikátor</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlInstantHint" xml:space="preserve">
+    <value>Okamžitý</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlNumberHint" xml:space="preserve">
+    <value>Číslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlRangeHint" xml:space="preserve">
+    <value>Rozsah</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlValueHint" xml:space="preserve">
+    <value>Hodnota</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
+    <value>Táto databáza je šifrovaná a vyžaduje heslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordHint" xml:space="preserve">
+    <value>Heslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmEmpty" xml:space="preserve">
+    <value>Nesmie byť prázdny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmHint" xml:space="preserve">
+    <value>Potvrdiť</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogNoMatch" xml:space="preserve">
+    <value>Heslá, ktoré ste zadali, sa nezhodujú.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordEmpty" xml:space="preserve">
+    <value>Nesmie byť prázdny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordHint" xml:space="preserve">
+    <value>Heslo</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotCreateBuiltInValue" xml:space="preserve">
+    <value>Pokúsil sa o zmenu vytvorenú hodnotu pre vstavanú vlastnosť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInTrait" xml:space="preserve">
+    <value>Pokúsili sa zmena vymazania zabudovaného znaku.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInValue" xml:space="preserve">
+    <value>Pokúsili sa zmena vymazania hodnoty pre vstavanú vlastnosť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotUpdateReadOnlyBuiltInValue" xml:space="preserve">
+    <value>Zmeniť aktualizáciu hodnoty iba na čítanie pre vstavanú vlastnosť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCatalogFailed" xml:space="preserve">
+    <value>Zmena na vytvorenie úspešného kusu údajov, ale údaje nebolo možné katalogizovať.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationFailed" xml:space="preserve">
+    <value>Zmena na vytvorenie kusu údajov zlyhala.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationInvalidTraitEntityType" xml:space="preserve">
+    <value>Zmeniť vytvorenie vlastnosti pre druh údajov, ktoré nebolo možné nájsť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityNotFound" xml:space="preserve">
+    <value>Pokúsili sa zmena na kus údajov, ktoré nebolo možné nájsť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeIdNotFound" xml:space="preserve">
+    <value>Pokúsil sa zmena na neznámy typ údajov.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeNotSupported" xml:space="preserve">
+    <value>Pokúsili sa zmena na nepodporovaný typ údajov.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonPreviousTokenMismatch" xml:space="preserve">
+    <value>Pokúsili sa zmena, ktorá modifikuje niečo s externou úpravou.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitNotFound" xml:space="preserve">
+    <value>Zmena hodnoty znaku pre vlastnosť, ktorá sa nedá nájsť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotFound" xml:space="preserve">
+    <value>Zmena pre hodnotu znaku, ktorá sa nedala nájsť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotProvided" xml:space="preserve">
+    <value>Zmena vytváraná kus údajov zlyhala, pretože požadovaná hodnota vlastnosti nebola poskytnutá.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueTypeResolutionFailed" xml:space="preserve">
+    <value>Zmena obsahujúca hodnotu vlastnosti, ktorá sa nedá pochopiť.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonUnknownChangeType" xml:space="preserve">
+    <value>Pokúsili sa o neintenzívna zmena.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SaveLoggedExceptionsNone" xml:space="preserve">
+    <value>Neexistujú žiadne zaznamenané výnimky na uloženie.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Grindstone Setup</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ShortcutFileName" xml:space="preserve">
+    <value>Grindstone 5</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
+    <value>Používateľské rozhranie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
+    <value>Upravte operácie stopky</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
+    <value>Zobrazenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+    <value>Bežal som sa na problém pri zostavovaní vzorca zobrazenia.
+
+Chyba: {0}
+
+Expresia vzorec:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
+    <value>Trvanie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+    <value>Bežal som sa na problém pri zostavovaní vzorec trvania.
+
+Chyba: {0}
+
+Expresia vzorec:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
+    <value>Nasledujúce položky teraz spadajú pod {0}: {1} {1} {2}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableDownloadAction" xml:space="preserve">
+    <value>Stiahnuť ▼</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableText" xml:space="preserve">
+    <value>K dispozícii je aktualizácia pre brúsny kameň.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyInstallAction" xml:space="preserve">
+    <value>Inštalácia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyText" xml:space="preserve">
+    <value>Aktualizácia pre brúsny kameň je pripravený.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAbout" xml:space="preserve">
+    <value>Naučte sa o brúsení, ľudí, ktorí to urobili, a to, čo robili.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAddEntry" xml:space="preserve">
+    <value>Pridajte do tohto pohľadu nový záznam.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAssignmentViews" xml:space="preserve">
+    <value>Zobrazenia priradenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipChangeDatabasePassword" xml:space="preserve">
+    <value>Zmena hesla šifrovania pre databázu, ktorú práve používam.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCheckForUpdates" xml:space="preserve">
+    <value>Okamžite skontrolujte aktualizácie Grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseMenu" xml:space="preserve">
+    <value>Zatvoriť menu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollectGarbage" xml:space="preserve">
+    <value>Požiadajte o to, aby .NET RUNTIME INOKOE JEHO ZARIADENIA REKUMENTU.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCopyEntries" xml:space="preserve">
+    <value>Skopírujte aktuálne vybraté položky do tohto zobrazenia do schránky alebo všetky z nich, ak nie sú vybraté.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCreateView" xml:space="preserve">
+    <value>Vytvoriť pohľad</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDecryptDatabase" xml:space="preserve">
+    <value>Dešifrovať databázu, ktorú práve používam.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteEntries" xml:space="preserve">
+    <value>Odstráňte aktuálne vybraté položky v tomto zobrazení.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteView" xml:space="preserve">
+    <value>Vymazať zobrazenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateEntries" xml:space="preserve">
+    <value>Duplicitu aktuálne vybraných záznamov v tomto zobrazení.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateView" xml:space="preserve">
+    <value>Duplicitný pohľad</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEditEntries" xml:space="preserve">
+    <value>Upravte aktuálne vybraté položky v tomto pohľade.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEncryptDatabase" xml:space="preserve">
+    <value>Šifrovanie databázy, ktorú práve používam.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipExportEntries" xml:space="preserve">
+    <value>V aktuálne vybraté položky do tohto zobrazenia exportujete súbor alebo všetky z nich, ak nie sú vybraté.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipIsConfiningOtherOperationTypes" xml:space="preserve">
+    <value>Tento výber môže byť obmedzený typmi parametrov súrodenca.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipListValueViews" xml:space="preserve">
+    <value>Zobrazenie hodnôt zoznamu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMainMenu" xml:space="preserve">
+    <value>Hlavné menu</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipManageColumns" xml:space="preserve">
+    <value>Spravujte stĺpce v tomto pohľade.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipModifyView" xml:space="preserve">
+    <value>Upravte zobrazenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMonitoredViews" xml:space="preserve">
+    <value>Sledované zobrazenia</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipOptions" xml:space="preserve">
+    <value>Zmeňte možnosti grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipPersonViews" xml:space="preserve">
+    <value>Názory</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSavedLoggedException" xml:space="preserve">
+    <value>Uložte všetky zaznamenané výnimky do zipového súboru.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectDatabase" xml:space="preserve">
+    <value>Vyberte, ktorá databáza momentálne používam.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipThrowException" xml:space="preserve">
+    <value>Zámerne hodiť výnimku na testovanie diagnostického systému.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTimeSliceViews" xml:space="preserve">
+    <value>Zobrazenie času</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTraitViews" xml:space="preserve">
+    <value>Výhľad na trápenie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipWorkItemViews" xml:space="preserve">
+    <value>Zobrazenie pracovných položiek</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewDuplicatorDialogNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogEntityTypeHint" xml:space="preserve">
+    <value>Typ entity</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogFilterCompilationError" xml:space="preserve">
+    <value>Bežal som sa do problému pri zostavovaní filtračného vzorca tohto pohľadu.
+
+Chyba: {0}
+
+Expresia vzorec:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogOwnerHint" xml:space="preserve">
+    <value>Majiteľ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterListValueHint" xml:space="preserve">
+    <value>Hodnota</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterNameHint" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParametersHeader" xml:space="preserve">
+    <value>Parametre</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterTypeHint" xml:space="preserve">
+    <value>Typ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogSystemViewEUA" xml:space="preserve">
+    <value>Toto je systémový pohľad.Niektoré z jeho vlastností sa nemusia modifikovať.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterParameterAvailabilityEUA" xml:space="preserve">
+    <value>Nové parametre zobrazenia nie sú k dispozícii na použitie vo filtri, kým sa zobrazenie nebráni aspoň raz.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesCalculatingAndTabulating" xml:space="preserve">
+    <value>Výpočet a tabuľka</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeAutoSelectEUA" xml:space="preserve">
+    <value>Toto je systémový pohľad.Používam ho, keď potrebujem automaticky vybrať výber.Zoberiem prvý záznam podľa názoru, ktorý spĺňa určité podmienky.Ak napríklad začnete načasovanie pracovnej položky, použijem tak, aby som zistil, či existuje už existujúca úloha na použitie na načasovanie.Ak žiadny zo záznamov nezodpovedá podmienkam, urobím nový záznam, ktorý robí a používa ho.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeEntityEUA" xml:space="preserve">
+    <value>Toto je systémový pohľad.Používam svoj prvý stĺpec, keď potrebujem zobraziť zoznam položiek.Všetky zmeny, ktoré urobíte na operáciu stĺpca alebo na poradie položiek v zobrazení, sa prejavia v zoznamoch.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeTraitEUA" xml:space="preserve">
+    <value>Toto je systémový pohľad.Používam prvý stĺpec, keď potrebujem vykonať polia na formulári, keď niečo upravíte.Všetky zmeny, ktoré urobíte na operáciu stĺpca alebo poradie položiek, sa prejavia vo formách.Tento pohľad môžete použiť aj ako východiskový bod pre vytvorenie nových znakov;Stačí kliknúť na tlačidlo Pridať vstupu vyššie.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDecryptDatabase" xml:space="preserve">
+    <value>Ak dešifrujete svoju databázu, niekto s prístupom k vášmu databázu bude môcť čítať bez zadania hesla.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteColumn" xml:space="preserve">
+    <value>Ak budete pokračovať, tento stĺpec bude trvalo odstránený a nebude sa zobraziť v pohľade.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteEntries" xml:space="preserve">
+    <value>Ak budete pokračovať, vybrané položky budú trvalo odstránené.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteView" xml:space="preserve">
+    <value>Ak budete pokračovať, aktuálne zobrazené zobrazenie a jeho stĺpce budú trvalo odstránené.Záznamy zobrazené nebudú odstránené.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>

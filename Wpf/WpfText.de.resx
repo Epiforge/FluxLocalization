@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Gerätesignatur:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AboutDialogDeviceSignatureLoading" xml:space="preserve">
+    <value>Wird geladen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppLicenseCancelled" xml:space="preserve">
+    <value>Diese Anwendung kann nicht ohne gültige Lizenz gestartet werden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Schleifstein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCheckingForUpdates" xml:space="preserve">
+    <value>Überprüfung auf Updates</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyConvertingEntriesToText" xml:space="preserve">
+    <value>Einträge in Text umwandeln</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingEntries" xml:space="preserve">
+    <value>Einträge erstellen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyCreatingNewDatabase" xml:space="preserve">
+    <value>Neue Datenbank erstellen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingColumn" xml:space="preserve">
+    <value>Spalte löschen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingEntries" xml:space="preserve">
+    <value>Einträge löschen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDeletingView" xml:space="preserve">
+    <value>Sicht löschen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDownloadingUpdate" xml:space="preserve">
+    <value>Update wird heruntergeladen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingColumn" xml:space="preserve">
+    <value>Duplizierkolonne</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyDuplicatingEntries" xml:space="preserve">
+    <value>Duplizieren von Einträgen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEndingSession" xml:space="preserve">
+    <value>Endsitzung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesCopiedToClipboard" xml:space="preserve">
+    <value>Einträge in die Zwischenablage kopiert</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyEntriesExported" xml:space="preserve">
+    <value>Einträge exportiert</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyExportingEntries" xml:space="preserve">
+    <value>Einträge exportieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyFinished" xml:space="preserve">
+    <value>Alles erledigt, danke!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyInitializingInterface" xml:space="preserve">
+    <value>Schnittstelle initialisieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingConfiguration" xml:space="preserve">
+    <value>Konfiguration geladen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyLoadingDatabases" xml:space="preserve">
+    <value>Laden von Datenbanken</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyModifyingEntries" xml:space="preserve">
+    <value>Einträge bearbeiten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyReplacingPreviousDatabase" xml:space="preserve">
+    <value>Ersetzen der vorherigen Datenbank</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyScanningLicenses" xml:space="preserve">
+    <value>Scanning-Lizenzen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyStartingSession" xml:space="preserve">
+    <value>Sitzung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusySubmittingReport" xml:space="preserve">
+    <value>Bericht einreichen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyUp" xml:space="preserve">
+    <value>Einen kleinen Moment bitte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyVerifyingLicenses" xml:space="preserve">
+    <value>Überprüfung von Lizenzen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="BusyWaitingForUpdateDownloadToFinish" xml:space="preserve">
+    <value>Warten auf Update-Download, um den Download zu beenden</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonAgree" xml:space="preserve">
+    <value>STIMMEN ZU</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBack" xml:space="preserve">
+    <value>ZURÜCK</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>ABBRECHEN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>SCHLIESSEN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonCreateDatabase" xml:space="preserve">
+    <value>DATENBANK ERSTELLEN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonDeleteDatabase" xml:space="preserve">
+    <value>Datenbank löschen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonInstall" xml:space="preserve">
+    <value>INSTALLIEREN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonMultipleValues" xml:space="preserve">
+    <value>Mehrere Werte - Klicken Sie zum Set</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>NÄCHSTE</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>NEIN</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonOpenDatabase" xml:space="preserve">
+    <value>Datenbank öffnen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonUninstall" xml:space="preserve">
+    <value>Deinstallieren</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>JA</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesInfoAlreadyUpdated" xml:space="preserve">
+    <value>Sie verwenden bereits die zuletzt veröffentlichte Version von Grindstone.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownload" xml:space="preserve">
+    <value>Ein Update to Grindstone ist verfügbar.Möchten Sie es jetzt herunterladen?Sie können weiterarbeiten, während ich das tue.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloaded" xml:space="preserve">
+    <value>Ein Update ist fertig.Möchten Sie es jetzt installieren?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CheckForUpdatesQuestionDownloading" xml:space="preserve">
+    <value>Ein Update ist bereits vorbereitet.Ich lasse Sie wissen, was es bereit ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CollectedPasswordFailed" xml:space="preserve">
+    <value>Das Passwort, das Sie angegeben haben, war nicht korrekt.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogCompilationError" xml:space="preserve">
+    <value>Ich habe ein Problem gelaufen, während ich diese Säulen-Anzeige-Formel kompiliert habe.
+
+Fehler: {0}
+
+Beleidigende Formelausdruck:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ColumnEditorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlocked" xml:space="preserve">
+    <value>Entschuldigung, aber das kann ich nicht</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandLineHelp" xml:space="preserve">
+    <value>Grindstone [Laufwerk:] [Pfad] [Dateiname] [Optionen]
+
+  [Laufwerk:] [Pfad] [Dateiname]
+    Gibt das Laufwerk, das Verzeichnis und den Namen einer Datenbankdatei an, um zu öffnen
+
+Optionen:
+
+  -i, --install.
+    Startet den Installationsprozess
+
+  -u, --uninstall.
+    Startet den Deinstallationsvorgang
+
+  -s, --sisolsent.
+    bewirkt, dass der Installations- / Deinstallationsprozess still mit minimalen Optionen fortfährt
+
+  --Desktopverknüpfung erstellen
+    Verursacht den Installationsprozess, um einen Desktop-Kurzschnitt beim Schweigen zu erstellen
+
+  - SeeVonfiguration.
+    Bewirkt, dass der Deinstallationsprozess die Konfiguration nicht entfernen kann, wenn Sie stummschalten
+
+  - Removedatabase.
+    verursacht den Deinstallationsprozess, um Datenbanken beim Schweigen zu entfernen
+
+  --Startwhinfiniert.
+    Verursacht den Installationsprozess, um den Schleifstein nach dem Abschluss beim Schaden zu starten
+
+  --Starte mit Windows
+    Bewirkt, dass der Installationsprozess Grindstone eingestellt wird, um beim Schweigen beim Start beim Start zu laufen
+
+  --Exportlokalization: Pfad.
+    Speichert den gesamten Text für das aktuelle Gebietsschema im JSON Runtime-Format im Verzeichnis, das sich auf dem Pfad befindet</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncrypt" xml:space="preserve">
+    <value>Verschlüsseln Sie diese Datenbank.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
+    <value>Wenn Sie diese Datenbank zum ersten Mal öffnen, werden Sie aufgefordert, das Passwort festzulegen.Bei jeder nachfolgenden Zeit wird das gleiche Passwort eingegeben werden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
+    <value>Darf nicht leer sein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogNameIllegalCharacters" xml:space="preserve">
+    <value>Darf nicht ungültige Zeichen für Dateinamen enthalten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogCaption" xml:space="preserve">
+    <value>Datenbankauswahl</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteConfirmation" xml:space="preserve">
+    <value>Möchten Sie sicher, dass Sie die Datenbank "{0}" löschen möchten?Das ist nicht reversibel!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
+    <value>Ich konnte die Datenbank "{0}" nicht löschen. Kann er aktuell verwendet werden.Wenn ja, wechseln Sie bitte in eine andere Datenbank oder schließen Sie Schleifsteuer, bevor Sie versuchen, die Datenbank "{0}" zu löschen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
+    <value>{0} Ende</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
+    <value>{0} Start</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Grindstone-Datenbanken.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EULAText" xml:space="preserve">
+    <value>KURZBESCHREIBUNG
+
+Ihnen wird eine nicht-exklusive Lizenz zur Nutzung von Grindstone für beliebige Zwecke für einen unbegrenzten Zeitraum gewährt. Schleifstein wird kostenlos zur Verfügung gestellt.
+
+Auch wenn für die Nutzung von Grindstone keine Lizenzgebühr gezahlt wird, bedeutet dies nicht, dass es keine Bedingungen für die Nutzung gibt:
+
+1. Sie dürfen Grindstone für jeden rechtlichen Zweck installieren und verwenden.
+
+2. Sie können Grindstone auf einer beliebigen Anzahl von Systemen installieren und verwenden.
+
+3. Sie dürfen Grindstone unter der Bedingung kopieren und verteilen, dass der ursprüngliche Urheberrechtshinweis und der Gewährleistungsausschluss intakt bleiben und Sie kein Geld oder Gebühren für Grindstone berechnen, außer zur Deckung der Vertriebskosten.
+
+4. Sie haben keine Eigentumsrechte an und an Grindstone. Sie erkennen an und stimmen zu, dass Epiforge alle Urheberrechte und sonstigen Eigentumsrechte an Grindstone behält.
+
+5. Die Nutzung im Rahmen dieser Lizenz ist kostenlos und Sie zahlen keine Lizenzgebühren oder Lizenzgebühren.
+
+VOLLVERSION
+
+Bitte lesen Sie dies sorgfältig durch. Durch die Nutzung der gesamten oder eines Teils der Software akzeptieren Sie alle Bedingungen dieser Vereinbarung. Wenn Sie damit nicht einverstanden sind, verwenden Sie diese Software nicht.
+
+1. BEGRIFFSBESTIMMUNGEN
+
+Wenn sie in dieser Vereinbarung verwendet werden, haben die folgenden Begriffe die jeweils angegebenen Bedeutungen, wobei diese Bedeutungen sowohl für die Singular- als auch für die Pluralform der definierten Begriffe gelten:
+
+"Lizenzgeber" bezeichnet Epiforge Software, LLC.
+
+"Lizenznehmer" bezeichnet Sie oder Ihr Unternehmen, sofern nicht anders angegeben.
+
+"Software" bezeichnet (a) den gesamten Inhalt der Dateien, Disketten, CD-ROMs oder anderen Medien, mit denen diese Vereinbarung bereitgestellt wird, einschließlich, aber nicht beschränkt auf (i) Registrierungsinformationen, d. h. Lizenzschlüssel, der für einen Registrierungsnamen des Lizenznehmers eindeutig ist; (ii) zugehörige erläuternde schriftliche Materialien oder Dateien ("Dokumentation"); und (iii) Software-Setup-Dateien und Codebeispiele (falls vorhanden); und (b) Upgrades, modifizierte Versionen, Updates, Ergänzungen und Kopien der Software, falls vorhanden, die Ihnen von Epiforge Software, LLC lizenziert wurden (zusammen "Updates").
+
+"Nutzung" oder "Nutzung" bezeichnet den Zugriff, die Installation, das Herunterladen, das Kopieren oder die anderweitige Nutzung der Funktionalität der Software in Übereinstimmung mit der Dokumentation.
+
+"System" bedeutet Windows, GNU/Linux, macOS, Android, iOS oder jede andere virtuelle Maschine.
+
+2. ALLGEMEINE NUTZUNG 
+
+Ihnen wird eine nicht-exklusive Lizenz zur Nutzung der heruntergeladenen Software für beliebige Zwecke für einen unbegrenzten Zeitraum gewährt.
+
+Das Softwareprodukt unter dieser Lizenz wird kostenlos zur Verfügung gestellt. Auch wenn für die Nutzung solcher Software keine Lizenzgebühr gezahlt wird, bedeutet dies nicht, dass es keine Bedingungen für die Nutzung solcher Software gibt.
+
+2.1. Die Software darf vom Lizenznehmer für jeden rechtlichen Zweck installiert und verwendet werden.
+
+2.2. Die Software darf vom Lizenznehmer auf einer beliebigen Anzahl von Systemen installiert und verwendet werden.
+
+2.3. Die Software kann unter der Bedingung kopiert und vertrieben werden, dass der ursprüngliche Urheberrechtshinweis und der Gewährleistungsausschluss intakt bleiben und der Lizenznehmer kein Geld oder Gebühren für das Softwareprodukt berechnet, außer zur Deckung der Vertriebskosten.
+
+2.4. Der Lizenznehmer hat keine Eigentumsrechte an der Software. Der Lizenznehmer erkennt an und stimmt zu, dass der Lizenzgeber alle Urheberrechte und sonstigen Eigentumsrechte an der Software behält.
+
+2.5 Die Nutzung im Rahmen dieser Lizenz ist kostenlos und es werden keine Lizenzgebühren vom Lizenznehmer gezahlt.
+
+3. RECHTE AN GEISTIGEM EIGENTUM
+
+3.1 Diese Lizenz überträgt keine geistigen Eigentumsrechte an der Software. Die Software und alle Kopien, zu deren Anfertigung der Lizenznehmer vom Lizenzgeber autorisiert ist, sind geistiges Eigentum des Lizenzgebers und Eigentum des Lizenzgebers.
+
+3.2 Die Software ist urheberrechtlich geschützt, einschließlich, aber nicht beschränkt auf das Urheberrecht und internationale Vertragsbestimmungen.
+
+3.3 Alle Kopien, die der Lizenznehmer gemäß dieser Vereinbarung anfertigen darf, müssen dieselben Urheberrechts- und sonstigen Eigentumshinweise enthalten, die auf oder in der Software erscheinen.
+
+3.4 Aufbau, Organisation und Code der Software sind die wertvollen Geschäftsgeheimnisse und vertraulichen Informationen des Lizenzgebers. Der Lizenznehmer verpflichtet sich, den Quellcode der Software nicht zu dekompilieren, zu disassemblieren oder anderweitig zu versuchen, ihn zu ermitteln.
+
+3.5 Alle Versuche, das Installationsprogramm ohne die ausdrückliche Zustimmung des Lizenzgebers zurückzuentwickeln, zu kopieren, zu klonen, zu modifizieren oder in irgendeiner Weise zu verändern, sind strengstens untersagt. Der Lizenznehmer ist nicht berechtigt, ein Plug-in oder eine Erweiterung zu verwenden, die es erlaubt, Änderungen an einer Datei mit Software zu speichern, die vom Lizenzgeber lizenziert und vertrieben wird.
+
+3.6 Marken werden in Übereinstimmung mit der anerkannten Markenpraxis verwendet, einschließlich der Identifizierung der Namen der Markeninhaber. Marken können nur verwendet werden, um gedruckte Ausgaben zu identifizieren, die von der Software erzeugt werden, und eine solche Verwendung einer Marke verleiht dem Lizenznehmer keine Eigentumsrechte an dieser Marke.
+
+4. GEWÄHRLEISTUNG
+
+4.1 Der Lizenzgeber garantiert, dass:
+
+4.1.1 Der Lizenzgeber ist Eigentümer der Software und der Dokumentation und/oder ist im Besitz gültiger und bestehender Lizenzen, die die Bedingungen dieser Vereinbarung unterstützen;
+
+4.1.2 Die Software entspricht den Spezifikationen und Funktionen, die in der Dokumentation angegeben sind;
+
+4.1.3 Nach bestem Wissen des Lizenzgebers verletzt oder verletzt die Software keine geistigen Eigentumsrechte Dritter;
+
+4.1.4 Die Software enthält keine Routinen, die vom Lizenzgeber absichtlich entwickelt wurden, um ein Computerprogramm zu deaktivieren, oder Computeranweisungen, die die Verarbeitungsumgebung verändern, zerstören oder hemmen können.
+
+4.2 Mit Ausnahme der in Abschnitt 4.1 oben genannten Garantien wird die Software an den Lizenznehmer "WIE BESEHEN" geliefert und der Lizenzgeber übernimmt keine Garantie für ihre Verwendung oder Leistung.
+
+Der Lizenzgeber übernimmt keine Garantie für die Leistung oder die Ergebnisse, die der Lizenznehmer durch die Nutzung der Software erzielen kann, und kann dies auch nicht tun. Das gesamte Risiko, das sich aus der Nutzung oder Leistung der Software ergibt, verbleibt beim Lizenznehmer.
+
+Der Lizenzgeber gibt keine ausdrückliche oder stillschweigende Garantie, dass (i) die Software von zufriedenstellender Qualität ist, für einen bestimmten Zweck oder für eine bestimmte Verwendung unter bestimmten Bedingungen geeignet ist, ungeachtet dessen, dass dieser Zweck, diese Verwendung oder diese Bedingungen dem Lizenzgeber bekannt sein können; oder (ii) dass die Software fehlerfrei oder ohne Unterbrechung funktioniert oder dass Fehler korrigiert werden.
+
+5. HAFTUNGSBESCHRÄNKUNG
+
+In keinem Fall haftet der Lizenzgeber für Schäden, Ansprüche oder Kosten jeglicher Art oder für Folgeschäden, indirekte, zufällige Schäden oder entgangene Gewinne oder entgangene Einsparungen, selbst wenn der Lizenzgeber auf die Möglichkeit solcher Verluste, Schäden, Ansprüche oder Kosten hingewiesen wurde oder für Ansprüche Dritter.
+
+In keinem Fall haftet der Lizenznehmer gegenüber dem Lizenzgeber unter der Bedingung, dass der Lizenznehmer alle in dieser Lizenz genannten Bedingungen einhält.
+
+6. VERZICHTSERKLÄRUNG
+
+Wenn ein Teil dieser Vereinbarung für nicht durchsetzbar befunden wird, ist der Rest gültig. Dies bedeutet, dass, wenn ein Abschnitt der Vereinbarung nicht rechtmäßig ist, der Rest der Vereinbarung immer noch in Kraft ist. Das Versäumnis einer Partei, ein Recht aus dieser Vereinbarung auszuüben, stellt keinen Verzicht auf (a) andere Bedingungen dieser Vereinbarung oder (b) ein Recht dar, jederzeit danach die genaue und strikte Einhaltung der Bedingungen dieser Vereinbarung zu verlangen.
+
+© 2021 Epiforge Software, LLC. Alle Rechte vorbehalten.</value>
+    <comment>from MicrosoftTranslator</comment>
+  </data>
+  <data name="ExportEntriesDialogTitle" xml:space="preserve">
+    <value>Einträge exportieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowAllowResponse" xml:space="preserve">
+    <value>Fügen Sie Ihre Kontaktinformationen ein, um eine Antwort zuzulassen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCheckForUpdates" xml:space="preserve">
+    <value>Auf Updates prüfen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowClose" xml:space="preserve">
+    <value>Schließen Schleifstein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCopy" xml:space="preserve">
+    <value>Kopieren Sie kritische technische Details in die Zwischenablage</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowCriticalTechnicalDetails" xml:space="preserve">
+    <value>Kritische technische Details.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameEmail" xml:space="preserve">
+    <value>Email</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowReport" xml:space="preserve">
+    <value>Melden Sie kritische technische Details an Epiflorge</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowRestart" xml:space="preserve">
+    <value>Neu starten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowText" xml:space="preserve">
+    <value>Unsere bescheidenen Entschuldigungen, aber Grindstone hat einen Fehler gestolpert, der nicht gebaut wurde, um sich umzugehen.Dieser Fehler ist nicht Ihre Fehler.Sie können jedoch über den Ruf der Pflicht hinausgehen und uns helfen, es zu beheben!</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowWhatWereYouDoing" xml:space="preserve">
+    <value>Das ist passiert, während ich versuchte, ...</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FatalErrorWindowYourContactDetails" xml:space="preserve">
+    <value>Ihre Kontaktdaten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameAll" xml:space="preserve">
+    <value>Alle Dateien</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameCsv" xml:space="preserve">
+    <value>Komma-getrennte Werte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameTsv" xml:space="preserve">
+    <value>TAB-getrennte Werte</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="FileFilterNameZip" xml:space="preserve">
+    <value>ZIP-Archive</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderAssignmentViews" xml:space="preserve">
+    <value>Aufgabenansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderListValueViews" xml:space="preserve">
+    <value>Wertschätzung auflisten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMadeWith" xml:space="preserve">
+    <value>Gemacht mit</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderMonitoredViews" xml:space="preserve">
+    <value>Überwachte Ansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderPersonViews" xml:space="preserve">
+    <value>Ansichten der Person.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderStartup" xml:space="preserve">
+    <value>Anfang</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTimeSliceViews" xml:space="preserve">
+    <value>Zeitscheibenansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderTraitViews" xml:space="preserve">
+    <value>Merkmalsansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="HeaderWorkItemViews" xml:space="preserve">
+    <value>Ansichten für Arbeit Artikel.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
+    <value>Desktopverknüpfung erstellen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowCreateStartMenuShortcut" xml:space="preserve">
+    <value>Erstelle Startmenü-Verknüpfung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULACondition" xml:space="preserve">
+    <value>Wenn Sie die Bedingungen der Vereinbarung akzeptieren, klicken Sie auf oder tippen Sie auf Zustimmung, um fortzufahren.Sie müssen die Vereinbarung akzeptieren, um Schleifstone zu installieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULAHeader" xml:space="preserve">
+    <value>Lizenzvereinbarung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowEULASubheader" xml:space="preserve">
+    <value>Bitte überprüfen Sie die Lizenzbedingungen, bevor Sie Grindstone installieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedHeader" xml:space="preserve">
+    <value>Installation abgeschlossen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowFinishedSubheader" xml:space="preserve">
+    <value>Installation wurde erfolgreich abgeschlossen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingHeader" xml:space="preserve">
+    <value>Installieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowInstallingSubheader" xml:space="preserve">
+    <value>Bitte warten, während Grindstone installiert wird.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsDirections" xml:space="preserve">
+    <value>Überprüfen Sie die Optionen, die Sie bevorzugen, und deaktivieren Sie die nicht.Klicken Sie auf oder tippen Sie auf Installieren, um fortzufahren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsHeader" xml:space="preserve">
+    <value>Setup-Optionen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowOptionsSubheader" xml:space="preserve">
+    <value>Wählen Sie aus, wie der Machstone installiert ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveConfiguration" xml:space="preserve">
+    <value>Meine Vorlieben entfernen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowRemoveData" xml:space="preserve">
+    <value>Meine Datenbanken entfernen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWhenSetupFinishes" xml:space="preserve">
+    <value>Starten Sie Schleifstein, wenn das Setup abgeschlossen ist</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowStartWithWindows" xml:space="preserve">
+    <value>Grindstone mit Windows starten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedHeader" xml:space="preserve">
+    <value>Deinstallation komplett.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallFinishedSubheader" xml:space="preserve">
+    <value>Grindstone wurde erfolgreich entfernt.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingHeader" xml:space="preserve">
+    <value>Deinstallation</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallingSubheader" xml:space="preserve">
+    <value>Bitte warten, während Grindstone deinstalliert wird.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsDirections" xml:space="preserve">
+    <value>Überprüfen Sie die Optionen, die Sie bevorzugen, und deaktivieren Sie die nicht.Klicken Sie auf oder tippen Sie auf Deinstallieren, um fortzufahren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsHeader" xml:space="preserve">
+    <value>Optionen deinstallieren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUninstallOptionsSubheader" xml:space="preserve">
+    <value>Wählen Sie aus, wie Sie den Schleifstein deinstalliert werden möchten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingHeader" xml:space="preserve">
+    <value>Aktualisierung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowUpdatingSubheader" xml:space="preserve">
+    <value>Bitte warten, während Grindstone aktualisiert wird.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeHeader" xml:space="preserve">
+    <value>Willkommen beim Schleifstein-Setup</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InstallerWindowWelcomeText" xml:space="preserve">
+    <value>Setup führt Sie durch die Installation von Schleifstein.
+
+Sie müssen keine anderen Anwendungen schließen, bevor Sie das Setup starten, und Sie werden nicht aufgefordert, Ihren Computer neu zu starten.
+
+Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelAbout" xml:space="preserve">
+    <value>Über</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelChangeDatabasePassword" xml:space="preserve">
+    <value>Datenbankkennwort ändern.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCheckForUpdates" xml:space="preserve">
+    <value>Auf Updates prüfen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelCollectGarbage" xml:space="preserve">
+    <value>Müll sammeln</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDecryptDatabase" xml:space="preserve">
+    <value>Datenbank entschlüsseln.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDelete" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelDuplicate" xml:space="preserve">
+    <value>Duplikat</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEdit" xml:space="preserve">
+    <value>Bearbeiten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelEncryptDatabase" xml:space="preserve">
+    <value>Datenbank verschlüsseln.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelGeneral" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelOptions" xml:space="preserve">
+    <value>Optionen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSaveLoggedExceptions" xml:space="preserve">
+    <value>Speichern protokollierte Ausnahmen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelSelectDatabase" xml:space="preserve">
+    <value>Datenbank auswählen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Grindstone mit Windows starten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LabelThrowException" xml:space="preserve">
+    <value>Ausnahmewillen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseInvalid" xml:space="preserve">
+    <value>Die eingegebene Lizenz ist nicht gültig für Feature {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeHint" xml:space="preserve">
+    <value>Code</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogCodeRequired" xml:space="preserve">
+    <value>Der Code für Ihre Lizenz ist erforderlich</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogDeviceSignatureLabel" xml:space="preserve">
+    <value>Gerätesignatur:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogEndHint" xml:space="preserve">
+    <value>Ende</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogInstructions" xml:space="preserve">
+    <value>Um fortzufahren, geben Sie bitte die Details einer gültigen Lizenz ein.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogLicenseNameLabel" xml:space="preserve">
+    <value>Lizenzname:</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseRequiredDialogStartHint" xml:space="preserve">
+    <value>Start</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="LicenseValid" xml:space="preserve">
+    <value>Die eingegebene Lizenz ist gültig und aktiviert die Funktion {0}.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAlert" xml:space="preserve">
+    <value>Benachrichtigen Sie mich nicht noch einmal</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotAsk" xml:space="preserve">
+    <value>Fragen Sie mich nicht noch einmal</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotInform" xml:space="preserve">
+    <value>Informieren Sie mich nicht noch einmal darüber</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="MessageDialogDoNotWarn" xml:space="preserve">
+    <value>Warnte mich nicht noch einmal daran</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedPersistsText" xml:space="preserve">
+    <value>Ich habe keine andere Wahl, als jetzt aufzuhören.Wenn Sie Ihre Meinung ändern, starten Sie mich erneut und ich helfe Ihnen, eine Datenbank auszuwählen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="NoDatabaseSelectedText" xml:space="preserve">
+    <value>Eine Datenbank ist für den Schleifstein erforderlich, um alles zu tun.Möchten Sie jetzt einen auswählen?</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlChoiceHint" xml:space="preserve">
+    <value>Auswahl</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlDurationHint" xml:space="preserve">
+    <value>Dauer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionHint" xml:space="preserve">
+    <value>Funktion</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlFunctionRequiresNoInput" xml:space="preserve">
+    <value>Diese Funktion erfordert keine Eingabe.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlIdHint" xml:space="preserve">
+    <value>Eindeutige Kennung</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlInstantHint" xml:space="preserve">
+    <value>Sofortig</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlNumberHint" xml:space="preserve">
+    <value>Anzahl</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlRangeHint" xml:space="preserve">
+    <value>Bereich</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OperationEditorControlValueHint" xml:space="preserve">
+    <value>Wert</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
+    <value>Diese Datenbank ist verschlüsselt und erfordert ein Passwort</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCollectionDialogPasswordHint" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmEmpty" xml:space="preserve">
+    <value>Darf nicht leer sein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogConfirmHint" xml:space="preserve">
+    <value>Bestätigen Sie</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogNoMatch" xml:space="preserve">
+    <value>Die eingegebenen Passwörter stimmen nicht überein.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordEmpty" xml:space="preserve">
+    <value>Darf nicht leer sein</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="PasswordCreationDialogPasswordHint" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotCreateBuiltInValue" xml:space="preserve">
+    <value>Eine Änderung, die einen Wert für ein integriertes Merkmal erzeugt, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInTrait" xml:space="preserve">
+    <value>Eine Änderung, die ein integriertes Merkmal löscht, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotDeleteBuiltInValue" xml:space="preserve">
+    <value>Eine Änderung, die einen Wert für ein integriertes Merkmal löscht, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonCannotUpdateReadOnlyBuiltInValue" xml:space="preserve">
+    <value>Eine Änderung der Aktualisierung eines schreibgeschützten Werts für ein integriertes Merkmal wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCatalogFailed" xml:space="preserve">
+    <value>Eine Änderung, um ein Datenbild zu erstellen, erlangte, aber die Daten konnten nicht katalogisiert werden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationFailed" xml:space="preserve">
+    <value>Eine Änderung, um ein Datenbild zu erstellen, fehlgeschlagen ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityCreationInvalidTraitEntityType" xml:space="preserve">
+    <value>Eine Änderung, die ein Merkmal für eine Art von Daten erzeugt, die nicht gefunden werden konnte, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityNotFound" xml:space="preserve">
+    <value>Eine Änderung zu einem Datenteil, das nicht gefunden wurde, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeIdNotFound" xml:space="preserve">
+    <value>Eine Änderung einer unbekannten Art von Daten wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonEntityTypeNotSupported" xml:space="preserve">
+    <value>Eine Änderung einer nicht unterstützten Datenart wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonPreviousTokenMismatch" xml:space="preserve">
+    <value>Eine Änderung, die etwas mit einer dazwischenliegenden Modifikation modifiziert, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitNotFound" xml:space="preserve">
+    <value>Eine Merkmal-Wertänderung für eine Eigenschaft, die nicht gefunden wurde, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotFound" xml:space="preserve">
+    <value>Eine Änderung für einen Merkmalswert, der nicht gefunden wurde, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueNotProvided" xml:space="preserve">
+    <value>Eine Änderung, die ein Datenteil erstellt, fehlgeschlagen, da kein erforderlicher Merkmalswert angegeben wurde.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonTraitValueTypeResolutionFailed" xml:space="preserve">
+    <value>Eine Änderung, die einen Merkmalswert enthält, der nicht verstanden werden konnte, wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="RejectionReasonUnknownChangeType" xml:space="preserve">
+    <value>Eine ununterbechte Veränderung wurde versucht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SaveLoggedExceptionsNone" xml:space="preserve">
+    <value>Es gibt keine protokollierten Ausnahmen zum Speichern.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="SetupTitle" xml:space="preserve">
+    <value>Grindstone-Setup.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ShortcutFileName" xml:space="preserve">
+    <value>Grindstone 5.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
+    <value>Benutzeroberfläche</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
+    <value>Stoppuhroperationen ändern</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
+    <value>Anzeige</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+    <value>Ich habe ein Problem gelaufen, während ich die Anzeigeformel kompiliert habe.
+
+Fehler: {0}
+
+Beleidigende Formelausdruck:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
+    <value>Dauer</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+    <value>Ich rannte ein Problem, während ich die Dauer-Formel kompiliert habe.
+
+Fehler: {0}
+
+Beleidigende Formelausdruck:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
+    <value>Die folgenden Einträge fallen jetzt unter {0}: {1} {1} {2}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableDownloadAction" xml:space="preserve">
+    <value>Download</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateAvailableText" xml:space="preserve">
+    <value>Ein Update für Grindstone ist verfügbar.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyInstallAction" xml:space="preserve">
+    <value>Installieren</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToastUpdateReadyText" xml:space="preserve">
+    <value>Ein Update für Grindstone ist fertig.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAbout" xml:space="preserve">
+    <value>Erfahren Sie mehr über Grindstone, den Menschen, die es geschafft haben, und was sie früher gemacht haben.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAddEntry" xml:space="preserve">
+    <value>Fügen Sie in dieser Ansicht einen neuen Eintrag hinzu.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipAssignmentViews" xml:space="preserve">
+    <value>Aufgabenansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipChangeDatabasePassword" xml:space="preserve">
+    <value>Ändern Sie das Verschlüsselungskennwort für die Datenbank, die ich derzeit verwende.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCheckForUpdates" xml:space="preserve">
+    <value>Überprüfen Sie sofort auf Updates zum Schleifstein.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseMenu" xml:space="preserve">
+    <value>Menü schließen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollectGarbage" xml:space="preserve">
+    <value>Bitte anfordern, dass die .NET-Laufzeit den Müllsammler aufgibt.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCopyEntries" xml:space="preserve">
+    <value>Kopieren Sie die aktuell ausgewählten Einträge in dieser Ansicht in die Zwischenablage oder alle, wenn keine ausgewählt ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCreateView" xml:space="preserve">
+    <value>Ansicht erstellen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDecryptDatabase" xml:space="preserve">
+    <value>Entschlüsseln Sie die Datenbank, die ich derzeit benutze.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteEntries" xml:space="preserve">
+    <value>Löschen Sie die aktuell ausgewählten Einträge in dieser Ansicht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDeleteView" xml:space="preserve">
+    <value>Ansicht löschen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateEntries" xml:space="preserve">
+    <value>Duplizieren Sie die aktuell ausgewählten Einträge in dieser Ansicht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipDuplicateView" xml:space="preserve">
+    <value>Duplikatansicht</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEditEntries" xml:space="preserve">
+    <value>Bearbeiten Sie die aktuell ausgewählten Einträge in dieser Ansicht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipEncryptDatabase" xml:space="preserve">
+    <value>Verschlüsseln Sie die Datenbank, die ich derzeit benutze.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipExportEntries" xml:space="preserve">
+    <value>Exportieren Sie die aktuell ausgewählten Einträge in dieser Ansicht in eine Datei oder alle, wenn keine ausgewählt ist.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipIsConfiningOtherOperationTypes" xml:space="preserve">
+    <value>Diese Auswahl kann die Arten von Geschwisterparametern beschränken.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipListValueViews" xml:space="preserve">
+    <value>Wertschätzung auflisten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMainMenu" xml:space="preserve">
+    <value>Hauptmenü</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipManageColumns" xml:space="preserve">
+    <value>Verwalten Sie in dieser Ansicht Spalten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipModifyView" xml:space="preserve">
+    <value>Ansicht ändern</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipMonitoredViews" xml:space="preserve">
+    <value>Überwachte Ansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipOptions" xml:space="preserve">
+    <value>Grindstone-Optionen ändern.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipPersonViews" xml:space="preserve">
+    <value>Ansichten der Person.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSavedLoggedException" xml:space="preserve">
+    <value>Speichern Sie alle protokollierten Ausnahmen in einer ZIP-Datei.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectDatabase" xml:space="preserve">
+    <value>Wählen Sie aus, welche Datenbank ich gerade benutze.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipThrowException" xml:space="preserve">
+    <value>Absichtlich werfen Sie eine Ausnahme, um das Diagnosesystem zu testen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTimeSliceViews" xml:space="preserve">
+    <value>Zeitscheibenansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipTraitViews" xml:space="preserve">
+    <value>Merkmalsansichten.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipWorkItemViews" xml:space="preserve">
+    <value>Ansichten für Arbeit Artikel.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewDuplicatorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogEntityTypeHint" xml:space="preserve">
+    <value>Entitätstyp.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogFilterCompilationError" xml:space="preserve">
+    <value>Ich habe ein Problem gelaufen, während ich die Filterformel dieser Ansicht kompiliert habe.
+
+Fehler: {0}
+
+Beleidigende Formelausdruck:
+{1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogOwnerHint" xml:space="preserve">
+    <value>Eigentümer</value>
+    <comment>from MicrosoftTranslator</comment>
+  </data>
+  <data name="ViewEditorDialogParameterListValueHint" xml:space="preserve">
+    <value>Listenwert</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterNameHint" xml:space="preserve">
+    <value>Name</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParametersHeader" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogParameterTypeHint" xml:space="preserve">
+    <value>Typ</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorDialogSystemViewEUA" xml:space="preserve">
+    <value>Dies ist eine Systemansicht.Einige seiner Eigenschaften dürfen nicht geändert werden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterParameterAvailabilityEUA" xml:space="preserve">
+    <value>Neue Ansichtsparameter sind nicht für den Einsatz im Filter verfügbar, bis die Ansicht mindestens einmal gespeichert wurde.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesCalculatingAndTabulating" xml:space="preserve">
+    <value>Berechnen und Tabellen</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeAutoSelectEUA" xml:space="preserve">
+    <value>Dies ist eine Systemansicht.Ich benutze es, wenn ich automatisch eine Auswahl für Sie erstellen muss.Ich werde den ersten Eintrag in der Ansicht auswählen, der bestimmte Bedingungen erfüllt.Wenn Sie beispielsweise mit dem Timing ein Arbeitselement starten, verwenden Sie eine solche Ansicht, um zu sehen, ob ein bereits vorhandener Auftrag für den Timing verwendet wird.Wenn keiner der Einträge mit den Bedingungen übereinstimmt, werde ich einen neuen Eintrag erstellen, der dieses tut und diese verwenden.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeEntityEUA" xml:space="preserve">
+    <value>Dies ist eine Systemansicht.Ich benutze seine erste Spalte, wenn ich Ihnen eine Liste der Elemente zeigen muss.Alle Änderungen, die Sie an der Operation der Spalte oder in der Reihenfolge der Einträge in der Ansicht vornehmen, werden in den Listen angezeigt.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEntitiesDirectoryModeTraitEUA" xml:space="preserve">
+    <value>Dies ist eine Systemansicht.Ich benutze seine erste Spalte, wenn ich die Felder in einem Formular erstellen muss, wenn Sie etwas bearbeiten.Alle Änderungen, die Sie an der Operation der Spalte vornehmen, werden in den Formularen reflektiert.Sie können diese Ansicht auch als Ausgangspunkt für die Erstellung neuer Merkmale verwenden.Klicken Sie einfach auf die Schaltfläche Eingabe hinzufügen.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDecryptDatabase" xml:space="preserve">
+    <value>Wenn Sie Ihre Datenbank entschlüsseln, kann jeder mit Zugriff auf Ihre Datenbankdatei es lesen, ohne ein Kennwort einzugeben.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteColumn" xml:space="preserve">
+    <value>Wenn Sie fortfahren, wird diese Spalte dauerhaft gelöscht und wird in der Ansicht nicht mehr angezeigt.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteEntries" xml:space="preserve">
+    <value>Wenn Sie fortfahren, werden die ausgewählten Einträge dauerhaft gelöscht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningDeleteView" xml:space="preserve">
+    <value>Wenn Sie fortfahren, werden die aktuell angezeigte Ansicht und ihre Säulen dauerhaft gelöscht.Die von ihm angezeigten Eingaben werden nicht gelöscht.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+</root>
