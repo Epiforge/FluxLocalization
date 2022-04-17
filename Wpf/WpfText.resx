@@ -343,9 +343,6 @@ Options:
   <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
     <value>{0} Start</value>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Grindstone Databases</value>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>SHORT DESCRIPTION
 

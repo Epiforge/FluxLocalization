@@ -745,4 +745,8 @@
     <value>Ejer ikke fundet</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Slibestensdatabaser</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

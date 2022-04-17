@@ -745,4 +745,8 @@
     <value>Proprietário não encontrado</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Bancos de dados de rebolo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

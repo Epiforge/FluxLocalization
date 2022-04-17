@@ -406,10 +406,6 @@
     <value>{0}开始</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Gringstone数据库</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>简短描述
 

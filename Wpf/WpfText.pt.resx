@@ -406,10 +406,6 @@ Opções:
     <value>{0} começar</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Bancos de dados da Grindstone.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>DESCRIÇÃO CURTA
 

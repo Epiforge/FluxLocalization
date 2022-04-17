@@ -406,10 +406,6 @@ Opties:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Grindstone-databases</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KORTE BESCHRIJVING
 

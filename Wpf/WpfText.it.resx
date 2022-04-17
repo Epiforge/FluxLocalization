@@ -406,10 +406,6 @@ Opzioni:
     <value>{0} Inizio</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Database di macina</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>BREVE DESCRIZIONE
 

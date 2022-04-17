@@ -745,4 +745,8 @@
     <value>Eigenaar niet gevonden</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Slijpsteendatabases</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

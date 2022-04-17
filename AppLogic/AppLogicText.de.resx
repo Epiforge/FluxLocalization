@@ -745,4 +745,8 @@
     <value>Besitzer nicht gefunden</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Schleifstein-Datenbanken</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

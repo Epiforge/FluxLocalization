@@ -279,6 +279,9 @@
   <data name="DefaultBuiltInTraitNameWorkItemId" xml:space="preserve">
     <value>ID</value>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Grindstone Databases</value>
+  </data>
   <data name="DefaultListValueNameTraitValue" xml:space="preserve">
     <value>Name</value>
   </data>
