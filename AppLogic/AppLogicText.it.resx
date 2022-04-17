@@ -745,4 +745,8 @@
     <value>Proprietario non trovato.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Database Mola</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

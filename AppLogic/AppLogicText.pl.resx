@@ -745,4 +745,8 @@
     <value>Nie znaleziono właściciela</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Bazy szlifierek</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

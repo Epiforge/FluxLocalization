@@ -406,10 +406,6 @@
     <value>{0} начать</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Базы данных GrindStone</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>КРАТКОЕ ОПИСАНИЕ
 

@@ -745,4 +745,8 @@
     <value>所有者找不到</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>磨石数据库</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

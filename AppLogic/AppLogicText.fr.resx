@@ -745,4 +745,8 @@
     <value>Propriétaire non trouvé</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Bases de données de meules</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

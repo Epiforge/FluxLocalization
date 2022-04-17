@@ -745,4 +745,8 @@
     <value>所有者が見つかりません</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>砥石データベース</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>

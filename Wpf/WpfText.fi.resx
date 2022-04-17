@@ -406,10 +406,6 @@ Vaihtoehdot:
     <value>{0} Aloita</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Grindstone-tietokannat</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="EULAText" xml:space="preserve">
     <value>LYHYT KUVAUS
 

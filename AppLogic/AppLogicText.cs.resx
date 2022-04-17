@@ -745,4 +745,8 @@
     <value>Vlastník nebyl nalezen</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Databáze brusných kamenů</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
 </root>
