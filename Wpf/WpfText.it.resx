@@ -1237,4 +1237,8 @@ Espressione della formula offensiva:
     <value>Se continui, la vista attualmente visualizzata e le sue colonne verranno eliminate in modo permanente.Le voci visualizzate da esso non saranno cancellate.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Le operazioni di cronometro iniziano dal contesto della fetta del tempo che stai attualmente tempi.Se desideri aggregare informazioni (ad es. Conta, Max, min, somma, ecc.) Dall'assegnazione, persona, articolo di lavoro o un valore di elenco associato alla fetta dell'ora corrente, utilizzare la query appropriata nella funzione di contesto per indicare ilentità associata da cui aggregare.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

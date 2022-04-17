@@ -1237,4 +1237,8 @@ Expression de formule incriminée:
     <value>Si vous continuez, la vue actuellement affichée et ses colonnes seront supprimées de manière permanente.Les entrées affichées par elle ne seront pas supprimées.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Les opérations de chronomètre commencent à partir du contexte de la tranche de temps que vous avez actuellement chronométrée.Si vous souhaitez regrouper des informations (par exemple, max, min, somme, etc.) à partir de la mission, de la personne, de l'élément de travail ou d'une valeur de liste associée à la tranche d'heure actuelle, utilisez la requête appropriée dans la fonction contextuelle pour indiquer leentité associée à partir de laquelle agréger.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

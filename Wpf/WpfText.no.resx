@@ -1237,4 +1237,8 @@ Offending Formula Expression:
     <value>Hvis du fortsetter, blir den gjeldende visningen og dens kolonner slettet permanent.Oppføringene som vises av det, blir ikke slettet.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stoppeklokkeoperasjoner Start fra konteksten til Time Slice Du er for tiden timing.Hvis du vil samle informasjon (f.eksTilknyttet enhet for å aggregere.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

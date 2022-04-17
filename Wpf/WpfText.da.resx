@@ -1237,4 +1237,8 @@ OFFENTION FORMORLE UDGANGELSE:
     <value>Hvis du fortsætter, vil den aktuelt viste visning og dens kolonner blive permanent slettet.De indtastninger, der vises af den, slettes ikke.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopuroperationer starter fra konteksten med den tidsskive, du er i øjeblikket timing.Hvis du gerne vil samle information (fx tæller, max, min, sum osv.) Fra opgaven, person, arbejdselement eller en liste værdi, der er knyttet til den aktuelle tidsskive, skal du bruge den relevante forespørgsel i kontekstfunktionen til at angivetilknyttet enhed, hvorfra til at aggregeres.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

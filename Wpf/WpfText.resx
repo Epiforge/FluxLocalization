@@ -824,6 +824,9 @@ Error: {0}
 Offending formula expression:
 {1}</value>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopwatch operations start from the context of the time slice you're currently timing. If you would like to aggregate information (e.g. count, max, min, sum, etc.) from the assignment, person, work item, or a list value associated with the current time slice, use the appropriate query in context function to indicate the associated entity from which to aggregate.</value>
+  </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
     <value>The following entries now fall under {0}:{1}{1}{2}</value>
   </data>

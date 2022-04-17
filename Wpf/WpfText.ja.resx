@@ -1237,4 +1237,8 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>続行すると、現在表示されているビューとその列は永続的に削除されます。表示されたエントリは削除されません。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>ストップウォッチ操作は、現在タイミングでタイミングスライスのコンテキストから開始します。現在のタイムスライスに関連付けられている割り当て、個人、作業項目、またはリスト値から情報（例えば、Count、Max、Min、Sumなど）を集約したい場合は、コンテキスト関数で適切なクエリを使用して集約する関連エンティティ。</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

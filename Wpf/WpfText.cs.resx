@@ -1237,4 +1237,8 @@ Vyjádření pro urážlivý vzorec:
     <value>Pokud budete pokračovat, aktuálně zobrazený zobrazení a jeho sloupce budou trvale vymazány.Záznamy zobrazené jej nebudou vymazány.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Zastavovací operace začínají z kontextu časového řezu, který aktuálně načasování.Pokud byste chtěli agregovat informace (např. Počet, max, min, součet atd.) Z zadání, osoby, pracovní položky nebo seznamu seznamu přidružených k aktuálním časovým řezem, použijte příslušný dotaz v kontextu funkce pro označenísouvisející subjekt, ze kterého se agregovat.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>

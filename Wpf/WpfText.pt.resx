@@ -1237,4 +1237,8 @@ Expressão de fórmula ofensora:
     <value>Se você continuar, a visualização exibida atualmente e suas colunas serão excluídas permanentemente.As entradas exibidas por ele não serão excluídas.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Operações de cronômetro começam no contexto da fatia de tempo que você está atualmente tempo.Se você gostaria de agregar informações (por exemplo, contagem, max, min, soma, etc.) da atribuição, pessoa, item de trabalho ou um valor de lista associado à fatia de tempo atual, use a consulta apropriada na função de contexto para indicarentidade associada a partir do qual agregar.</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
 </root>
