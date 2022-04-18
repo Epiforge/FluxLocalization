@@ -590,10 +590,6 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>人景色</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>起動</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>タイムスライスビュー</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>データベースを暗号化します</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>全般的</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>オプション</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>データベースを選択してください</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Windowsで砥石を起動します</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>価値</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>従量制接続を使用していないときにチェックインすると、更新が自動的にダウンロードされます</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>自動更新</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>チェックイン時に更新を自動的に確認する</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>チェックイン</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>周波数</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>全般的</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>最後に発生した</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>当時の</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>リセットしてもこれについては表示されません</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Windowsで砥石を起動します</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>起動</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>チェックイン時にGrindstoneを改善するために、匿名の使用状況データをEpiforgeに送信します</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>アップデート</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>使用状況データの共有</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>警告に応答する前に少し遅らせてください</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>このデータベースは暗号化されており、パスワードが必要です</value>
@@ -1010,6 +1058,10 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
 
 問題のある式式
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>ストップウォッチ操作は、現在タイミングでタイミングスライスのコンテキストから開始します。現在のタイムスライスに関連付けられている割り当て、個人、作業項目、またはリスト値から情報（例えば、Count、Max、Min、Sumなど）を集約したい場合は、コンテキスト関数で適切なクエリを使用して集約する関連エンティティ。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>続行すると、現在表示されているビューとその列は永続的に削除されます。表示されたエントリは削除されません。</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>ストップウォッチ操作は、現在タイミングでタイミングスライスのコンテキストから開始します。現在のタイムスライスに関連付けられている割り当て、個人、作業項目、またはリスト値から情報（例えば、Count、Max、Min、Sumなど）を集約したい場合は、コンテキスト関数で適切なクエリを使用して集約する関連エンティティ。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

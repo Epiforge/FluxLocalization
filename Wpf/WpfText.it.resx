@@ -590,10 +590,6 @@ Se una parte del presente accordo è ritenuta inapplicabile, il resto sarà vali
     <value>Viste della persona</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Avviare</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Viste della fetta del tempo</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Fai clic o tocca Avanti per continuare.</value>
     <value>Encrypt Database.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Generale</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Opzioni</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Fai clic o tocca Avanti per continuare.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Seleziona il database</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Avvia Grittstone con Windows</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Fai clic o tocca Avanti per continuare.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Valore</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Scarica gli aggiornamenti automaticamente quando effettui il check-in senza una connessione a consumo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Aggiornamenti automatici</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Verifica la disponibilità di aggiornamenti automaticamente al momento del check-in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Registrare</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frequenza</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Generale</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Si è verificato l'ultimo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>A tempo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Reset non mostrarmi di nuovo su questo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Avvia Grittstone con Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Avviare</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Invia dati di utilizzo anonimi a Epiforge per migliorare Grindstone durante il check-in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Aggiornare</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Condivisione dei dati di utilizzo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Ritarda brevemente prima di poter rispondere agli avvisi</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Questo database è crittografato e richiede una password</value>
@@ -1010,6 +1058,10 @@ ERRORE: {0}
 
 Espressione della formula offensiva:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Le operazioni di cronometro iniziano dal contesto della fetta del tempo che stai attualmente tempi.Se desideri aggregare informazioni (ad es. Conta, Max, min, somma, ecc.) Dall'assegnazione, persona, articolo di lavoro o un valore di elenco associato alla fetta dell'ora corrente, utilizzare la query appropriata nella funzione di contesto per indicare ilentità associata da cui aggregare.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Espressione della formula offensiva:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Se continui, la vista attualmente visualizzata e le sue colonne verranno eliminate in modo permanente.Le voci visualizzate da esso non saranno cancellate.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Le operazioni di cronometro iniziano dal contesto della fetta del tempo che stai attualmente tempi.Se desideri aggregare informazioni (ad es. Conta, Max, min, somma, ecc.) Dall'assegnazione, persona, articolo di lavoro o un valore di elenco associato alla fetta dell'ora corrente, utilizzare la query appropriata nella funzione di contesto per indicare ilentità associata da cui aggregare.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

@@ -590,10 +590,6 @@ Om en del av detta avtal inte kan verkställas ska återstoden vara giltig. Det 
     <value>Persons visningar</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Börja</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Time Slice Views</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Klicka eller Tryck på Nästa för att fortsätta.</value>
     <value>Kryptera databasen</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Allmän</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>alternativ</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Klicka eller Tryck på Nästa för att fortsätta.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Välj databas</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Starta slipsten med fönster</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Klicka eller Tryck på Nästa för att fortsätta.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Värde</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Ladda ner uppdateringar automatiskt när du checkar in när du inte är på en uppmätt anslutning</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatiska uppdateringar</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Sök efter uppdateringar automatiskt när du checkar in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Checka in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frekvens</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Allmän</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Senast inträffade</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Vid tidpunkten</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Återställ, visa mig inte om detta igen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Starta slipsten med fönster</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Börja</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Skicka anonym användningsdata till Epiforge för att förbättra Grindstone när du checkar in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Uppdatering</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Användningsdatadelning</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Fördröj en kort stund innan du kan svara på varningar</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Den här databasen är krypterad och kräver ett lösenord</value>
@@ -1010,6 +1058,10 @@ Fel: {0}
 
 Förolämpande formeluttryck:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopwatch-operationer börjar från sammanhanget av den tidsskiva du för närvarande är timing.Om du vill samla information (t.ex. räkna, max, min, summa etc.) från uppdraget, person, arbetsobjekt eller ett listvärde som är kopplat till den aktuella tidskivan, använd lämplig fråga i kontextfunktionen för att indikeraassocierad enhet för att aggregera.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Förolämpande formeluttryck:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Om du fortsätter, kommer den aktuella visade vyn och dess kolumner att raderas permanent.De poster som visas av den kommer inte att raderas.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Stopwatch-operationer börjar från sammanhanget av den tidsskiva du för närvarande är timing.Om du vill samla information (t.ex. räkna, max, min, summa etc.) från uppdraget, person, arbetsobjekt eller ett listvärde som är kopplat till den aktuella tidskivan, använd lämplig fråga i kontextfunktionen för att indikeraassocierad enhet för att aggregera.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

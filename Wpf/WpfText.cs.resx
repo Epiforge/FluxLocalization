@@ -590,10 +590,6 @@ Pokud je část této smlouvy shledána nevymahatelnou, zbytek je platný. To zn
     <value>Osoba zobrazení</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Spuštění</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Zobrazení časového řezu</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Pokračujte klepnutím na tlačítko nebo klepnutím na tlačítko Další.</val
     <value>Šifrování databáze</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Všeobecné</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Možnosti</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Pokračujte klepnutím na tlačítko nebo klepnutím na tlačítko Další.</val
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Vyberte databázi</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Start Grindstone s okny</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Pokračujte klepnutím na tlačítko nebo klepnutím na tlačítko Další.</val
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Hodnota</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Aktualizace stahujte automaticky, když se přihlašujete, když nemáte měřené připojení</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatické aktualizace</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Při přihlašování automaticky kontrolovat aktualizace</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Check In</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frekvence</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Všeobecné</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Naposledy došlo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>V čase</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Reset už mi o tom nic neukazovat</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Start Grindstone s okny</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Spuštění</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Odesílejte anonymní údaje o používání společnosti Epiforge, abyste pomohli zlepšit Grindstone při přihlašování</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Aktualizace</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Sdílení dat o používání</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Krátce odložte, než budete moci reagovat na varování</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Tato databáze je šifrována a vyžaduje heslo</value>
@@ -1010,6 +1058,10 @@ Chyba: {0}
 
 Vyjádření pro urážlivý vzorec:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Zastavovací operace začínají z kontextu časového řezu, který aktuálně načasování.Pokud byste chtěli agregovat informace (např. Počet, max, min, součet atd.) Z zadání, osoby, pracovní položky nebo seznamu seznamu přidružených k aktuálním časovým řezem, použijte příslušný dotaz v kontextu funkce pro označenísouvisející subjekt, ze kterého se agregovat.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Vyjádření pro urážlivý vzorec:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Pokud budete pokračovat, aktuálně zobrazený zobrazení a jeho sloupce budou trvale vymazány.Záznamy zobrazené jej nebudou vymazány.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Zastavovací operace začínají z kontextu časového řezu, který aktuálně načasování.Pokud byste chtěli agregovat informace (např. Počet, max, min, součet atd.) Z zadání, osoby, pracovní položky nebo seznamu seznamu přidružených k aktuálním časovým řezem, použijte příslušný dotaz v kontextu funkce pro označenísouvisející subjekt, ze kterého se agregovat.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

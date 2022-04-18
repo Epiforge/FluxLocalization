@@ -590,10 +590,6 @@ Hvis en del af denne aftale ikke kan håndhæves, er resten gyldig. Det betyder,
     <value>Personvisninger.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Start op</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Time skive udsigt</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Klik eller tryk på Næste for at fortsætte.</value>
     <value>Krypter database</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Generel</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Muligheder</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Klik eller tryk på Næste for at fortsætte.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Vælg database</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Start Grindstone med Windows</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Klik eller tryk på Næste for at fortsætte.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Værdi</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Download opdateringer automatisk, når du tjekker ind, mens du ikke er på en målt forbindelse</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatiske opdateringer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Tjek automatisk efter opdateringer, når du tjekker ind</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Tjek ind</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frekvens</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Generel</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Sidst skete</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>På tidspunktet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Nulstil vis mig ikke om dette igen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Start Grindstone med Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Start op</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Send anonyme brugsdata til Epiforge for at hjælpe med at forbedre Grindstone, når du tjekker ind</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Opdatering</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Deling af brugsdata</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Forsink kort, før du kan reagere på advarsler</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Denne database er krypteret og kræver en adgangskode</value>
@@ -1010,6 +1058,10 @@ FEJL: {0}
 
 OFFENTION FORMORLE UDGANGELSE:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopuroperationer starter fra konteksten med den tidsskive, du er i øjeblikket timing.Hvis du gerne vil samle information (fx tæller, max, min, sum osv.) Fra opgaven, person, arbejdselement eller en liste værdi, der er knyttet til den aktuelle tidsskive, skal du bruge den relevante forespørgsel i kontekstfunktionen til at angivetilknyttet enhed, hvorfra til at aggregeres.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ OFFENTION FORMORLE UDGANGELSE:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Hvis du fortsætter, vil den aktuelt viste visning og dens kolonner blive permanent slettet.De indtastninger, der vises af den, slettes ikke.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Stopuroperationer starter fra konteksten med den tidsskive, du er i øjeblikket timing.Hvis du gerne vil samle information (fx tæller, max, min, sum osv.) Fra opgaven, person, arbejdselement eller en liste værdi, der er knyttet til den aktuelle tidsskive, skal du bruge den relevante forespørgsel i kontekstfunktionen til at angivetilknyttet enhed, hvorfra til at aggregeres.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

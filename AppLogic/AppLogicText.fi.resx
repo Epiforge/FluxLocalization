@@ -333,6 +333,10 @@
     <value>Id</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Grindstone-tietokannat</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DefaultListValueNameTraitValue" xml:space="preserve">
     <value>Nimi</value>
     <comment>from GoogleTranslator2</comment>
@@ -641,6 +645,66 @@
     <value>Grindstonen avulla</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
+    <value>Viimeisin loppu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
+    <value>Minun tehtäväni</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
+    <value>Aikani leikkaa</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
+    <value>Ihmiset</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
+    <value>Prioriteetit</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
+    <value>Kesto</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
+    <value>Loppu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
+    <value>From</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
+    <value>Aika viipaleita</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
+    <value>alkaa</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
+    <value>Vastaanottaja</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
+    <value>Työkohteet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Kolonnin editori</value>
     <comment>from GoogleTranslator2</comment>
@@ -744,69 +808,5 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Omistaja ei löytynyt</value>
     <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Grindstone-tietokannat</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
-    <value>Viimeisin loppu</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
-    <value>Minun tehtäväni</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
-    <value>Aikani leikkaa</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
-    <value>Ihmiset</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
-    <value>Nimi</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
-    <value>Prioriteetit</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
-    <value>Nimi</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
-    <value>Kesto</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
-    <value>Loppu</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
-    <value>From</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
-    <value>Aika viipaleita</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
-    <value>alkaa</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
-    <value>Vastaanottaja</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
-    <value>Työkohteet</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
-    <value>Nimi</value>
-    <comment>from GoogleTranslator</comment>
   </data>
 </root>

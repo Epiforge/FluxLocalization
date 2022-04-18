@@ -590,10 +590,6 @@ Wenn ein Teil dieser Vereinbarung für nicht durchsetzbar befunden wird, ist der
     <value>Ansichten der Person.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Anfang</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Zeitscheibenansichten.</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
     <value>Datenbank verschlüsseln.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Allgemein</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Optionen</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Datenbank auswählen</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Grindstone mit Windows starten</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Wert</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Laden Sie Updates automatisch herunter, wenn Sie sich ohne getaktete Verbindung anmelden</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatische Updates</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Beim Einchecken automatisch nach Updates suchen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Check-In</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frequenz</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Zuletzt aufgetreten</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Zum Zeitpunkt</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Zurücksetzen zeigt mir dies nicht noch einmal an</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Grindstone mit Windows starten</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Anfang</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Senden Sie anonyme Nutzungsdaten an Epiforge, um Grindstone beim Einchecken zu verbessern</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Aktualisieren</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Nutzungsdaten teilen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Verzögern Sie kurz, bevor Sie auf Warnungen reagieren können</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Diese Datenbank ist verschlüsselt und erfordert ein Passwort</value>
@@ -1010,6 +1058,10 @@ Fehler: {0}
 
 Beleidigende Formelausdruck:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stoppuhroperationen Starten Sie im Kontext der Zeitscheibe, die Sie gerade zeitlich timetieren.Wenn Sie Informationen zusammenfassen (z. B. Anzahl, MAX, MIN, MIN, SUM, SUM usw.) aus der Zuordnung, Person, des Arbeitspostens oder einem mit der aktuellen Zeitscheibe verknüpften Listenwert, verwenden Sie die entsprechende Abfrage in der Kontextfunktion, um das anzuzeigenassoziierte Entität, von der zu aggregieren ist.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Beleidigende Formelausdruck:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Wenn Sie fortfahren, werden die aktuell angezeigte Ansicht und ihre Säulen dauerhaft gelöscht.Die von ihm angezeigten Eingaben werden nicht gelöscht.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Stoppuhroperationen Starten Sie im Kontext der Zeitscheibe, die Sie gerade zeitlich timetieren.Wenn Sie Informationen zusammenfassen (z. B. Anzahl, MAX, MIN, MIN, SUM, SUM usw.) aus der Zuordnung, Person, des Arbeitspostens oder einem mit der aktuellen Zeitscheibe verknüpften Listenwert, verwenden Sie die entsprechende Abfrage in der Kontextfunktion, um das anzuzeigenassoziierte Entität, von der zu aggregieren ist.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

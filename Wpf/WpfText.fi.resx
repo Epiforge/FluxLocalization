@@ -590,10 +590,6 @@ Jos osa tästä sopimuksesta katsotaan täytäntöönpanokelvottomaksi, loppuosa
     <value>Henkilönäkymät</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Aloittaa</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Aikaviice Näkymät</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Jatka napsauttamalla tai napauta.</value>
     <value>Salaa tietokanta</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Yleinen</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Vaihtoehdot</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Jatka napsauttamalla tai napauta.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Valitse tietokanta</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Aloita hiomakivi ikkunoilla</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Jatka napsauttamalla tai napauta.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Arvo</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Lataa päivitykset automaattisesti, kun kirjaudut sisään, kun et ole mittarilla</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automaattiset päivitykset</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Tarkista päivitykset automaattisesti sisäänkirjautumisen yhteydessä</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Ilmoittautua</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Taajuus</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Kenraali</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Tapahtui viimeksi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Ajallaan</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Reset älä näytä minulle tätä uudelleen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Aloita hiomakivi ikkunoilla</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Aloittaa</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Lähetä anonyymejä käyttötietoja Epiforgelle auttaaksesi parantamaan Grindstonea sisäänkirjautumisen yhteydessä</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Päivittää</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Käyttötietojen jakaminen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Odota hetki ennen kuin voit vastata varoituksiin</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Tämä tietokanta salataan ja vaatii salasanan</value>
@@ -1010,6 +1058,10 @@ Virhe: {0}
 
 Rikokas kaavan ilmaisu:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Sekuntikello Toiminnot alkavat tällä hetkellä ajastuksen aikaviipaleesta.Jos haluat yhdistää tietoja (esim. Laskea, max, min, summa jne.) Tehtävästä, henkilöstä, työpaikasta tai luettelosta, joka liittyy nykyiseen aikaviipaleen, käytä asianmukaista kyselyä kontekstitoiminnossa osoittamaansiihen liittyvä yksikkö, josta aggregaatti.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Rikokas kaavan ilmaisu:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Jos jatkat, tällä hetkellä näkyvä näkymä ja sen sarakkeet poistetaan pysyvästi.Sitä näytettävät merkinnät eivät poisteta.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Sekuntikello Toiminnot alkavat tällä hetkellä ajastuksen aikaviipaleesta.Jos haluat yhdistää tietoja (esim. Laskea, max, min, summa jne.) Tehtävästä, henkilöstä, työpaikasta tai luettelosta, joka liittyy nykyiseen aikaviipaleen, käytä asianmukaista kyselyä kontekstitoiminnossa osoittamaansiihen liittyvä yksikkö, josta aggregaatti.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

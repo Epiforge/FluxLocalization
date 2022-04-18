@@ -504,9 +504,6 @@ If a portion of this agreement is held unenforceable, the remainder shall be val
   <data name="HeaderPersonViews" xml:space="preserve">
     <value>Person Views</value>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Startup</value>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Time Slice Views</value>
   </data>
@@ -628,9 +625,6 @@ Click or tap Next to continue.</value>
   <data name="LabelEncryptDatabase" xml:space="preserve">
     <value>Encrypt Database</value>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>General</value>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Options</value>
   </data>
@@ -639,9 +633,6 @@ Click or tap Next to continue.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Select Database</value>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Start Grindstone with Windows</value>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
     <value>Throw Exception</value>
@@ -717,6 +708,51 @@ Click or tap Next to continue.</value>
   </data>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Value</value>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Download updates automatically when checking in while not on a metered connection</value>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatic Updates</value>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Check for updates automatically when checking in</value>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Last occurred</value>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>At time</value>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Reset do not show me about this again</value>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Start Grindstone with Windows</value>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Send anonymous usage data to Epiforge to help improve Grindstone when checking in</value>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Usage Data Sharing</value>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Briefly delay before you can respond to warnings</value>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>This database is encrypted and requires a password</value>

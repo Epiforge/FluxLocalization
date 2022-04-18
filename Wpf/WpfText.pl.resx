@@ -590,10 +590,6 @@ Jeśli część niniejszej umowy zostanie uznana za niewykonalną, pozostała cz
     <value>Oswietlenie osób</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Uruchomienie</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Widoki na pokrocie czasu</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Kliknij lub dotknij Dalej, aby kontynuować.</value>
     <value>Szyfruna baza danych.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Ogólny</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Opcje</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Kliknij lub dotknij Dalej, aby kontynuować.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Wybierz bazę danych.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Rozpocznij grindstone z oknami</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Kliknij lub dotknij Dalej, aby kontynuować.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Wartość</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Pobieraj aktualizacje automatycznie podczas meldowania się, gdy nie korzystasz z połączenia taryfowego</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatyczne aktualizacje</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Automatycznie sprawdzaj aktualizacje podczas meldowania</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Zameldować się</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Częstotliwość</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Ogólny</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Ostatnio wystąpił</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>O czasie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Resetuj nie pokazuj mi o tym więcej</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Rozpocznij grindstone z oknami</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Uruchomienie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Wysyłaj anonimowe dane o użytkowaniu do Epiforge, aby pomóc ulepszyć Grindstone podczas odprawy</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Aktualizacja</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Udostępnianie danych użytkowania</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Krótko opóźnij, zanim będziesz mógł zareagować na ostrzeżenia</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Ta baza danych jest szyfrowana i wymaga hasła</value>
@@ -1010,6 +1058,10 @@ Błąd: {0}
 
 Obrażająca wyrażenie formuły:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Operacje Stopwatch zaczynają się od kontekstu przedziału czasu obecnie czas.Jeśli chcesz agregować informacje (np. Liczba, max, min, suma itp.) Z zadania, osoby, elementu roboczego lub wartości listy powiązanej z bieżącym plasterkiem czasu, użyj odpowiedniego zapytania w funkcji kontekstu, aby wskazaćpodmiot związany z tym, z którego do agregatu.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Obrażająca wyrażenie formuły:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Jeśli kontynuujesz, aktualnie wyświetlany widok i jego kolumny zostaną trwale usunięte.Wpisy wyświetlane przez nie zostaną usunięte.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Operacje Stopwatch zaczynają się od kontekstu przedziału czasu obecnie czas.Jeśli chcesz agregować informacje (np. Liczba, max, min, suma itp.) Z zadania, osoby, elementu roboczego lub wartości listy powiązanej z bieżącym plasterkiem czasu, użyj odpowiedniego zapytania w funkcji kontekstu, aby wskazaćpodmiot związany z tym, z którego do agregatu.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

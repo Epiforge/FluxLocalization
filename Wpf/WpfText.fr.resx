@@ -590,10 +590,6 @@ Si une partie du présent contrat est jugée inapplicable, le reste sera valide.
     <value>Vues de la personne</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Commencez</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Time Slice Vues</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Cliquez sur ou appuyez sur Suivant pour continuer.</value>
     <value>Crypter la base de données</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Généralités</value>
-    <comment>from MicrosoftTranslator</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Option</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Cliquez sur ou appuyez sur Suivant pour continuer.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Sélectionnez la base de données</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Démarrer Grindstone avec Windows</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Cliquez sur ou appuyez sur Suivant pour continuer.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Valeur</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Télécharger automatiquement les mises à jour lors de l'enregistrement sans connexion mesurée</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Mises à jour automatiques</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Vérifier les mises à jour automatiquement lors de l'enregistrement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Enregistrement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>La fréquence</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Général</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Dernier événement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Au moment</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Réinitialiser ne plus me montrer à ce sujet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Démarrer Grindstone avec Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Commencez</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Envoyez des données d'utilisation anonymes à Epiforge pour aider à améliorer Grindstone lors de l'enregistrement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Mise à jour</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Partage des données d'utilisation</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Retarder brièvement avant de pouvoir répondre aux avertissements</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Cette base de données est cryptée et nécessite un mot de passe</value>
@@ -1010,6 +1058,10 @@ Erreur: {0}
 
 Expression de formule incriminée:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Les opérations de chronomètre commencent à partir du contexte de la tranche de temps que vous avez actuellement chronométrée.Si vous souhaitez regrouper des informations (par exemple, max, min, somme, etc.) à partir de la mission, de la personne, de l'élément de travail ou d'une valeur de liste associée à la tranche d'heure actuelle, utilisez la requête appropriée dans la fonction contextuelle pour indiquer leentité associée à partir de laquelle agréger.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Expression de formule incriminée:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Si vous continuez, la vue actuellement affichée et ses colonnes seront supprimées de manière permanente.Les entrées affichées par elle ne seront pas supprimées.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Les opérations de chronomètre commencent à partir du contexte de la tranche de temps que vous avez actuellement chronométrée.Si vous souhaitez regrouper des informations (par exemple, max, min, somme, etc.) à partir de la mission, de la personne, de l'élément de travail ou d'une valeur de liste associée à la tranche d'heure actuelle, utilisez la requête appropriée dans la fonction contextuelle pour indiquer leentité associée à partir de laquelle agréger.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

@@ -590,10 +590,6 @@
     <value>Вид на человека</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Запускать</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Время нарезки просмотров</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@
     <value>Шифровать базу данных</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Общий</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Опции</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Выберите базу данных</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Начните Grindstone с окнами</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Ценность</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Автоматическая загрузка обновлений при регистрации без лимитного подключения</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Автоматические обновления</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Автоматически проверять наличие обновлений при регистрации</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Регистрироваться</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Частота</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Общий</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Последнее произошло</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Вовремя</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Сброс не показывай мне об этом больше</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Начните Grindstone с окнами</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Запускать</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Отправляйте анонимные данные об использовании в Epiforge, чтобы помочь улучшить Grindstone при регистрации.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Обновлять</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Обмен данными об использовании</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Кратковременная задержка, прежде чем вы сможете ответить на предупреждения</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Эта база данных зашифрована и требует пароля</value>
@@ -1010,6 +1058,10 @@
 
 Опдерусное выражение формулы:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Операции секундомера начинаются с контекста срез времени, который вы в настоящее время сроки.Если вы хотели бы совокупную информацию (например, счетчик, максимум, мин, сумму и т. Д.) Из присвоения, лица, элемента рабочего элемента или значения списка, связанного с нарезом текущего времени, используйте соответствующее запрос в функцию контекста, чтобы указатьСвязанная сущность, из которого для агрегата.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Если вы продолжите, отображаемый в данный момент представление и его столбцы будут постоянно удалены.Записи, отображаемые его, не будут удалены.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Операции секундомера начинаются с контекста срез времени, который вы в настоящее время сроки.Если вы хотели бы совокупную информацию (например, счетчик, максимум, мин, сумму и т. Д.) Из присвоения, лица, элемента рабочего элемента или значения списка, связанного с нарезом текущего времени, используйте соответствующее запрос в функцию контекста, чтобы указатьСвязанная сущность, из которого для агрегата.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

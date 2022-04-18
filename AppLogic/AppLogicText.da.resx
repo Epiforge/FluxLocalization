@@ -333,6 +333,10 @@
     <value>ID.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>Slibestensdatabaser</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DefaultListValueNameTraitValue" xml:space="preserve">
     <value>Navn</value>
     <comment>from GoogleTranslator2</comment>
@@ -641,6 +645,66 @@
     <value>Ved hjælp af Grindstone.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
+    <value>Seneste slutning</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
+    <value>Mine opgaver</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
+    <value>Min tid går i stykker</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
+    <value>Mennesker</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
+    <value>Navn</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
+    <value>Prioriteter</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
+    <value>Navn</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
+    <value>Varighed</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
+    <value>Ende</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
+    <value>Fra</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
+    <value>Tidsskiver</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
+    <value>Start</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
+    <value>Til</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
+    <value>Arbejdsgenstande</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
+    <value>Navn</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Kolonne Editor.</value>
     <comment>from GoogleTranslator2</comment>
@@ -744,69 +808,5 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Ejer ikke fundet</value>
     <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>Slibestensdatabaser</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
-    <value>Seneste slutning</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
-    <value>Mine opgaver</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
-    <value>Min tid går i stykker</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
-    <value>Mennesker</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
-    <value>Navn</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
-    <value>Prioriteter</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
-    <value>Navn</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
-    <value>Varighed</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
-    <value>Ende</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
-    <value>Fra</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
-    <value>Tidsskiver</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
-    <value>Start</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
-    <value>Til</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
-    <value>Arbejdsgenstande</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
-    <value>Navn</value>
-    <comment>from GoogleTranslator</comment>
   </data>
 </root>
