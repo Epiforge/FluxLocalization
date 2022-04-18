@@ -590,10 +590,6 @@ Als een deel van deze overeenkomst niet-afdwingbaar wordt geacht, is de rest gel
     <value>Persoons bekeken</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="HeaderStartup" xml:space="preserve">
-    <value>Opstarten</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="HeaderTimeSliceViews" xml:space="preserve">
     <value>Time Slice Views</value>
     <comment>from GoogleTranslator2</comment>
@@ -754,10 +750,6 @@ Klik of tik op Volgende om door te gaan.</value>
     <value>Encrypt database</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="LabelGeneral" xml:space="preserve">
-    <value>Algemeen</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
   <data name="LabelOptions" xml:space="preserve">
     <value>Opties</value>
     <comment>from GoogleTranslator2</comment>
@@ -768,10 +760,6 @@ Klik of tik op Volgende om door te gaan.</value>
   </data>
   <data name="LabelSelectDatabase" xml:space="preserve">
     <value>Selecteer Database</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="LabelStartGrindstoneWithWindows" xml:space="preserve">
-    <value>Start Grindstone met Windows</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="LabelThrowException" xml:space="preserve">
@@ -873,6 +861,66 @@ Klik of tik op Volgende om door te gaan.</value>
   <data name="OperationEditorControlValueHint" xml:space="preserve">
     <value>Waarde</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogAutomaticallyDownloadUpdates" xml:space="preserve">
+    <value>Updates automatisch downloaden wanneer u incheckt zonder een verbinding met datalimiet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogAutomaticUpdates" xml:space="preserve">
+    <value>Automatische updates</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckForUpdates" xml:space="preserve">
+    <value>Automatisch controleren op updates bij het inchecken</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckIn" xml:space="preserve">
+    <value>Check in</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogCheckInFrequency" xml:space="preserve">
+    <value>Frequentie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogGeneral" xml:space="preserve">
+    <value>Algemeen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInDate" xml:space="preserve">
+    <value>Laatst opgetreden</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogLastCheckInTime" xml:space="preserve">
+    <value>Op tijd</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogResetDoNotShowAgain" xml:space="preserve">
+    <value>Reset laat me dit niet meer zien</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogStartGrindstoneWithWindows" xml:space="preserve">
+    <value>Start Grindstone met Windows</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="OptionsDialogStartup" xml:space="preserve">
+    <value>Opstarten</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogSubmitUsageData" xml:space="preserve">
+    <value>Stuur anonieme gebruiksgegevens naar Epiforge om Grindstone te helpen verbeteren bij het inchecken</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUpdate" xml:space="preserve">
+    <value>Bijwerken</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogUsageDataSharing" xml:space="preserve">
+    <value>Gebruiksgegevens delen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="OptionsDialogWarningDelay" xml:space="preserve">
+    <value>Even wachten voordat u op waarschuwingen kunt reageren</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="PasswordCollectionDialogPasswordEmpty" xml:space="preserve">
     <value>Deze database is gecodeerd en vereist een wachtwoord</value>
@@ -1010,6 +1058,10 @@ FOUT: {0}
 
 Beledigende Formule-expressie:
 {1}</value>
+    <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StopwatchOperationsEUA" xml:space="preserve">
+    <value>Stopwatch-operaties Begin vanuit de context van het tijdslip dat u momenteel timing bent.Als u informatie (bijvoorbeeld tellen, max, min, som, enz.) Van de toewijzing, persoon, werkitem of een lijstwaarde die is gekoppeld aan de huidige tijdslijf, gebruikt u de juiste query in contextfunctie om debijbehorende entiteit om te aggregeren.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -1235,10 +1287,6 @@ Beledigende Formule-expressie:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Als u doorgaat, worden de momenteel weergegeven weergave en de kolommen permanent verwijderd.De door het getoonde vermelding wordt niet verwijderd.</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
-    <value>Stopwatch-operaties Begin vanuit de context van het tijdslip dat u momenteel timing bent.Als u informatie (bijvoorbeeld tellen, max, min, som, enz.) Van de toewijzing, persoon, werkitem of een lijstwaarde die is gekoppeld aan de huidige tijdslijf, gebruikt u de juiste query in contextfunctie om debijbehorende entiteit om te aggregeren.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
 </root>

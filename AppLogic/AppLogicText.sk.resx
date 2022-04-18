@@ -333,6 +333,10 @@
     <value>Id</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
+    <value>databázy brúsnych kameňov</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DefaultListValueNameTraitValue" xml:space="preserve">
     <value>názov</value>
     <comment>from GoogleTranslator2</comment>
@@ -641,6 +645,66 @@
     <value>Použitie grindstone</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
+    <value>Najnovší koniec</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
+    <value>Moje úlohy</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
+    <value>Môj čas rezy</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
+    <value>Ľudia</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
+    <value>Priority</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
+    <value>Trvanie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
+    <value>Koniec</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
+    <value>Od</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
+    <value>Časové rezy</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
+    <value>Štart</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
+    <value>Komu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
+    <value>Pracovné predmety</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
+    <value>názov</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Stĺpový editor</value>
     <comment>from GoogleTranslator2</comment>
@@ -744,69 +808,5 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Majiteľ sa nenašiel</value>
     <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="DefaultDocumentsDirectoryName" xml:space="preserve">
-    <value>databázy brúsnych kameňov</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewLatestEndColumnName" xml:space="preserve">
-    <value>Najnovší koniec</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyAssignmentViewName" xml:space="preserve">
-    <value>Moje úlohy</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerMyTimeSliceViewName" xml:space="preserve">
-    <value>Môj čas rezy</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewName" xml:space="preserve">
-    <value>Ľudia</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPersonViewNameColumnName" xml:space="preserve">
-    <value>názov</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewName" xml:space="preserve">
-    <value>Priority</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerPriorityViewNameColumnName" xml:space="preserve">
-    <value>názov</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewDurationColumnName" xml:space="preserve">
-    <value>Trvanie</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewEndColumnName" xml:space="preserve">
-    <value>Koniec</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewFromParameterName" xml:space="preserve">
-    <value>Od</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewName" xml:space="preserve">
-    <value>Časové rezy</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewStartColumnName" xml:space="preserve">
-    <value>Štart</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerTimeSliceViewToParameterName" xml:space="preserve">
-    <value>Komu</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewName" xml:space="preserve">
-    <value>Pracovné predmety</value>
-    <comment>from GoogleTranslator</comment>
-  </data>
-  <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
-    <value>názov</value>
-    <comment>from GoogleTranslator</comment>
   </data>
 </root>
