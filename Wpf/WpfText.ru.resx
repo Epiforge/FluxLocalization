@@ -1030,15 +1030,11 @@
     <value>Пользовательский интерфейс</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Изменить операции секундомера</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Параметры секундомера</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Отображать</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Я столкнулся с проблемой во время составления формулы отображения.
 
 Ошибка: {0}
@@ -1047,11 +1043,7 @@
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Продолжительность</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Я столкнулся с проблемой во время составления формулы продолжительности.
 
 Ошибка: {0}
@@ -1060,7 +1052,7 @@
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Операции секундомера начинаются с контекста срез времени, который вы в настоящее время сроки.Если вы хотели бы совокупную информацию (например, счетчик, максимум, мин, сумму и т. Д.) Из присвоения, лица, элемента рабочего элемента или значения списка, связанного с нарезом текущего времени, используйте соответствующее запрос в функцию контекста, чтобы указатьСвязанная сущность, из которого для агрегата.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1099,10 @@
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Закрыть меню</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Свернуть в режим секундомера</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Запрос, чтобы .NET Runtime вызовут свой сборщик мусора.</value>
@@ -1165,8 +1161,12 @@
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Управление столбцами в этом представлении.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Управление столбцами</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Объедините в этом представлении выбранные в данный момент временные отрезки.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Модифицировать просмотр</value>
@@ -1184,13 +1184,41 @@
     <value>Вид на человека</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Вернуться к полному окну</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Сохраните все зарегистрированные исключения в ZIP-файл.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Выберите задание</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Выберите, какую базу данных я использую в настоящее время.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Выберите рабочий элемент</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Разделите текущий выбранный временной интервал в этом представлении.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Начать синхронизацию текущей выбранной записи в этом представлении.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Остановить время</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Параметры секундомера</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Умышленно выбросьте исключение для проверки диагностической системы.</value>

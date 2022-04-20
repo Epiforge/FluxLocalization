@@ -1030,15 +1030,11 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>ユーザーインターフェース</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>ストップウォッチ操作を変更します</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>ストップウォッチオプション</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>画面</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>表示式をコンパイルしながら問題になりました。
 
 エラー：{0}
@@ -1047,11 +1043,7 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>間隔</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>持続時間式のコンパイル中に問題になりました。
 
 エラー：{0}
@@ -1060,7 +1052,7 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>ストップウォッチ操作は、現在タイミングでタイミングスライスのコンテキストから開始します。現在のタイムスライスに関連付けられている割り当て、個人、作業項目、またはリスト値から情報（例えば、Count、Max、Min、Sumなど）を集約したい場合は、コンテキスト関数で適切なクエリを使用して集約する関連エンティティ。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1099,10 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>メニューを閉じる</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>ストップウォッチモードに折りたたむ</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>.NETランタイムがガベージコレクタを呼び出すように要求します。</value>
@@ -1165,8 +1161,12 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>このビューで列を管理します。</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>列の管理</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>このビューで現在選択されているタイムスライスをマージします。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>ビューを修正します</value>
@@ -1184,13 +1184,41 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>人景色</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>フルウィンドウに戻る</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>ログに記録された例外をzipファイルに保存します。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>割り当てを選択</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>現在使用しているデータベースを選択してください。</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>作業項目を選択</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>このビューで現在選択されているタイムスライスを分割します。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>このビューで現在選択されているエントリのタイミングを開始します。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>タイミングを停止</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>ストップウォッチオプション</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>診断システムをテストするために故意に例外をスローします。</value>

@@ -1030,15 +1030,11 @@ Kliknij lub dotknij Dalej, aby kontynuować.</value>
     <value>Interfejs użytkownika</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Modyfikuj operacje stoper</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Opcje stopera</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Wyświetlacz</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Wpadłem w problem podczas skompilowania formuły wyświetlanej.
 
 Błąd: {0}
@@ -1047,11 +1043,7 @@ Obrażająca wyrażenie formuły:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Czas trwania</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Pobiegłem w problem podczas kompilacji formuły trwania.
 
 Błąd: {0}
@@ -1060,7 +1052,7 @@ Obrażająca wyrażenie formuły:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Operacje Stopwatch zaczynają się od kontekstu przedziału czasu obecnie czas.Jeśli chcesz agregować informacje (np. Liczba, max, min, suma itp.) Z zadania, osoby, elementu roboczego lub wartości listy powiązanej z bieżącym plasterkiem czasu, użyj odpowiedniego zapytania w funkcji kontekstu, aby wskazaćpodmiot związany z tym, z którego do agregatu.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1099,10 @@ Obrażająca wyrażenie formuły:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Zamknij menu.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Zwiń do trybu stopera</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Zapytaj, że Runtime Runtime wywołał swojego kolektora śmieci.</value>
@@ -1165,8 +1161,12 @@ Obrażająca wyrażenie formuły:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Zarządzaj kolumnami w tym widoku.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Zarządzaj kolumnami</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Scal aktualnie wybrane wycinki czasu w tym widoku.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Modyfikować widok.</value>
@@ -1184,13 +1184,41 @@ Obrażająca wyrażenie formuły:
     <value>Oswietlenie osób</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Wróć do pełnego okna</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Zapisz wszystkie zalogowane wyjątki w plik zip.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Wybierz zadanie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Wybierz, która baza danych, której obecnie używam.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Wybierz element roboczy</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Podziel aktualnie wybrany wycinek czasu w tym widoku.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Rozpocznij pomiar czasu aktualnie wybranego wpisu w tym widoku.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Zatrzymaj synchronizację</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Opcje stopera</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Celowo rzuć wyjątek, aby przetestować system diagnostyczny.</value>
