@@ -398,6 +398,10 @@ Muligheder:
     <value>Jeg kunne ikke slette "{0}" -databasen Kunne den i øjeblikket være i brug?Hvis det er tilfældet, skal du skifte til en anden database eller lukke Grindstone, før du forsøger at slette "{0}" -databasen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har ingen Grindstone-databaser på denne enhed.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} End</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ OFFENTION FORMORLE UDGANGELSE:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Luk Menu.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Luk den aktuelt valgte visning.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Skjul til stopurstilstand</value>

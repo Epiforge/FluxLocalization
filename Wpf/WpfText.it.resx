@@ -398,6 +398,10 @@ Opzioni:
     <value>Non sono stato in grado di eliminare il database "{0}" potrebbe essere utilizzato al momento?In tal caso, si prega di passare a un altro database o chiudere Grittstone prima di tentare di eliminare il database "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Non hai alcun database Grindstone su questo dispositivo.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} fine</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Espressione della formula offensiva:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Chiudi menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Chiude la vista attualmente selezionata.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Passa alla modalità cronometro</value>

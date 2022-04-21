@@ -398,6 +398,10 @@ Alternativ:
     <value>Jag kunde inte ta bort databasen "{0}" kan den för närvarande vara i bruk?Om så är fallet, vänligen byt till en annan databas eller stäng slipsten innan du försöker radera "{0}" -databasen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har inga Grindstone-databaser på den här enheten.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} slutet</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Förolämpande formeluttryck:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Stängmeny</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Stäng den för närvarande valda vyn.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Komprimera till stoppursläge</value>

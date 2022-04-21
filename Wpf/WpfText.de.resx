@@ -398,6 +398,10 @@ Optionen:
     <value>Ich konnte die Datenbank "{0}" nicht löschen. Kann er aktuell verwendet werden.Wenn ja, wechseln Sie bitte in eine andere Datenbank oder schließen Sie Schleifsteuer, bevor Sie versuchen, die Datenbank "{0}" zu löschen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Sie haben keine Grindstone-Datenbanken auf diesem Gerät.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Ende</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Beleidigende Formelausdruck:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Menü schließen.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Schließt die aktuell ausgewählte Ansicht.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>In den Stoppuhrmodus einklappen</value>

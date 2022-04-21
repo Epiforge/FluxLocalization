@@ -337,6 +337,9 @@ Options:
   <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
     <value>I was unable to delete the "{0}" database Could it currently be in use? If so, please switch to another database or close Grindstone before attempting to delete the "{0}" database.</value>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>You don't have any Grindstone databases on this device.</value>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} End</value>
   </data>
@@ -889,6 +892,9 @@ Offending formula expression:
   </data>
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Close Menu</value>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Close the currently selected view.</value>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Collapse to Stopwatch Mode</value>

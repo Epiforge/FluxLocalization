@@ -398,6 +398,10 @@ Opções:
     <value>Não consegui excluir o banco de dados "{0}" poderia estar em uso?Em caso afirmativo, mude para outro banco de dados ou feche a brindstone antes de tentar excluir o banco de dados "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Você não tem nenhum banco de dados do Grindstone neste dispositivo.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} final</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Expressão de fórmula ofensora:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Menu próximo</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Feche a visualização selecionada no momento.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Recolher para o modo de cronômetro</value>

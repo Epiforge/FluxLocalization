@@ -398,6 +398,10 @@ Options:
     <value>Je n'ai pas pu supprimer la base de données "{0}" pourrait-il être en cours d'utilisation?Si tel est le cas, veuillez basculer vers une autre base de données ou fermer Grindstone avant de tenter de supprimer la base de données "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Vous n'avez aucune base de données Grindstone sur cet appareil.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} fin</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Expression de formule incriminée:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Fermer le menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Ferme la vue actuellement sélectionnée.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Réduire en mode Chronomètre</value>

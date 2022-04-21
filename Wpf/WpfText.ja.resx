@@ -398,6 +398,10 @@
     <value>私は現在使用中の "{0}"データベースを削除できませんでしたか？もしそうなら、 "{0}"データベースを削除する前に別のデータベースまたはgrindstoneに切り替えてください。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>このデバイスにはGrindstoneデータベースがありません。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0}終了</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>メニューを閉じる</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>現在選択されているビューを閉じます。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>ストップウォッチモードに折りたたむ</value>

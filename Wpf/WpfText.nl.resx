@@ -398,6 +398,10 @@ Opties:
     <value>Ik kon de database "{0}" niet verwijderd, kan momenteel in gebruik zijn?Als dit het geval is, schakel dan naar een andere database of sluit slijpsteen voordat u probeert de database "{0}" te verwijderen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>U heeft geen Grindstone-databases op dit apparaat.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Einde</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Beledigende Formule-expressie:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Menu sluiten</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Sluit de momenteel geselecteerde weergave.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Samenvouwen naar stopwatchmodus</value>

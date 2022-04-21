@@ -398,6 +398,10 @@
     <value>我无法删除“{0}”数据库目前正在使用？如果是这样，请在尝试删除“{0}”数据库之前切换到另一个数据库或关闭磨石。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>您在此设备上没有任何 Grindstone 数据库。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0}结束</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>关闭菜单</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>关闭当前选定的视图。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>折叠到秒表模式</value>

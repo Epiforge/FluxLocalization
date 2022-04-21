@@ -398,6 +398,10 @@
     <value>Я не смог удалить базу данных «{0}», которая в данный момент она будет использовать?Если это так, пожалуйста, переключитесь на другую базу данных или закройте Glindstone, прежде чем пытаться удалить базу данных «{0}».</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>У вас нет баз данных Grindstone на этом устройстве.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} конец</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Закрыть меню</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Закрыть текущий выбранный вид.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Свернуть в режим секундомера</value>

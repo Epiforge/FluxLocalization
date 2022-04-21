@@ -398,6 +398,10 @@ Vaihtoehdot:
     <value>En voinut poistaa "{0}" tietokantaa, voisiko se olla käytössä?Jos näin on, siirry toiseen tietokantaan tai sulje Grindstone ennen kuin yrität poistaa "{0}" tietokanta.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Sinulla ei ole Grindstone-tietokantoja tällä laitteella.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} loppu</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Rikokas kaavan ilmaisu:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Sulje valikko</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Sulje parhaillaan valittu näkymä.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Tiivistä sekuntikellotilaan</value>

@@ -398,6 +398,10 @@ Možnosti:
     <value>Nemohl jsem odstranit databázi "{0}" Mohla být v současné době používána?Pokud ano, přepněte prosím na jinou databázi nebo Zavřete Grindstone, než se pokusíte odstranit databázi "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Na tomto zařízení nemáte žádné databáze Grindstone.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} konec</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Vyjádření pro urážlivý vzorec:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Zavřít menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Zavřete aktuálně vybraný pohled.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Sbalit do režimu stopek</value>

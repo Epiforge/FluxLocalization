@@ -398,6 +398,10 @@ Alternativer:
     <value>Jeg klarte ikke å slette "{0}" -databasen, kan den for øyeblikket være i bruk?I så fall, vennligst bytt til en annen database eller lukk grindstein før du prøver å slette databasen "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har ingen Grindstone-databaser på denne enheten.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Slutt</value>
     <comment>from GoogleTranslator2</comment>
@@ -1099,6 +1103,10 @@ Offending Formula Expression:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Lukk menyen</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Lukk den valgte visningen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
     <value>Skjul til stoppeklokkemodus</value>
