@@ -197,6 +197,10 @@
     <value>Изменение {0}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>Операция</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>Я использую этот взгляд, чтобы узнать, как автоматически выбирать из списка элементов при необходимости.</value>
     <comment>from GoogleTranslator2</comment>
@@ -721,6 +725,14 @@
     <value>Просмотр редактора</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>Работа дисплея</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>Продолжительность операции</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Назначение</value>
     <comment>from GoogleTranslator2</comment>
@@ -808,5 +820,9 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Владелец не найден</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>Работа с фильтром</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

@@ -398,6 +398,10 @@ Možnosti:
     <value>Nemohol som odstrániť databázu "{0}" by mohla byť v súčasnosti používaná?Ak áno, pred pokusom odstránite databázu "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>V tomto zariadení nemáte žiadne databázy Grindstone.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} koniec</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Pokračujte kliknutím na tlačidlo Ďalej.</value>
     <value>Používateľské rozhranie</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Upravte operácie stopky</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Možnosti stopiek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Zobrazenie</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Bežal som sa na problém pri zostavovaní vzorca zobrazenia.
 
 Chyba: {0}
@@ -1047,11 +1047,7 @@ Expresia vzorec:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Trvanie</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Bežal som sa na problém pri zostavovaní vzorec trvania.
 
 Chyba: {0}
@@ -1060,7 +1056,7 @@ Expresia vzorec:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Operácie stopiek začínajú z kontextu časového rozlíšenia, ktoré práve načasujete.Ak by ste chceli agregovať informácie (napr. Počet, max, min, súčet atď.) Zo zadania, osoby, pracovnej položky alebo hodnoty zoznamu spojenej s aktuálnym časovým rezom, použite vhodný dotaz v kontextovej funkcii na označeniepridružený subjekt, z ktorého sa má agregovať.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Expresia vzorec:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Zatvoriť menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Zatvorte aktuálne vybraté zobrazenie.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Zbaliť do režimu stopiek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Požiadajte o to, aby .NET RUNTIME INOKOE JEHO ZARIADENIA REKUMENTU.</value>
@@ -1165,8 +1169,12 @@ Expresia vzorec:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Spravujte stĺpce v tomto pohľade.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Spravovať stĺpce</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Zlúčiť aktuálne vybraté časové úseky v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Upravte zobrazenie</value>
@@ -1184,13 +1192,41 @@ Expresia vzorec:
     <value>Názory</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Návrat na celé okno</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Uložte všetky zaznamenané výnimky do zipového súboru.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Vyberte položku Priradenie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Vyberte, ktorá databáza momentálne používam.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Vyberte položku Pracovná položka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Rozdeliť aktuálne vybratý časový úsek v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Spustiť časovanie aktuálne vybratej položky v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Zastaviť časovanie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Možnosti stopiek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Zámerne hodiť výnimku na testovanie diagnostického systému.</value>

@@ -398,6 +398,10 @@ Alternativer:
     <value>Jeg klarte ikke å slette "{0}" -databasen, kan den for øyeblikket være i bruk?I så fall, vennligst bytt til en annen database eller lukk grindstein før du prøver å slette databasen "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har ingen Grindstone-databaser på denne enheten.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Slutt</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Klikk eller trykk på Neste for å fortsette.</value>
     <value>Brukergrensesnitt</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Endre stoppeklokkeoperasjoner</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Alternativer for stoppeklokke</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Vise</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Jeg løp inn i et problem mens jeg samler skjermformelen.
 
 Feil: {0}
@@ -1047,11 +1047,7 @@ Offending Formula Expression:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Varighet</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Jeg løp inn i et problem mens jeg samler varighetsformelen.
 
 Feil: {0}
@@ -1060,7 +1056,7 @@ Offending Formula Expression:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stoppeklokkeoperasjoner Start fra konteksten til Time Slice Du er for tiden timing.Hvis du vil samle informasjon (f.eksTilknyttet enhet for å aggregere.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Offending Formula Expression:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Lukk menyen</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Lukk den valgte visningen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Skjul til stoppeklokkemodus</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Be om at .NET-kjøretiden påkaller sin søppelkollektor.</value>
@@ -1165,8 +1169,12 @@ Offending Formula Expression:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Administrer kolonner i denne visningen.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Administrer kolonner</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Slå sammen de valgte tidsstykkene i denne visningen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Endre visningen</value>
@@ -1184,13 +1192,41 @@ Offending Formula Expression:
     <value>Person visninger</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Gå tilbake til hele vinduet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Lagre alle loggede unntak i en zip-fil.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Velg Oppdrag</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Velg hvilken database jeg bruker for øyeblikket.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Velg Arbeidselement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Del den valgte tidsdelen i denne visningen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Start timing for gjeldende valgte oppføring i denne visningen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Stopp timing</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Alternativer for stoppeklokke</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Bevisst kaste et unntak for å teste det diagnostiske systemet.</value>

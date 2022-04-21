@@ -398,6 +398,10 @@ Možnosti:
     <value>Nemohl jsem odstranit databázi "{0}" Mohla být v současné době používána?Pokud ano, přepněte prosím na jinou databázi nebo Zavřete Grindstone, než se pokusíte odstranit databázi "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Na tomto zařízení nemáte žádné databáze Grindstone.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} konec</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Pokračujte klepnutím na tlačítko nebo klepnutím na tlačítko Další.</val
     <value>Uživatelské rozhraní</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Změnit operace stopky</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Možnosti stopek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Zobrazit</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Při sestavování vzorce zobrazení jsem běžel do problému.
 
 Chyba: {0}
@@ -1047,11 +1047,7 @@ Vyjádření pro urážlivý vzorec:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Doba trvání</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Během kompilace vzorce trvání jsem běžel do problému.
 
 Chyba: {0}
@@ -1060,7 +1056,7 @@ Vyjádření pro urážlivý vzorec:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Zastavovací operace začínají z kontextu časového řezu, který aktuálně načasování.Pokud byste chtěli agregovat informace (např. Počet, max, min, součet atd.) Z zadání, osoby, pracovní položky nebo seznamu seznamu přidružených k aktuálním časovým řezem, použijte příslušný dotaz v kontextu funkce pro označenísouvisející subjekt, ze kterého se agregovat.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Vyjádření pro urážlivý vzorec:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Zavřít menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Zavřete aktuálně vybraný pohled.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Sbalit do režimu stopek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Požádat, aby runtime .Net vyvolal svůj sběr odpadu.</value>
@@ -1165,8 +1169,12 @@ Vyjádření pro urážlivý vzorec:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Správa sloupců v tomto zobrazení.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Správa sloupců</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Sloučit aktuálně vybrané časové úseky v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Upravit zobrazení</value>
@@ -1184,13 +1192,41 @@ Vyjádření pro urážlivý vzorec:
     <value>Osoba zobrazení</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Návrat do úplného okna</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Uložte všechny zaznamenané výjimky do souboru ZIP.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Vyberte Přiřazení</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Vyberte, která databáze v současné době používám.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Vyberte Pracovní položku</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Rozdělit aktuálně vybraný časový úsek v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Začít měřit aktuálně vybranou položku v tomto zobrazení.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Zastavit časování</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Možnosti stopek</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Záměrně hodit výjimku pro testování diagnostického systému.</value>

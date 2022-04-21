@@ -197,6 +197,10 @@
     <value>{0}の変更</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>手術</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>このビューを使用して、必要に応じてアイテムのリストから自動的に選択する方法を知ることができます。</value>
     <comment>from GoogleTranslator2</comment>
@@ -721,6 +725,14 @@
     <value>編集者を表示します</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>表示操作</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>持続時間操作</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>割り当て</value>
     <comment>from GoogleTranslator2</comment>
@@ -808,5 +820,9 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>所有者が見つかりません</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>フィルター操作</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

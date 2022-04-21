@@ -197,6 +197,10 @@
     <value>Modifikácia {0}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>Prevádzka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>Tento pohľad použijem, aby som vedel, ako automaticky vybrať zo zoznamu položiek v prípade potreby.</value>
     <comment>from GoogleTranslator2</comment>
@@ -721,6 +725,14 @@
     <value>Zobraziť editor</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>Prevádzka displeja</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>Trvanie prevádzky</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Priradenie</value>
     <comment>from GoogleTranslator2</comment>
@@ -808,5 +820,9 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Majiteľ sa nenašiel</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>Prevádzka filtra</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

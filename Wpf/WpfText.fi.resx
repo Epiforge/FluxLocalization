@@ -398,6 +398,10 @@ Vaihtoehdot:
     <value>En voinut poistaa "{0}" tietokantaa, voisiko se olla käytössä?Jos näin on, siirry toiseen tietokantaan tai sulje Grindstone ennen kuin yrität poistaa "{0}" tietokanta.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Sinulla ei ole Grindstone-tietokantoja tällä laitteella.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} loppu</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Jatka napsauttamalla tai napauta.</value>
     <value>Käyttöliittymä</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Muuta sekuntikellotoiminta</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Sekuntikellon asetukset</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Näyttö</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Juoksin ongelmaan näytön kaavan kokoamisen aikana.
 
 Virhe: {0}
@@ -1047,11 +1047,7 @@ Rikokas kaavan ilmaisu:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Kesto</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Juoksin ongelmaan, kun koko on keston kaava.
 
 Virhe: {0}
@@ -1060,7 +1056,7 @@ Rikokas kaavan ilmaisu:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Sekuntikello Toiminnot alkavat tällä hetkellä ajastuksen aikaviipaleesta.Jos haluat yhdistää tietoja (esim. Laskea, max, min, summa jne.) Tehtävästä, henkilöstä, työpaikasta tai luettelosta, joka liittyy nykyiseen aikaviipaleen, käytä asianmukaista kyselyä kontekstitoiminnossa osoittamaansiihen liittyvä yksikkö, josta aggregaatti.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Rikokas kaavan ilmaisu:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Sulje valikko</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Sulje parhaillaan valittu näkymä.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Tiivistä sekuntikellotilaan</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Pyydä, että .NET Runtime vei roskat keräilijänsä.</value>
@@ -1165,8 +1169,12 @@ Rikokas kaavan ilmaisu:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Hallitse sarakkeita tässä näkymässä.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Hallitse sarakkeita</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Yhdistä tällä hetkellä valitut aikalohkot tässä näkymässä.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Muokkaa näkymää</value>
@@ -1184,13 +1192,41 @@ Rikokas kaavan ilmaisu:
     <value>Henkilönäkymät</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Palaa koko ikkunaan</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Tallenna kaikki kirjautuneet poikkeukset zip-tiedostoon.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Valitse Tehtävä</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Valitse mikä tietokanta, jota käytän tällä hetkellä.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Valitse Työkohde</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Jaa tällä hetkellä valittu aikaviipale tässä näkymässä.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Aloita valitun merkinnän ajoitus tässä näkymässä.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Lopeta ajoitus</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Sekuntikellon asetukset</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Heittää tarkoituksellisesti poikkeuksen diagnostiikkajärjestelmän testaamiseksi.</value>

@@ -398,6 +398,10 @@ Options:
     <value>Je n'ai pas pu supprimer la base de données "{0}" pourrait-il être en cours d'utilisation?Si tel est le cas, veuillez basculer vers une autre base de données ou fermer Grindstone avant de tenter de supprimer la base de données "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Vous n'avez aucune base de données Grindstone sur cet appareil.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} fin</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Cliquez sur ou appuyez sur Suivant pour continuer.</value>
     <value>Interface utilisateur</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Modifier les opérations de chronomètre</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Options du chronomètre</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Affichage</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>J'ai rencontré un problème lors de la compilation de la formule d'affichage.
 
 Erreur: {0}
@@ -1047,11 +1047,7 @@ Expression de formule incriminée:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Durée</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>J'ai rencontré un problème tout en compilant la formule de durée.
 
 Erreur: {0}
@@ -1060,7 +1056,7 @@ Expression de formule incriminée:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Les opérations de chronomètre commencent à partir du contexte de la tranche de temps que vous avez actuellement chronométrée.Si vous souhaitez regrouper des informations (par exemple, max, min, somme, etc.) à partir de la mission, de la personne, de l'élément de travail ou d'une valeur de liste associée à la tranche d'heure actuelle, utilisez la requête appropriée dans la fonction contextuelle pour indiquer leentité associée à partir de laquelle agréger.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Expression de formule incriminée:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Fermer le menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Ferme la vue actuellement sélectionnée.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Réduire en mode Chronomètre</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Demandez que le fichier d'exécution .NET invoque son collecteur à ordures.</value>
@@ -1165,8 +1169,12 @@ Expression de formule incriminée:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Gérer les colonnes dans cette vue.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Gérer les colonnes</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Fusionner les tranches de temps actuellement sélectionnées dans cette vue.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Modifier la vue</value>
@@ -1184,13 +1192,41 @@ Expression de formule incriminée:
     <value>Vues de la personne</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Revenir à la fenêtre complète</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Enregistrez toutes les exceptions connectées dans un fichier ZIP.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Sélectionnez l'affectation</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Sélectionnez la base de données que j'utilise actuellement.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Sélectionnez l'élément de travail</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Fractionner la tranche de temps actuellement sélectionnée dans cette vue.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Démarrer le chronométrage de l'entrée actuellement sélectionnée dans cette vue.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Arrêter le chronométrage</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Options du chronomètre</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Jeter délibérément une exception pour tester le système de diagnostic.</value>

@@ -398,6 +398,10 @@ Alternativ:
     <value>Jag kunde inte ta bort databasen "{0}" kan den för närvarande vara i bruk?Om så är fallet, vänligen byt till en annan databas eller stäng slipsten innan du försöker radera "{0}" -databasen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har inga Grindstone-databaser på den här enheten.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} slutet</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Klicka eller Tryck på Nästa för att fortsätta.</value>
     <value>Användargränssnitt</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Ändra stoppursoperationer</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Alternativ för stoppur</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Visa</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Jag sprang i ett problem när jag sammanställde bildskärmsformeln.
 
 Fel: {0}
@@ -1047,11 +1047,7 @@ Förolämpande formeluttryck:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Varaktighet</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Jag sprang i ett problem medan jag sammanställde varaktighetsformeln.
 
 Fel: {0}
@@ -1060,7 +1056,7 @@ Förolämpande formeluttryck:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stopwatch-operationer börjar från sammanhanget av den tidsskiva du för närvarande är timing.Om du vill samla information (t.ex. räkna, max, min, summa etc.) från uppdraget, person, arbetsobjekt eller ett listvärde som är kopplat till den aktuella tidskivan, använd lämplig fråga i kontextfunktionen för att indikeraassocierad enhet för att aggregera.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Förolämpande formeluttryck:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Stängmeny</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Stäng den för närvarande valda vyn.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Komprimera till stoppursläge</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Begär att .NET runtime åberopar sin sopsamlare.</value>
@@ -1165,8 +1169,12 @@ Förolämpande formeluttryck:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Hantera kolumner i den här vyn.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Hantera kolumner</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Slå samman de för närvarande valda tidssegmenten i den här vyn.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Ändra vy</value>
@@ -1184,13 +1192,41 @@ Förolämpande formeluttryck:
     <value>Persons visningar</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Återgå till hela fönstret</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Spara alla loggade undantag i en ZIP-fil.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Välj Tilldelning</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Välj vilken databas jag använder för närvarande.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Välj arbetsobjekt</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Dela den för närvarande valda tidsdelen i den här vyn.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Börja tajma den för närvarande valda posten i den här vyn.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Sluta tajming</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Alternativ för stoppur</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Avsiktligt kasta ett undantag för att testa det diagnostiska systemet.</value>

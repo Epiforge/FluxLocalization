@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -336,6 +336,9 @@ Options:
   </data>
   <data name="DatabaseSelectionDialogDeleteFailed" xml:space="preserve">
     <value>I was unable to delete the "{0}" database Could it currently be in use? If so, please switch to another database or close Grindstone before attempting to delete the "{0}" database.</value>
+  </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>You don't have any Grindstone databases on this device.</value>
   </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} End</value>
@@ -835,13 +838,10 @@ Click or tap Next to continue.</value>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>User interface</value>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Modify Stopwatch Operations</value>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Stopwatch Options</value>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Display</value>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>I ran into a problem while compiling the display formula.
 
 Error: {0}
@@ -849,10 +849,7 @@ Error: {0}
 Offending formula expression:
 {1}</value>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Duration</value>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>I ran into a problem while compiling the duration formula.
 
 Error: {0}
@@ -860,7 +857,7 @@ Error: {0}
 Offending formula expression:
 {1}</value>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stopwatch operations start from the context of the time slice you're currently timing. If you would like to aggregate information (e.g. count, max, min, sum, etc.) from the assignment, person, work item, or a list value associated with the current time slice, use the appropriate query in context function to indicate the associated entity from which to aggregate.</value>
   </data>
   <data name="ToastMonitoredViewTriggeredText" xml:space="preserve">
@@ -895,6 +892,12 @@ Offending formula expression:
   </data>
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Close Menu</value>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Close the currently selected view.</value>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Collapse to Stopwatch Mode</value>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Request that the .NET runtime invoke its garbage collector.</value>
@@ -939,7 +942,10 @@ Offending formula expression:
     <value>Main Menu</value>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Manage columns in this view.</value>
+    <value>Manage Columns</value>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Merge the currently selected time slices in this view.</value>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Modify View</value>
@@ -953,11 +959,32 @@ Offending formula expression:
   <data name="ToolTipPersonViews" xml:space="preserve">
     <value>Person Views</value>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Return to Full Window</value>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Save all logged exceptions into a ZIP file.</value>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Select Assignment</value>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Select which database I'm currently using.</value>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Select Work Item</value>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Split the currently selected time slice in this view.</value>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Start Timing the currently selected entry in this view.</value>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Stop Timing</value>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Stopwatch Options</value>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Deliberately throw an exception to test the diagnostic system.</value>

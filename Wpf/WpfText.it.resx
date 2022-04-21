@@ -398,6 +398,10 @@ Opzioni:
     <value>Non sono stato in grado di eliminare il database "{0}" potrebbe essere utilizzato al momento?In tal caso, si prega di passare a un altro database o chiudere Grittstone prima di tentare di eliminare il database "{0}".</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Non hai alcun database Grindstone su questo dispositivo.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} fine</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Fai clic o tocca Avanti per continuare.</value>
     <value>Interfaccia utente</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Modifica le operazioni di cronometro</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Opzioni cronometro</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Schermo</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Ho corso un problema mentre compila la formula del display.
 
 ERRORE: {0}
@@ -1047,11 +1047,7 @@ Espressione della formula offensiva:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Durata</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Ho corso un problema mentre compila la formula della durata.
 
 ERRORE: {0}
@@ -1060,7 +1056,7 @@ Espressione della formula offensiva:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Le operazioni di cronometro iniziano dal contesto della fetta del tempo che stai attualmente tempi.Se desideri aggregare informazioni (ad es. Conta, Max, min, somma, ecc.) Dall'assegnazione, persona, articolo di lavoro o un valore di elenco associato alla fetta dell'ora corrente, utilizzare la query appropriata nella funzione di contesto per indicare ilentità associata da cui aggregare.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Espressione della formula offensiva:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Chiudi menu</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Chiude la vista attualmente selezionata.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Passa alla modalità cronometro</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Richiedi che il runtime .NET invochi il suo collettore della spazzatura.</value>
@@ -1165,8 +1169,12 @@ Espressione della formula offensiva:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Gestisci le colonne in questa vista.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Gestisci colonne</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Unisci gli intervalli di tempo attualmente selezionati in questa vista.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Modifica View.</value>
@@ -1184,13 +1192,41 @@ Espressione della formula offensiva:
     <value>Viste della persona</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Torna alla finestra intera</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Salva tutte le eccezioni registrate in un file zip.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Seleziona Compito</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Seleziona quale database sto utilizzando attualmente.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Seleziona oggetto di lavoro</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Dividi l'intervallo di tempo attualmente selezionato in questa vista.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Inizia a cronometrare la voce attualmente selezionata in questa vista.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Smetti di cronometrare</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Opzioni cronometro</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Elementare deliberatamente un'eccezione per testare il sistema diagnostico.</value>

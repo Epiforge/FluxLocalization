@@ -197,6 +197,10 @@
     <value>Ændring af {0}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>Operation</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>Jeg bruger denne visning til at vide, hvordan du automatisk vælger fra en liste over elementer, når det er nødvendigt.</value>
     <comment>from GoogleTranslator2</comment>
@@ -721,6 +725,14 @@
     <value>Se editor</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>Display betjening</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>Varighed operation</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Tildeling</value>
     <comment>from GoogleTranslator2</comment>
@@ -808,5 +820,9 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Ejer ikke fundet</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>Filterdrift</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

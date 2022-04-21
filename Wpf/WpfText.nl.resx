@@ -398,6 +398,10 @@ Opties:
     <value>Ik kon de database "{0}" niet verwijderd, kan momenteel in gebruik zijn?Als dit het geval is, schakel dan naar een andere database of sluit slijpsteen voordat u probeert de database "{0}" te verwijderen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>U heeft geen Grindstone-databases op dit apparaat.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Einde</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Klik of tik op Volgende om door te gaan.</value>
     <value>Gebruikersomgeving</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>Wijzig de bewerkingen van de stopwatch</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Stopwatch-opties</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Weergave</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Ik heb een probleem tegengehouden tijdens het compileren van de display-formule.
 
 FOUT: {0}
@@ -1047,11 +1047,7 @@ Beledigende Formule-expressie:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Duur</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Ik heb een probleem tegengehouden tijdens het compileren van de duurformule.
 
 FOUT: {0}
@@ -1060,7 +1056,7 @@ Beledigende Formule-expressie:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stopwatch-operaties Begin vanuit de context van het tijdslip dat u momenteel timing bent.Als u informatie (bijvoorbeeld tellen, max, min, som, enz.) Van de toewijzing, persoon, werkitem of een lijstwaarde die is gekoppeld aan de huidige tijdslijf, gebruikt u de juiste query in contextfunctie om debijbehorende entiteit om te aggregeren.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Beledigende Formule-expressie:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Menu sluiten</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Sluit de momenteel geselecteerde weergave.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Samenvouwen naar stopwatchmodus</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Verzoek om de .NET-runtime roept de vuilniscollector aan.</value>
@@ -1165,8 +1169,12 @@ Beledigende Formule-expressie:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Kolommen in deze weergave beheren.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Kolommen beheren</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Voeg in deze weergave de momenteel geselecteerde tijdvakken samen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Weergave wijzigen</value>
@@ -1184,13 +1192,41 @@ Beledigende Formule-expressie:
     <value>Persoons bekeken</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Keer terug naar volledig venster</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Bewaar alle geregistreerde uitzonderingen in een zip-bestand.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Selecteer Opdracht</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Selecteer welke database ik momenteel gebruik.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Selecteer werkitem</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Splits de momenteel geselecteerde tijdschijf in deze weergave.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Start Timing van het momenteel geselecteerde item in deze weergave.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Stop de timing</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Stopwatch-opties</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Gooi opzettelijk een uitzondering om het diagnosesysteem te testen.</value>

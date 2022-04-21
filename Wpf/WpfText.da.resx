@@ -398,6 +398,10 @@ Muligheder:
     <value>Jeg kunne ikke slette "{0}" -databasen Kunne den i øjeblikket være i brug?Hvis det er tilfældet, skal du skifte til en anden database eller lukke Grindstone, før du forsøger at slette "{0}" -databasen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Du har ingen Grindstone-databaser på denne enhed.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} End</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Klik eller tryk på Næste for at fortsætte.</value>
     <value>brugergrænseflade</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
-    <value>MODIFY STOPWATCH OPERATIONS</value>
-    <comment>from GoogleTranslator2</comment>
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
+    <value>Indstillinger for stopur</value>
+    <comment>from GoogleTranslator</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Skærm</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Jeg løb ind i et problem, mens jeg kompilerer skærmformel.
 
 FEJL: {0}
@@ -1047,11 +1047,7 @@ OFFENTION FORMORLE UDGANGELSE:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Varighed</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Jeg løb ind i et problem, mens jeg kompilerer varighedsformel.
 
 FEJL: {0}
@@ -1060,7 +1056,7 @@ OFFENTION FORMORLE UDGANGELSE:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stopuroperationer starter fra konteksten med den tidsskive, du er i øjeblikket timing.Hvis du gerne vil samle information (fx tæller, max, min, sum osv.) Fra opgaven, person, arbejdselement eller en liste værdi, der er knyttet til den aktuelle tidsskive, skal du bruge den relevante forespørgsel i kontekstfunktionen til at angivetilknyttet enhed, hvorfra til at aggregeres.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ OFFENTION FORMORLE UDGANGELSE:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Luk Menu.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Luk den aktuelt valgte visning.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>Skjul til stopurstilstand</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Anmod om, at .NET-runtime påberåber sin affaldssamler.</value>
@@ -1165,8 +1169,12 @@ OFFENTION FORMORLE UDGANGELSE:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Administrer kolonner i denne visning.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Administrer kolonner</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Flet de aktuelt valgte tidsudsnit i denne visning.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Ændre visning</value>
@@ -1184,13 +1192,41 @@ OFFENTION FORMORLE UDGANGELSE:
     <value>Personvisninger.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Vend tilbage til hele vinduet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Gem alle loggete undtagelser i en zip-fil.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Vælg Opgave</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Vælg hvilken database jeg bruger i øjeblikket.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Vælg arbejdsemne</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Opdel det aktuelt valgte tidsudsnit i denne visning.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Start Timing af den aktuelt valgte post i denne visning.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Stop Timing</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Indstillinger for stopur</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Bevidst kast en undtagelse for at teste det diagnostiske system.</value>

@@ -177,6 +177,9 @@
   <data name="ColumnEditorCaptionModifying" xml:space="preserve">
     <value>Modifying {0}</value>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>Operation</value>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>I use this view to know how to automatcally select from a list of items when necessary.</value>
   </data>
@@ -570,6 +573,12 @@
   <data name="StatusProviderNameViewEditor" xml:space="preserve">
     <value>View editor</value>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>Display operation</value>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>Duration operation</value>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Assignment</value>
   </data>
@@ -635,5 +644,8 @@
   </data>
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Owner not found</value>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>Filter operation</value>
   </data>
 </root>

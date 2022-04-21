@@ -197,6 +197,10 @@
     <value>Modifier {0}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ColumnEditorOperationCaption" xml:space="preserve">
+    <value>Opération</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedDeleteAutoSelectView" xml:space="preserve">
     <value>J'utilise cette vue pour savoir comment sélectionner automatiquement dans une liste d'éléments si nécessaire.</value>
     <comment>from GoogleTranslator2</comment>
@@ -721,6 +725,14 @@
     <value>Éditeur de vue</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="StopwatchOptionsDisplayOperationCaption" xml:space="preserve">
+    <value>Fonctionnement de l'affichage</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
+    <value>Durée de fonctionnement</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Mission</value>
     <comment>from GoogleTranslator2</comment>
@@ -808,5 +820,9 @@
   <data name="ViewEditorErrorOwnerNull" xml:space="preserve">
     <value>Propriétaire non trouvé</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ViewEditorFilterOperation" xml:space="preserve">
+    <value>Fonctionnement du filtre</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

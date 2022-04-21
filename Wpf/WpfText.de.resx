@@ -398,6 +398,10 @@ Optionen:
     <value>Ich konnte die Datenbank "{0}" nicht löschen. Kann er aktuell verwendet werden.Wenn ja, wechseln Sie bitte in eine andere Datenbank oder schließen Sie Schleifsteuer, bevor Sie versuchen, die Datenbank "{0}" zu löschen.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="DatabaseSelectionDialogNoDatabases" xml:space="preserve">
+    <value>Sie haben keine Grindstone-Datenbanken auf diesem Gerät.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="DateTimeOffsetRangePickerEndHintFormat" xml:space="preserve">
     <value>{0} Ende</value>
     <comment>from GoogleTranslator2</comment>
@@ -1030,15 +1034,11 @@ Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
     <value>Benutzeroberfläche</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogCaption" xml:space="preserve">
+  <data name="StopwatchOptionsDialogCaption" xml:space="preserve">
     <value>Stoppuhroperationen ändern</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDisplay" xml:space="preserve">
-    <value>Anzeige</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDisplayCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDisplayCompilationError" xml:space="preserve">
     <value>Ich habe ein Problem gelaufen, während ich die Anzeigeformel kompiliert habe.
 
 Fehler: {0}
@@ -1047,11 +1047,7 @@ Beleidigende Formelausdruck:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsDialogDuration" xml:space="preserve">
-    <value>Dauer</value>
-    <comment>from GoogleTranslator2</comment>
-  </data>
-  <data name="StopwatchOperationsDialogDurationCompilationError" xml:space="preserve">
+  <data name="StopwatchOptionsDialogDurationCompilationError" xml:space="preserve">
     <value>Ich rannte ein Problem, während ich die Dauer-Formel kompiliert habe.
 
 Fehler: {0}
@@ -1060,7 +1056,7 @@ Beleidigende Formelausdruck:
 {1}</value>
     <comment>from GoogleTranslator2</comment>
   </data>
-  <data name="StopwatchOperationsEUA" xml:space="preserve">
+  <data name="StopwatchOptionsEUA" xml:space="preserve">
     <value>Stoppuhroperationen Starten Sie im Kontext der Zeitscheibe, die Sie gerade zeitlich timetieren.Wenn Sie Informationen zusammenfassen (z. B. Anzahl, MAX, MIN, MIN, SUM, SUM usw.) aus der Zuordnung, Person, des Arbeitspostens oder einem mit der aktuellen Zeitscheibe verknüpften Listenwert, verwenden Sie die entsprechende Abfrage in der Kontextfunktion, um das anzuzeigenassoziierte Entität, von der zu aggregieren ist.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
@@ -1107,6 +1103,14 @@ Beleidigende Formelausdruck:
   <data name="ToolTipCloseMenu" xml:space="preserve">
     <value>Menü schließen.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipCloseSelectedView" xml:space="preserve">
+    <value>Schließt die aktuell ausgewählte Ansicht.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipCollapseToStopwatchMode" xml:space="preserve">
+    <value>In den Stoppuhrmodus einklappen</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipCollectGarbage" xml:space="preserve">
     <value>Bitte anfordern, dass die .NET-Laufzeit den Müllsammler aufgibt.</value>
@@ -1165,8 +1169,12 @@ Beleidigende Formelausdruck:
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="ToolTipManageColumns" xml:space="preserve">
-    <value>Verwalten Sie in dieser Ansicht Spalten.</value>
-    <comment>from GoogleTranslator2</comment>
+    <value>Spalten verwalten</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipMerge" xml:space="preserve">
+    <value>Führen Sie in dieser Ansicht die aktuell ausgewählten Zeitscheiben zusammen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipModifyView" xml:space="preserve">
     <value>Ansicht ändern</value>
@@ -1184,13 +1192,41 @@ Beleidigende Formelausdruck:
     <value>Ansichten der Person.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipReturnToFullWindow" xml:space="preserve">
+    <value>Zurück zum Vollbild</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSavedLoggedException" xml:space="preserve">
     <value>Speichern Sie alle protokollierten Ausnahmen in einer ZIP-Datei.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="ToolTipSelectAssignment" xml:space="preserve">
+    <value>Wählen Sie Zuordnung aus</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="ToolTipSelectDatabase" xml:space="preserve">
     <value>Wählen Sie aus, welche Datenbank ich gerade benutze.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ToolTipSelectWorkItem" xml:space="preserve">
+    <value>Arbeitselement auswählen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipSplit" xml:space="preserve">
+    <value>Teilen Sie den aktuell ausgewählten Zeitabschnitt in dieser Ansicht.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStartTiming" xml:space="preserve">
+    <value>Starten Sie die Zeitmessung für den aktuell ausgewählten Eintrag in dieser Ansicht.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopTiming" xml:space="preserve">
+    <value>Stoppen Sie die Zeitmessung</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="ToolTipStopwatchOptions" xml:space="preserve">
+    <value>Stoppuhr-Optionen</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ToolTipThrowException" xml:space="preserve">
     <value>Absichtlich werfen Sie eine Ausnahme, um das Diagnosesystem zu testen.</value>
