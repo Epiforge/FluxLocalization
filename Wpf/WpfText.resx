@@ -835,6 +835,12 @@ Click or tap Next to continue.</value>
   <data name="ShortcutFileName" xml:space="preserve">
     <value>Grindstone 5</value>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>Select an assignment to start timing it.</value>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>Select a work item to start timing it.</value>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>User interface</value>
   </data>

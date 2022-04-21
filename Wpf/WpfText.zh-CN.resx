@@ -1030,6 +1030,14 @@
     <value>磨石5.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>选择一个作业开始计时。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>选择一个工作项开始计时。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>用户界面</value>
     <comment>from GoogleTranslator2</comment>

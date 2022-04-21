@@ -1030,6 +1030,14 @@ Klikk eller trykk på Neste for å fortsette.</value>
     <value>Grindstone 5.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>Velg en oppgave for å begynne å tidsbestemme den.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>Velg et arbeidselement for å starte timingen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>Brukergrensesnitt</value>
     <comment>from GoogleTranslator2</comment>
