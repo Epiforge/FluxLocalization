@@ -1030,6 +1030,14 @@ Clique ou toque em Avançar para continuar.</value>
     <value>Brindstone 5.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>Selecione uma atribuição para começar a cronometrar.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>Selecione um item de trabalho para começar a cronometrar.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>Interface de usuário</value>
     <comment>from GoogleTranslator2</comment>

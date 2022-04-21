@@ -1030,6 +1030,14 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
     <value>砥石5</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>割り当てを選択して、タイミングを開始します。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>ワークアイテムを選択して、タイミングを開始します。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>ユーザーインターフェース</value>
     <comment>from GoogleTranslator2</comment>

@@ -1030,6 +1030,14 @@ Pokračujte klepnutím na tlačítko nebo klepnutím na tlačítko Další.</val
     <value>Grindstone 5.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
+    <value>Vyberte úkol a začněte jej měřit.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
+    <value>Vyberte pracovní položku a začněte ji měřit.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>Uživatelské rozhraní</value>
     <comment>from GoogleTranslator2</comment>
