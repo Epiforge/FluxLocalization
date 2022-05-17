@@ -173,6 +173,30 @@
     <value>关闭视图</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>等待入场预订确认</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>将条目转换为文本</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>保留条目以转换为文本</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>保留要转换条目的视图</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>释放入境预订</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>释放视图预订</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>复制视图</value>
     <comment>from GoogleTranslator2</comment>
@@ -228,6 +252,10 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>在编辑某些内容时，我使用此列以了解您的表单上的字段名称。</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>我无法尝试拆分当前正在计时的时间片。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>最新结束</value>
@@ -731,6 +759,14 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>持续时间操作</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>拆分 {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>未知时间片</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">

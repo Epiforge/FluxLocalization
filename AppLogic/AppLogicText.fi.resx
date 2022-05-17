@@ -173,6 +173,30 @@
     <value>Näkymien sammuttaminen</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>Odotetaan sisäänpääsyvarausten vahvistamista</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>Merkintöjen muuntaminen tekstiksi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>Varataan merkintöjä tekstiksi muunnettavaksi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>Varausnäkymä, josta merkinnät muunnetaan</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>Pääsyvarausten vapauttaminen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>Vapautetaan katseluvaraus</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>Kopiointi näkymä</value>
     <comment>from GoogleTranslator2</comment>
@@ -228,6 +252,10 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>Käytän tätä saraketta tietääksesi lomakkeiden kenttien nimet, kun muokkaat jotain.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>En voi yrittää jakaa aikalohkoa, jota parhaillaan ajastetaan.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Viimeisin pää</value>
@@ -731,6 +759,14 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>Kestotoiminto</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>Jaetaan {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>tuntematon aikaviipale</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">

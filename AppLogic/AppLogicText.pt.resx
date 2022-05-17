@@ -173,6 +173,30 @@
     <value>Desligando vistas</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>Aguardando a confirmação das reservas de entrada</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>Convertendo entradas em texto</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>Reservando entradas para converter em texto</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>Reservando a visualização a partir da qual as entradas devem ser convertidas</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>Liberação de reservas de entrada</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>Liberando reserva de visualização</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>Vista duplicante.</value>
     <comment>from GoogleTranslator2</comment>
@@ -228,6 +252,10 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>Eu uso esta coluna para saber os nomes dos campos em formulários para você quando você está editando alguma coisa.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>Não consigo tentar dividir uma fatia de tempo que está sendo cronometrada no momento.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Última extremidade</value>
@@ -731,6 +759,14 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>Operação de duração</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>Divisão {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>fatia de tempo desconhecida</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">

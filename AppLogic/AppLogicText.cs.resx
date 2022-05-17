@@ -173,6 +173,30 @@
     <value>Vypnutí zobrazení</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>Čeká se na potvrzení rezervace vstupu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>Převádění záznamů na text</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>Rezervace položek pro převod na text</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>Rezervační pohled, ze kterého mají být položky převedeny</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>Uvolnění rezervací vstupů</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>Uvolňuje se rezervace zobrazení</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>Duplikující zobrazení</value>
     <comment>from GoogleTranslator2</comment>
@@ -228,6 +252,10 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>Tento sloupec použiju k zobrazení názvů polí na formulářích pro vás, když něco upravujete.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>Nemohu se pokusit rozdělit časový úsek, který je aktuálně měřen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Poslední konec</value>
@@ -731,6 +759,14 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>Doba provozu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>Rozdělení {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>neznámý časový úsek</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
