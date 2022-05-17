@@ -173,6 +173,30 @@
     <value>Uitschakelen van het uitzicht</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>Wachten op bevestiging van toegangsreserveringen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>Invoer naar tekst converteren</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>Invoer reserveren om naar tekst te converteren</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>Reserveren van weergave waaruit items moeten worden geconverteerd</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>Toegangsreserveringen vrijgeven</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>Bekijk reservering vrijgeven</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>Dupliceren uitzicht</value>
     <comment>from GoogleTranslator2</comment>
@@ -228,6 +252,10 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>Ik gebruik deze kolom om de namen van velden op formulieren voor u te kennen wanneer u iets bewerkt.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>Ik kan niet proberen een tijdsegment te splitsen dat momenteel wordt getimed.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Laatste einde</value>
@@ -731,6 +759,14 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>Duur operatie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>Splitsen {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>onbekende tijdschijf</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">

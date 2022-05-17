@@ -159,6 +159,24 @@
   <data name="BusyStatusSessionShuttingDownViews" xml:space="preserve">
     <value>Shutting down views</value>
   </data>
+  <data name="BusyStatusSessionTextConversionAwaitingEntryReservations" xml:space="preserve">
+    <value>Waiting for entry reservations to be confirmed</value>
+  </data>
+  <data name="BusyStatusSessionTextConversionConverting" xml:space="preserve">
+    <value>Converting entries to text</value>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingEntries" xml:space="preserve">
+    <value>Reserving entries to convert to text</value>
+  </data>
+  <data name="BusyStatusSessionTextConversionReservingView" xml:space="preserve">
+    <value>Reserving view from which entries are to be converted</value>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingEntries" xml:space="preserve">
+    <value>Releasing entry reservations</value>
+  </data>
+  <data name="BusyStatusSessionTextConversionUnreservingView" xml:space="preserve">
+    <value>Releasing view reservation</value>
+  </data>
   <data name="BusyStatusViewDuplicatorDuplicatingView" xml:space="preserve">
     <value>Duplicating view</value>
   </data>
@@ -200,6 +218,9 @@
   </data>
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>I use this column to know the names of fields on forms for you when you are editing something.</value>
+  </data>
+  <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
+    <value>I cannot attempt to split a time slice that is currently being timed.</value>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Latest end</value>
@@ -578,6 +599,12 @@
   </data>
   <data name="StopwatchOptionsDurationOperationCaption" xml:space="preserve">
     <value>Duration operation</value>
+  </data>
+  <data name="TimeSliceSplitterCaption" xml:space="preserve">
+    <value>Splitting {0}</value>
+  </data>
+  <data name="TimeSliceSplitterCaptionUnknown" xml:space="preserve">
+    <value>unknown time slice</value>
   </data>
   <data name="TraitTypeNameAssignment" xml:space="preserve">
     <value>Assignment</value>
