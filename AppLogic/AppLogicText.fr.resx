@@ -253,6 +253,22 @@
     <value>J'utilise cette colonne pour connaître les noms des champs sur les formulaires pour vous lorsque vous modifiez quelque chose.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>Je ne peux pas fusionner les valeurs de liste.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>Je ne peux pas fusionner les gens.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>Je ne peux pas fusionner les traits.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>Je ne peux pas fusionner les éléments de travail.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Je ne peux pas tenter de diviser une tranche de temps qui est actuellement chronométrée.</value>
     <comment>from GoogleTranslator</comment>
@@ -504,6 +520,10 @@
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>Créer {0}</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>Fusion {0}</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>Modifier {0}</value>

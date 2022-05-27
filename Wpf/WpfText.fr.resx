@@ -205,6 +205,10 @@
     <value>Chargement de bases de données</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Fusionner des entrées</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Édition des entrées</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Options:
     <value>{0} Démarrer</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Veuillez confirmer que les valeurs des caractéristiques des entités fusionnées. La barre de progression ci-dessus indique la progression du processus de fusion. L'annulation à tout moment annulera toute la fusion.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>BRÈVE DESCRIPTION
 
@@ -605,6 +613,10 @@ Si une partie du présent contrat est jugée inapplicable, le reste sera valide.
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Vues d'article de travail</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Aucune de ces entrées ne peut être fusionnée.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Créer un raccourci sur le bureau</value>
@@ -1332,5 +1344,9 @@ Expression de formule incriminée:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Si vous continuez, la vue actuellement affichée et ses colonnes seront supprimées de manière permanente.Les entrées affichées par elle ne seront pas supprimées.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Si vous continuez, les entrées {0:n0} seront fusionnées en seulement {1:n0} entrées.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

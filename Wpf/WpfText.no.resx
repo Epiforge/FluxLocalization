@@ -205,6 +205,10 @@
     <value>Laster databaser</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Slår sammen oppføringer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Redigerer oppføringer</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Alternativer:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Vennligst bekreft at verdiene for egenskapene til enhetene som slås sammen. Fremdriftslinjen ovenfor indikerer fremdriften til sammenslåingsprosessen. Hvis du kansellerer når som helst, kanselleres hele sammenslåingen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KORT BESKRIVELSE
 
@@ -605,6 +613,10 @@ Hvis en del av denne avtalen ikke kan håndheves, skal resten være gyldig. Det 
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Arbeidsartikler Visninger</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Ingen av disse oppføringene kunne slås sammen.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Lag skrivebords snarvei</value>
@@ -1332,5 +1344,9 @@ Offending Formula Expression:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Hvis du fortsetter, blir den gjeldende visningen og dens kolonner slettet permanent.Oppføringene som vises av det, blir ikke slettet.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Hvis du fortsetter, vil {0:n0}-oppføringer bli slått sammen til bare {1:n0}-oppføringer.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

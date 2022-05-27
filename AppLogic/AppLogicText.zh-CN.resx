@@ -253,6 +253,22 @@
     <value>在编辑某些内容时，我使用此列以了解您的表单上的字段名称。</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>我无法合并列表值。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>我不能合并人。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>我无法合并特征。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>我无法合并工作项。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>我无法尝试拆分当前正在计时的时间片。</value>
     <comment>from GoogleTranslator</comment>
@@ -504,6 +520,10 @@
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>创建{0}</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>合并 {0}</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>修改{0}</value>

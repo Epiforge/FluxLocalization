@@ -253,6 +253,22 @@
     <value>Používam tento stĺpec, aby som poznal mená polí na formulároch pre vás, keď ste niečo upravujete.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>Nemôžem zlúčiť hodnoty zoznamu.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>Nemôžem spájať ľudí.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>Nemôžem spájať vlastnosti.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>Nemôžem zlúčiť pracovné položky.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Nemôžem sa pokúsiť rozdeliť časový úsek, ktorý je momentálne načasovaný.</value>
     <comment>from GoogleTranslator</comment>
@@ -504,6 +520,10 @@
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>Vytvorenie {0}</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>Zlúčenie {0}</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>Modifikácia {0}</value>

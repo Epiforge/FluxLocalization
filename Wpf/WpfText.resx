@@ -183,6 +183,9 @@
   <data name="BusyLoadingDatabases" xml:space="preserve">
     <value>Loading databases</value>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Merging entries</value>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Editing entries</value>
   </data>
@@ -345,6 +348,9 @@ Options:
   </data>
   <data name="DateTimeOffsetRangePickerStartHintFormat" xml:space="preserve">
     <value>{0} Start</value>
+  </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Please confirm that the values for the traits of the entities being merged. The progress bar above indicates the progress of the merge process. Canceling at any point will cancel the entire merge.</value>
   </data>
   <data name="EULAText" xml:space="preserve">
     <value>SHORT DESCRIPTION
@@ -515,6 +521,9 @@ If a portion of this agreement is held unenforceable, the remainder shall be val
   </data>
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Work Item Views</value>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>None of these entries could be merged.</value>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Create Desktop shortcut</value>
@@ -1065,5 +1074,8 @@ Offending formula expression:
   </data>
   <data name="WarningDeleteView" xml:space="preserve">
     <value>If you continue, the currently displayed view and its columns will be permanently deleted. The entries displayed by it will not be deleted.</value>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>If you continue, {0:n0} entries will be merged into just {1:n0} entries.</value>
   </data>
 </root>

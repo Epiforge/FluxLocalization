@@ -253,6 +253,22 @@
     <value>Jeg bruger denne kolonne til at kende navnene på felter på formularer til dig, når du redigerer noget.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>Jeg kan ikke flette listeværdier.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>Jeg kan ikke slå folk sammen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>Jeg kan ikke blande træk.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>Jeg kan ikke flette arbejdsemner.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Jeg kan ikke forsøge at opdele et tidsudsnit, der i øjeblikket bliver timet.</value>
     <comment>from GoogleTranslator</comment>
@@ -504,6 +520,10 @@
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>Oprettelse af {0}</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>Fletter {0}</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>Ændring af {0}</value>

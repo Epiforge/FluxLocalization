@@ -253,6 +253,22 @@
     <value>Tento sloupec použiju k zobrazení názvů polí na formulářích pro vás, když něco upravujete.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>Nemohu sloučit hodnoty seznamu.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>Nemohu spojovat lidi.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>Nemohu sloučit vlastnosti.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>Nemohu sloučit pracovní položky.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Nemohu se pokusit rozdělit časový úsek, který je aktuálně měřen.</value>
     <comment>from GoogleTranslator</comment>
@@ -504,6 +520,10 @@
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>Vytváření {0}</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>Sloučení {0}</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>Úprava {0}</value>

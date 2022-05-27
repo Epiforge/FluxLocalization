@@ -205,6 +205,10 @@
     <value>Databases laden</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Invoer samenvoegen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Ingangen bewerken</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Opties:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Bevestig dat de waarden voor de eigenschappen van de entiteiten die worden samengevoegd. De voortgangsbalk hierboven geeft de voortgang van het samenvoegproces aan. Als u op elk moment annuleert, wordt de volledige samenvoeging geannuleerd.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KORTE BESCHRIJVING
 
@@ -605,6 +613,10 @@ Als een deel van deze overeenkomst niet-afdwingbaar wordt geacht, is de rest gel
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Werkartiepunten</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Geen van deze items kon worden samengevoegd.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Maak desktop-snelkoppeling</value>
@@ -1332,5 +1344,9 @@ Beledigende Formule-expressie:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Als u doorgaat, worden de momenteel weergegeven weergave en de kolommen permanent verwijderd.De door het getoonde vermelding wordt niet verwijderd.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Als u doorgaat, worden {0:n0}-items samengevoegd tot slechts {1:n0}-items.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

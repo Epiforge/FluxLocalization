@@ -205,6 +205,10 @@
     <value>Tietokantojen lataaminen</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Merkintöjen yhdistäminen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Merkintöjen muokkaaminen</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Vaihtoehdot:
     <value>{0} Aloita</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Vahvista, että yhdistettävien entiteettien ominaisuuksien arvot. Yllä oleva edistymispalkki osoittaa yhdistämisprosessin edistymisen. Peruuttaminen milloin tahansa peruuttaa koko yhdistämisen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>LYHYT KUVAUS
 
@@ -605,6 +613,10 @@ Jos osa tästä sopimuksesta katsotaan täytäntöönpanokelvottomaksi, loppuosa
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Työskentelyn näkymät</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Yhtään näistä merkinnöistä ei voitu yhdistää.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Luo pikakuvake työpöydälle</value>
@@ -1332,5 +1344,9 @@ Rikokas kaavan ilmaisu:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Jos jatkat, tällä hetkellä näkyvä näkymä ja sen sarakkeet poistetaan pysyvästi.Sitä näytettävät merkinnät eivät poisteta.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Jos jatkat, {0:n0} merkintää yhdistetään vain {1:n0} merkinnäksi.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>
