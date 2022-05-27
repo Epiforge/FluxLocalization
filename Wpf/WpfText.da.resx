@@ -205,6 +205,10 @@
     <value>Indlæser databaser</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Sammenlægning af poster</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Redigering af indtastninger.</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Muligheder:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Bekræft venligst, at værdierne for egenskaberne for de enheder, der fusioneres. Statuslinjen ovenfor angiver forløbet af fletningsprocessen. Annullering på et hvilket som helst tidspunkt vil annullere hele fletningen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KORT BESKRIVELSE
 
@@ -605,6 +613,10 @@ Hvis en del af denne aftale ikke kan håndhæves, er resten gyldig. Det betyder,
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Arbejdselementudsigt</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Ingen af ​​disse poster kunne flettes.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Opret genvej på skrivebordet</value>
@@ -1332,5 +1344,9 @@ OFFENTION FORMORLE UDGANGELSE:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Hvis du fortsætter, vil den aktuelt viste visning og dens kolonner blive permanent slettet.De indtastninger, der vises af den, slettes ikke.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Hvis du fortsætter, vil {0:n0}-poster blive flettet til kun {1:n0}-poster.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

@@ -205,6 +205,10 @@
     <value>Načítání databází</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Slučování záznamů</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Úpravy položek</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Možnosti:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Potvrďte prosím, že hodnoty pro vlastnosti slučovaných entit. Ukazatel průběhu výše ukazuje průběh procesu sloučení. Zrušení v kterémkoli okamžiku zruší celé sloučení.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KRÁTKÝ POPIS
 
@@ -605,6 +613,10 @@ Pokud je část této smlouvy shledána nevymahatelnou, zbytek je platný. To zn
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Zobrazení pracovní položky</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Žádný z těchto záznamů nebylo možné sloučit.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Vytvořit zástupce na ploše</value>
@@ -1332,5 +1344,9 @@ Vyjádření pro urážlivý vzorec:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Pokud budete pokračovat, aktuálně zobrazený zobrazení a jeho sloupce budou trvale vymazány.Záznamy zobrazené jej nebudou vymazány.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Pokud budete pokračovat, položky {0:n0} budou sloučeny pouze do položek {1:n0}.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

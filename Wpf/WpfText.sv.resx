@@ -205,6 +205,10 @@
     <value>Laddar databaser</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Slår samman poster</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Redigering av poster</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Alternativ:
     <value>{0} start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Vänligen bekräfta att värdena för egenskaperna hos de enheter som slås samman. Förloppsindikatorn ovan indikerar förloppet för sammanslagningsprocessen. Om du avbryter när som helst avbryts hela sammanslagningen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KORT BESKRIVNING
 
@@ -605,6 +613,10 @@ Om en del av detta avtal inte kan verkställas ska återstoden vara giltig. Det 
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Arbetsobjekt Visningar</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Ingen av dessa poster kunde slås samman.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Skapa skrivbordsgenväg</value>
@@ -1332,5 +1344,9 @@ Förolämpande formeluttryck:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Om du fortsätter, kommer den aktuella visade vyn och dess kolumner att raderas permanent.De poster som visas av den kommer inte att raderas.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Om du fortsätter kommer {0:n0}-poster att slås samman till bara {1:n0}-poster.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

@@ -205,6 +205,10 @@
     <value>Laden von Datenbanken</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Einträge zusammenführen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Einträge bearbeiten.</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Optionen:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Bitte bestätigen Sie, dass die Werte für die Merkmale der zusammenzuführenden Entitäten. Der Fortschrittsbalken oben zeigt den Fortschritt des Zusammenführungsprozesses an. Wenn Sie zu irgendeinem Zeitpunkt abbrechen, wird die gesamte Zusammenführung abgebrochen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KURZBESCHREIBUNG
 
@@ -605,6 +613,10 @@ Wenn ein Teil dieser Vereinbarung für nicht durchsetzbar befunden wird, ist der
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Ansichten für Arbeit Artikel.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Keiner dieser Einträge konnte zusammengeführt werden.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Desktopverknüpfung erstellen</value>
@@ -1332,5 +1344,9 @@ Beleidigende Formelausdruck:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Wenn Sie fortfahren, werden die aktuell angezeigte Ansicht und ihre Säulen dauerhaft gelöscht.Die von ihm angezeigten Eingaben werden nicht gelöscht.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Wenn Sie fortfahren, werden {0:n0} Einträge zu nur {1:n0} Einträgen zusammengeführt.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

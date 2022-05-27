@@ -205,6 +205,10 @@
     <value>Caricamento dei database</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Unire le voci</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Modifica di voci</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Opzioni:
     <value>{0} Inizio</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Conferma che i valori per i tratti delle entità vengono uniti. La barra di avanzamento sopra indica l'avanzamento del processo di unione. L'annullamento in qualsiasi momento annullerà l'intera unione.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>BREVE DESCRIZIONE
 
@@ -605,6 +613,10 @@ Se una parte del presente accordo è ritenuta inapplicabile, il resto sarà vali
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Viste dell'oggetto di lavoro</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Nessuna di queste voci può essere unita.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Crea una scorciatoia sul desktop</value>
@@ -1332,5 +1344,9 @@ Espressione della formula offensiva:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Se continui, la vista attualmente visualizzata e le sue colonne verranno eliminate in modo permanente.Le voci visualizzate da esso non saranno cancellate.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Se continui, {0:n0} voci verranno unite in sole {1:n0} voci.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

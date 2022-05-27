@@ -205,6 +205,10 @@
     <value>データベースを読み込む</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>エントリのマージ</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>エントリを編集します</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@
     <value>{0}スタート</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>マージされるエンティティの特性の値を確認してください。上の進行状況バーは、マージプロセスの進行状況を示しています。いつでもキャンセルすると、マージ全体がキャンセルされます。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>簡単な説明
 
@@ -605,6 +613,10 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>作業項目のビュー</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>これらのエントリはどれもマージできませんでした。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>デスクトップショートカットを作成します</value>
@@ -1332,5 +1344,9 @@ Grindstoneの使用に対してライセンス料が支払われない場合で�
   <data name="WarningDeleteView" xml:space="preserve">
     <value>続行すると、現在表示されているビューとその列は永続的に削除されます。表示されたエントリは削除されません。</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>続行すると、{0:n0}エントリは{1:n0}エントリにマージされます。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

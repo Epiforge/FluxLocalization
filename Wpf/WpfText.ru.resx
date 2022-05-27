@@ -205,6 +205,10 @@
     <value>Загрузка баз данных</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Объединение записей</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Редактирование записей</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@
     <value>{0} начать</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Пожалуйста, подтвердите, что значения признаков объединенных сущностей. Индикатор выполнения выше показывает ход процесса слияния. Отмена в любой момент приведет к отмене всего слияния.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>КРАТКОЕ ОПИСАНИЕ
 
@@ -605,6 +613,10 @@
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Просмотр товара работы</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Ни одна из этих записей не может быть объединена.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Создать ярлык на рабочем столе</value>
@@ -1332,5 +1344,9 @@
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Если вы продолжите, отображаемый в данный момент представление и его столбцы будут постоянно удалены.Записи, отображаемые его, не будут удалены.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Если вы продолжите, записи {0:n0} будут объединены только в записи {1:n0}.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

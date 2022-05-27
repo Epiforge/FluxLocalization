@@ -205,6 +205,10 @@
     <value>加载数据库</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>合并条目</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>编辑参赛作品</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@
     <value>{0}开始</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>请确认被合并实体的特征值。上面的进度条表示合并过程的进度。在任何时候取消都会取消整个合并。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>简短描述
 
@@ -605,6 +613,10 @@
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>工作项目视图</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>这些条目都不能合并。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>创建桌面快捷方式</value>
@@ -1332,5 +1344,9 @@
   <data name="WarningDeleteView" xml:space="preserve">
     <value>如果继续，将永久删除当前显示的视图及其列。它不会删除它显示的条目。</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>如果您继续，{0:n0} 条目将合并为 {1:n0} 条目。</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

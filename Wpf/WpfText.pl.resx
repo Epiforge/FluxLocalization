@@ -205,6 +205,10 @@
     <value>Ładowanie bazy danych.</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Scalanie wpisów</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Edycja wpisów</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Opcje:
     <value>{0} Start</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Proszę potwierdzić, że wartości cech łączonych podmiotów. Powyższy pasek postępu wskazuje postęp procesu scalania. Anulowanie w dowolnym momencie spowoduje anulowanie całego scalenia.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>KRÓTKI OPIS
 
@@ -605,6 +613,10 @@ Jeśli część niniejszej umowy zostanie uznana za niewykonalną, pozostała cz
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Widoki przedmiotu pracy</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Żaden z tych wpisów nie mógł zostać połączony.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Utwórz skrót pulpitu</value>
@@ -1332,5 +1344,9 @@ Obrażająca wyrażenie formuły:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Jeśli kontynuujesz, aktualnie wyświetlany widok i jego kolumny zostaną trwale usunięte.Wpisy wyświetlane przez nie zostaną usunięte.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Jeśli będziesz kontynuować, {0:n0} wpisy zostaną scalone w zaledwie {1:n0} wpisy.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>

@@ -219,6 +219,18 @@
   <data name="CommandBlockedDeleteTraitViewFirstColumn" xml:space="preserve">
     <value>I use this column to know the names of fields on forms for you when you are editing something.</value>
   </data>
+  <data name="CommandBlockedMergeListValues" xml:space="preserve">
+    <value>I cannot merge list values.</value>
+  </data>
+  <data name="CommandBlockedMergePeople" xml:space="preserve">
+    <value>I cannot merge people.</value>
+  </data>
+  <data name="CommandBlockedMergeTraits" xml:space="preserve">
+    <value>I cannot merge traits.</value>
+  </data>
+  <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
+    <value>I cannot merge work items.</value>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>I cannot attempt to split a time slice that is currently being timed.</value>
   </data>
@@ -407,6 +419,9 @@
   </data>
   <data name="EntityEditorCaptionCreating" xml:space="preserve">
     <value>Creating {0}</value>
+  </data>
+  <data name="EntityEditorCaptionMerging" xml:space="preserve">
+    <value>Merging {0}</value>
   </data>
   <data name="EntityEditorCaptionModifying" xml:space="preserve">
     <value>Modifying {0}</value>

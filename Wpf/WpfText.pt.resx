@@ -205,6 +205,10 @@
     <value>Carregando bancos de dados</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyMergingEntries" xml:space="preserve">
+    <value>Mesclando entradas</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyModifyingEntries" xml:space="preserve">
     <value>Editando entradas</value>
     <comment>from GoogleTranslator2</comment>
@@ -410,6 +414,10 @@ Opções:
     <value>{0} começar</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="EntityEditorDialogMergeProgressEUA" xml:space="preserve">
+    <value>Confirme os valores das características das entidades que estão sendo mescladas. A barra de progresso acima indica o progresso do processo de mesclagem. Cancelar a qualquer momento cancelará toda a mesclagem.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="EULAText" xml:space="preserve">
     <value>DESCRIÇÃO CURTA
 
@@ -605,6 +613,10 @@ Se uma parte deste contrato for inexequível, o restante será válido. Signific
   <data name="HeaderWorkItemViews" xml:space="preserve">
     <value>Visualizações de item de trabalho</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="InfoNoEntriesCouldBeMerged" xml:space="preserve">
+    <value>Nenhuma dessas entradas pode ser mesclada.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="InstallerWindowCreateDesktopShortcut" xml:space="preserve">
     <value>Crie atalhos da área de trabalho</value>
@@ -1332,5 +1344,9 @@ Expressão de fórmula ofensora:
   <data name="WarningDeleteView" xml:space="preserve">
     <value>Se você continuar, a visualização exibida atualmente e suas colunas serão excluídas permanentemente.As entradas exibidas por ele não serão excluídas.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="WarningMergeConfirmation" xml:space="preserve">
+    <value>Se você continuar, as entradas {0:n0} serão mescladas em apenas {1:n0} entradas.</value>
+    <comment>from GoogleTranslator</comment>
   </data>
 </root>
