@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AwayEditorDurationFormat" xml:space="preserve">
+    <value>Wat zou je willen doen met de {0} dat je weg was?</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
+    <value>Je bent vertrokken om {0:T} op {0:D} en bent teruggekomen om {1:T} op {1:D}.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorWasTimingFormat" xml:space="preserve">
+    <value>Je was aan het timen {0} toen je wegging.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
     <value>Kolom maken</value>
     <comment>from GoogleTranslator2</comment>

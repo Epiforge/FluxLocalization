@@ -133,6 +133,50 @@
     <value>砥石</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="AwayDialogAssignment" xml:space="preserve">
+    <value>割り当て</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogAssignmentHint" xml:space="preserve">
+    <value>割り当て</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogCaption" xml:space="preserve">
+    <value>お帰りなさい！</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscard" xml:space="preserve">
+    <value>破棄</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscardEUA" xml:space="preserve">
+    <value>あなたが不在だった時間では何も行われません。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtend" xml:space="preserve">
+    <value>拡張する</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtendEUA" xml:space="preserve">
+    <value>あなたがタイミングを合わせていたタイムスライスは、あなたが不在だった時間をカバーするために延長されます。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogResumeTiming" xml:space="preserve">
+    <value>再開のタイミング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogTimeFrame" xml:space="preserve">
+    <value>時間枠</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItem" xml:space="preserve">
+    <value>作業項目</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItemHint" xml:space="preserve">
+    <value>作業項目</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyCheckingForUpdates" xml:space="preserve">
     <value>アップデートの確認</value>
     <comment>from GoogleTranslator2</comment>

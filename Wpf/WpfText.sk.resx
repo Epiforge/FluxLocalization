@@ -133,6 +133,50 @@
     <value>Brúsny kameň</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="AwayDialogAssignment" xml:space="preserve">
+    <value>PRIDELENIE</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogAssignmentHint" xml:space="preserve">
+    <value>Zadanie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogCaption" xml:space="preserve">
+    <value>Vitaj späť!</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscard" xml:space="preserve">
+    <value>ZAhodiť</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscardEUA" xml:space="preserve">
+    <value>S časom, keď ste boli preč, sa nič neurobí.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtend" xml:space="preserve">
+    <value>PREDLŽIŤ</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtendEUA" xml:space="preserve">
+    <value>Časový úsek, s ktorým ste načasovali, sa predĺži, aby pokryl čas, keď ste boli preč.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogResumeTiming" xml:space="preserve">
+    <value>Obnovte načasovanie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogTimeFrame" xml:space="preserve">
+    <value>ČASOVÝ RÁMEC</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItem" xml:space="preserve">
+    <value>PRACOVNÁ POLOŽKA</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItemHint" xml:space="preserve">
+    <value>Pracovná položka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyCheckingForUpdates" xml:space="preserve">
     <value>Kontrola aktualizácií</value>
     <comment>from GoogleTranslator2</comment>

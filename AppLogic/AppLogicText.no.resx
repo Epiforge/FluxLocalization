@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AwayEditorDurationFormat" xml:space="preserve">
+    <value>Hva vil du gjøre med {0} du var borte?</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
+    <value>Du dro kl. {0:T} {0:D} og kom tilbake kl. {1:T} {1:D}.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorWasTimingFormat" xml:space="preserve">
+    <value>Du målte {0} da du dro.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
     <value>Opprette kolonne</value>
     <comment>from GoogleTranslator2</comment>

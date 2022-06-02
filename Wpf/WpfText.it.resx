@@ -133,6 +133,50 @@
     <value>Mola</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="AwayDialogAssignment" xml:space="preserve">
+    <value>INCARICO</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogAssignmentHint" xml:space="preserve">
+    <value>Incarico</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogCaption" xml:space="preserve">
+    <value>Bentornato!</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscard" xml:space="preserve">
+    <value>SCARTARE</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscardEUA" xml:space="preserve">
+    <value>Non sarà fatto niente con il tempo che eri via.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtend" xml:space="preserve">
+    <value>ESTENDERE</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtendEUA" xml:space="preserve">
+    <value>L'intervallo di tempo con cui stavi cronometrando verrà esteso per coprire il tempo in cui sei stato via.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogResumeTiming" xml:space="preserve">
+    <value>Riprendi i tempi</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogTimeFrame" xml:space="preserve">
+    <value>LASSO DI TEMPO</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItem" xml:space="preserve">
+    <value>OGGETTO DA LAVORO</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItemHint" xml:space="preserve">
+    <value>Oggetto da lavoro</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyCheckingForUpdates" xml:space="preserve">
     <value>Verifica aggiornamenti</value>
     <comment>from GoogleTranslator2</comment>

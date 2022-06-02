@@ -133,6 +133,50 @@
     <value>Schleifstein</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="AwayDialogAssignment" xml:space="preserve">
+    <value>ABTRETUNG</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogAssignmentHint" xml:space="preserve">
+    <value>Abtretung</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogCaption" xml:space="preserve">
+    <value>Willkommen zurück!</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscard" xml:space="preserve">
+    <value>VERWERFEN</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogDiscardEUA" xml:space="preserve">
+    <value>Aus der Zeit Ihrer Abwesenheit wird nichts gemacht.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtend" xml:space="preserve">
+    <value>ERWEITERN</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogExtendEUA" xml:space="preserve">
+    <value>Die Zeitscheibe, mit der Sie gemessen haben, wird verlängert, um die Zeit Ihrer Abwesenheit abzudecken.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogResumeTiming" xml:space="preserve">
+    <value>Zeitmessung fortsetzen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogTimeFrame" xml:space="preserve">
+    <value>ZEITFENSTER</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItem" xml:space="preserve">
+    <value>ARBEITSMITTEL</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayDialogWorkItemHint" xml:space="preserve">
+    <value>Arbeitsmittel</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyCheckingForUpdates" xml:space="preserve">
     <value>Überprüfung auf Updates</value>
     <comment>from GoogleTranslator2</comment>

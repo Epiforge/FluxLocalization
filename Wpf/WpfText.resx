@@ -129,6 +129,39 @@
   <data name="AppTitle" xml:space="preserve">
     <value>Grindstone</value>
   </data>
+  <data name="AwayDialogAssignment" xml:space="preserve">
+    <value>ASSIGNMENT</value>
+  </data>
+  <data name="AwayDialogAssignmentHint" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="AwayDialogCaption" xml:space="preserve">
+    <value>Welcome Back!</value>
+  </data>
+  <data name="AwayDialogDiscard" xml:space="preserve">
+    <value>DISCARD</value>
+  </data>
+  <data name="AwayDialogDiscardEUA" xml:space="preserve">
+    <value>Nothing will be done with the time you were away.</value>
+  </data>
+  <data name="AwayDialogExtend" xml:space="preserve">
+    <value>EXTEND</value>
+  </data>
+  <data name="AwayDialogExtendEUA" xml:space="preserve">
+    <value>The time slice you were timing with will be extended to cover the time you were away.</value>
+  </data>
+  <data name="AwayDialogResumeTiming" xml:space="preserve">
+    <value>Resume timing</value>
+  </data>
+  <data name="AwayDialogTimeFrame" xml:space="preserve">
+    <value>TIME FRAME</value>
+  </data>
+  <data name="AwayDialogWorkItem" xml:space="preserve">
+    <value>WORK ITEM</value>
+  </data>
+  <data name="AwayDialogWorkItemHint" xml:space="preserve">
+    <value>Work item</value>
+  </data>
   <data name="BusyCheckingForUpdates" xml:space="preserve">
     <value>Checking for updates</value>
   </data>
