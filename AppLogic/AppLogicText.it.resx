@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AwayEditorDurationFormat" xml:space="preserve">
+    <value>Cosa vorresti fare con il {0} che eri via?</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
+    <value>Sei partito alle {0:T} il {0:D} e sei tornato alle {1:T} il {1:D}.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="AwayEditorWasTimingFormat" xml:space="preserve">
+    <value>Stavi cronometrando {0} quando te ne sei andato.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
     <value>Creazione di colonne</value>
     <comment>from GoogleTranslator2</comment>
