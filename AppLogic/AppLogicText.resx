@@ -120,11 +120,11 @@
   <data name="AwayEditorDurationFormat" xml:space="preserve">
     <value>What would you like to do with the {0} you were away?</value>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>You left at {0:T} on {0:D} and returned at {1:T} on {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>You left at {0:T} on {0:D}.</value>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>You were timing {0} when you left.</value>
+    <value>You were timing {0} when you left at {1:T} on {1:D}.</value>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
     <value>Creating column</value>

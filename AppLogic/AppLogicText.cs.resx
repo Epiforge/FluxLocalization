@@ -121,12 +121,12 @@
     <value>Co byste chtěli udělat s {0}, kde jste byli pryč?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Odešli jste v {0:T} dne {0:D} a vrátili jste se v {1:T} dne {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Odešli jste v {0:T} dne {0:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Když jste odcházeli, načasovali jste {0}.</value>
+    <value>Když jste {1:D} odcházeli v {1:T}, načasovali jste {0}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">

@@ -121,12 +121,12 @@
     <value>O que você gostaria de fazer com o {0} em que esteve ausente?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Você saiu às {0:T} em {0:D} e retornou às {1:T} em {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Você saiu às {0:T} em {0:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Você estava cronometrando {0} quando saiu.</value>
+    <value>Você estava cronometrando {0} quando saiu às {1:T} em {1:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">

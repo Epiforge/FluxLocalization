@@ -121,12 +121,12 @@
     <value>不在だった{0}をどうしますか？</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>{0：D}の{0：T}に出発し、{1：D}の{1：T}に戻りました。</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>{0：D}の{0：T}に出発しました。</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>あなたが去ったとき、あなたは{0}のタイミングでした。</value>
+    <value>{1：D}の{1：T}に出発したとき、あなたは{0}のタイミングでした。</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">

@@ -121,12 +121,12 @@
     <value>Hvad vil du gerne gøre med den {0}, du var væk?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Du tog afsted kl. {0:T} den {0:D} og vendte tilbage kl. {1:T} den {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Du tog afsted kl. {0:T} den {0:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Du målte {0}, da du gik.</value>
+    <value>Du målte {0}, da du tog afsted kl. {1:T} den {1:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">

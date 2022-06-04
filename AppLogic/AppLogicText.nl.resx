@@ -121,12 +121,12 @@
     <value>Wat zou je willen doen met de {0} dat je weg was?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Je bent vertrokken om {0:T} op {0:D} en bent teruggekomen om {1:T} op {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Je bent vertrokken om {0:T} op {0:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Je was aan het timen {0} toen je wegging.</value>
+    <value>Je was aan het timen voor {0} toen je om {1:T} vertrok op {1:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
