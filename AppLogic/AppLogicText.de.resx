@@ -121,12 +121,12 @@
     <value>Was möchten Sie mit dem {0} machen, in dem Sie weg waren?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Sie sind um {0:T} am {0:D} losgefahren und um {1:T} am {1:D} zurückgekehrt.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Du bist am {0:D} um {0:T} losgefahren.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Du hast {0} getimt, als du gegangen bist.</value>
+    <value>Sie haben {0} gemessen, als Sie am {1:D} um {1:T} losgefahren sind.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">

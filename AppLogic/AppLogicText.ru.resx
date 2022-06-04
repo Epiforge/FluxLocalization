@@ -121,12 +121,12 @@
     <value>Что бы вы хотели сделать с {0}, когда вы отсутствовали?</value>
     <comment>from GoogleTranslator</comment>
   </data>
-  <data name="AwayEditorLeftAndReturnedFormat" xml:space="preserve">
-    <value>Вы вышли в {0:T} {0:D} и вернулись в {1:T} {1:D}.</value>
+  <data name="AwayEditorWasNotTimingFormat" xml:space="preserve">
+    <value>Вы ушли в {0:T} {0:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayEditorWasTimingFormat" xml:space="preserve">
-    <value>Вы отсчитывали время {0}, когда уходили.</value>
+    <value>Вы отсчитывали время {0}, когда ушли в {1:T} {1:D}.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="BusyStatusColumnEditorCreatingColumn" xml:space="preserve">
