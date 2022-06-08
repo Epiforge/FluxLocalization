@@ -134,7 +134,7 @@
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="AwayDialogAssignment" xml:space="preserve">
-    <value>НАЗНАЧЕНИЕ</value>
+    <value>Назначение</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogAssignmentHint" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogDiscard" xml:space="preserve">
-    <value>ОТКАЗАТЬСЯ</value>
+    <value>Отказаться</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogDiscardEUA" xml:space="preserve">
@@ -154,7 +154,7 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogExtend" xml:space="preserve">
-    <value>ПРОДЛЕВАТЬ</value>
+    <value>Продлевать</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogExtendEUA" xml:space="preserve">
@@ -166,11 +166,11 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogTimeFrame" xml:space="preserve">
-    <value>ВРЕМЕННОЕ ОГРАНИЧЕНИЕ</value>
+    <value>Временное ограничение</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogWorkItem" xml:space="preserve">
-    <value>РАБОЧИЙ ЭЛЕМЕНТ</value>
+    <value>Рабочий элемент</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogWorkItemHint" xml:space="preserve">
