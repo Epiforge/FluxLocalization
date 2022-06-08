@@ -134,7 +134,7 @@
     <comment>from GoogleTranslator2</comment>
   </data>
   <data name="AwayDialogAssignment" xml:space="preserve">
-    <value>OPGAVE</value>
+    <value>Opgave</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogAssignmentHint" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogDiscard" xml:space="preserve">
-    <value>BORTSKAD</value>
+    <value>Kassér</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogDiscardEUA" xml:space="preserve">
@@ -154,7 +154,7 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogExtend" xml:space="preserve">
-    <value>FORLÆNGE</value>
+    <value>Forlænge</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogExtendEUA" xml:space="preserve">
@@ -166,11 +166,11 @@
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogTimeFrame" xml:space="preserve">
-    <value>TIDSRAMME</value>
+    <value>Tidsramme</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogWorkItem" xml:space="preserve">
-    <value>ARBEJDSPOST</value>
+    <value>Arbejdsemne</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="AwayDialogWorkItemHint" xml:space="preserve">
