@@ -240,6 +240,12 @@
   <data name="CommandBlockedMergeWorkItems" xml:space="preserve">
     <value>I cannot merge work items.</value>
   </data>
+  <data name="CommandBlockedMigratorFileNotFound" xml:space="preserve">
+    <value>The file indicated does not exist.</value>
+  </data>
+  <data name="CommandBlockedMigratorInvalidDataStoreSpecifier" xml:space="preserve">
+    <value>The provided data store specifier is not valid.</value>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>I cannot attempt to split a time slice that is currently being timed.</value>
   </data>
@@ -459,6 +465,57 @@
   <data name="ListValueTraitsViewNameFormat" xml:space="preserve">
     <value>{0} traits</value>
   </data>
+  <data name="MigrationSystemInstantiating" xml:space="preserve">
+    <value>Instantiating migrators</value>
+  </data>
+  <data name="MigrationSystemLocalizing" xml:space="preserve">
+    <value>Localizing migrators</value>
+  </data>
+  <data name="MigrationSystemScanning" xml:space="preserve">
+    <value>Scanning for migrators</value>
+  </data>
+  <data name="MigratorConfiguringSystemViews" xml:space="preserve">
+    <value>Configuring system views</value>
+  </data>
+  <data name="MigratorCreatingDefaultViews" xml:space="preserve">
+    <value>Creating default views</value>
+  </data>
+  <data name="MigratorCreatingFluxEntities" xml:space="preserve">
+    <value>Creating Flux entities</value>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDisplayFormula" xml:space="preserve">
+    <value>Generating stopwatch timing display formula</value>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDurationFormula" xml:space="preserve">
+    <value>Generating stopwatch timing duration formula</value>
+  </data>
+  <data name="MigratorInitializingSession" xml:space="preserve">
+    <value>Initializing Flux session</value>
+  </data>
+  <data name="MigratorSettingDatabaseOwner" xml:space="preserve">
+    <value>Setting database owner</value>
+  </data>
+  <data name="MigratorSettingStopwatchSelectionViews" xml:space="preserve">
+    <value>Setting stopwatch selection views</value>
+  </data>
+  <data name="MigratorStartingDirectoryModeViewManagement" xml:space="preserve">
+    <value>Starting directory mode view management</value>
+  </data>
+  <data name="MigratorTranscodingAssignments" xml:space="preserve">
+    <value>Transcoding assignments</value>
+  </data>
+  <data name="MigratorTranscodingListValues" xml:space="preserve">
+    <value>Transcoding list values</value>
+  </data>
+  <data name="MigratorTranscodingPeople" xml:space="preserve">
+    <value>Transcoding people</value>
+  </data>
+  <data name="MigratorTranscodingTimeSlices" xml:space="preserve">
+    <value>Transcoding time slices</value>
+  </data>
+  <data name="MigratorTranscodingWorkItems" xml:space="preserve">
+    <value>Transcoding work items</value>
+  </data>
   <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
     <value>Assignment</value>
   </data>
@@ -515,6 +572,18 @@
   </data>
   <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
     <value>Type not found</value>
+  </data>
+  <data name="QuantumMigrationDecodingLocalDatabase" xml:space="preserve">
+    <value>Decoding Quantum local database</value>
+  </data>
+  <data name="QuantumMigratorFormatName" xml:space="preserve">
+    <value>Unencrypted Grindstone 4 Database</value>
+  </data>
+  <data name="QuantumMigratorTranscodingTraits" xml:space="preserve">
+    <value>Transcoding from Quantum properties to Flux traits</value>
+  </data>
+  <data name="QuantumMigratorTranscodingTraitValues" xml:space="preserve">
+    <value>Transcoding from Quantum property values to Flux trait values</value>
   </data>
   <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
     <value>Complete</value>
@@ -606,8 +675,14 @@
   <data name="StandardDatabaseInitializerWorkItemViewNameColumnName" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="StatusProviderMigrationSystem" xml:space="preserve">
+    <value>Migration system</value>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Column editor</value>
+  </data>
+  <data name="StatusProviderNameQuantumMigrator" xml:space="preserve">
+    <value>Quantum Flux transcoder</value>
   </data>
   <data name="StatusProviderNameSession" xml:space="preserve">
     <value>Session controller</value>

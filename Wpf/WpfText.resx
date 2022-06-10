@@ -231,6 +231,12 @@
   <data name="BusyStartingSession" xml:space="preserve">
     <value>Starting session</value>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>Cleaning up after migration</value>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>Running {0} migration</value>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>Submitting report</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="ButtonBack" xml:space="preserve">
     <value>BACK</value>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>BROWSE</value>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>CANCEL</value>
@@ -354,6 +363,15 @@ Options:
   </data>
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>The first time you open this database, you will be asked to set the password. On each subsequent time it is opened, the same password must be entered.</value>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>Import data from another source</value>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>Source</value>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>Must not be empty</value>
