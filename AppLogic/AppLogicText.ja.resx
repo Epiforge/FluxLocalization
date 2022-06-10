@@ -281,6 +281,14 @@
     <value>作業項目をマージできません。</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="CommandBlockedMigratorFileNotFound" xml:space="preserve">
+    <value>示されたファイルは存在しません。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMigratorInvalidDataStoreSpecifier" xml:space="preserve">
+    <value>指定されたデータストア指定子が無効です。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>現在計時されているタイムスライスを分割することはできません。</value>
     <comment>from GoogleTranslator</comment>
@@ -573,6 +581,74 @@
     <value>{0}の特性</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="MigrationSystemInstantiating" xml:space="preserve">
+    <value>移行者のインスタンス化</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemLocalizing" xml:space="preserve">
+    <value>移民のローカライズ</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemScanning" xml:space="preserve">
+    <value>移民のスキャン</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorConfiguringSystemViews" xml:space="preserve">
+    <value>システムビューの構成</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingDefaultViews" xml:space="preserve">
+    <value>デフォルトビューの作成</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingFluxEntities" xml:space="preserve">
+    <value>フラックスエンティティの作成</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDisplayFormula" xml:space="preserve">
+    <value>ストップウォッチタイミング表示式の生成</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDurationFormula" xml:space="preserve">
+    <value>ストップウォッチのタイミング期間式の生成</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorInitializingSession" xml:space="preserve">
+    <value>フラックスセッションの初期化</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingDatabaseOwner" xml:space="preserve">
+    <value>データベース所有者の設定</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingStopwatchSelectionViews" xml:space="preserve">
+    <value>ストップウォッチ選択ビューの設定</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorStartingDirectoryModeViewManagement" xml:space="preserve">
+    <value>ディレクトリモードのビュー管理を開始する</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingAssignments" xml:space="preserve">
+    <value>トランスコーディングの割り当て</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingListValues" xml:space="preserve">
+    <value>リスト値のトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingPeople" xml:space="preserve">
+    <value>人のトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingTimeSlices" xml:space="preserve">
+    <value>タイムスライスのトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingWorkItems" xml:space="preserve">
+    <value>作業項目のトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
     <value>割り当て</value>
     <comment>from GoogleTranslator2</comment>
@@ -648,6 +724,22 @@
   <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
     <value>タイプ見つけられません</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="QuantumMigrationDecodingLocalDatabase" xml:space="preserve">
+    <value>クォンタムローカルデータベースのデコード</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorFormatName" xml:space="preserve">
+    <value>暗号化されていないGrindstone4データベース</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraits" xml:space="preserve">
+    <value>QuantumプロパティからFlux特性へのトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraitValues" xml:space="preserve">
+    <value>Quantumプロパティ値からFlux特性値へのトランスコーディング</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
     <value>完了</value>
@@ -769,9 +861,17 @@
     <value>名前</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="StatusProviderMigrationSystem" xml:space="preserve">
+    <value>移行システム</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>列編集</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameQuantumMigrator" xml:space="preserve">
+    <value>QuantumFluxトランスコーダー</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameSession" xml:space="preserve">
     <value>セッションコントローラ</value>

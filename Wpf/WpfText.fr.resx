@@ -269,6 +269,14 @@
     <value>Séance de départ</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>Nettoyage après migration</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>Exécution de la migration {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>Soumission de rapport</value>
     <comment>from GoogleTranslator2</comment>
@@ -292,6 +300,10 @@
   <data name="ButtonBack" xml:space="preserve">
     <value>ARRIÈRE</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>FEUILLETER</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>ANNULER</value>
@@ -421,6 +433,18 @@ Options:
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>La première fois que vous ouvrez cette base de données, il vous sera demandé de définir le mot de passe.À chaque heure ultérieure, il est ouvert, le même mot de passe doit être entré.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>Importer des données d'une autre source</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>Chemin</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>La source</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>Ne doit pas être vide</value>

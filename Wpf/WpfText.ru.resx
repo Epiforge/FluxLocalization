@@ -269,6 +269,14 @@
     <value>Начальная сессия</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>Очистка после миграции</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>Выполняется миграция {0}</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>Отчет отчета</value>
     <comment>from GoogleTranslator2</comment>
@@ -292,6 +300,10 @@
   <data name="ButtonBack" xml:space="preserve">
     <value>НАЗАД</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>ПРОСМАТРИВАТЬ</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>ОТМЕНА</value>
@@ -421,6 +433,18 @@
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>Первый раз вы открываете эту базу данных, вам будет предложено установить пароль.На каждом последующем времени он открывается, должен быть введен тот же пароль.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>Импорт данных из другого источника</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>Дорожка</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>Источник</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>Не должен быть пустым</value>

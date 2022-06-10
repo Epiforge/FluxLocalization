@@ -281,6 +281,14 @@
     <value>Jeg kan ikke flette arbejdsemner.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="CommandBlockedMigratorFileNotFound" xml:space="preserve">
+    <value>Den angivne fil findes ikke.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMigratorInvalidDataStoreSpecifier" xml:space="preserve">
+    <value>Den angivne datalagerspecifikation er ikke gyldig.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Jeg kan ikke forsøge at opdele et tidsudsnit, der i øjeblikket bliver timet.</value>
     <comment>from GoogleTranslator</comment>
@@ -573,6 +581,74 @@
     <value>{0} Traits</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="MigrationSystemInstantiating" xml:space="preserve">
+    <value>Instantierende migratorer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemLocalizing" xml:space="preserve">
+    <value>Lokalisering af migratorer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemScanning" xml:space="preserve">
+    <value>Scanning efter migratorer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorConfiguringSystemViews" xml:space="preserve">
+    <value>Konfiguration af systemvisninger</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingDefaultViews" xml:space="preserve">
+    <value>Oprettelse af standardvisninger</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingFluxEntities" xml:space="preserve">
+    <value>Oprettelse af Flux-enheder</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDisplayFormula" xml:space="preserve">
+    <value>Genererer stopurs tidsvisningsformel</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDurationFormula" xml:space="preserve">
+    <value>Genererer stopurs timing varighedsformel</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorInitializingSession" xml:space="preserve">
+    <value>Initialisering af Flux-session</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingDatabaseOwner" xml:space="preserve">
+    <value>Indstilling af databaseejer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingStopwatchSelectionViews" xml:space="preserve">
+    <value>Indstilling af valg af stopur</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorStartingDirectoryModeViewManagement" xml:space="preserve">
+    <value>Starter visningsstyring i mappetilstand</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingAssignments" xml:space="preserve">
+    <value>Transkodningsopgaver</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingListValues" xml:space="preserve">
+    <value>Omkodning af listeværdier</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingPeople" xml:space="preserve">
+    <value>Omkodning af mennesker</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingTimeSlices" xml:space="preserve">
+    <value>Omkodning af tidsskiver</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingWorkItems" xml:space="preserve">
+    <value>Omkodning af arbejdsemner</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
     <value>Tildeling</value>
     <comment>from GoogleTranslator2</comment>
@@ -648,6 +724,22 @@
   <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
     <value>Type ikke fundet</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="QuantumMigrationDecodingLocalDatabase" xml:space="preserve">
+    <value>Afkodning af Quantum lokal database</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorFormatName" xml:space="preserve">
+    <value>Ukrypteret Grindstone 4-database</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraits" xml:space="preserve">
+    <value>Transkodning fra kvanteegenskaber til fluxegenskaber</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraitValues" xml:space="preserve">
+    <value>Omkodning fra Quantum-egenskabsværdier til Flux-egenskabsværdier</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
     <value>Komplet</value>
@@ -769,9 +861,17 @@
     <value>Navn</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="StatusProviderMigrationSystem" xml:space="preserve">
+    <value>Migrationssystem</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Kolonne Editor.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameQuantumMigrator" xml:space="preserve">
+    <value>Quantum Flux transcoder</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameSession" xml:space="preserve">
     <value>Session Controller.</value>

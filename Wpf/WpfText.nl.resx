@@ -269,6 +269,14 @@
     <value>Startsessie</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>Opruimen na migratie</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>{0} migratie uitvoeren</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>Verslag indienen</value>
     <comment>from GoogleTranslator2</comment>
@@ -292,6 +300,10 @@
   <data name="ButtonBack" xml:space="preserve">
     <value>RUG</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>BLADEREN</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>ANNULEREN</value>
@@ -421,6 +433,18 @@ Opties:
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>De eerste keer dat u deze database opent, wordt u gevraagd om het wachtwoord in te stellen.Op elke volgende tijd wordt het geopend, moet hetzelfde wachtwoord worden ingevoerd.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>Gegevens importeren uit een andere bron</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>Pad</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>Bron</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>Mag niet leeg zijn</value>

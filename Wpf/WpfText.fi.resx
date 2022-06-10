@@ -269,6 +269,14 @@
     <value>Aloitusistunnon alku</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>Siivous muuton jälkeen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>Suoritetaan {0}-siirtoa</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>Raportin lähettäminen</value>
     <comment>from GoogleTranslator2</comment>
@@ -292,6 +300,10 @@
   <data name="ButtonBack" xml:space="preserve">
     <value>TAKAISIN</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>SELAA</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>PERUUTTAA</value>
@@ -421,6 +433,18 @@ Vaihtoehdot:
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>Kun avaat tämän tietokannan ensimmäistä kertaa, sinua pyydetään asettamaan salasana.Jokaisessa myöhemmässä vaiheessa se avataan, sama salasana on syötettävä.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>Tuo tiedot toisesta lähteestä</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>Polku</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>Lähde</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>Ei saa olla tyhjä</value>

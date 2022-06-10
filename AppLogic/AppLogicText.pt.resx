@@ -281,6 +281,14 @@
     <value>Não consigo mesclar itens de trabalho.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="CommandBlockedMigratorFileNotFound" xml:space="preserve">
+    <value>O arquivo indicado não existe.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommandBlockedMigratorInvalidDataStoreSpecifier" xml:space="preserve">
+    <value>O especificador de armazenamento de dados fornecido não é válido.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Não consigo tentar dividir uma fatia de tempo que está sendo cronometrada no momento.</value>
     <comment>from GoogleTranslator</comment>
@@ -573,6 +581,74 @@
     <value>{0} traços</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="MigrationSystemInstantiating" xml:space="preserve">
+    <value>Instanciando migradores</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemLocalizing" xml:space="preserve">
+    <value>Localizando migrantes</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigrationSystemScanning" xml:space="preserve">
+    <value>Verificação de migradores</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorConfiguringSystemViews" xml:space="preserve">
+    <value>Configurando visualizações do sistema</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingDefaultViews" xml:space="preserve">
+    <value>Criando visualizações padrão</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorCreatingFluxEntities" xml:space="preserve">
+    <value>Criando entidades de fluxo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDisplayFormula" xml:space="preserve">
+    <value>Gerando fórmula de exibição de tempo de cronômetro</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorGeneratingStopwatchTimingDurationFormula" xml:space="preserve">
+    <value>Gerando fórmula de duração de tempo de cronômetro</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorInitializingSession" xml:space="preserve">
+    <value>Inicializando a sessão do Flux</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingDatabaseOwner" xml:space="preserve">
+    <value>Configurando o proprietário do banco de dados</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorSettingStopwatchSelectionViews" xml:space="preserve">
+    <value>Configurando visualizações de seleção de cronômetro</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorStartingDirectoryModeViewManagement" xml:space="preserve">
+    <value>Iniciando o gerenciamento de exibição do modo de diretório</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingAssignments" xml:space="preserve">
+    <value>Atribuições de transcodificação</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingListValues" xml:space="preserve">
+    <value>Valores da lista de transcodificação</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingPeople" xml:space="preserve">
+    <value>Transcodificando pessoas</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingTimeSlices" xml:space="preserve">
+    <value>Transcodificação de fatias de tempo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="MigratorTranscodingWorkItems" xml:space="preserve">
+    <value>Transcodificação de itens de trabalho</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="OperationEditorDefaultCaptionAssignment" xml:space="preserve">
     <value>Tarefa</value>
     <comment>from GoogleTranslator2</comment>
@@ -648,6 +724,22 @@
   <data name="ParameterEditorErrorTypeNull" xml:space="preserve">
     <value>Tipo não encontrado</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="QuantumMigrationDecodingLocalDatabase" xml:space="preserve">
+    <value>Decodificando o banco de dados local Quantum</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorFormatName" xml:space="preserve">
+    <value>Banco de dados do Grindstone 4 não criptografado</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraits" xml:space="preserve">
+    <value>Transcodificação de propriedades quânticas para características de fluxo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="QuantumMigratorTranscodingTraitValues" xml:space="preserve">
+    <value>Transcodificação de valores de propriedades quânticas para valores de características de fluxo</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StandardDatabaseInitializerAssignmentViewCompleteColumnName" xml:space="preserve">
     <value>Completar</value>
@@ -769,9 +861,17 @@
     <value>Nome</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="StatusProviderMigrationSystem" xml:space="preserve">
+    <value>Sistema de migração</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="StatusProviderNameColumnEditor" xml:space="preserve">
     <value>Editor de coluna.</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="StatusProviderNameQuantumMigrator" xml:space="preserve">
+    <value>Transcodificador de fluxo quântico</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameSession" xml:space="preserve">
     <value>Controlador de sessão.</value>

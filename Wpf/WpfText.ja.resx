@@ -269,6 +269,14 @@
     <value>セッションの開始</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusCleaningMigration" xml:space="preserve">
+    <value>移行後のクリーンアップ</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusRunningMigration" xml:space="preserve">
+    <value>{0}移行の実行</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusySubmittingReport" xml:space="preserve">
     <value>報告書を提出する</value>
     <comment>from GoogleTranslator2</comment>
@@ -292,6 +300,10 @@
   <data name="ButtonBack" xml:space="preserve">
     <value>戻る</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="ButtonBrowse" xml:space="preserve">
+    <value>ブラウズ</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="ButtonCancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -421,6 +433,18 @@
   <data name="DatabaseCreationDialogEncryptEUA" xml:space="preserve">
     <value>このデータベースを初めて開くときは、パスワードを設定するように求められます。後続の各時間で開かれ、同じパスワードを入力する必要があります。</value>
     <comment>from GoogleTranslator2</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigration" xml:space="preserve">
+    <value>別のソースからデータをインポートする</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationPath" xml:space="preserve">
+    <value>道</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="DatabaseCreationDialogMigrationSource" xml:space="preserve">
+    <value>ソース</value>
+    <comment>from GoogleTranslator</comment>
   </data>
   <data name="DatabaseCreationDialogNameEmpty" xml:space="preserve">
     <value>空にしてはいけません</value>
