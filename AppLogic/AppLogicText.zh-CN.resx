@@ -169,6 +169,14 @@
     <value>释放内存</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>生成常用时序显示操作</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>生成常见的计时持续时间操作</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>初始化秒表</value>
     <comment>from GoogleTranslator2</comment>
@@ -291,6 +299,34 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>我无法尝试拆分当前正在计时的时间片。</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>显示当前定时切片的工作项</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>当前计时切片的任务在当前日历日期的总时间</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>当前定时切片的分配总时间</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>我在当前定时切片的工作项的总时间</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>当前定时切片的工作项在当前日历日期的总时间</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>我在当前日历日期的当前定时切片的工作项的总时间</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>当前定时切片的工作项的总时间</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">

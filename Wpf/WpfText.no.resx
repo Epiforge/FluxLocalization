@@ -1114,8 +1114,16 @@ Klikk eller trykk på Neste for å fortsette.</value>
     <value>Velg en oppgave for å begynne å tidsbestemme den.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Velg en oppgave som du vil endre det tidsbestemte stykket til.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Velg et arbeidselement for å starte timingen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Velg et arbeidselement som du vil endre det tidsbestemte stykket til.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

@@ -1114,8 +1114,16 @@ Cliquez sur ou appuyez sur Suivant pour continuer.</value>
     <value>Sélectionnez un devoir pour commencer à le chronométrer.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Sélectionnez une affectation pour laquelle modifier la tranche actuellement chronométrée.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Sélectionnez un élément de travail pour commencer à le chronométrer.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Sélectionnez un élément de travail pour lequel modifier la tranche actuellement chronométrée.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

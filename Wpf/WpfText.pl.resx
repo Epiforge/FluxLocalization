@@ -1114,8 +1114,16 @@ Kliknij lub dotknij Dalej, aby kontynuować.</value>
     <value>Wybierz zadanie, aby rozpocząć jego mierzenie.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Wybierz przypisanie, na które chcesz zmienić aktualnie odmierzany plasterek.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Wybierz element pracy, aby rozpocząć jego odliczanie.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Wybierz element pracy, na który chcesz zmienić aktualnie odmierzany plasterek.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

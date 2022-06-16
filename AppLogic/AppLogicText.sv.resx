@@ -169,6 +169,14 @@
     <value>Frigörande minne</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>Genererar vanliga tidsvisningsoperationer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>Genererar gemensamma timing varaktighet operationer</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>Initialisering av stoppur</value>
     <comment>from GoogleTranslator2</comment>
@@ -291,6 +299,34 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Jag kan inte försöka dela upp en tidsdel som för närvarande tidsbestäms.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>Visa arbetsobjektet för den för närvarande tidsinställda delen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>Total tid på det aktuella kalenderdatumet för uppdraget för det aktuella tidsinställda segmentet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>Total tid för uppdraget för det aktuella tidsintervallet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>Min totala tid för arbetsobjektet för den för närvarande tidsinställda delen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>Total tid på det aktuella kalenderdatumet för arbetsobjektet för det för närvarande tidsinställda segmentet</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>Min totala tid på det aktuella kalenderdatumet för arbetsobjektet för den för närvarande tidsinställda delen</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>Total tid för arbetsobjektet för det för närvarande tidsinställda segmentet</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">

@@ -169,6 +169,14 @@
     <value>Uvoľnenie pamäte</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>Generovanie bežných operácií zobrazenia časovania</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>Generovanie bežných operácií trvania časovania</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>Inicializácia stopiek</value>
     <comment>from GoogleTranslator2</comment>
@@ -291,6 +299,34 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Nemôžem sa pokúsiť rozdeliť časový úsek, ktorý je momentálne načasovaný.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>Zobraziť pracovnú položku pre aktuálne načasovaný rez</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>Celkový čas v aktuálnom kalendárnom dátume pre úlohu pre aktuálne načasovanú časť</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>Celkový čas priradenia pre aktuálne načasovaný úsek</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>Môj celkový čas pre pracovnú položku pre aktuálne načasovaný výsek</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>Celkový čas v aktuálnom kalendárnom dátume pre pracovnú položku pre aktuálne načasovaný úsek</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>Môj celkový čas v aktuálnom kalendárnom dátume pre pracovnú položku pre aktuálne načasovaný úsek</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>Celkový čas pre pracovnú položku pre aktuálne načasovaný úsek</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">

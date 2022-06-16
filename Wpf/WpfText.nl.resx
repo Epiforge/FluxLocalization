@@ -1114,8 +1114,16 @@ Klik of tik op Volgende om door te gaan.</value>
     <value>Selecteer een opdracht om deze te timen.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Selecteer een toewijzing waarnaar u het momenteel getimede segment wilt wijzigen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Selecteer een werkitem om het te timen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Selecteer een werkitem waarnaar u het momenteel getimede segment wilt wijzigen.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

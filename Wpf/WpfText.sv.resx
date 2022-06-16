@@ -1114,8 +1114,16 @@ Klicka eller Tryck på Nästa för att fortsätta.</value>
     <value>Välj en uppgift för att börja tajma den.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Välj en tilldelning som du vill ändra den för närvarande tidsinställda delen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Välj ett arbetsobjekt för att börja tajma det.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Välj ett arbetsobjekt som du vill ändra det aktuella tidsinställda segmentet till.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

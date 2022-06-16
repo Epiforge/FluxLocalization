@@ -898,8 +898,14 @@ Click or tap Next to continue.</value>
   <data name="SnackbarStopwatchSelectionModeAssignment" xml:space="preserve">
     <value>Select an assignment to start timing it.</value>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Select an assignment to which to change the currently timed slice.</value>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Select a work item to start timing it.</value>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Select a work item to which to change the currently timed slice.</value>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
     <value>User interface</value>

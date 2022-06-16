@@ -1114,8 +1114,16 @@ Pokračujte kliknutím na tlačidlo Ďalej.</value>
     <value>Vyberte úlohu a začnite ju merať.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Vyberte úlohu, na ktorú chcete zmeniť aktuálne načasovaný rez.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Vyberte pracovnú položku a začnite ju merať.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Vyberte pracovnú položku, na ktorú chcete zmeniť aktuálne načasovaný rez.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

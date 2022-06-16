@@ -1114,8 +1114,16 @@ Klicken Sie auf oder tippen Sie auf Weiter, um fortzufahren.</value>
     <value>Wählen Sie eine Aufgabe aus, um mit der Zeitmessung zu beginnen.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Wählen Sie eine Zuweisung aus, zu der das aktuell zeitgesteuerte Slice geändert werden soll.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Wählen Sie ein Arbeitselement aus, um mit der Zeitmessung zu beginnen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Wählen Sie ein Arbeitselement aus, zu dem das aktuell zeitgesteuerte Segment geändert werden soll.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

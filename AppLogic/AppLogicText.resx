@@ -156,6 +156,12 @@
   <data name="BusyStatusSessionFreeingMemory" xml:space="preserve">
     <value>Freeing memory</value>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>Generating common timing display operations</value>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>Generating common timing duration operations</value>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>Initializing stopwatch</value>
   </data>
@@ -248,6 +254,27 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>I cannot attempt to split a time slice that is currently being timed.</value>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>Show the work item for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>Total time on the current calendar date for the assignment for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>Total time for the assignment for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>My total time for the work item for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>Total time on the current calendar date for the work item for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>My total time on the current calendar date for the work item for the currently timed slice</value>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>Total time for the work item for the currently timed slice</value>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">
     <value>Latest end</value>
