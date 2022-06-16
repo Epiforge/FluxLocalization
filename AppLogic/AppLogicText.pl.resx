@@ -169,6 +169,14 @@
     <value>Uwolnienie pamięci</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>Generowanie wspólnych operacji wyświetlania czasu</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>Generowanie wspólnych operacji czasu trwania taktowania</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>Inicjalizacja stopera</value>
     <comment>from GoogleTranslator2</comment>
@@ -291,6 +299,34 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Nie mogę próbować podzielić wycinka czasu, który jest aktualnie mierzony.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>Pokaż element pracy dla aktualnie ustawionego w czasie wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>Całkowity czas w bieżącej dacie kalendarzowej dla przydziału dla aktualnie zaplanowanego wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>Całkowity czas przypisania dla aktualnie ustawionego w czasie wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>Mój łączny czas dla elementu pracy dla aktualnie ustawionego w czasie wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>Całkowity czas w bieżącej dacie kalendarzowej dla elementu pracy dla aktualnie mierzonego wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>Mój łączny czas w bieżącej dacie kalendarzowej dla elementu pracy dla aktualnie mierzonego wycinka</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>Całkowity czas dla elementu pracy dla aktualnie ustawionego w czasie wycinka</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">

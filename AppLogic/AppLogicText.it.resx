@@ -169,6 +169,14 @@
     <value>Liberare la memoria</value>
     <comment>from GoogleTranslator2</comment>
   </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDisplayOperations" xml:space="preserve">
+    <value>Generazione di operazioni di visualizzazione dei tempi comuni</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="BusyStatusSessionGeneratingCommonTimingDurationOperations" xml:space="preserve">
+    <value>Generazione di operazioni di durata della temporizzazione comuni</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="BusyStatusSessionInitializingStopwatch" xml:space="preserve">
     <value>Inizializzazione cronometro</value>
     <comment>from GoogleTranslator2</comment>
@@ -291,6 +299,34 @@
   </data>
   <data name="CommandBlockedSplitTimedSlice" xml:space="preserve">
     <value>Non posso tentare di dividere un intervallo di tempo attualmente in fase di cronometraggio.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDisplayOperationWorkItem" xml:space="preserve">
+    <value>Mostra l'elemento di lavoro per la sezione attualmente a tempo</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentDailyTotal" xml:space="preserve">
+    <value>Tempo totale nella data di calendario corrente per l'assegnazione per la sezione a tempo corrente</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationAssignmentTotal" xml:space="preserve">
+    <value>Tempo totale per l'assegnazione per l'intervallo di tempo corrente</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationPersonalWorkItemTotal" xml:space="preserve">
+    <value>Il mio tempo totale per l'elemento di lavoro per la sezione attualmente programmata</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemDailyTotal" xml:space="preserve">
+    <value>Tempo totale nella data di calendario corrente per l'elemento di lavoro per la sezione a tempo corrente</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemPersonalDailyTotal" xml:space="preserve">
+    <value>Il mio tempo totale nella data di calendario corrente per l'elemento di lavoro per la sezione a tempo corrente</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="CommonTimingDurationOperationWorkItemTotal" xml:space="preserve">
+    <value>Tempo totale per l'elemento di lavoro per la sezione a tempo corrente</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="DefaultAssignmentAutoSelectViewLatestEndColumnName" xml:space="preserve">

@@ -1114,8 +1114,16 @@ Jatka napsauttamalla tai napauta.</value>
     <value>Valitse tehtävä aloittaaksesi sen ajoituksen.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Valitse tehtävä, johon haluat muuttaa tällä hetkellä ajoitettua osuutta.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Valitse työkohde aloittaaksesi sen ajoituksen.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Valitse työkohde, johon haluat muuttaa tällä hetkellä ajoitetun osion.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

@@ -1114,8 +1114,16 @@ Fai clic o tocca Avanti per continuare.</value>
     <value>Seleziona un compito per iniziare a cronometrarlo.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Seleziona un compito in cui modificare la sezione a tempo corrente.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Seleziona un elemento di lavoro per iniziare a cronometrarlo.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Seleziona un elemento di lavoro in cui modificare la sezione a tempo corrente.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">

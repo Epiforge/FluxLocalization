@@ -1114,8 +1114,16 @@ Clique ou toque em Avançar para continuar.</value>
     <value>Selecione uma atribuição para começar a cronometrar.</value>
     <comment>from GoogleTranslator</comment>
   </data>
+  <data name="SnackbarStopwatchSelectionModeAssignmentSwitch" xml:space="preserve">
+    <value>Selecione uma atribuição para a qual deseja alterar a fatia atualmente cronometrada.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
   <data name="SnackbarStopwatchSelectionModeWorkItem" xml:space="preserve">
     <value>Selecione um item de trabalho para começar a cronometrar.</value>
+    <comment>from GoogleTranslator</comment>
+  </data>
+  <data name="SnackbarStopwatchSelectionModeWorkItemSwitch" xml:space="preserve">
+    <value>Selecione um item de trabalho para o qual deseja alterar a fatia atualmente cronometrada.</value>
     <comment>from GoogleTranslator</comment>
   </data>
   <data name="StatusProviderNameMainWindowDataContext" xml:space="preserve">
